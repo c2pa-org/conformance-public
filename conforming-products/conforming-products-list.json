@@ -393,5 +393,57 @@
             "earliestPublicDisclosure": "2025-09-01",
             "lastModification": "2025-09-04"
         }
+    },
+    {
+        "recordId": "0197e699-8f23-718d-b3ef-60080d4c5b7d",
+        "applicant": "EZDRM, Inc",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "DynamicSigner",
+                "O": "EZDRM, INC",
+                "OU": "Video",
+                "C": "US"
+            },
+            "minVersion": "",
+            "assurance": {
+                "maxAssuranceLevel": 2,
+                "attestationMethods": [
+                    "AWS_NitroEnclaveAttestation",
+                    "Microsoft_AzureAttestation"
+                ]
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "video": [
+                    "video/mp4"
+                ],
+                "audio": [
+                    "audio/aac",
+                    "audio/mp4"
+                ]
+            },
+            "validate": {
+                "video": [
+                    "video/mp4"
+                ],
+                "audio": [
+                    "audio/aac",
+                    "audio/mp4"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-07-07",
+            "conformance": "2025-08-28",
+            "earliestPublicDisclosure": "2025-09-01",
+            "lastModification": "2025-09-13"
+        }
     }
 ]
