@@ -445,5 +445,40 @@
             "earliestPublicDisclosure": "2025-09-01",
             "lastModification": "2025-09-13"
         }
+    },
+    {
+        "recordId": "01997fda-550f-7b58-9d1e-42cb959dd0db",
+        "applicant": "Xiaomi Communications Co., Ltd",
+        "status": "conformant",
+        "product": {
+            "productType": "validatorProduct",
+            "DN": {
+                "CN": "Xiaomi Gallery",
+                "O": "Xiaomi Communications Co., Ltd",
+                "OU": "",
+                "C": "CN"
+            },
+            "minVersion": ""
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {},
+            "validate": {
+                "image": [
+                    "image/jpeg",
+                    "image/x-adobe-dng",
+                    "image/heif"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-09-25",
+            "conformance": "2025-09-25",
+            "earliestPublicDisclosure": "2025-09-25",
+            "lastModification": "2025-09-25"
+        }
     }
 ]
