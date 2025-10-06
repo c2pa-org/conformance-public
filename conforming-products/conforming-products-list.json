@@ -480,5 +480,40 @@
             "earliestPublicDisclosure": "2025-09-25",
             "lastModification": "2025-09-25"
         }
+    },
+    {
+        "recordId": "01991a81-4f5c-770a-b290-8bde8c858677",
+        "applicant": "Limbo AI, LLC",
+        "status": "conformant",
+        "product": {
+            "productType": "validatorProduct",
+            "DN": {
+                "CN": "Limbo Verifox",
+                "O": "Limbo AI, LLC",
+                "OU": "",
+                "C": "US"
+            },
+            "minVersion": "0.1"
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {},
+            "validate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/heic"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-09-05",
+            "conformance": "2025-09-05",
+            "earliestPublicDisclosure": "2025-10-01",
+            "lastModification": "2025-09-16"
+        }
     }
 ]
