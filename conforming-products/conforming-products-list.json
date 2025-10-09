@@ -559,5 +559,93 @@
             "earliestPublicDisclosure": "2025-09-25",
             "lastModification": "2025-09-25"
         }
+    },
+    {
+        "recordId": "01997fde-f78b-74d7-8209-b4674f15f50e",
+        "applicant": "Xiaomi Communications Co., Ltd",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "Xiaomi MediaEditor",
+                "O": "Xiaomi Communications Co., Ltd",
+                "OU": "",
+                "C": "CN"
+            },
+            "minVersion": "",
+            "assurance": {
+                "maxAssuranceLevel": 1
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "image": [
+                    "image/jpeg",
+                    "image/x-adobe-dng",
+                    "image/heif"
+                ]
+            },
+            "validate": {
+                "image": [
+                    "image/jpeg",
+                    "image/x-adobe-dng",
+                    "image/heif"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-09-25",
+            "conformance": "2025-09-25",
+            "earliestPublicDisclosure": "2025-09-25",
+            "lastModification": "2025-09-25"
+        }
+    },
+    {
+        "recordId": "01997fde-f78b-74d7-8209-b4674f15f50e",
+        "applicant": "Xiaomi Communications Co., Ltd",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "Xiaomi MediaEditor",
+                "O": "Xiaomi Communications Co., Ltd",
+                "OU": "",
+                "C": "CN"
+            },
+            "minVersion": "",
+            "assurance": {
+                "maxAssuranceLevel": 1
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "image": [
+                    "image/jpeg",
+                    "image/x-adobe-dng",
+                    "image/heif"
+                ]
+            },
+            "validate": {
+                "image": [
+                    "image/jpeg",
+                    "image/x-adobe-dng",
+                    "image/heif"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-09-25",
+            "conformance": "2025-09-25",
+            "earliestPublicDisclosure": "2025-09-25",
+            "lastModification": "2025-09-25"
+        }
     }
 ]
