@@ -636,5 +636,41 @@
             "earliestPublicDisclosure": "2025-10-28",
             "lastModification": "2025-09-29"
         }
+    },
+    {
+        "recordId": "0198cc01-540f-77be-b15d-152fb3f20984",
+        "applicant": "vivo Mobile Communication Co., Ltd.",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "vivo Camera",
+                "O": "vivo Mobile Communication Co., Ltd.",
+                "OU": "",
+                "C": "CN"
+            },
+            "minVersion": "",
+            "assurance": {
+                "maxAssuranceLevel": 1
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "image": [
+                    "image/jpeg"
+                ]
+            },
+            "validate": {}
+        },
+        "dates": {
+            "creation": "2025-08-21",
+            "conformance": "2025-09-19",
+            "earliestPublicDisclosure": "2025-10-28",
+            "lastModification": "2025-10-29"
+        }
     }
 ]
