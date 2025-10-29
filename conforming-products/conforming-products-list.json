@@ -603,5 +603,38 @@
             "earliestPublicDisclosure": "2025-09-25",
             "lastModification": "2025-09-25"
         }
+    },
+    {
+        "recordId": "0198cc16-0cd2-730a-bada-15bec6b5b7f5",
+        "applicant": "vivo Mobile Communication Co., Ltd.",
+        "status": "conformant",
+        "product": {
+            "productType": "validatorProduct",
+            "DN": {
+                "CN": "vivo Albums",
+                "O": "vivo Mobile Communication Co., Ltd.",
+                "OU": "",
+                "C": "CN"
+            },
+            "minVersion": ""
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {},
+            "validate": {
+                "image": [
+                    "image/jpeg"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-08-21",
+            "conformance": "2025-09-20",
+            "earliestPublicDisclosure": "2025-10-28",
+            "lastModification": "2025-09-29"
+        }
     }
 ]
