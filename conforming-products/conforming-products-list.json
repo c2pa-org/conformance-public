@@ -672,5 +672,55 @@
             "earliestPublicDisclosure": "2025-10-28",
             "lastModification": "2025-10-29"
         }
+    },
+    {
+        "recordId": "0199f31c-6575-70ec-b3f2-058b09fc054a",
+        "applicant": "Google LLC",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "Google Shopping Media Processing Services",
+                "O": "Google LLC",
+                "OU": "Google System 49494",
+                "C": "US"
+            },
+            "minVersion": "",
+            "assurance": {
+                "maxAssuranceLevel": 1
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/avif"
+                ],
+                "video": [
+                    "video/mp4"
+                ]
+            },
+            "validate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/avif"
+                ],
+                "video": [
+                    "video/mp4"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-10-17",
+            "conformance": "2025-10-28",
+            "earliestPublicDisclosure": "2025-10-17",
+            "lastModification": "2025-10-28"
+        }
     }
 ]
