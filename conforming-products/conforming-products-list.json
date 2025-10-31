@@ -545,19 +545,13 @@
                     "image/heif"
                 ]
             },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/x-adobe-dng",
-                    "image/heif"
-                ]
-            }
+            "validate": {}
         },
         "dates": {
             "creation": "2025-09-25",
             "conformance": "2025-09-25",
             "earliestPublicDisclosure": "2025-09-25",
-            "lastModification": "2025-09-25"
+            "lastModification": "2025-10-31"
         }
     },
     {
