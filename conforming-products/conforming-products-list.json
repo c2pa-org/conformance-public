@@ -770,5 +770,58 @@
             "earliestPublicDisclosure": "2025-10-10",
             "lastModification": "2025-10-29"
         }
+    },
+    {
+        "recordId": "0199cd03-8a43-7ce8-b005-b7e454d5b3c1",
+        "applicant": "Google LLC",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "Pixel Studio",
+                "O": "Google LLC",
+                "OU": "",
+                "C": "US"
+            },
+            "minVersion": "",
+            "assurance": {
+                "maxAssuranceLevel": 1,
+                "attestationMethods": [
+                    "Android_KeyAttestation"
+                ]
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/gif"
+                ],
+                "video": [
+                    "video/mp4"
+                ]
+            },
+            "validate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/gif"
+                ],
+                "video": [
+                    "video/mp4"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-10-10",
+            "conformance": "2025-10-31",
+            "earliestPublicDisclosure": "2025-10-10",
+            "lastModification": "2025-10-31"
+        }
     }
 ]
