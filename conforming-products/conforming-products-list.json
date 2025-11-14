@@ -910,8 +910,8 @@
             "earliestPublicDisclosure": "2025-11-12",
             "lastModification": "2025-11-13"
         }
-        },
-        {
+    },
+    {
         "recordId": "019a7a56-7744-7062-96d9-220b58359619",
         "applicant": "Google LLC",
         "status": "conformant",
@@ -957,6 +957,76 @@
             "creation": "2025-11-12",
             "conformance": "2025-11-13",
             "earliestPublicDisclosure": "2025-11-12",
+            "lastModification": "2025-11-13"
+        }
+    },
+    {
+        "recordId": "01981d76-f92a-79a1-a70f-614ef17b44f3",
+        "applicant": "Digitality Consulting S.r.l.",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "Digitality Consulting Secure Content Engine",
+                "O": "Digitality Consulting S.r.l.",
+                "OU": "AI Department",
+                "C": "IT"
+            },
+            "minVersion": "1.0.0",
+            "assurance": {
+                "maxAssuranceLevel": 1
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/heic",
+                    "image/heif"
+                ],
+                "video": [
+                    "video/mp4",
+                    "video/quicktime"
+                ],
+                "audio": [
+                    "audio/wav",
+                    "audio/mp4"
+                ],
+                "document": [
+                    "application/pdf",
+                    "txt"
+                ]
+            },
+            "validate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/heic",
+                    "image/heif"
+                ],
+                "video": [
+                    "video/mp4",
+                    "video/quicktime"
+                ],
+                "audio": [
+                    "audio/wav",
+                    "audio/mp4"
+                ],
+                "document": [
+                    "application/pdf",
+                    "txt"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-07-18",
+            "conformance": "2025-11-5",
+            "earliestPublicDisclosure": "2025-07-16",
             "lastModification": "2025-11-13"
         }
     }
