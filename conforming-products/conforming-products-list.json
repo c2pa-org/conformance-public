@@ -1029,5 +1029,51 @@
             "earliestPublicDisclosure": "2025-07-16",
             "lastModification": "2025-11-13"
         }
+    },
+    {
+        "recordId": "019a94a9-668f-76ef-8b22-a15b9a490011",
+        "applicant": "Google LLC",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "Pixel Recorder",
+                "O": "Google LLC",
+                "OU": "Android",
+                "C": "US"
+            },
+            "minVersion": "",
+            "assurance": {
+                "maxAssuranceLevel": 1,
+                "attestationMethods": [
+                    "Android_KeyAttestation"
+                ]
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "video": [
+                    "video/mp4"
+                ],
+                "audio": [
+                    "audio/mp4"
+                ]
+            },
+            "validate": {
+                "audio": [
+                    "audio/mp4"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-11-18",
+            "conformance": "2025-11-24",
+            "earliestPublicDisclosure": "2025-11-17",
+            "lastModification": "2025-11-24"
+        }
     }
 ]
