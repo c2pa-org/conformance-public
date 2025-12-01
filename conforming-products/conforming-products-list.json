@@ -1075,5 +1075,45 @@
             "earliestPublicDisclosure": "2025-11-17",
             "lastModification": "2025-11-24"
         }
+    },
+    {
+        "recordId": "019a94ab-95d9-74b7-965c-8b23935a76df",
+        "applicant": "Google LLC",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "Pixel Recorder",
+                "O": "Google LLC",
+                "OU": "Web",
+                "C": "US"
+            },
+            "minVersion": "",
+            "assurance": {
+                "maxAssuranceLevel": 1
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "audio": [
+                    "audio/mp4"
+                ]
+            },
+            "validate": {
+                "audio": [
+                    "audio/mp4"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-11-18",
+            "conformance": "2025-11-24",
+            "earliestPublicDisclosure": "2025-11-17",
+            "lastModification": "2025-11-24"
+        }
     }
 ]
