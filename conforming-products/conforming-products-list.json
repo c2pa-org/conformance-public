@@ -1115,5 +1115,70 @@
             "earliestPublicDisclosure": "2025-11-17",
             "lastModification": "2025-11-24"
         }
+    },
+    {
+        "recordId": "019aa0c2-03ee-708e-b095-e138683acca2",
+        "applicant": "Safe Creative, SL",
+        "status": "conformant",
+        "product": {
+            "productType": "validatorProduct",
+            "DN": {
+                "CN": "Copyright Certification and Registration Service",
+                "O": "Safe Creative, SL",
+                "OU": "",
+                "C": "ES"
+            },
+            "minVersion": ""
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {},
+            "validate": {
+                "image": [
+                    "image/jpeg",
+                    "image/jxl",
+                    "image/png",
+                    "image/svg+xml",
+                    "image/gif",
+                    "image/x-adobe-dng",
+                    "image/tiff",
+                    "image/webp",
+                    "image/heic",
+                    "image/heic-sequence",
+                    "image/heif",
+                    "image/heif-sequence",
+                    "image/avif"
+                ],
+                "video": [
+                    "video/x-msvideo",
+                    "video/mp4",
+                    "video/quicktime"
+                ],
+                "audio": [
+                    "audio/flac",
+                    "audio/MPA",
+                    "audio/mpeg",
+                    "audio/wav",
+                    "audio/aac",
+                    "audio/mp4"
+                ],
+                "documents": [
+                    "application/pdf",
+                    "application/epub+zip",
+                    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "application/vnd.oasis.opendocument.text",
+                    "application/oxps"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-11-20",
+            "conformance": "2025-11-20",
+            "earliestPublicDisclosure": "2025-11-20",
+            "lastModification": "2025-11-20"
+        }
     }
 ]
