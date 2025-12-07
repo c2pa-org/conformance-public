@@ -1180,5 +1180,41 @@
             "earliestPublicDisclosure": "2025-11-20",
             "lastModification": "2025-11-20"
         }
+    },
+    {
+        "recordId": "019a7af3-cc41-78fa-b0de-cfae4229c74c",
+        "applicant": "Copihue Studio, Inc.",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "Neat Photo",
+                "O": "Copihue Studio, Inc.",
+                "OU": "Mobile Applications",
+                "C": "US"
+            },
+            "minVersion": "0.9.1",
+            "assurance": {
+                "maxAssuranceLevel": 1
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "image": [
+                    "image/jpeg"
+                ]
+            },
+            "validate": {}
+        },
+        "dates": {
+            "creation": "2025-11-13",
+            "conformance": "2025-11-18",
+            "earliestPublicDisclosure": "2025-12-01",
+            "lastModification": "2025-12-06"
+        }
     }
 ]
