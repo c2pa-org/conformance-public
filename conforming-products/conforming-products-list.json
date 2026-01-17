@@ -1216,5 +1216,46 @@
             "earliestPublicDisclosure": "2025-12-01",
             "lastModification": "2025-12-06"
         }
+    },
+    {
+        "recordId": "019b06cf-372d-7d19-a8ab-446b10ac119f",
+        "applicant": "Google LLC",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "Project Genie by Google",
+                "O": "Google LLC",
+                "OU": "",
+                "C": "US"
+            },
+            "minVersion": "",
+            "assurance": {
+                "maxAssuranceLevel": 1
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "video": [
+                    "video/mp4"
+                ]
+            },
+            "validate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-12-10",
+            "conformance": "2025-12-13",
+            "earliestPublicDisclosure": "2025-12-18",
+            "lastModification": "2025-12-13"
+        }
     }
 ]
