@@ -1,4 +1,4 @@
-[
+[ 
     {
         "recordId": "0197aa34-665b-7811-9bbc-317cfd988d0a",
         "applicant": "Google LLC",
@@ -1256,6 +1256,60 @@
             "conformance": "2025-12-13",
             "earliestPublicDisclosure": "2025-12-18",
             "lastModification": "2025-12-13"
+        }
+    },
+    {   
+    "recordId": "0198989c-95be-753c-99db-598517152f1d",
+        "applicant": "Archive Origin LLC",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "Archive Origin",
+                "O": "Archive Origin LLC",
+                "OU": "",
+                "C": "US"
+            },
+            "minVersion": "1.0.0",
+            "assurance": {
+                "maxAssuranceLevel": 1
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/heic",
+                    "image/heif"
+                ],
+                "video": [
+                    "video/mp4",
+                    "video/quicktime"
+                ]
+            },
+            "validate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/heic",
+                    "image/heif"
+                ],
+                "video": [
+                    "video/mp4",
+                    "video/quicktime"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-08-11",
+            "conformance": "2025-2026-01-16",
+            "earliestPublicDisclosure": "2025-12-31",
+            "lastModification": "2026-01-17"
         }
     }
 ]
