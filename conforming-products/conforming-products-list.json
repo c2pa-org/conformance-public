@@ -1351,5 +1351,52 @@
             "earliestPublicDisclosure": "2025-12-20",
             "lastModification": "2025-12-30"
         }
+    },
+    {
+        "recordId": "019b3d82-2b5f-71d8-8089-10fcfc2b6ec3",
+        "applicant": "Google LLC",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "Google Media Processing Services",
+                "O": "Google LLC",
+                "OU": "Google System 62351",
+                "C": "US"
+            },
+            "minVersion": "",
+            "assurance": {
+                "maxAssuranceLevel": 1
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "video": [
+                    "video/mp4"
+                ]
+            },
+            "validate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png"
+                ],
+                "video": [
+                    "video/mp4"
+                ],
+                "audio": [
+                    "audio/wav"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-12-20",
+            "conformance": "2026-01-16",
+            "earliestPublicDisclosure": "2025-12-20",
+            "lastModification": "2026-01-17"
+        }
     }
 ]
