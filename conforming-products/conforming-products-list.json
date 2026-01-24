@@ -1311,5 +1311,45 @@
             "earliestPublicDisclosure": "2025-12-31",
             "lastModification": "2026-01-17"
         }
+    },
+    {
+        "recordId": "019b3d69-3eea-7ffb-80b2-01f5fa5f98a2",
+        "applicant": "Google LLC",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "NotebookLM",
+                "O": "Google LLC",
+                "OU": "",
+                "C": "US"
+            },
+            "minVersion": "",
+            "assurance": {
+                "maxAssuranceLevel": 1
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "image": [
+                    "image/png"
+                ]
+            },
+            "validate": {
+                "image": [
+                    "image/png"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-12-20",
+            "conformance": "2025-12-30",
+            "earliestPublicDisclosure": "2025-12-20",
+            "lastModification": "2025-12-30"
+        }
     }
 ]
