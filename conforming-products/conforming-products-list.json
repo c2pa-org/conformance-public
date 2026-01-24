@@ -1398,5 +1398,77 @@
             "earliestPublicDisclosure": "2025-12-20",
             "lastModification": "2026-01-17"
         }
+    },
+       {
+        "recordId": "019b32c8-2031-72b0-8fdd-c6f93051d592",
+        "applicant": "Google LLC",
+        "status": "conformant",
+        "product": {
+            "productType": "generatorProduct",
+            "DN": {
+                "CN": "Google Media Processing Services",
+                "O": "Google LLC",
+                "OU": "Google System 67154",
+                "C": "US"
+            },
+            "minVersion": "",
+            "assurance": {
+                "maxAssuranceLevel": 1
+            }
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/gif"
+                ],
+                "video": [
+                    "video/mp4"
+                ],
+                "audio": [
+                    "audio/wav",
+                    "audio/mp4"
+                ],
+                "documents": [
+                    "application/pdf"
+                ]
+            },
+            "validate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/gif",
+                    "image/x-adobe-dng",
+                    "image/tiff",
+                    "image/webp",
+                    "image/heic",
+                    "image/heif",
+                    "image/avif"
+                ],
+                "video": [
+                    "video/mp4",
+                    "video/quicktime"
+                ],
+                "audio": [
+                    "audio/mpeg",
+                    "audio/wav",
+                    "audio/mp4"
+                ],
+                "documents": [
+                    "application/pdf"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-12-18",
+            "conformance": "2026-01-16",
+            "earliestPublicDisclosure": "2025-12-18",
+            "lastModification": "202601-17"
+        }
     }
 ]
