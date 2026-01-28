@@ -1590,5 +1590,59 @@
     "earliestPublicDisclosure": "2026-01-16",
     "lastModification": "2026-01-27"
   }
-}
+},
+  {
+  "recordId": "019bc6f9-2193-73e8-aac8-8a3ee77ca9f0",
+  "applicant": "Numbers Co. Ltd.",
+  "status": "conformant",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "ProofSnap iOS",
+      "O": "Numbers Co., Ltd.",
+      "OU": "",
+      "C": "TW"
+    },
+    "minVersion": "",
+    "assurance": {
+      "maxAssuranceLevel": 1
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.1",
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/heic",
+        "image/heif"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/heic",
+        "image/heif"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    }
+  },
+  "dates": {
+    "creation": "2026-01-16",
+    "conformance": "2026-01-27",
+    "earliestPublicDisclosure": "2026-01-16",
+    "lastModification": "2026-01-27"
+  }
+}  
 ]
