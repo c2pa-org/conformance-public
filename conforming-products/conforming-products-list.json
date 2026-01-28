@@ -1644,5 +1644,73 @@
     "earliestPublicDisclosure": "2026-01-16",
     "lastModification": "2026-01-27"
   }
-}  
+},
+       {
+  "recordId": "019bc403-5cd7-7669-afe6-fdb17177d428",
+  "applicant": "OpenAI OpCo, LLC",
+  "status": "conformant",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "OpenAI Media Service",
+      "O": "OpenAI OpCo, LLC",
+      "OU": "",
+      "C": "US"
+    },
+    "minVersion": "1.0.0",
+    "assurance": {
+      "maxAssuranceLevel": 1
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.1",
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    }
+  },
+  "dates": {
+    "creation": "2026-01-15",
+    "conformance": "2026-01-28",
+    "earliestPublicDisclosure": "2026-01-15",
+    "lastModification": "2026-01-28"
+  }
+}
 ]
