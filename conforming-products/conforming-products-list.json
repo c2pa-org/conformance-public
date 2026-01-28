@@ -1536,5 +1536,59 @@
             "earliestPublicDisclosure": "2025-12-15",
             "lastModification": "2026-01-27"
         }
+    },
+     {
+  "recordId": "019bc6fd-29de-7c64-8a91-427475c1d4e3",
+  "applicant": "Numbers Co. Ltd.",
+  "status": "conformant",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "ProofSnap Android",
+      "O": "Numbers Co., Ltd.",
+      "OU": "",
+      "C": "TW"
+    },
+    "minVersion": "",
+    "assurance": {
+      "maxAssuranceLevel": 1
     }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.1",
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/heic",
+        "image/heif"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/heic",
+        "image/heif"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    }
+  },
+  "dates": {
+    "creation": "2026-01-16",
+    "conformance": "2026-01-27",
+    "earliestPublicDisclosure": "2026-01-16",
+    "lastModification": "2026-01-27"
+  }
+}
 ]
