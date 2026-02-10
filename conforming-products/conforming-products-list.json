@@ -1712,5 +1712,45 @@
     "earliestPublicDisclosure": "2026-01-15",
     "lastModification": "2026-01-28"
   }
-}
+},
+    {
+        "recordId": "019aca24-0055-79b9-8577-9195fdbcda54",
+        "applicant": "A Bord !",
+        "status": "conformant",
+        "product": {
+            "productType": "validatorProduct",
+            "DN": {
+                "CN": "nogia Validator",
+                "O": "A Bord !",
+                "OU": "",
+                "C": "FR"
+            },
+            "minVersion": "2.2.0"
+        },
+        "specVersion": [
+            "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+            "generate": {},
+            "validate": {
+                "image": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/x-adobe-dng",
+                    "image/tiff",
+                    "image/webp",
+                    "image/heic",
+                    "image/heif",
+                    "image/avif"
+                ]
+            }
+        },
+        "dates": {
+            "creation": "2025-11-28",
+            "conformance": "2026-01-08",
+            "earliestPublicDisclosure": "2026-02-02",
+            "lastModification": "2026-01-08"
+        }
+    }
 ]
