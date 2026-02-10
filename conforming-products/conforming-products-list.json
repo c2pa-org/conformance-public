@@ -1,1756 +1,1812 @@
-[ 
-    {
-        "recordId": "0197aa34-665b-7811-9bbc-317cfd988d0a",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Pixel Camera",
-                "O": "Google LLC",
-                "OU": "",
-                "C": "US"
-            },
-            "minVersion": "68566598",
-            "assurance": {
-                "maxAssuranceLevel": 2,
-                "attestationMethods": [
-                    "Android_KeyAttestation"
-                ]
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg"
-                ]
-            },
-            "validate": {}
-        },
-        "dates": {
-            "creation": "2025-06-26",
-            "conformance": "2025-06-27",
-            "earliestPublicDisclosure": "2025-08-21",
-            "lastModification": "2025-06-27"
-        }
-    },
-    {
-        "recordId": "0197ae4d-5c85-739f-91ae-70b0523425a7",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Google Photos",
-                "O": "Google LLC",
-                "OU": "Google Photos Android",
-                "C": "US"
-            },
-            "minVersion": "7.35",
-            "assurance": {
-                "maxAssuranceLevel": 1,
-                "attestationMethods": [
-                    "Android_KeyAttestation"
-                ]
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-06-26",
-            "conformance": "2025-06-27",
-            "earliestPublicDisclosure": "2025-08-21",
-            "lastModification": "2025-06-27"
-        }
-    },
-    {
-        "recordId": "01981b77-97a6-70a1-8c82-bee8e48eef4c",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Google Photos",
-                "O": "Google LLC",
-                "OU": "Google Photos iOS",
-                "C": "US"
-            },
-            "minVersion": "7.37",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-07-18",
-            "conformance": "2025-07-21",
-            "earliestPublicDisclosure": "2025-08-21",
-            "lastModification": "2025-07-21"
-        }
-    },
-    {
-        "recordId": "01981fb6-143a-74d7-b490-322ebb14babd",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Google Media Processing Services",
-                "O": "Google LLC",
-                "OU": "Google System 67154",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-07-18",
-            "conformance": "2025-07-22",
-            "earliestPublicDisclosure": "2025-08-21",
-            "lastModification": "2025-07-22"
-        }
-    },
-    {
-        "recordId": "01983ac3-fc32-7402-b0bf-cc90725fe475",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "YouTube Media Processing Services",
-                "O": "Google LLC",
-                "OU": "YouTube System 86753",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg"
-                ]
-            },
-            "validate": {}
-        },
-        "dates": {
-            "creation": "2025-07-24",
-            "conformance": "2025-07-27",
-            "earliestPublicDisclosure": "2025-08-21",
-            "lastModification": "2025-07-27"
-        }
-    },
-    {
-        "recordId": "01989be1-36f9-7db7-98e2-340e19e9280c",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Google Media Processing Services",
-                "O": "Google LLC",
-                "OU": "Google System 98649",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png"
-                ],
-                "video": [
-                    "video/mp4"
-                ],
-                "audio": [
-                    "audio/wav"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png"
-                ],
-                "video": [
-                    "video/mp4"
-                ],
-                "audio": [
-                    "audio/wav"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-08-12",
-            "conformance": "2025-08-13",
-            "earliestPublicDisclosure": "2025-08-21",
-            "lastModification": "2025-08-13"
-        }
-    },
-    {
-        "recordId": "01989f24-24ef-78ff-8c1a-90a2f4f1b349",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Pixel Studio",
-                "O": "Google LLC",
-                "OU": "",
-                "C": "US"
-            },
-            "minVersion": "2",
-            "assurance": {
-                "maxAssuranceLevel": 1,
-                "attestationMethods": [
-                    "Android_KeyAttestation"
-                ]
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-08-12",
-            "conformance": "2025-08-13",
-            "earliestPublicDisclosure": "2025-08-21",
-            "lastModification": "2025-08-13"
-        }
-    },
-    {
-        "recordId": "0198a72e-99f4-7171-9fc0-ff4caac984cf",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Google Media Processing Services",
-                "O": "Google LLC",
-                "OU": "Google System 90291",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/webp",
-                    "image/heic",
-                    "image/heif",
-                    "image/avif"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-08-14",
-            "conformance": "2025-08-14",
-            "earliestPublicDisclosure": "2025-08-21",
-            "lastModification": "2025-08-14"
-        }
-    },
-    {
-        "recordId": "01987b59-4920-7391-a63f-bdd53ced9547",
-        "applicant": "Adobe Inc.",
-        "status": "conformant",
-        "product": {
-            "productType": "validatorProduct",
-            "DN": {
-                "CN": "Adobe Content Authenticity Inspect",
-                "O": "Adobe Inc.",
-                "OU": "",
-                "C": "US"
-            },
-            "minVersion": "1.0.0"
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {},
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/svg+xml",
-                    "image/x-adobe-dng",
-                    "image/tiff",
-                    "image/webp",
-                    "image/heic",
-                    "image/heif",
-                    "image/avif"
-                ],
-                "video": [
-                    "video/x-msvideo",
-                    "video/mp4",
-                    "video/quicktime"
-                ],
-                "audio": [
-                    "audio/mpeg",
-                    "audio/wav",
-                    "audio/mp4"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-08-05",
-            "conformance": "2025-08-05",
-            "earliestPublicDisclosure": "2025-09-01",
-            "lastModification": "2025-09-04"
-        }
-    },
-    {
-        "recordId": "0197e699-8f23-718d-b3ef-60080d4c5b7d",
-        "applicant": "EZDRM, Inc",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "DynamicSigner",
-                "O": "EZDRM, INC",
-                "OU": "Video",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 2,
-                "attestationMethods": [
-                    "AWS_NitroEnclaveAttestation",
-                    "Microsoft_AzureAttestation"
-                ]
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "video": [
-                    "video/mp4"
-                ],
-                "audio": [
-                    "audio/aac",
-                    "audio/mp4"
-                ]
-            },
-            "validate": {
-                "video": [
-                    "video/mp4"
-                ],
-                "audio": [
-                    "audio/aac",
-                    "audio/mp4"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-07-07",
-            "conformance": "2025-08-28",
-            "earliestPublicDisclosure": "2025-09-01",
-            "lastModification": "2025-09-13"
-        }
-    },
-    {
-        "recordId": "01997fda-550f-7b58-9d1e-42cb959dd0db",
-        "applicant": "Xiaomi Communications Co., Ltd",
-        "status": "conformant",
-        "product": {
-            "productType": "validatorProduct",
-            "DN": {
-                "CN": "Xiaomi Gallery",
-                "O": "Xiaomi Communications Co., Ltd",
-                "OU": "",
-                "C": "CN"
-            },
-            "minVersion": ""
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {},
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/x-adobe-dng",
-                    "image/heif"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-09-25",
-            "conformance": "2025-09-25",
-            "earliestPublicDisclosure": "2025-09-25",
-            "lastModification": "2025-09-25"
-        }
-    },
-    {
-        "recordId": "01991a81-4f5c-770a-b290-8bde8c858677",
-        "applicant": "Limbo AI, LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "validatorProduct",
-            "DN": {
-                "CN": "Limbo Verifox",
-                "O": "Limbo AI, LLC",
-                "OU": "",
-                "C": "US"
-            },
-            "minVersion": "0.1"
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {},
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/heic"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-09-05",
-            "conformance": "2025-09-05",
-            "earliestPublicDisclosure": "2025-10-01",
-            "lastModification": "2025-09-16"
-        }
-    },
-    {
-        "recordId": "01997fd7-e2de-7283-ac45-9c7b779f1540",
-        "applicant": "Xiaomi Communications Co., Ltd",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Xiaomi Camera",
-                "O": "Xiaomi Communications Co., Ltd",
-                "OU": "",
-                "C": "CN"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/x-adobe-dng",
-                    "image/heif"
-                ]
-            },
-            "validate": {}
-        },
-        "dates": {
-            "creation": "2025-09-25",
-            "conformance": "2025-09-25",
-            "earliestPublicDisclosure": "2025-09-25",
-            "lastModification": "2025-10-31"
-        }
-    },
-    {
-        "recordId": "01997fde-f78b-74d7-8209-b4674f15f50e",
-        "applicant": "Xiaomi Communications Co., Ltd",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Xiaomi MediaEditor",
-                "O": "Xiaomi Communications Co., Ltd",
-                "OU": "",
-                "C": "CN"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/x-adobe-dng",
-                    "image/heif"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/x-adobe-dng",
-                    "image/heif"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-09-25",
-            "conformance": "2025-09-25",
-            "earliestPublicDisclosure": "2025-09-25",
-            "lastModification": "2025-09-25"
-        }
-    },
-    {
-        "recordId": "0198cc16-0cd2-730a-bada-15bec6b5b7f5",
-        "applicant": "vivo Mobile Communication Co., Ltd.",
-        "status": "conformant",
-        "product": {
-            "productType": "validatorProduct",
-            "DN": {
-                "CN": "vivo Albums",
-                "O": "vivo Mobile Communication Co., Ltd.",
-                "OU": "",
-                "C": "CN"
-            },
-            "minVersion": ""
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {},
-            "validate": {
-                "image": [
-                    "image/jpeg"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-08-21",
-            "conformance": "2025-09-20",
-            "earliestPublicDisclosure": "2025-10-28",
-            "lastModification": "2025-09-29"
-        }
-    },
-    {
-        "recordId": "0198cc01-540f-77be-b15d-152fb3f20984",
-        "applicant": "vivo Mobile Communication Co., Ltd.",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "vivo Camera",
-                "O": "vivo Mobile Communication Co., Ltd.",
-                "OU": "",
-                "C": "CN"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg"
-                ]
-            },
-            "validate": {}
-        },
-        "dates": {
-            "creation": "2025-08-21",
-            "conformance": "2025-09-19",
-            "earliestPublicDisclosure": "2025-10-28",
-            "lastModification": "2025-10-29"
-        }
-    },
-    {
-        "recordId": "0199f31c-6575-70ec-b3f2-058b09fc054a",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Google Shopping Media Processing Services",
-                "O": "Google LLC",
-                "OU": "Google System 49494",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/avif"
-                ],
-                "video": [
-                    "video/mp4"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/avif"
-                ],
-                "video": [
-                    "video/mp4"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-10-17",
-            "conformance": "2025-10-28",
-            "earliestPublicDisclosure": "2025-10-17",
-            "lastModification": "2025-10-28"
-        }
-    },
-    {
-        "recordId": "0199ccd5-daed-79a7-8b8a-b0bedc0af6fa",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Google Media Processing Services",
-                "O": "Google LLC",
-                "OU": "Google System 60032",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png"
-                ],
-                "video": [
-                    "video/mp4"
-                ],
-                "audio": [
-                    "audio/wav"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png"
-                ],
-                "video": [
-                    "video/mp4"
-                ],
-                "audio": [
-                    "audio/wav"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-10-10",
-            "conformance": "2025-10-29",
-            "earliestPublicDisclosure": "2025-10-10",
-            "lastModification": "2025-10-29"
-        }
-    },
-    {
-        "recordId": "0199cd03-8a43-7ce8-b005-b7e454d5b3c1",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Pixel Studio",
-                "O": "Google LLC",
-                "OU": "",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1,
-                "attestationMethods": [
-                    "Android_KeyAttestation"
-                ]
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/gif"
-                ],
-                "video": [
-                    "video/mp4"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/gif"
-                ],
-                "video": [
-                    "video/mp4"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-10-10",
-            "conformance": "2025-10-31",
-            "earliestPublicDisclosure": "2025-10-10",
-            "lastModification": "2025-10-31"
-        }
-    },
-    {
-        "recordId": "019a7a9f-cb2f-7e2d-b222-9aa444fc383e",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Google Media Processing Services",
-                "O": "Google LLC",
-                "OU": "Google System 10274",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/webp",
-                    "image/heic",
-                    "image/heif"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-11-13",
-            "conformance": "2025-11-13",
-            "earliestPublicDisclosure": "2025-11-12",
-            "lastModification": "2025-11-13"
-        }
-    },
-    {
-        "recordId": "019a7aa2-5791-7e3f-8ecf-22ef01e30838",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Google Media Processing Services",
-                "O": "Google LLC",
-                "OU": "Google System 19472",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-11-13",
-            "conformance": "2025-11-13",
-            "earliestPublicDisclosure": "2025-11-12",
-            "lastModification": "2025-11-13"
-        }
-    },
-    {
-        "recordId": "019a7a56-7744-7062-96d9-220b58359619",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Google Media Processing Services",
-                "O": "Google LLC",
-                "OU": "Google System 90291",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/gif",
-                    "image/webp"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/gif",
-                    "image/webp",
-                    "image/heic",
-                    "image/heif",
-                    "image/avif"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-11-12",
-            "conformance": "2025-11-13",
-            "earliestPublicDisclosure": "2025-11-12",
-            "lastModification": "2025-11-13"
-        }
-    },
-    {
-        "recordId": "01981d76-f92a-79a1-a70f-614ef17b44f3",
-        "applicant": "Digitality Consulting S.r.l.",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Digitality Consulting Secure Content Engine",
-                "O": "Digitality Consulting S.r.l.",
-                "OU": "AI Department",
-                "C": "IT"
-            },
-            "minVersion": "1.0.0",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/heic",
-                    "image/heif"
-                ],
-                "video": [
-                    "video/mp4",
-                    "video/quicktime"
-                ],
-                "audio": [
-                    "audio/wav",
-                    "audio/mp4"
-                ],
-                "document": [
-                    "application/pdf",
-                    "txt"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/heic",
-                    "image/heif"
-                ],
-                "video": [
-                    "video/mp4",
-                    "video/quicktime"
-                ],
-                "audio": [
-                    "audio/wav",
-                    "audio/mp4"
-                ],
-                "document": [
-                    "application/pdf",
-                    "txt"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-07-18",
-            "conformance": "2025-11-5",
-            "earliestPublicDisclosure": "2025-07-16",
-            "lastModification": "2025-11-13"
-        }
-    },
-    {
-        "recordId": "019a94a9-668f-76ef-8b22-a15b9a490011",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Pixel Recorder",
-                "O": "Google LLC",
-                "OU": "Android",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1,
-                "attestationMethods": [
-                    "Android_KeyAttestation"
-                ]
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "video": [
-                    "video/mp4"
-                ],
-                "audio": [
-                    "audio/mp4"
-                ]
-            },
-            "validate": {
-                "audio": [
-                    "audio/mp4"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-11-18",
-            "conformance": "2025-11-24",
-            "earliestPublicDisclosure": "2025-11-17",
-            "lastModification": "2025-11-24"
-        }
-    },
-    {
-        "recordId": "019a94ab-95d9-74b7-965c-8b23935a76df",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Pixel Recorder",
-                "O": "Google LLC",
-                "OU": "Web",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "audio": [
-                    "audio/mp4"
-                ]
-            },
-            "validate": {
-                "audio": [
-                    "audio/mp4"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-11-18",
-            "conformance": "2025-11-24",
-            "earliestPublicDisclosure": "2025-11-17",
-            "lastModification": "2025-11-24"
-        }
-    },
-    {
-        "recordId": "019aa0c2-03ee-708e-b095-e138683acca2",
-        "applicant": "Safe Creative, SL",
-        "status": "conformant",
-        "product": {
-            "productType": "validatorProduct",
-            "DN": {
-                "CN": "Copyright Certification and Registration Service",
-                "O": "Safe Creative, SL",
-                "OU": "",
-                "C": "ES"
-            },
-            "minVersion": ""
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {},
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/jxl",
-                    "image/png",
-                    "image/svg+xml",
-                    "image/gif",
-                    "image/x-adobe-dng",
-                    "image/tiff",
-                    "image/webp",
-                    "image/heic",
-                    "image/heic-sequence",
-                    "image/heif",
-                    "image/heif-sequence",
-                    "image/avif"
-                ],
-                "video": [
-                    "video/x-msvideo",
-                    "video/mp4",
-                    "video/quicktime"
-                ],
-                "audio": [
-                    "audio/flac",
-                    "audio/MPA",
-                    "audio/mpeg",
-                    "audio/wav",
-                    "audio/aac",
-                    "audio/mp4"
-                ],
-                "documents": [
-                    "application/pdf",
-                    "application/epub+zip",
-                    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-                    "application/vnd.oasis.opendocument.text",
-                    "application/oxps"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-11-20",
-            "conformance": "2025-11-20",
-            "earliestPublicDisclosure": "2025-11-20",
-            "lastModification": "2025-11-20"
-        }
-    },
-    {
-        "recordId": "019a7af3-cc41-78fa-b0de-cfae4229c74c",
-        "applicant": "Copihue Studio, Inc.",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Neat Photo",
-                "O": "Copihue Studio, Inc.",
-                "OU": "Mobile Applications",
-                "C": "US"
-            },
-            "minVersion": "0.9.1",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg"
-                ]
-            },
-            "validate": {}
-        },
-        "dates": {
-            "creation": "2025-11-13",
-            "conformance": "2025-11-18",
-            "earliestPublicDisclosure": "2025-12-01",
-            "lastModification": "2025-12-06"
-        }
-    },
-    {
-        "recordId": "019b06cf-372d-7d19-a8ab-446b10ac119f",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Project Genie by Google",
-                "O": "Google LLC",
-                "OU": "",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "video": [
-                    "video/mp4"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-12-10",
-            "conformance": "2025-12-13",
-            "earliestPublicDisclosure": "2025-12-18",
-            "lastModification": "2025-12-13"
-        }
-    },
-    {   
-    "recordId": "0198989c-95be-753c-99db-598517152f1d",
-        "applicant": "Archive Origin LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Archive Origin",
-                "O": "Archive Origin LLC",
-                "OU": "",
-                "C": "US"
-            },
-            "minVersion": "1.0.0",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/heic",
-                    "image/heif"
-                ],
-                "video": [
-                    "video/mp4",
-                    "video/quicktime"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/heic",
-                    "image/heif"
-                ],
-                "video": [
-                    "video/mp4",
-                    "video/quicktime"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-08-11",
-            "conformance": "2026-01-16",
-            "earliestPublicDisclosure": "2025-12-31",
-            "lastModification": "2026-01-17"
-        }
-    },
-    {
-        "recordId": "019b3d69-3eea-7ffb-80b2-01f5fa5f98a2",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "NotebookLM",
-                "O": "Google LLC",
-                "OU": "",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/png"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/png"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-12-20",
-            "conformance": "2025-12-30",
-            "earliestPublicDisclosure": "2025-12-20",
-            "lastModification": "2025-12-30"
-        }
-    },
-    {
-        "recordId": "019b3d82-2b5f-71d8-8089-10fcfc2b6ec3",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Google Media Processing Services",
-                "O": "Google LLC",
-                "OU": "Google System 62351",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "video": [
-                    "video/mp4"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png"
-                ],
-                "video": [
-                    "video/mp4"
-                ],
-                "audio": [
-                    "audio/wav"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-12-20",
-            "conformance": "2026-01-16",
-            "earliestPublicDisclosure": "2025-12-20",
-            "lastModification": "2026-01-17"
-        }
-    },
-       {
-        "recordId": "019b32c8-2031-72b0-8fdd-c6f93051d592",
-        "applicant": "Google LLC",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "Google Media Processing Services",
-                "O": "Google LLC",
-                "OU": "Google System 67154",
-                "C": "US"
-            },
-            "minVersion": "",
-            "assurance": {
-                "maxAssuranceLevel": 1
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/gif"
-                ],
-                "video": [
-                    "video/mp4"
-                ],
-                "audio": [
-                    "audio/wav",
-                    "audio/mp4"
-                ],
-                "documents": [
-                    "application/pdf"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/gif",
-                    "image/x-adobe-dng",
-                    "image/tiff",
-                    "image/webp",
-                    "image/heic",
-                    "image/heif",
-                    "image/avif"
-                ],
-                "video": [
-                    "video/mp4",
-                    "video/quicktime"
-                ],
-                "audio": [
-                    "audio/mpeg",
-                    "audio/wav",
-                    "audio/mp4"
-                ],
-                "documents": [
-                    "application/pdf"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-12-18",
-            "conformance": "2026-01-16",
-            "earliestPublicDisclosure": "2025-12-18",
-            "lastModification": "2026-01-17"
-        }
-    },
-        {
-        "recordId": "019a35f6-d9d2-7166-ba83-74f5942f27d9",
-        "applicant": "Vbrick Systems Inc.",
-        "status": "conformant",
-        "product": {
-            "productType": "generatorProduct",
-            "DN": {
-                "CN": "VBrick Video Platform",
-                "O": "VBrick Systems, Inc.",
-                "OU": "",
-                "C": "US"
-            },
-            "minVersion": "8.2.0",
-            "assurance": {
-                "maxAssuranceLevel": 1,
-                "attestationMethods": [
-                    "AWS_NitroEnclaveAttestation"
-                ]
-            }
-        },
-        "specVersion": [
-            "2.2"
-        ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/gif",
-                    "image/tiff",
-                    "image/webp",
-                    "image/heic"
-                ],
-                "video": [
-                    "video/mp4"
-                ],
-                "audio": [
-                    "audio/aac",
-                    "audio/mp4"
-                ]
-            },
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/gif",
-                    "image/webp",
-                    "image/heic"
-                ],
-                "video": [
-                    "video/mp4"
-                ],
-                "audio": [
-                    "audio/aac",
-                    "audio/mp4"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-10-30",
-            "conformance": "2026-01-27",
-            "earliestPublicDisclosure": "2025-12-15",
-            "lastModification": "2026-01-27"
-        }
-    },
-     {
-  "recordId": "019bc6fd-29de-7c64-8a91-427475c1d4e3",
-  "applicant": "Numbers Co. Ltd.",
-  "status": "conformant",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "ProofSnap Android",
-      "O": "Numbers Co., Ltd.",
-      "OU": "",
-      "C": "TW"
-    },
-    "minVersion": "",
-    "assurance": {
-      "maxAssuranceLevel": 1
-    }
-  },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.1",
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/heic",
-        "image/heif"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/heic",
-        "image/heif"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ]
-    }
-  },
-  "dates": {
-    "creation": "2026-01-16",
-    "conformance": "2026-01-27",
-    "earliestPublicDisclosure": "2026-01-16",
-    "lastModification": "2026-01-27"
-  }
-},
+[
   {
-  "recordId": "019bc6f9-2193-73e8-aac8-8a3ee77ca9f0",
-  "applicant": "Numbers Co. Ltd.",
-  "status": "conformant",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "ProofSnap iOS",
-      "O": "Numbers Co., Ltd.",
-      "OU": "",
-      "C": "TW"
+    "recordId": "0197aa34-665b-7811-9bbc-317cfd988d0a",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Pixel Camera",
+        "O": "Google LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "68566598",
+      "assurance": {
+        "maxAssuranceLevel": 2,
+        "attestationMethods": [
+          "Android_KeyAttestation"
+        ]
+      }
     },
-    "minVersion": "",
-    "assurance": {
-      "maxAssuranceLevel": 1
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2025-06-26",
+      "conformance": "2025-06-27",
+      "earliestPublicDisclosure": "2025-08-21",
+      "lastModification": "2025-06-27"
     }
   },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.1",
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/heic",
-        "image/heif"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ]
+  {
+    "recordId": "0197ae4d-5c85-739f-91ae-70b0523425a7",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Photos",
+        "O": "Google LLC",
+        "OU": "Google Photos Android",
+        "C": "US"
+      },
+      "minVersion": "7.35",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation"
+        ]
+      }
     },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/heic",
-        "image/heif"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ]
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-06-26",
+      "conformance": "2025-06-27",
+      "earliestPublicDisclosure": "2025-08-21",
+      "lastModification": "2025-06-27"
     }
   },
-  "dates": {
-    "creation": "2026-01-16",
-    "conformance": "2026-01-27",
-    "earliestPublicDisclosure": "2026-01-16",
-    "lastModification": "2026-01-27"
-  }
-},
-       {
-  "recordId": "019bc403-5cd7-7669-afe6-fdb17177d428",
-  "applicant": "OpenAI OpCo, LLC",
-  "status": "conformant",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "OpenAI Media Service",
-      "O": "OpenAI OpCo, LLC",
-      "OU": "",
-      "C": "US"
+  {
+    "recordId": "01981b77-97a6-70a1-8c82-bee8e48eef4c",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Photos",
+        "O": "Google LLC",
+        "OU": "Google Photos iOS",
+        "C": "US"
+      },
+      "minVersion": "7.37",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
     },
-    "minVersion": "1.0.0",
-    "assurance": {
-      "maxAssuranceLevel": 1
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-07-18",
+      "conformance": "2025-07-21",
+      "earliestPublicDisclosure": "2025-08-21",
+      "lastModification": "2025-07-21"
     }
   },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.1",
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/gif",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mpeg",
-        "audio/wav",
-        "audio/mp4"
-      ],
-      "documents": [
-        "application/pdf"
-      ]
+  {
+    "recordId": "01981fb6-143a-74d7-b490-322ebb14babd",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 67154",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
     },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/gif",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mpeg",
-        "audio/wav",
-        "audio/mp4"
-      ],
-      "documents": [
-        "application/pdf"
-      ]
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-07-18",
+      "conformance": "2025-07-22",
+      "earliestPublicDisclosure": "2025-08-21",
+      "lastModification": "2025-07-22"
     }
   },
-  "dates": {
-    "creation": "2026-01-15",
-    "conformance": "2026-01-28",
-    "earliestPublicDisclosure": "2026-01-15",
-    "lastModification": "2026-01-28"
-  }
-},
-    {
-        "recordId": "019aca24-0055-79b9-8577-9195fdbcda54",
-        "applicant": "A Bord !",
-        "status": "conformant",
-        "product": {
-            "productType": "validatorProduct",
-            "DN": {
-                "CN": "nogia Validator",
-                "O": "A Bord !",
-                "OU": "",
-                "C": "FR"
-            },
-            "minVersion": "2.2.0"
-        },
-        "specVersion": [
-            "2.2"
+  {
+    "recordId": "01983ac3-fc32-7402-b0bf-cc90725fe475",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "YouTube Media Processing Services",
+        "O": "Google LLC",
+        "OU": "YouTube System 86753",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2025-07-24",
+      "conformance": "2025-07-27",
+      "earliestPublicDisclosure": "2025-08-21",
+      "lastModification": "2025-07-27"
+    }
+  },
+  {
+    "recordId": "01989be1-36f9-7db7-98e2-340e19e9280c",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 98649",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
         ],
-        "conformanceProgramVersion": "0.1",
-        "containers": {
-            "generate": {},
-            "validate": {
-                "image": [
-                    "image/jpeg",
-                    "image/png",
-                    "image/x-adobe-dng",
-                    "image/tiff",
-                    "image/webp",
-                    "image/heic",
-                    "image/heif",
-                    "image/avif"
-                ]
-            }
-        },
-        "dates": {
-            "creation": "2025-11-28",
-            "conformance": "2026-01-08",
-            "earliestPublicDisclosure": "2026-02-02",
-            "lastModification": "2026-01-08"
-        }
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/wav"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-08-12",
+      "conformance": "2025-08-13",
+      "earliestPublicDisclosure": "2025-08-21",
+      "lastModification": "2025-08-13"
     }
+  },
+  {
+    "recordId": "01989f24-24ef-78ff-8c1a-90a2f4f1b349",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Pixel Studio",
+        "O": "Google LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "2",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-08-12",
+      "conformance": "2025-08-13",
+      "earliestPublicDisclosure": "2025-08-21",
+      "lastModification": "2025-08-13"
+    }
+  },
+  {
+    "recordId": "0198a72e-99f4-7171-9fc0-ff4caac984cf",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 90291",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-08-14",
+      "conformance": "2025-08-14",
+      "earliestPublicDisclosure": "2025-08-21",
+      "lastModification": "2025-08-14"
+    }
+  },
+  {
+    "recordId": "01987b59-4920-7391-a63f-bdd53ced9547",
+    "applicant": "Adobe Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Adobe Content Authenticity Inspect",
+        "O": "Adobe Inc.",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1.0.0"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-08-05",
+      "conformance": "2025-08-05",
+      "earliestPublicDisclosure": "2025-09-01",
+      "lastModification": "2025-09-04"
+    }
+  },
+  {
+    "recordId": "0197e699-8f23-718d-b3ef-60080d4c5b7d",
+    "applicant": "EZDRM, Inc",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "DynamicSigner",
+        "O": "EZDRM, INC",
+        "OU": "Video",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 2,
+        "attestationMethods": [
+          "AWS_NitroEnclaveAttestation",
+          "Microsoft_AzureAttestation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/aac",
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/aac",
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-07-07",
+      "conformance": "2025-08-28",
+      "earliestPublicDisclosure": "2025-09-01",
+      "lastModification": "2025-09-13"
+    }
+  },
+  {
+    "recordId": "01997fda-550f-7b58-9d1e-42cb959dd0db",
+    "applicant": "Xiaomi Communications Co., Ltd",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Xiaomi Gallery",
+        "O": "Xiaomi Communications Co., Ltd",
+        "OU": "",
+        "C": "CN"
+      },
+      "minVersion": ""
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/x-adobe-dng",
+          "image/heif"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-09-25",
+      "conformance": "2025-09-25",
+      "earliestPublicDisclosure": "2025-09-25",
+      "lastModification": "2025-09-25"
+    }
+  },
+  {
+    "recordId": "01991a81-4f5c-770a-b290-8bde8c858677",
+    "applicant": "Limbo AI, LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Limbo Verifox",
+        "O": "Limbo AI, LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "0.1"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heic"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-09-05",
+      "conformance": "2025-09-05",
+      "earliestPublicDisclosure": "2025-10-01",
+      "lastModification": "2025-09-16"
+    }
+  },
+  {
+    "recordId": "01997fd7-e2de-7283-ac45-9c7b779f1540",
+    "applicant": "Xiaomi Communications Co., Ltd",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Xiaomi Camera",
+        "O": "Xiaomi Communications Co., Ltd",
+        "OU": "",
+        "C": "CN"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/x-adobe-dng",
+          "image/heif"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2025-09-25",
+      "conformance": "2025-09-25",
+      "earliestPublicDisclosure": "2025-09-25",
+      "lastModification": "2025-10-31"
+    }
+  },
+  {
+    "recordId": "01997fde-f78b-74d7-8209-b4674f15f50e",
+    "applicant": "Xiaomi Communications Co., Ltd",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Xiaomi MediaEditor",
+        "O": "Xiaomi Communications Co., Ltd",
+        "OU": "",
+        "C": "CN"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/x-adobe-dng",
+          "image/heif"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/x-adobe-dng",
+          "image/heif"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-09-25",
+      "conformance": "2025-09-25",
+      "earliestPublicDisclosure": "2025-09-25",
+      "lastModification": "2025-09-25"
+    }
+  },
+  {
+    "recordId": "0198cc16-0cd2-730a-bada-15bec6b5b7f5",
+    "applicant": "vivo Mobile Communication Co., Ltd.",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "vivo Albums",
+        "O": "vivo Mobile Communication Co., Ltd.",
+        "OU": "",
+        "C": "CN"
+      },
+      "minVersion": ""
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-08-21",
+      "conformance": "2025-09-20",
+      "earliestPublicDisclosure": "2025-10-28",
+      "lastModification": "2025-09-29"
+    }
+  },
+  {
+    "recordId": "0198cc01-540f-77be-b15d-152fb3f20984",
+    "applicant": "vivo Mobile Communication Co., Ltd.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "vivo Camera",
+        "O": "vivo Mobile Communication Co., Ltd.",
+        "OU": "",
+        "C": "CN"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2025-08-21",
+      "conformance": "2025-09-19",
+      "earliestPublicDisclosure": "2025-10-28",
+      "lastModification": "2025-10-29"
+    }
+  },
+  {
+    "recordId": "0199f31c-6575-70ec-b3f2-058b09fc054a",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Shopping Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 49494",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-10-17",
+      "conformance": "2025-10-28",
+      "earliestPublicDisclosure": "2025-10-17",
+      "lastModification": "2025-10-28"
+    }
+  },
+  {
+    "recordId": "0199ccd5-daed-79a7-8b8a-b0bedc0af6fa",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 60032",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/wav"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-10-10",
+      "conformance": "2025-10-29",
+      "earliestPublicDisclosure": "2025-10-10",
+      "lastModification": "2025-10-29"
+    }
+  },
+  {
+    "recordId": "0199cd03-8a43-7ce8-b005-b7e454d5b3c1",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Pixel Studio",
+        "O": "Google LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-10-10",
+      "conformance": "2025-10-31",
+      "earliestPublicDisclosure": "2025-10-10",
+      "lastModification": "2025-10-31"
+    }
+  },
+  {
+    "recordId": "019a7a9f-cb2f-7e2d-b222-9aa444fc383e",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 10274",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp",
+          "image/heic",
+          "image/heif"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-11-13",
+      "conformance": "2025-11-13",
+      "earliestPublicDisclosure": "2025-11-12",
+      "lastModification": "2025-11-13"
+    }
+  },
+  {
+    "recordId": "019a7aa2-5791-7e3f-8ecf-22ef01e30838",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 19472",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-11-13",
+      "conformance": "2025-11-13",
+      "earliestPublicDisclosure": "2025-11-12",
+      "lastModification": "2025-11-13"
+    }
+  },
+  {
+    "recordId": "019a7a56-7744-7062-96d9-220b58359619",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 90291",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-11-12",
+      "conformance": "2025-11-13",
+      "earliestPublicDisclosure": "2025-11-12",
+      "lastModification": "2025-11-13"
+    }
+  },
+  {
+    "recordId": "01981d76-f92a-79a1-a70f-614ef17b44f3",
+    "applicant": "Digitality Consulting S.r.l.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Digitality Consulting Secure Content Engine",
+        "O": "Digitality Consulting S.r.l.",
+        "OU": "AI Department",
+        "C": "IT"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "document": [
+          "application/pdf",
+          "txt"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "document": [
+          "application/pdf",
+          "txt"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-07-18",
+      "conformance": "2025-11-5",
+      "earliestPublicDisclosure": "2025-07-16",
+      "lastModification": "2025-11-13"
+    }
+  },
+  {
+    "recordId": "019a94a9-668f-76ef-8b22-a15b9a490011",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Pixel Recorder",
+        "O": "Google LLC",
+        "OU": "Android",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "audio": [
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-11-18",
+      "conformance": "2025-11-24",
+      "earliestPublicDisclosure": "2025-11-17",
+      "lastModification": "2025-11-24"
+    }
+  },
+  {
+    "recordId": "019a94ab-95d9-74b7-965c-8b23935a76df",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Pixel Recorder",
+        "O": "Google LLC",
+        "OU": "Web",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "audio": [
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "audio": [
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-11-18",
+      "conformance": "2025-11-24",
+      "earliestPublicDisclosure": "2025-11-17",
+      "lastModification": "2025-11-24"
+    }
+  },
+  {
+    "recordId": "019aa0c2-03ee-708e-b095-e138683acca2",
+    "applicant": "Safe Creative, SL",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Copyright Certification and Registration Service",
+        "O": "Safe Creative, SL",
+        "OU": "",
+        "C": "ES"
+      },
+      "minVersion": ""
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heic-sequence",
+          "image/heif",
+          "image/heif-sequence",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/MPA",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/aac",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf",
+          "application/epub+zip",
+          "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "application/vnd.oasis.opendocument.text",
+          "application/oxps"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-11-20",
+      "conformance": "2025-11-20",
+      "earliestPublicDisclosure": "2025-11-20",
+      "lastModification": "2025-11-20"
+    }
+  },
+  {
+    "recordId": "019a7af3-cc41-78fa-b0de-cfae4229c74c",
+    "applicant": "Copihue Studio, Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Neat Photo",
+        "O": "Copihue Studio, Inc.",
+        "OU": "Mobile Applications",
+        "C": "US"
+      },
+      "minVersion": "0.9.1",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2025-11-13",
+      "conformance": "2025-11-18",
+      "earliestPublicDisclosure": "2025-12-01",
+      "lastModification": "2025-12-06"
+    }
+  },
+  {
+    "recordId": "019b06cf-372d-7d19-a8ab-446b10ac119f",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Project Genie by Google",
+        "O": "Google LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-12-10",
+      "conformance": "2025-12-13",
+      "earliestPublicDisclosure": "2025-12-18",
+      "lastModification": "2025-12-13"
+    }
+  },
+  {
+    "recordId": "0198989c-95be-753c-99db-598517152f1d",
+    "applicant": "Archive Origin LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Archive Origin",
+        "O": "Archive Origin LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-08-11",
+      "conformance": "2026-01-16",
+      "earliestPublicDisclosure": "2025-12-31",
+      "lastModification": "2026-01-17"
+    }
+  },
+  {
+    "recordId": "019b3d69-3eea-7ffb-80b2-01f5fa5f98a2",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "NotebookLM",
+        "O": "Google LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/png"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/png"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-12-20",
+      "conformance": "2025-12-30",
+      "earliestPublicDisclosure": "2025-12-20",
+      "lastModification": "2025-12-30"
+    }
+  },
+  {
+    "recordId": "019b3d82-2b5f-71d8-8089-10fcfc2b6ec3",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 62351",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/wav"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-12-20",
+      "conformance": "2026-01-16",
+      "earliestPublicDisclosure": "2025-12-20",
+      "lastModification": "2026-01-17"
+    }
+  },
+  {
+    "recordId": "019b32c8-2031-72b0-8fdd-c6f93051d592",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 67154",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-12-18",
+      "conformance": "2026-01-16",
+      "earliestPublicDisclosure": "2025-12-18",
+      "lastModification": "2026-01-17"
+    }
+  },
+  {
+    "recordId": "019a35f6-d9d2-7166-ba83-74f5942f27d9",
+    "applicant": "Vbrick Systems Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "VBrick Video Platform",
+        "O": "VBrick Systems, Inc.",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "8.2.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "AWS_NitroEnclaveAttestation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/tiff",
+          "image/webp",
+          "image/heic"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/aac",
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp",
+          "image/heic"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/aac",
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-10-30",
+      "conformance": "2026-01-27",
+      "earliestPublicDisclosure": "2025-12-15",
+      "lastModification": "2026-01-27"
+    }
+  },
+  {
+    "recordId": "019bc6fd-29de-7c64-8a91-427475c1d4e3",
+    "applicant": "Numbers Co. Ltd.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "ProofSnap Android",
+        "O": "Numbers Co., Ltd.",
+        "OU": "",
+        "C": "TW"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-01-16",
+      "conformance": "2026-01-27",
+      "earliestPublicDisclosure": "2026-01-16",
+      "lastModification": "2026-01-27"
+    }
+  },
+  {
+    "recordId": "019bc6f9-2193-73e8-aac8-8a3ee77ca9f0",
+    "applicant": "Numbers Co. Ltd.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "ProofSnap iOS",
+        "O": "Numbers Co., Ltd.",
+        "OU": "",
+        "C": "TW"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-01-16",
+      "conformance": "2026-01-27",
+      "earliestPublicDisclosure": "2026-01-16",
+      "lastModification": "2026-01-27"
+    }
+  },
+  {
+    "recordId": "019bc403-5cd7-7669-afe6-fdb17177d428",
+    "applicant": "OpenAI OpCo, LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "OpenAI Media Service",
+        "O": "OpenAI OpCo, LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-01-15",
+      "conformance": "2026-01-28",
+      "earliestPublicDisclosure": "2026-01-15",
+      "lastModification": "2026-01-28"
+    }
+  },
+  {
+    "recordId": "019aca24-0055-79b9-8577-9195fdbcda54",
+    "applicant": "A Bord !",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "nogia Validator",
+        "O": "A Bord !",
+        "OU": "",
+        "C": "FR"
+      },
+      "minVersion": "2.2.0"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-11-28",
+      "conformance": "2026-01-08",
+      "earliestPublicDisclosure": "2026-02-02",
+      "lastModification": "2026-01-08"
+    }
+  },
+  {
+    "recordId": "019c34d3-733f-7a47-b917-50dd38f41ece",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 60032",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-02-06",
+      "conformance": "2026-02-09",
+      "earliestPublicDisclosure": "2026-02-06",
+      "lastModification": "2026-02-09"
+    }
+  }
 ]
