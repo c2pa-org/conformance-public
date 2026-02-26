@@ -1891,5 +1891,45 @@
       "earliestPublicDisclosure": "2026-02-16",
       "lastModification": "2026-01-12"
     }
+  },
+  {
+    "recordId": "019c584c-c2e0-7757-8263-6bb1eeb3d276",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Music AI Sandbox",
+        "O": "Google LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "audio": [
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "audio": [
+          "audio/wav"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-02-13",
+      "conformance": "2026-02-23",
+      "earliestPublicDisclosure": "2026-02-13",
+      "lastModification": "2026-02-23"
+    }
   }
 ]
