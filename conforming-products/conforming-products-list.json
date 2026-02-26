@@ -1931,5 +1931,45 @@
       "earliestPublicDisclosure": "2026-02-13",
       "lastModification": "2026-02-23"
     }
+  },
+   {
+    "recordId": "019b1c68-7150-7999-a357-84595640f3cb",
+    "applicant": "Zerofake",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Zerofake",
+        "O": "Actual Intelligence Pty Ltd",
+        "OU": "",
+        "C": "AU"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2025-12-14",
+      "conformance": "2026-02-16",
+      "earliestPublicDisclosure": "2025-12-12",
+      "lastModification": "2026-02-16"
+    }
   }
 ]
