@@ -2012,5 +2012,47 @@
       "earliestPublicDisclosure": "2026-03-04",
       "lastModification": "2026-03-09"
     }
+  },
+  {
+    "recordId": "019bbc4a-03ce-7351-8975-05f48559cb2d",
+    "applicant": "DigiCert, Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "DigiCert Content Trust Manager",
+        "O": "DigiCert, Inc",
+        "OU": "Content Trust",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-01-14",
+      "conformance": "2026-02-18",
+      "earliestPublicDisclosure": "2026-01-14",
+      "lastModification": "2026-02-18"
+    }
   }
 ]
