@@ -1932,7 +1932,7 @@
       "lastModification": "2026-02-23"
     }
   },
-   {
+  {
     "recordId": "019b1c68-7150-7999-a357-84595640f3cb",
     "applicant": "Zerofake",
     "status": "conformant",
@@ -1970,6 +1970,47 @@
       "conformance": "2026-02-16",
       "earliestPublicDisclosure": "2025-12-12",
       "lastModification": "2026-02-16"
+    }
+  },
+  {
+    "recordId": "019cbee7-916e-7f89-8482-258f65f9478b",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Pomelli by Google",
+        "O": "Google LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/png"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-03-05",
+      "conformance": "2026-03-09",
+      "earliestPublicDisclosure": "2026-03-04",
+      "lastModification": "2026-03-09"
     }
   }
 ]
