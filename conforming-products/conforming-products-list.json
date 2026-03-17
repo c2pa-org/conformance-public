@@ -2089,5 +2089,57 @@
       "earliestPublicDisclosure": "2026-02-26",
       "lastModification": "2026-03-16"
     }
+  },
+   {
+    "recordId": "019a6cf5-07ac-7285-b8e8-63063a5417fa",
+    "applicant": "SanMarcSoft LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "verifieddit.com",
+        "O": "SanMarcSoft LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-11-10",
+      "conformance": "2026-03-17",
+      "earliestPublicDisclosure": "2025-11-14",
+      "lastModification": "2026-03-17"
+    }
   }
 ]
