@@ -2054,5 +2054,40 @@
       "earliestPublicDisclosure": "2026-01-14",
       "lastModification": "2026-02-18"
     }
+  },
+  {
+    "recordId": "019cb514-9476-7a37-ad96-ea41a15e9ed6",
+    "applicant": "Sound Patrol, Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Sound Patrol Unified Detection and Review System",
+        "O": "Sound Patrol, Inc.",
+        "OU": "Engineering",
+        "C": "US"
+      },
+      "minVersion": "0.1.0"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-03-03",
+      "conformance": "2026-03-16",
+      "earliestPublicDisclosure": "2026-02-26",
+      "lastModification": "2026-03-16"
+    }
   }
 ]
