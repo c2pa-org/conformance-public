@@ -2141,5 +2141,53 @@
       "earliestPublicDisclosure": "2025-11-14",
       "lastModification": "2026-03-17"
     }
+  },
+   {
+    "recordId": "0197ee27-094f-74bc-be92-6dbd3483c5f4",
+    "applicant": "Comite International des Telecommunications de Presse",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "IPTC C2PA Signer Tool",
+        "O": "Comite International des Telecommunications de Presse",
+        "OU": "",
+        "C": "GB"
+      },
+      "minVersion": "1",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-07-09",
+      "conformance": "2026-03-20",
+      "earliestPublicDisclosure": "2025-07-09",
+      "lastModification": "2026-03-20"
+    }
   }
 ]
