@@ -2090,7 +2090,7 @@
       "lastModification": "2026-03-16"
     }
   },
-   {
+  {
     "recordId": "019a6cf5-07ac-7285-b8e8-63063a5417fa",
     "applicant": "SanMarcSoft LLC",
     "status": "conformant",
@@ -2142,7 +2142,7 @@
       "lastModification": "2026-03-17"
     }
   },
-   {
+  {
     "recordId": "0197ee27-094f-74bc-be92-6dbd3483c5f4",
     "applicant": "Comite International des Telecommunications de Presse",
     "status": "conformant",
@@ -2188,6 +2188,60 @@
       "conformance": "2026-03-20",
       "earliestPublicDisclosure": "2025-07-09",
       "lastModification": "2026-03-20"
+    }
+  },
+  {
+    "recordId": "019bbd62-6609-7bae-a688-7181f513f568",
+    "applicant": "Pixlmob Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Pixlmob Image Processing Service",
+        "O": "Pixlmob Inc.",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "GoogleCloud_CloudHSMKeyAttestation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/avif"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-01-14",
+      "conformance": "2026-04-03",
+      "earliestPublicDisclosure": "2026-01-13",
+      "lastModification": "2026-04-03"
     }
   }
 ]
