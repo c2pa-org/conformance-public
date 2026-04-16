@@ -2244,7 +2244,7 @@
       "lastModification": "2026-04-03"
     }
   },
-   {
+  {
     "recordId": "019bebcc-5ea3-7f49-810f-2385c4617e2f",
     "applicant": "Valid Technologies GmbH",
     "status": "conformant",
@@ -2320,6 +2320,56 @@
       "conformance": "2026-04-07",
       "earliestPublicDisclosure": "2026-02-15",
       "lastModification": "2026-04-07"
+    }
+  },
+  {
+    "recordId": "019876c6-8379-73d1-9f3b-c6c5a880f6d9",
+    "applicant": "Oliver and Coady, Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Proofmode for Android",
+        "O": "Oliver and Coady, Inc.",
+        "OU": "Proofmode",
+        "C": "US"
+      },
+      "minVersion": "3.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation",
+          "Google_PlayIntegrity"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-08-04",
+      "conformance": "2026-04-06",
+      "earliestPublicDisclosure": "2025-09-01",
+      "lastModification": "2026-04-16"
     }
   }
 ]
