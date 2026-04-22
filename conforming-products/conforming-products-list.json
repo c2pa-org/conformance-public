@@ -2324,13 +2324,13 @@
   },
   {
     "recordId": "019876c6-8379-73d1-9f3b-c6c5a880f6d9",
-    "applicant": "Oliver and Coady, Inc.",
+    "applicant": "Proofmode Reality Systems LLC",
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
       "DN": {
         "CN": "Proofmode for Android",
-        "O": "Oliver and Coady, Inc.",
+        "O": "Proofmode Reality Systems LLC",
         "OU": "Proofmode",
         "C": "US"
       },
@@ -2369,7 +2369,7 @@
       "creation": "2025-08-04",
       "conformance": "2026-04-06",
       "earliestPublicDisclosure": "2025-09-01",
-      "lastModification": "2026-04-16"
+      "lastModification": "2026-04-22"
     }
   }
 ]
