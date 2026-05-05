@@ -2371,5 +2371,46 @@
       "earliestPublicDisclosure": "2025-09-01",
       "lastModification": "2026-04-22"
     }
+  },
+     {
+    "recordId": "019c9780-f0cf-7857-91a7-821fa1bc5de1",
+    "applicant": "Nuevo.Studio LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "VWFNDR MBL Android",
+        "O": "Nuevo.Studio LLC",
+        "OU": "VWFNDR",
+        "C": "JP"
+      },
+      "minVersion": "1",
+      "assurance": {
+        "maxAssuranceLevel": 2,
+        "attestationMethods": [
+          "Android_KeyAttestation",
+          "Google_PlayIntegrity"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/x-adobe-dng"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-02-26",
+      "conformance": "2026-03-18",
+      "earliestPublicDisclosure": "2026-05-04",
+      "lastModification": "2026-05-05"
+    }
   }
 ]
