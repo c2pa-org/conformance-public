@@ -2525,5 +2525,52 @@
       "earliestPublicDisclosure": "2026-03-09",
       "lastModification": "2026-05-05"
     }
+  },
+   {
+    "recordId": "019c0139-064e-7cf9-8c32-86667ce7f9d1",
+    "applicant": "Pixelstream, Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Pixelstream Verify",
+        "O": "Pixelstream, Inc.",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1.0.0"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-01-27",
+      "conformance": "2026-04-29",
+      "earliestPublicDisclosure": "2026-01-27",
+      "lastModification": "2026-05-05"
+    }
   }
 ]
