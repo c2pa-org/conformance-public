@@ -2412,5 +2412,60 @@
       "earliestPublicDisclosure": "2026-05-04",
       "lastModification": "2026-05-05"
     }
+  },
+  {
+    "recordId": "019d2ad3-316a-75b4-b23e-0188df6d4962",
+    "applicant": "ChainAI Networks GmbH",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "AItoNFT",
+        "O": "ChainAI Networks GmbH",
+        "OU": "",
+        "C": "DE"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/avif",
+          "image/gif"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp",
+          "image/svg+xml",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-03-26",
+      "conformance": "2026-05-05",
+      "earliestPublicDisclosure": "2026-04-15",
+      "lastModification": "2026-05-05"
+    }
   }
 ]
