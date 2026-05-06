@@ -2572,5 +2572,46 @@
       "earliestPublicDisclosure": "2026-01-27",
       "lastModification": "2026-05-05"
     }
+  },
+  {
+    "recordId": "019d2ac2-7028-79f1-aa71-94d77b05978a",
+    "applicant": "Joint Stock Company \"Public Broadcasting Company of Ukraine\"",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Suspilne Media",
+        "O": "Joint Stock Company \"Public Broadcasting Company of Ukraine\"",
+        "OU": "",
+        "C": "UA"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-03-26",
+      "conformance": "2026-05-05",
+      "earliestPublicDisclosure": "2026-03-26",
+      "lastModification": "2026-05-06"
+    }
   }
 ]
