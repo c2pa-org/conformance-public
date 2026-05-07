@@ -20,7 +20,7 @@ Extensions:
     Critical: FALSE
     Value: Hash of public key (RFC 5280 Method 1 - SHA-1)
   Authority Key Identifier:
-    Presence: MUST
+    Presence: Optional
     Critical: FALSE
     Value: Must contain keyIdentifier matching Subject Key Identifier (using RFC 5280 Method 1 - SHA-1). Issuer/Serial optional.
   Key Usage:
