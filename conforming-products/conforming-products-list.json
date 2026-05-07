@@ -2665,5 +2665,44 @@
       "earliestPublicDisclosure": "2026-04-03",
       "lastModification": "2026-05-06"
     }
+  },
+    {
+    "recordId": "019b9756-6e4a-7830-8226-dde89b87594b",
+    "applicant": "vivo Mobile Communication Co., Ltd.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "vivo Camera",
+        "O": "vivo Mobile Communication Co., Ltd.",
+        "OU": "",
+        "C": "CN"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-01-07",
+      "conformance": "2026-01-28",
+      "earliestPublicDisclosure": "2026-05-06",
+      "lastModification": "2026-05-07"
+    }
   }
 ]
