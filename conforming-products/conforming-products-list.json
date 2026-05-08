@@ -2743,5 +2743,70 @@
       "earliestPublicDisclosure": "2026-05-06",
       "lastModification": "2026-05-07"
     }
+  },
+  {
+    "recordId": "019aaa54-f554-7798-98ee-0c0149934a80",
+    "applicant": "Inborn Technologies Private Limited",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "ContentLens",
+        "O": "Inborn Technologies Private Limited",
+        "OU": "",
+        "C": "IN"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Microsoft_AzureAttestation",
+          "Microsoft_AzureManagedHSMAttestation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/mp4",
+          "audio/wav"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-11-22",
+      "conformance": "2026-05-08",
+      "earliestPublicDisclosure": "2025-11-25",
+      "lastModification": "2026-05-08"
+    }
   }
 ]
