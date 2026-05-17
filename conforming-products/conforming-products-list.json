@@ -2372,7 +2372,7 @@
       "lastModification": "2026-04-22"
     }
   },
-     {
+  {
     "recordId": "019c9780-f0cf-7857-91a7-821fa1bc5de1",
     "applicant": "Nuevo.Studio LLC",
     "status": "conformant",
@@ -2468,7 +2468,7 @@
       "lastModification": "2026-05-05"
     }
   },
-   {
+  {
     "recordId": "019cb8b3-d0ff-7230-95bf-8f1730293fac",
     "applicant": "Okeanos B.V.",
     "status": "conformant",
@@ -2526,7 +2526,7 @@
       "lastModification": "2026-05-05"
     }
   },
-   {
+  {
     "recordId": "019c0139-064e-7cf9-8c32-86667ce7f9d1",
     "applicant": "Pixelstream, Inc.",
     "status": "conformant",
@@ -2614,7 +2614,7 @@
       "lastModification": "2026-05-06"
     }
   },
-    {
+  {
     "recordId": "019d0d24-c776-7a1d-9753-cd96973a86df",
     "applicant": "Inspireip Tecnologia Blockchain LTDA",
     "status": "conformant",
@@ -2666,7 +2666,7 @@
       "lastModification": "2026-05-06"
     }
   },
-    {
+  {
     "recordId": "019b9756-6e4a-7830-8226-dde89b87594b",
     "applicant": "vivo Mobile Communication Co., Ltd.",
     "status": "conformant",
@@ -2809,7 +2809,7 @@
       "lastModification": "2026-05-08"
     }
   },
-   {
+  {
     "recordId": "019cad46-19cf-7505-8ec8-cf61520b0e54",
     "applicant": "Trufo Inc.",
     "status": "conformant",
@@ -2892,6 +2892,56 @@
       "conformance": "2026-05-08",
       "earliestPublicDisclosure": "2026-03-01",
       "lastModification": "2026-05-08"
+    }
+  },
+  {
+    "recordId": "019be2b9-cf00-713b-8abd-838b1a3d4913",
+    "applicant": "ODDR Group Pty Ltd",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "ODDR",
+        "O": "ODDR Group Pty Ltd",
+        "OU": "",
+        "C": "AU"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-01-21",
+      "conformance": "2026-05-16",
+      "earliestPublicDisclosure": "2026-02-09",
+      "lastModification": "2026-05-17"
     }
   }
 ]
