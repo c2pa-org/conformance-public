@@ -3184,5 +3184,48 @@
       "earliestPublicDisclosure": "2026-05-15",
       "lastModification": "2026-05-26"
     }
+  },
+   {
+    "recordId": "019df7f8-828a-7b9e-80e3-5cabc3c3bc3e",
+    "applicant": "InReality ApS",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "InReality Capture - Android",
+        "O": "InReality ApS",
+        "OU": "",
+        "C": "DK"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/x-adobe-dng"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-05-05",
+      "conformance": "2026-05-22",
+      "earliestPublicDisclosure": "2026-05-15",
+      "lastModification": "2026-05-26"
+    }
   }
 ]
