@@ -2944,7 +2944,7 @@
       "lastModification": "2026-05-17"
     }
   },
-    {
+  {
     "recordId": "019c6cc4-6ed0-73bc-aa27-eed755ca8ee1",
     "applicant": "Evergreen Labs",
     "status": "conformant",
@@ -3058,7 +3058,7 @@
       "lastModification": "2026-05-19"
     }
   },
-   {
+  {
     "recordId": "019cd9ba-3b51-73b7-b95f-5bf87f60f3f2",
     "applicant": "Google LLC",
     "status": "conformant",
@@ -3099,6 +3099,46 @@
       "conformance": "2026-03-16",
       "earliestPublicDisclosure": "2026-05-21",
       "lastModification": "2026-05-21"
+    }
+  },
+  {
+    "recordId": "019d7042-2bb2-737a-a5a7-4471dae32a0c",
+    "applicant": "Jaded Content LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "DAEGIS Pro",
+        "O": "Jaded Content LLC",
+        "OU": "conformant",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-04-09",
+      "conformance": "2026-05-22",
+      "earliestPublicDisclosure": "2026-04-08",
+      "lastModification": "2026-05-26"
     }
   }
 ]
