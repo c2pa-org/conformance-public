@@ -3402,5 +3402,95 @@
       "earliestPublicDisclosure": "2026-01-27",
       "lastModification": "2026-05-26"
     }
+  },
+    {
+    "recordId": "019d2241-eb97-7728-9ec0-cdaafba300c2",
+    "applicant": "Encypher Corporation",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Encypher",
+        "O": "Encypher Corporation",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "2.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/MPA",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/aac",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/MPA",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/aac",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-03-24",
+      "conformance": "2026-05-26",
+      "earliestPublicDisclosure": "2026-03-30",
+      "lastModification": "2026-05-26"
+    }
   }
 ]
