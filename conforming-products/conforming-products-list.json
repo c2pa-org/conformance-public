@@ -3227,5 +3227,42 @@
       "earliestPublicDisclosure": "2026-05-15",
       "lastModification": "2026-05-26"
     }
+  },
+  {
+    "recordId": "019d6f8e-6069-7d07-a000-53b3b84f07dc",
+    "applicant": "Gelatin Labs LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Gelatin Labs Film Scanner",
+        "O": "Gelatin Labs LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/tiff"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-04-09",
+      "conformance": "2026-05-22",
+      "earliestPublicDisclosure": "2026-04-08",
+      "lastModification": "2026-05-26"
+    }
   }
 ]
