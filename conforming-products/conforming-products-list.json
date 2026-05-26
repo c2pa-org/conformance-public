@@ -3140,5 +3140,49 @@
       "earliestPublicDisclosure": "2026-04-08",
       "lastModification": "2026-05-26"
     }
+  },
+     {
+    "recordId": "019df7fc-11a5-7968-bf19-0822fa0969b0",
+    "applicant": "InReality ApS",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "InReality Capture - iOS",
+        "O": "InReality ApS",
+        "OU": "",
+        "C": "DK"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/x-adobe-dng",
+          "image/heic"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-05-05",
+      "conformance": "2026-05-22",
+      "earliestPublicDisclosure": "2026-05-15",
+      "lastModification": "2026-05-26"
+    }
   }
 ]
