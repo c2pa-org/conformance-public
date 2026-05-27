@@ -3492,5 +3492,56 @@
       "earliestPublicDisclosure": "2026-03-30",
       "lastModification": "2026-05-26"
     }
+  },
+    {
+    "recordId": "019d19f5-321c-7e1f-9915-3b674641c372",
+    "applicant": "Brahma AI LTD",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Brahma AI",
+        "O": "Brahma AI LTD",
+        "OU": "Trust and Data Governance",
+        "C": "UK"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-03-23",
+      "conformance": "2026-05-26",
+      "earliestPublicDisclosure": "2026-05-01",
+      "lastModification": "2026-05-26"
+    }
   }
 ]
