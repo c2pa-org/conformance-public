@@ -3543,5 +3543,41 @@
       "earliestPublicDisclosure": "2026-05-01",
       "lastModification": "2026-05-26"
     }
+  },
+  {
+    "recordId": "019d8d83-ed1c-787c-920c-8fad67b55cbe",
+    "applicant": "Jura Labs CIC ",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Jura Trace",
+        "O": "JuraLabs CIC",
+        "OU": "",
+        "C": "GB"
+      },
+      "minVersion": "0.9.0"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-04-14",
+      "conformance": "2026-05-06",
+      "earliestPublicDisclosure": "2026-05-31",
+      "lastModification": "2026-06-01"
+    }
   }
 ]
