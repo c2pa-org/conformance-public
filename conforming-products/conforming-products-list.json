@@ -3725,5 +3725,51 @@
       "earliestPublicDisclosure": "2026-04-27",
       "lastModification": "2026-06-12"
     }
+  },
+    {
+    "recordId": "019d9492-c448-76a4-b6a1-00f4f301299d",
+    "applicant": "MuseBlossom Co., Ltd.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Contents Defence",
+        "O": "MuseBlossom Co., Ltd.",
+        "OU": "R&D Team",
+        "C": "KR"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-04-16",
+      "conformance": "2026-06-11",
+      "earliestPublicDisclosure": "2026-04-27",
+      "lastModification": "2026-06-12"
+    }
   }
 ]
