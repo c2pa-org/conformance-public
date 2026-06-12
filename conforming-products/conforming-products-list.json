@@ -3623,5 +3623,61 @@
       "earliestPublicDisclosure": "2026-05-05",
       "lastModification": "2026-06-12"
     }
+  },
+   {
+    "recordId": "019b70ff-4efa-7702-ad45-616f6800387a",
+    "applicant": "CHECKHC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "CHECKHC",
+        "O": "CHECKHC",
+        "OU": "",
+        "C": "FR"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-12-30",
+      "conformance": "2026-06-11",
+      "earliestPublicDisclosure": "2025-12-30",
+      "lastModification": "2026-06-12"
+    }
   }
 ]
