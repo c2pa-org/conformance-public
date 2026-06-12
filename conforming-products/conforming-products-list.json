@@ -3141,7 +3141,7 @@
       "lastModification": "2026-05-26"
     }
   },
-     {
+  {
     "recordId": "019df7fc-11a5-7968-bf19-0822fa0969b0",
     "applicant": "InReality ApS",
     "status": "conformant",
@@ -3185,7 +3185,7 @@
       "lastModification": "2026-05-26"
     }
   },
-   {
+  {
     "recordId": "019df7f8-828a-7b9e-80e3-5cabc3c3bc3e",
     "applicant": "InReality ApS",
     "status": "conformant",
@@ -3265,7 +3265,7 @@
       "lastModification": "2026-05-26"
     }
   },
-    {
+  {
     "recordId": "019b9806-b600-77c7-9790-135484444639",
     "applicant": "vivo Mobile Communication Co., Ltd.",
     "status": "conformant",
@@ -3303,7 +3303,7 @@
       "lastModification": "2026-05-26"
     }
   },
-    {
+  {
     "recordId": "019b9800-7bc5-799e-8c5c-3cee21b656ec",
     "applicant": "vivo Mobile Communication Co., Ltd.",
     "status": "conformant",
@@ -3341,7 +3341,7 @@
       "lastModification": "2026-05-26"
     }
   },
-   {
+  {
     "recordId": "019c012e-2b75-71c8-9093-89c57bdc8838",
     "applicant": "Pixelstream, Inc.",
     "status": "conformant",
@@ -3403,7 +3403,7 @@
       "lastModification": "2026-05-26"
     }
   },
-    {
+  {
     "recordId": "019d2241-eb97-7728-9ec0-cdaafba300c2",
     "applicant": "Encypher Corporation",
     "status": "conformant",
@@ -3493,7 +3493,7 @@
       "lastModification": "2026-05-26"
     }
   },
-    {
+  {
     "recordId": "019d19f5-321c-7e1f-9915-3b674641c372",
     "applicant": "Brahma AI LTD",
     "status": "conformant",
@@ -3578,6 +3578,50 @@
       "conformance": "2026-05-06",
       "earliestPublicDisclosure": "2026-05-31",
       "lastModification": "2026-06-01"
+    }
+  },
+  {
+    "recordId": "019cbb4d-6137-7784-8905-2570f45822a3",
+    "applicant": "Clipstudios.ai",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Clipstudios.ai",
+        "O": "Clipstudios.ai",
+        "OU": "",
+        "C": "NL"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-03-05",
+      "conformance": "2026-06-11",
+      "earliestPublicDisclosure": "2026-05-05",
+      "lastModification": "2026-06-12"
     }
   }
 ]
