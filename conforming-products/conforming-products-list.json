@@ -3624,7 +3624,7 @@
       "lastModification": "2026-06-12"
     }
   },
-   {
+  {
     "recordId": "019b70ff-4efa-7702-ad45-616f6800387a",
     "applicant": "CHECKHC",
     "status": "conformant",
@@ -3680,7 +3680,7 @@
       "lastModification": "2026-06-12"
     }
   },
-    {
+   {
     "recordId": "019d9492-c448-76a4-b6a1-00f4f301299d",
     "applicant": "MuseBlossom Co., Ltd.",
     "status": "conformant",
@@ -3726,19 +3726,19 @@
       "lastModification": "2026-06-12"
     }
   },
-    {
-    "recordId": "019d9492-c448-76a4-b6a1-00f4f301299d",
-    "applicant": "MuseBlossom Co., Ltd.",
+  {
+    "recordId": "019d4b9b-4c3a-7459-8300-9b27d3024949",
+    "applicant": "MarkAny",
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
       "DN": {
-        "CN": "Contents Defence",
-        "O": "MuseBlossom Co., Ltd.",
-        "OU": "R&D Team",
+        "CN": "MarkAny AI Trust",
+        "O": "MarkAny",
+        "OU": "",
         "C": "KR"
       },
-      "minVersion": "1.0.0",
+      "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
       }
@@ -3751,24 +3751,60 @@
       "generate": {
         "image": [
           "image/jpeg",
+          "image/jxl",
           "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
           "image/tiff",
-          "image/webp"
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
         ]
       },
       "validate": {
         "image": [
           "image/jpeg",
+          "image/jxl",
           "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
           "image/tiff",
-          "image/webp"
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
         ]
       }
     },
     "dates": {
-      "creation": "2026-04-16",
-      "conformance": "2026-06-11",
-      "earliestPublicDisclosure": "2026-04-27",
+      "creation": "2026-04-02",
+      "conformance": "2026-06-12",
+      "earliestPublicDisclosure": "2026-04-10",
       "lastModification": "2026-06-12"
     }
   }
