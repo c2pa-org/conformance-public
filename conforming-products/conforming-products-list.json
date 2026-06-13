@@ -3807,5 +3807,79 @@
       "earliestPublicDisclosure": "2026-04-10",
       "lastModification": "2026-06-12"
     }
+  },
+    {
+    "recordId": "019e57db-8777-70f3-b978-711b2481c57c",
+    "applicant": "Jaded Content LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "DAEGIS Pro",
+        "O": "Jaded Content LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heic-sequence",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heic-sequence",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-24",
+      "conformance": "2026-06-12",
+      "earliestPublicDisclosure": "2026-05-23",
+      "lastModification": "2026-06-13"
+    }
   }
 ]
