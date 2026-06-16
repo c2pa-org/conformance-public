@@ -3943,5 +3943,48 @@
       "earliestPublicDisclosure": "2026-05-23",
       "lastModification": "2026-06-15"
     }
+  },
+  {
+    "recordId": "019e612a-16fa-7c13-93ca-37297cd68b6c",
+    "applicant": "SamuRAI OS",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "SamuRAI OS",
+        "O": "Miguel Angel Rodriguez Alvarez Icaza",
+        "OU": "",
+        "C": "MX"
+      },
+      "minVersion": "1.0.0"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-25",
+      "conformance": "2026-06-16",
+      "earliestPublicDisclosure": "2026-05-25",
+      "lastModification": "2026-06-16"
+    }
   }
 ]
