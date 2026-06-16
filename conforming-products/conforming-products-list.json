@@ -3986,5 +3986,65 @@
       "earliestPublicDisclosure": "2026-05-25",
       "lastModification": "2026-06-16"
     }
+  },
+   {
+    "recordId": "019e60f8-a130-719b-81fd-cf5c6e69fd2c",
+    "applicant": "SamuRAI OS",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "SamuRAI",
+        "O": "SamuRAI OS",
+        "OU": "",
+        "C": "MX"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-25",
+      "conformance": "2026-06-16",
+      "earliestPublicDisclosure": "2026-05-25",
+      "lastModification": "2026-06-16"
+    }
   }
 ]
