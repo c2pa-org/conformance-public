@@ -4046,5 +4046,44 @@
       "earliestPublicDisclosure": "2026-05-25",
       "lastModification": "2026-06-16"
     }
+  },
+    {
+    "recordId": "019d7691-9957-7414-b678-f9df6ae020de",
+    "applicant": "InReality ApS",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "In Reality c2pa_view",
+        "O": "InReality ApS",
+        "OU": "",
+        "C": "DK"
+      },
+      "minVersion": "0.2.1"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/x-adobe-dng",
+          "image/heic"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-04-10",
+      "conformance": "2026-06-16",
+      "earliestPublicDisclosure": "2026-04-10",
+      "lastModification": "2026-06-16"
+    }
   }
 ]
