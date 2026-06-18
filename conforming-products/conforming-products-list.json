@@ -3680,7 +3680,7 @@
       "lastModification": "2026-06-12"
     }
   },
-   {
+  {
     "recordId": "019d9492-c448-76a4-b6a1-00f4f301299d",
     "applicant": "MuseBlossom Co., Ltd.",
     "status": "conformant",
@@ -3808,7 +3808,7 @@
       "lastModification": "2026-06-12"
     }
   },
-    {
+  {
     "recordId": "019e57db-8777-70f3-b978-711b2481c57c",
     "applicant": "Jaded Content LLC",
     "status": "conformant",
@@ -3882,7 +3882,7 @@
       "lastModification": "2026-06-13"
     }
   },
-   {
+  {
     "recordId": "019e5792-e360-7ef1-9e7a-057f42f442a0",
     "applicant": "Pixelstream, Inc.",
     "status": "conformant",
@@ -3987,7 +3987,7 @@
       "lastModification": "2026-06-16"
     }
   },
-   {
+  {
     "recordId": "019e60f8-a130-719b-81fd-cf5c6e69fd2c",
     "applicant": "SamuRAI OS",
     "status": "conformant",
@@ -4047,7 +4047,7 @@
       "lastModification": "2026-06-16"
     }
   },
-    {
+  {
     "recordId": "019d7691-9957-7414-b678-f9df6ae020de",
     "applicant": "InReality ApS",
     "status": "conformant",
@@ -4084,6 +4084,55 @@
       "conformance": "2026-06-16",
       "earliestPublicDisclosure": "2026-04-10",
       "lastModification": "2026-06-16"
+    }
+  },
+  {
+    "recordId": "019e227d-c115-7549-918f-9807b2cd1a39",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "YouTube Video Processing Services",
+        "O": "Google LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/flac"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-13",
+      "conformance": "2026-06-17",
+      "earliestPublicDisclosure": "2026-05-13",
+      "lastModification": "2026-06-17"
     }
   }
 ]
