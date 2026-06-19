@@ -4134,5 +4134,44 @@
       "earliestPublicDisclosure": "2026-05-13",
       "lastModification": "2026-06-17"
     }
+  },
+    {
+    "recordId": "019e4994-3b7d-7c3c-b081-792a619b60f8",
+    "applicant": "Platform Technology Ventures LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "CertifiedPhotos iOS",
+        "O": "Platform Technology Ventures LLC",
+        "OU": "Certified.Photos",
+        "C": "US"
+      },
+      "minVersion": "3.0.5",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-05-21",
+      "conformance": "2026-06-18",
+      "earliestPublicDisclosure": "2026-05-29",
+      "lastModification": "2026-06-18"
+    }
   }
 ]
