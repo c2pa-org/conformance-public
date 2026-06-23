@@ -4174,24 +4174,23 @@
       "lastModification": "2026-06-18"
     }
   },
-    {
-    "recordId": "019e381f-24d4-7025-915b-9ca6ec388a9b",
-    "applicant": "Kapsdevelopment AS",
+  {
+    "recordId": "019e4999-2b8d-7d5c-b5f8-67a3f9a53458",
+    "applicant": "Platform Technology Ventures LLC",
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
       "DN": {
-        "CN": "Realz - Android",
-        "O": "Kapsdevelopment AS",
-        "OU": "",
-        "C": "NO"
+        "CN": "CertifiedPhotos Android",
+        "O": "Platform Technology Ventures LLC",
+        "OU": "Certified.Photos",
+        "C": "US"
       },
-      "minVersion": "1.1.0",
+      "minVersion": "3.0.5",
       "assurance": {
         "maxAssuranceLevel": 1,
         "attestationMethods": [
-          "Google_PlayIntegrity",
-          "Apple_AppAttest"
+          "Google_PlayIntegrity"
         ]
       }
     },
@@ -4208,49 +4207,10 @@
       "validate": {}
     },
     "dates": {
-      "creation": "2026-05-17",
-      "conformance": "2026-06-22",
-      "earliestPublicDisclosure": "2026-06-01",
-      "lastModification": "2026-06-23"
-    }
-  },
-    {
-    "recordId": "019e46f6-e184-7fd8-936a-874619905a9c",
-    "applicant": "Kapsdevelopment AS",
-    "status": "conformant",
-    "product": {
-      "productType": "generatorProduct",
-      "DN": {
-        "CN": "Realz - iOS",
-        "O": "Kapsdevelopment AS",
-        "OU": "",
-        "C": "NO"
-      },
-      "minVersion": "1.1",
-      "assurance": {
-        "maxAssuranceLevel": 1,
-        "attestationMethods": [
-          "Apple_AppAttest"
-        ]
-      }
-    },
-    "specVersion": [
-      "2.2"
-    ],
-    "conformanceProgramVersion": "0.1",
-    "containers": {
-      "generate": {
-        "image": [
-          "image/jpeg"
-        ]
-      },
-      "validate": {}
-    },
-    "dates": {
-      "creation": "2026-05-20",
-      "conformance": "2026-06-23",
-      "earliestPublicDisclosure": "2026-06-01",
-      "lastModification": "2026-06-23"
+      "creation": "2026-05-21",
+      "conformance": "2026-06-18",
+      "earliestPublicDisclosure": "2026-05-28",
+      "lastModification": "2026-06-19"
     }
   }
 ]
