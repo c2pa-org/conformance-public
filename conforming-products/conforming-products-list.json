@@ -4173,5 +4173,45 @@
       "earliestPublicDisclosure": "2026-05-29",
       "lastModification": "2026-06-18"
     }
+  },
+    {
+    "recordId": "019e381f-24d4-7025-915b-9ca6ec388a9b",
+    "applicant": "Kapsdevelopment AS",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Realz - Android",
+        "O": "Kapsdevelopment AS",
+        "OU": "",
+        "C": "NO"
+      },
+      "minVersion": "1.1.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Google_PlayIntegrity",
+          "Apple_AppAttest"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-05-17",
+      "conformance": "2026-06-22",
+      "earliestPublicDisclosure": "2026-06-01",
+      "lastModification": "2026-06-23"
+    }
   }
 ]
