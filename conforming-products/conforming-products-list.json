@@ -4135,7 +4135,7 @@
       "lastModification": "2026-06-17"
     }
   },
-    {
+  {
     "recordId": "019e4994-3b7d-7c3c-b081-792a619b60f8",
     "applicant": "Platform Technology Ventures LLC",
     "status": "conformant",
@@ -4211,6 +4211,122 @@
       "conformance": "2026-06-18",
       "earliestPublicDisclosure": "2026-05-28",
       "lastModification": "2026-06-19"
+    }
+  },
+  {
+    "recordId": "019c968b-e2e5-7245-a2b1-7712b42e809b",
+    "applicant": "Stability Solutions Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Monolith",
+        "O": "Stability Solutions Inc.",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "0.1.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heic-sequence",
+          "image/heif",
+          "image/heif-sequence",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/MPA",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf",
+          "application/epub+zip",
+          "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "application/vnd.oasis.opendocument.text",
+          "application/oxps"
+        ],
+        "mlModel": [
+          "jax",
+          "onnx",
+          "pytorch",
+          "tensorflow",
+          "numpy",
+          "protobuf",
+          "pickle",
+          "savedmodel"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heic-sequence",
+          "image/heif",
+          "image/heif-sequence",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/MPA",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf",
+          "application/epub+zip",
+          "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "application/vnd.oasis.opendocument.text",
+          "application/oxps"
+        ],
+        "mlModel": [
+          "jax",
+          "onnx",
+          "pytorch",
+          "tensorflow",
+          "numpy",
+          "protobuf",
+          "pickle",
+          "savedmodel"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-02-25",
+      "conformance": "2026-06-23",
+      "earliestPublicDisclosure": "2026-02-12",
+      "lastModification": "2026-06-24"
     }
   }
 ]
