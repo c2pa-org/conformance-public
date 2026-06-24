@@ -4412,5 +4412,45 @@
       "earliestPublicDisclosure": "2026-05-25",
       "lastModification": "2026-06-24"
     }
+  },
+   {
+    "recordId": "019e0cd7-2320-7ae9-92ec-2d116954dbbe",
+    "applicant": "vivo Mobile Communication Co., Ltd.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "JOVI Camera",
+        "O": "vivo Mobile Communication Co., Ltd.",
+        "OU": "",
+        "C": "CN"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/heic"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-05-09",
+      "conformance": "2026-05-27",
+      "earliestPublicDisclosure": "2026-05-25",
+      "lastModification": "2026-05-27"
+    }
   }
 ]
