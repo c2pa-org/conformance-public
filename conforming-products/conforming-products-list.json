@@ -4328,5 +4328,49 @@
       "earliestPublicDisclosure": "2026-02-12",
       "lastModification": "2026-06-24"
     }
+  },
+    {
+    "recordId": "019e4988-947c-72f8-8675-22eac83e1904",
+    "applicant": "SantaHades Co., Ltd.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "OriPics",
+        "O": "SantaHades Co., Ltd.",
+        "OU": "",
+        "C": "KR"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Google_PlayIntegrity",
+          "Apple_AppAttest"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/png"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/png"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-21",
+      "conformance": "2026-06-23",
+      "earliestPublicDisclosure": "2026-06-01",
+      "lastModification": "2026-06-24"
+    }
   }
 ]
