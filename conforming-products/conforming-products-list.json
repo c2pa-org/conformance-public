@@ -4452,5 +4452,74 @@
       "earliestPublicDisclosure": "2026-05-25",
       "lastModification": "2026-05-27"
     }
+  },
+    {
+    "recordId": "019c53e4-7318-75ec-8f94-797674bab875",
+    "applicant": "Qualcomm Technologies Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Snapdragon 8 Elite Gen 5",
+        "O": "Qualcomm Technologies, Inc.",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 2,
+        "attestationMethods": [
+          "Qualcomm_WES"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/wav",
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-02-12",
+      "conformance": "2026-06-29",
+      "earliestPublicDisclosure": "2026-02-12",
+      "lastModification": "2026-06-29"
+    }
   }
 ]
