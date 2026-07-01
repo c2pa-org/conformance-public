@@ -4329,7 +4329,7 @@
       "lastModification": "2026-06-24"
     }
   },
-    {
+  {
     "recordId": "019e4988-947c-72f8-8675-22eac83e1904",
     "applicant": "SantaHades Co., Ltd.",
     "status": "conformant",
@@ -4413,7 +4413,7 @@
       "lastModification": "2026-06-24"
     }
   },
-   {
+  {
     "recordId": "019e0cd7-2320-7ae9-92ec-2d116954dbbe",
     "applicant": "vivo Mobile Communication Co., Ltd.",
     "status": "conformant",
@@ -4453,7 +4453,7 @@
       "lastModification": "2026-05-27"
     }
   },
-    {
+  {
     "recordId": "019c53e4-7318-75ec-8f94-797674bab875",
     "applicant": "Qualcomm Technologies Inc.",
     "status": "conformant",
@@ -4520,6 +4520,69 @@
       "conformance": "2026-06-29",
       "earliestPublicDisclosure": "2026-02-12",
       "lastModification": "2026-06-29"
+    }
+  },
+  {
+    "recordId": "019f19e7-3582-7670-9df8-f90c24fdd0fe",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 17156",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/wav",
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-06-30",
+      "conformance": "2026-06-30",
+      "earliestPublicDisclosure": "2026-06-30",
+      "lastModification": "2026-06-30"
     }
   }
 ]
