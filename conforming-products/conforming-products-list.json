@@ -3951,8 +3951,8 @@
     "product": {
       "productType": "validatorProduct",
       "DN": {
-        "CN": "SamuRAI OS",
-        "O": "Miguel Angel Rodriguez Alvarez Icaza",
+        "CN": "SamuRAI",
+        "O": "SamuRAI OS",
         "OU": "",
         "C": "MX"
       },
@@ -4626,6 +4626,92 @@
       "creation": "2026-03-31",
       "conformance": "2026-07-05",
       "earliestPublicDisclosure": "2026-03-31",
+      "lastModification": "2026-07-06"
+    }
+  },
+    {
+    "recordId": "019e06f7-9772-7af6-a749-43ed1916018c",
+    "applicant": "DigiCert, Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "DigiCert Content Trust Manager",
+        "O": "DigiCert, Inc.",
+        "OU": "Cloud Media Sign",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/jxl",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/jxl",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-08",
+      "conformance": "2026-07-06",
+      "earliestPublicDisclosure": "2026-05-09",
       "lastModification": "2026-07-06"
     }
   }
