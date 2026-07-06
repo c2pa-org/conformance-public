@@ -4584,5 +4584,49 @@
       "earliestPublicDisclosure": "2026-06-30",
       "lastModification": "2026-06-30"
     }
+  },
+  {
+    "recordId": "019d464c-38fa-7ead-8fa1-d26c8a363ac3",
+    "applicant": "Air4media LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "FotoTrafiX",
+        "O": "Air4media LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "10.1.1",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp",
+          "image/heic"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-03-31",
+      "conformance": "2026-07-05",
+      "earliestPublicDisclosure": "2026-03-31",
+      "lastModification": "2026-07-06"
+    }
   }
 ]
