@@ -4835,5 +4835,46 @@
       "earliestPublicDisclosure": "2026-05-25",
       "lastModification": "2026-07-08"
     }
+  },
+  {
+    "recordId": "019e0cd3-0bba-740c-8726-474f14b0a36a",
+    "applicant": "vivo Mobile Communication Co., Ltd.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "JOVI Albums",
+        "O": "vivo Mobile Communication Co., Ltd.",
+        "OU": "",
+        "C": "CN"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/heic"
+        ]
+       }
+    },
+    "dates": {
+      "creation": "2026-05-09",
+      "conformance": "2026-07-08",
+      "earliestPublicDisclosure": "2026-05-25",
+      "lastModification": "2026-07-08"
+    }
   }
 ]
