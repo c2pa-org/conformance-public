@@ -4876,5 +4876,58 @@
       "earliestPublicDisclosure": "2026-05-25",
       "lastModification": "2026-07-08"
     }
+  },
+   {
+    "recordId": "019ef582-474e-703c-873a-733689aeb1a3",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "YouTube Create",
+        "O": "Google LLC",
+        "OU": "YouTube System 42399",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/png",
+          "image/gif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-06-23",
+      "conformance": "2026-07-08",
+      "earliestPublicDisclosure": "2026-06-23",
+      "lastModification": "2026-07-08"
+    }
   }
 ]
