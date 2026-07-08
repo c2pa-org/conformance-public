@@ -4750,5 +4750,49 @@
       "earliestPublicDisclosure": "2026-05-01",
       "lastModification": "2026-07-06"
     }
+  },
+   {
+    "recordId": "019e425a-d485-73a4-bc38-dbc005d3ebb0",
+    "applicant": "Ingenium Labor, S.L.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Fotomatika",
+        "O": "Ingenium Labor, S.L.",
+        "OU": "",
+        "C": "ES"
+      },
+      "minVersion": "0.9.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-19",
+      "conformance": "2026-07-07",
+      "earliestPublicDisclosure": "2026-05-19",
+      "lastModification": "2026-07-08"
+    }
   }
 ]
