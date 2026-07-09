@@ -5053,5 +5053,42 @@
       "earliestPublicDisclosure": "2025-12-18",
       "lastModification": "2026-07-08"
     }
+  },
+  
+  {
+    "recordId": "019f2384-17d5-7b87-9884-4bc84a49b8ca",
+    "applicant": "Jukee.AI Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Jukee Ad Creator",
+        "O": "Jukee.AI Inc.",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "audio": [
+          "audio/mpeg"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-07-02",
+      "conformance": "2026-07-08",
+      "earliestPublicDisclosure": "2026-07-02",
+      "lastModification": "2026-07-09"
+    }
   }
 ]
