@@ -4629,7 +4629,7 @@
       "lastModification": "2026-07-06"
     }
   },
-    {
+  {
     "recordId": "019e06f7-9772-7af6-a749-43ed1916018c",
     "applicant": "DigiCert, Inc.",
     "status": "conformant",
@@ -4715,7 +4715,7 @@
       "lastModification": "2026-07-06"
     }
   },
-    {
+  {
     "recordId": "019cd891-cc4b-796b-b961-302a0ce73c33",
     "applicant": "Validag Solutions Ltd",
     "status": "conformant",
@@ -4751,7 +4751,7 @@
       "lastModification": "2026-07-06"
     }
   },
-   {
+  {
     "recordId": "019e425a-d485-73a4-bc38-dbc005d3ebb0",
     "applicant": "Ingenium Labor, S.L.",
     "status": "conformant",
@@ -4795,7 +4795,7 @@
       "lastModification": "2026-07-08"
     }
   },
-    {
+  {
     "recordId": "019e0ccd-3089-74e0-90ae-1423c5642540",
     "applicant": "vivo Mobile Communication Co., Ltd.",
     "status": "conformant",
@@ -4868,7 +4868,7 @@
           "image/jpeg",
           "image/heic"
         ]
-       }
+      }
     },
     "dates": {
       "creation": "2026-05-09",
@@ -4877,7 +4877,7 @@
       "lastModification": "2026-07-08"
     }
   },
-   {
+  {
     "recordId": "019ef582-474e-703c-873a-733689aeb1a3",
     "applicant": "Google LLC",
     "status": "conformant",
@@ -4930,7 +4930,7 @@
       "lastModification": "2026-07-08"
     }
   },
-   {
+  {
     "recordId": "019ef8d2-51e2-7ea0-927e-aa1d1908fc4e",
     "applicant": "Google LLC",
     "status": "conformant",
@@ -4977,6 +4977,80 @@
       "creation": "2026-06-24",
       "conformance": "2026-07-08",
       "earliestPublicDisclosure": "2026-06-24",
+      "lastModification": "2026-07-08"
+    }
+  },
+  {
+    "recordId": "019b347e-79bd-7072-b073-58504115a4ba",
+    "applicant": "Proof of Publish LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Proof of Publish",
+        "O": "Proof of Publish LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-12-19",
+      "conformance": "2026-07-08",
+      "earliestPublicDisclosure": "2025-12-18",
       "lastModification": "2026-07-08"
     }
   }
