@@ -5465,5 +5465,54 @@
       "earliestPublicDisclosure": "2026-05-14",
       "lastModification": "2026-07-12"
     }
+  },
+    {
+    "recordId": "019dfe5f-40cc-7cfb-8082-96ba7548bfbd",
+    "applicant": "Proofmode Reality Systems LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Proofmode for iOS",
+        "O": "Proofmode Reality Systems LLC",
+        "OU": "Proofmode",
+        "C": "US"
+      },
+      "minVersion": "3.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-06",
+      "conformance": "2026-07-11",
+      "earliestPublicDisclosure": "2026-05-06",
+      "lastModification": "2026-07-12"
+    }
   }
 ]
