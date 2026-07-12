@@ -5379,5 +5379,48 @@
       "earliestPublicDisclosure": "2026-07-01",
       "lastModification": "2026-07-11"
     }
+  },
+    {
+    "recordId": "019c5ab7-77d8-75ef-8936-67de52594d2c",
+    "applicant": "Fieldnotes dot Dev Opc",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Lens Proof-of-Work",
+        "O": "Fieldnotes dot Dev Opc",
+        "OU": "",
+        "C": "PH"
+      },
+      "minVersion": "1.4.42",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/heic"
+        ],
+        "video": [
+          "video/quicktime"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-02-14",
+      "conformance": "2026-07-11",
+      "earliestPublicDisclosure": "2026-04-02",
+      "lastModification": "2026-07-12"
+    }
   }
 ]
