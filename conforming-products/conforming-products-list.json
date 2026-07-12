@@ -5329,5 +5329,55 @@
       "earliestPublicDisclosure": "2026-07-05",
       "lastModification": "2026-07-12"
     }
+  },
+   {
+    "recordId": "019e078d-c0be-736a-9c6d-e591ed136a7b",
+    "applicant": "Big Blue Marble Sp. z o.o.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Big Blue Marble",
+        "O": "Big Blue Marble Sp. z o.o.",
+        "OU": "",
+        "C": "PL"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mp4",
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-08",
+      "conformance": "2026-07-11",
+      "earliestPublicDisclosure": "2026-07-01",
+      "lastModification": "2026-07-11"
+    }
   }
 ]
