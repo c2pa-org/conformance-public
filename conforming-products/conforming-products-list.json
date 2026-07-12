@@ -5245,5 +5245,44 @@
       "earliestPublicDisclosure": "2026-06-22",
       "lastModification": "2026-07-09"
     }
+  },
+    {
+    "recordId": "019e9040-fbb6-7021-9f70-710c2c4b3fde",
+    "applicant": "Amazon Development Center U.S., Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Amazon Bedrock",
+        "O": "Amazon Development Center U.S., Inc.",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-06-04",
+      "conformance": "2026-07-10",
+      "earliestPublicDisclosure": "2026-06-03",
+      "lastModification": "2026-07-12"
+    }
   }
 ]
