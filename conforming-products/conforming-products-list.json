@@ -5054,7 +5054,6 @@
       "lastModification": "2026-07-08"
     }
   },
-  
   {
     "recordId": "019f2384-17d5-7b87-9884-4bc84a49b8ca",
     "applicant": "Jukee.AI Inc.",
@@ -5091,7 +5090,7 @@
       "lastModification": "2026-07-09"
     }
   },
-   {
+  {
     "recordId": "019efbbd-2c44-7cc1-a503-c7be4deb9a8d",
     "applicant": "Google LLC",
     "status": "conformant",
@@ -5149,7 +5148,7 @@
       "lastModification": "2026-07-09"
     }
   },
-    {
+  {
     "recordId": "019f202e-9ba6-7246-a825-1e9b85998971",
     "applicant": "Google LLC",
     "status": "conformant",
@@ -5189,7 +5188,7 @@
       "lastModification": "2026-07-09"
     }
   },
-   {
+  {
     "recordId": "019ef2da-0eb4-779c-9d06-d76ee8b8bbd4",
     "applicant": "Google LLC",
     "status": "conformant",
@@ -5246,7 +5245,7 @@
       "lastModification": "2026-07-09"
     }
   },
-    {
+  {
     "recordId": "019e9040-fbb6-7021-9f70-710c2c4b3fde",
     "applicant": "Amazon Development Center U.S., Inc.",
     "status": "conformant",
@@ -5282,6 +5281,52 @@
       "creation": "2026-06-04",
       "conformance": "2026-07-10",
       "earliestPublicDisclosure": "2026-06-03",
+      "lastModification": "2026-07-12"
+    }
+  },
+  {
+    "recordId": "019e8b37-579b-7d09-9795-2536cdf273b0",
+    "applicant": "Glass Plate Works LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Glassplateworks",
+        "O": "Glass Plate Works LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-06-03",
+      "conformance": "2026-07-10",
+      "earliestPublicDisclosure": "2026-07-05",
       "lastModification": "2026-07-12"
     }
   }
