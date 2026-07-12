@@ -5422,5 +5422,48 @@
       "earliestPublicDisclosure": "2026-04-02",
       "lastModification": "2026-07-12"
     }
+  },
+    {
+    "recordId": "019e27b6-a5d4-74bd-8bc7-aff73697a15b",
+    "applicant": "Honestli Idiotiki Kefalaiouchiki Etaireia",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Honestli - Android",
+        "O": "Honestli Idiotiki Kefalaiouchiki Etaireia",
+        "OU": "",
+        "C": "GR"
+      },
+      "minVersion": "0.25.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation",
+          "Google_PlayIntegrity"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-05-14",
+      "conformance": "2026-07-11",
+      "earliestPublicDisclosure": "2026-05-14",
+      "lastModification": "2026-07-12"
+    }
   }
 ]
