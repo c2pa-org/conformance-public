@@ -5330,7 +5330,7 @@
       "lastModification": "2026-07-12"
     }
   },
-   {
+  {
     "recordId": "019e078d-c0be-736a-9c6d-e591ed136a7b",
     "applicant": "Big Blue Marble Sp. z o.o.",
     "status": "conformant",
@@ -5380,7 +5380,7 @@
       "lastModification": "2026-07-11"
     }
   },
-    {
+  {
     "recordId": "019c5ab7-77d8-75ef-8936-67de52594d2c",
     "applicant": "Fieldnotes dot Dev Opc",
     "status": "conformant",
@@ -5423,7 +5423,7 @@
       "lastModification": "2026-07-12"
     }
   },
-    {
+  {
     "recordId": "019e27b6-a5d4-74bd-8bc7-aff73697a15b",
     "applicant": "Honestli Idiotiki Kefalaiouchiki Etaireia",
     "status": "conformant",
@@ -5466,7 +5466,7 @@
       "lastModification": "2026-07-12"
     }
   },
-    {
+  {
     "recordId": "019dfe5f-40cc-7cfb-8082-96ba7548bfbd",
     "applicant": "Proofmode Reality Systems LLC",
     "status": "conformant",
@@ -5515,7 +5515,7 @@
       "lastModification": "2026-07-12"
     }
   },
-    {
+  {
     "recordId": "019f1fea-d410-7119-b750-bfc24bc74456",
     "applicant": "Google LLC",
     "status": "conformant",
@@ -5569,7 +5569,7 @@
       "lastModification": "2026-07-13"
     }
   },
-    {
+  {
     "recordId": "019f1fc5-8dec-7c35-b556-d31a46dd3b5b",
     "applicant": "Google LLC",
     "status": "conformant",
@@ -5612,6 +5612,56 @@
       "conformance": "2026-07-13",
       "earliestPublicDisclosure": "2026-07-01",
       "lastModification": "2026-07-13"
+    }
+  },
+  {
+    "recordId": "019f3dc5-bdf3-755c-af30-477233ffcd0f",
+    "applicant": "Nobyunjungdam(노변정담)",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Takibi",
+        "O": "Nobyunjumgdam",
+        "OU": "",
+        "C": "KR"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-07",
+      "conformance": "2026-07-14",
+      "earliestPublicDisclosure": "2026-07-08",
+      "lastModification": "2026-07-14"
     }
   }
 ]
