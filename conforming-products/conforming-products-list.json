@@ -5703,5 +5703,59 @@
       "earliestPublicDisclosure": "2026-07-01",
       "lastModification": "2026-07-14"
     }
+  },
+  {
+    "recordId": "019d6e06-1e5d-78c6-8fb6-15e0c1bd0829",
+    "applicant": "Addi Inc",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Addi AI Platform",
+        "O": "Addi, Inc.",
+        "OU": "Engineering",
+        "C": "US"
+      },
+      "minVersion": "1.6.1",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-04-08",
+      "conformance": "2026-07-14",
+      "earliestPublicDisclosure": "2026-04-08",
+      "lastModification": "2026-07-14"
+    }
   }
 ]
