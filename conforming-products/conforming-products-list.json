@@ -5892,5 +5892,67 @@
       "earliestPublicDisclosure": "2026-07-15",
       "lastModification": "2026-07-15"
     }
+  },
+    {
+    "recordId": "019e2a4e-e82e-7054-8340-7cffe03fdb7e",
+    "applicant": "TOPPAN Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "AVATECT Contents Protection",
+        "O": "TOPPAN Inc.",
+        "OU": "",
+        "C": "JP"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-15",
+      "conformance": "2026-07-15",
+      "earliestPublicDisclosure": "2026-05-15",
+      "lastModification": "2026-07-15"
+    }
   }
 ]
