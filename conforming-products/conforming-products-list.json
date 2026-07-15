@@ -5757,5 +5757,61 @@
       "earliestPublicDisclosure": "2026-04-08",
       "lastModification": "2026-07-14"
     }
+  },
+   {
+    "recordId": "019f47f6-45cb-7a84-a860-a30324514c4e",
+    "applicant": "Lil Dog Productions, LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Reconize",
+        "O": "Lil Dog Productions, LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-09",
+      "conformance": "2026-07-14",
+      "earliestPublicDisclosure": "2026-07-09",
+      "lastModification": "2026-07-14"
+    }
   }
 ]
