@@ -5663,5 +5663,45 @@
       "earliestPublicDisclosure": "2026-07-08",
       "lastModification": "2026-07-14"
     }
+  },
+    {
+    "recordId": "019ed681-a6f7-7a70-a1ab-09b8133fd8bf",
+    "applicant": "Mondelez Global LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Mondelez AIDA",
+        "O": "Mondelez Global LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1.1.12",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-06-17",
+      "conformance": "2026-07-14",
+      "earliestPublicDisclosure": "2026-07-01",
+      "lastModification": "2026-07-14"
+    }
   }
 ]
