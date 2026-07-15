@@ -5622,7 +5622,7 @@
       "productType": "generatorProduct",
       "DN": {
         "CN": "Takibi",
-        "O": "Nobyunjumgdam",
+        "O": "Nobyunjungdam",
         "OU": "",
         "C": "KR"
       },
@@ -5812,6 +5812,85 @@
       "conformance": "2026-07-14",
       "earliestPublicDisclosure": "2026-07-09",
       "lastModification": "2026-07-14"
+    }
+  },
+    {
+    "recordId": "019f57de-20a0-7d11-a36a-8bd16632182b",
+    "applicant": "Glass Plate Works LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Glassplateworks",
+        "O": "Glass Plate Works LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "0.1.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-12",
+      "conformance": "2026-07-14",
+      "earliestPublicDisclosure": "2026-07-15",
+      "lastModification": "2026-07-15"
     }
   }
 ]
