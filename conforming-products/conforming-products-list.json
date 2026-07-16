@@ -6041,5 +6041,47 @@
       "earliestPublicDisclosure": "2026-06-10",
       "lastModification": "2026-07-16"
     }
+  },
+   {
+    "recordId": "019d8e85-2ba3-7e40-acf8-c4d515166cd7",
+    "applicant": "RajISG",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "RajISG Provenance & Content Authenticity (RPCA)",
+        "O": "RajISG",
+        "OU": "RajISG Provenance & Content Authenticity ",
+        "C": "IN"
+      },
+      "minVersion": "1.7.0"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/MPA",
+          "audio/mp4",
+          "audio/mpeg"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-04-15",
+      "conformance": "2026-07-16",
+      "earliestPublicDisclosure": "2026-06-19",
+      "lastModification": "2026-07-16"
+    }
   }
 ]
