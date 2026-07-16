@@ -6001,5 +6001,45 @@
       "earliestPublicDisclosure": "2026-06-24",
       "lastModification": "2026-07-15"
     }
+  },
+  {
+    "recordId": "019f4d3c-d327-7ed6-ae86-ad6e14bc53d7",
+    "applicant": "Ride The Wave Media, LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Dark Tsunami Sovereign Stamp",
+        "O": "Ride The Wave Media, LLC",
+        "OU": "Dark Tsunami",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "audio": [
+          "audio/mpeg"
+        ]
+      },
+      "validate": {
+        "audio": [
+          "audio/mpeg"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-10",
+      "conformance": "2026-07-16",
+      "earliestPublicDisclosure": "2026-06-10",
+      "lastModification": "2026-07-16"
+    }
   }
 ]
