@@ -5664,7 +5664,7 @@
       "lastModification": "2026-07-14"
     }
   },
-    {
+  {
     "recordId": "019ed681-a6f7-7a70-a1ab-09b8133fd8bf",
     "applicant": "Mondelez Global LLC",
     "status": "conformant",
@@ -5758,7 +5758,7 @@
       "lastModification": "2026-07-14"
     }
   },
-   {
+  {
     "recordId": "019f47f6-45cb-7a84-a860-a30324514c4e",
     "applicant": "Lil Dog Productions, LLC",
     "status": "conformant",
@@ -5814,7 +5814,7 @@
       "lastModification": "2026-07-14"
     }
   },
-    {
+  {
     "recordId": "019f57de-20a0-7d11-a36a-8bd16632182b",
     "applicant": "Glass Plate Works LLC",
     "status": "conformant",
@@ -5893,7 +5893,7 @@
       "lastModification": "2026-07-15"
     }
   },
-    {
+  {
     "recordId": "019e2a4e-e82e-7054-8340-7cffe03fdb7e",
     "applicant": "TOPPAN Inc.",
     "status": "conformant",
@@ -5955,7 +5955,7 @@
       "lastModification": "2026-07-15"
     }
   },
-   {
+  {
     "recordId": "019ef8f7-cbc0-7b2c-aba3-887e713f809e",
     "applicant": "Google LLC",
     "status": "conformant",
@@ -6042,7 +6042,7 @@
       "lastModification": "2026-07-16"
     }
   },
-   {
+  {
     "recordId": "019d8e85-2ba3-7e40-acf8-c4d515166cd7",
     "applicant": "RajISG",
     "status": "conformant",
@@ -6168,7 +6168,7 @@
       "lastModification": "2026-07-16"
     }
   },
-   {
+  {
     "recordId": "019ddd8a-8330-747f-9bd2-95165fcfcbcd",
     "applicant": "IMATAG",
     "status": "conformant",
@@ -6215,6 +6215,64 @@
       "conformance": "2026-07-16",
       "earliestPublicDisclosure": "2026-05-01",
       "lastModification": "2026-07-16"
+    }
+  },
+  {
+    "recordId": "019f6d7d-4d54-7e47-ae3d-32568b82c77a",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Messages",
+        "O": "Google LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-17",
+      "conformance": "2026-07-17",
+      "earliestPublicDisclosure": "2026-07-16",
+      "lastModification": "2026-07-17"
     }
   }
 ]
