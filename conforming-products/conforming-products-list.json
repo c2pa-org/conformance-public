@@ -6083,5 +6083,49 @@
       "earliestPublicDisclosure": "2026-06-19",
       "lastModification": "2026-07-16"
     }
+  },
+  {
+    "recordId": "019f62b4-a255-724e-ac53-de0d663a29ec",
+    "applicant": "Star & Partners Ltd",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Priorframe",
+        "O": "Star & Partners Ltd",
+        "OU": "Sutherbrook",
+        "C": "GB"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-14",
+      "conformance": "2026-07-16",
+      "earliestPublicDisclosure": "2026-07-14",
+      "lastModification": "2026-07-16"
+    }
   }
 ]
