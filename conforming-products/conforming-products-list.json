@@ -6167,5 +6167,54 @@
       "earliestPublicDisclosure": "2026-07-15",
       "lastModification": "2026-07-16"
     }
+  },
+   {
+    "recordId": "019ddd8a-8330-747f-9bd2-95165fcfcbcd",
+    "applicant": "IMATAG",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "IMATAG AUTHENTICITY",
+        "O": "IMATAG",
+        "OU": "",
+        "C": "FR"
+      },
+      "minVersion": "1",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "IETF_RATS"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-04-30",
+      "conformance": "2026-07-16",
+      "earliestPublicDisclosure": "2026-05-01",
+      "lastModification": "2026-07-16"
+    }
   }
 ]
