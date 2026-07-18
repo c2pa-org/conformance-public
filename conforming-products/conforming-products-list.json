@@ -6274,5 +6274,53 @@
       "earliestPublicDisclosure": "2026-07-16",
       "lastModification": "2026-07-17"
     }
+  },
+   {
+    "recordId": "019f201e-2300-70cc-b22c-8dfe59bc77ee",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Photos",
+        "O": "Google LLC",
+        "OU": "Google Photos iOS",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/quicktime"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-01",
+      "conformance": "2026-07-17",
+      "earliestPublicDisclosure": "2026-07-01",
+      "lastModification": "2026-07-18"
+    }
   }
 ]
