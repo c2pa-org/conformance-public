@@ -6275,7 +6275,7 @@
       "lastModification": "2026-07-17"
     }
   },
-   {
+  {
     "recordId": "019f201e-2300-70cc-b22c-8dfe59bc77ee",
     "applicant": "Google LLC",
     "status": "conformant",
@@ -6323,7 +6323,7 @@
       "lastModification": "2026-07-18"
     }
   },
-   {
+  {
     "recordId": "019ddc8b-9667-7c6f-ac08-26125a0ab922",
     "applicant": "Trufo Inc.",
     "status": "conformant",
@@ -6409,7 +6409,7 @@
       "lastModification": "2026-06-27"
     }
   },
-    {
+  {
     "recordId": "019f6d9d-795d-7e13-8d53-db4bf6ea8d99",
     "applicant": "Google LLC",
     "status": "conformant",
@@ -6488,7 +6488,7 @@
       "lastModification": "2026-07-21"
     }
   },
-    {
+  {
     "recordId": "019e2783-bdf8-7222-9153-09391ac26616",
     "applicant": "Inspireip Tecnologia Blockchain LTDA",
     "status": "conformant",
@@ -6604,6 +6604,58 @@
       "conformance": "2026-07-22",
       "earliestPublicDisclosure": "2026-07-16",
       "lastModification": "2026-07-22"
+    }
+  },
+  {
+    "recordId": "019f7222-467a-7991-885e-d15d2401f79a",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 90291",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp",
+          "image/avif"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-17",
+      "conformance": "2026-07-22",
+      "earliestPublicDisclosure": "2026-07-16",
+      "lastModification": "2026-7-22"
     }
   }
 ]
