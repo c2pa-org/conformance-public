@@ -6568,5 +6568,42 @@
       "earliestPublicDisclosure": "2026-06-15",
       "lastModification": "2026-07-22"
     }
+  },
+  {
+    "recordId": "019f6d60-8a68-7a8d-bf02-fa4c2dea0d7f",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Maps Imagery Services",
+        "O": "Google LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-07-17",
+      "conformance": "2026-07-22",
+      "earliestPublicDisclosure": "2026-07-16",
+      "lastModification": "2026-07-22"
+    }
   }
 ]
