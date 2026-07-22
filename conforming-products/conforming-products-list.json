@@ -6487,5 +6487,44 @@
       "earliestPublicDisclosure": "2026-02-27",
       "lastModification": "2026-07-21"
     }
+  },
+    {
+    "recordId": "019e2783-bdf8-7222-9153-09391ac26616",
+    "applicant": "Inspireip Tecnologia Blockchain LTDA",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "SignaIP",
+        "O": "Inspireip Tecnologia Blockchain LTDA",
+        "OU": "",
+        "C": "BR"
+      },
+      "minVersion": "1"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/tiff",
+          "image/webp",
+          "image/avif"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-14",
+      "conformance": "2026-07-21",
+      "earliestPublicDisclosure": "2026-06-14",
+      "lastModification": "2026-07-21"
+    }
   }
 ]
