@@ -6453,5 +6453,39 @@
       "earliestPublicDisclosure": "2026-07-16",
       "lastModification": "2026-07-21"
     }
+  },
+  {
+    "recordId": "019aba70-38cc-7b98-af59-614dde4ae863",
+    "applicant": "Fotoware AS",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Fotoware",
+        "O": "Fotoware AS",
+        "OU": "",
+        "C": "NO"
+      },
+      "minVersion": "9.16.0"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-11-25",
+      "conformance": "2026-07-21",
+      "earliestPublicDisclosure": "2026-02-27",
+      "lastModification": "2026-07-21"
+    }
   }
 ]
