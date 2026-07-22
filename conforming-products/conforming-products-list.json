@@ -6408,5 +6408,50 @@
       "earliestPublicDisclosure": "2026-05-08",
       "lastModification": "2026-06-27"
     }
+  },
+    {
+    "recordId": "019f6d9d-795d-7e13-8d53-db4bf6ea8d99",
+    "applicant": "Google LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Flow",
+        "O": "Google LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/gif"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "video": [
+          "video/mp4",
+          "video/quicktime",
+          "video/x-msvideo"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-17",
+      "conformance": "2026-07-21",
+      "earliestPublicDisclosure": "2026-07-16",
+      "lastModification": "2026-07-21"
+    }
   }
 ]
