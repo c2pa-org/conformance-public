@@ -6740,9 +6740,48 @@
   },
   "dates": {
     "creation": "2026-07-22",
-    "conformance": "2026-07-24",
+    "conformance": "2026-07-27",
     "earliestPublicDisclosure": "2026-07-22",
-    "lastModification": "2026-07-"
+    "lastModification": "2026-07-27"
   }
-}
+},
+    {
+    "recordId": "019f61b8-82c3-7afc-951e-4d2e3e9063be",
+    "applicant": "Getty Images (US), Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Getty Images AI-Modified Image",
+        "O": " Getty Images (US), Inc.",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "5",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp",
+          "image/avif"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-07-14",
+      "conformance": "2026-07-15",
+      "earliestPublicDisclosure": "2026-07-27",
+      "lastModification": "2026-07-15"
+    }
+  }
 ]
