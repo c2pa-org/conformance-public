@@ -6885,5 +6885,44 @@
       "earliestPublicDisclosure": "2026-07-24",
       "lastModification": "2026-07-27"
     }
+  },
+  {
+    "recordId": "019f6b49-79cd-7453-9bcd-79284820b026",
+    "applicant": "Getty Images (US), Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "iStock AI-Modified Image",
+        "O": "Getty Images (US), Inc.",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "5",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp",
+          "image/avif"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-07-16",
+      "conformance": "2026-07-28",
+      "earliestPublicDisclosure": "2026-07-27",
+      "lastModification": "2026-07-28"
+    }
   }
 ]
