@@ -6783,5 +6783,68 @@
       "earliestPublicDisclosure": "2026-07-27",
       "lastModification": "2026-07-15"
     }
+  },
+  {
+    "recordId": "019ec2d2-70c7-7903-8969-6f3c4ff255b0",
+    "applicant": "Retiretainment, LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "AIWatermark",
+        "O": "Retiretainment, LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/png",
+          "image/jpeg",
+          "image/webp",
+          "image/tiff",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime",
+          "video/x-msvideo"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-06-13",
+      "conformance": "2026-07-27",
+      "earliestPublicDisclosure": "2026-06-13",
+      "lastModification": "2026-07-27"
+    }
   }
 ]
