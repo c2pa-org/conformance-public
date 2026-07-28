@@ -6966,5 +6966,60 @@
       "earliestPublicDisclosure": "2026-07-26",
       "lastModification": "2026-07-28"
     }
+  },
+    {
+    "recordId": "019ed566-9fc3-7e69-908d-ff8173967552",
+    "applicant": "Numbers Co. Ltd.",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Numbers Verify Engine",
+        "O": "Numbers Co., Ltd.",
+        "OU": "",
+        "C": "TW"
+      },
+      "minVersion": ""
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-06-17",
+      "conformance": "2026-07-28",
+      "earliestPublicDisclosure": "2026-06-17",
+      "lastModification": "2026-07-28"
+    }
   }
 ]
