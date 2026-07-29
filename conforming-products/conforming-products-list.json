@@ -7060,5 +7060,41 @@
       "earliestPublicDisclosure": "2026-07-27",
       "lastModification": "2026-07-28"
     }
+  },  
+  {
+    "recordId": "019f8a20-6452-7a43-b11b-59d0b0e4a84a",
+    "applicant": "ChronoVerify",
+    "status": "conformant",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "ChronoVerify",
+        "O": "ChronoVerify",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": ""
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp",
+          "image/avif"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-22",
+      "conformance": "2026-07-23",
+      "earliestPublicDisclosure": "2026-07-28",
+      "lastModification": "2026-07-28"
+    }
   }
 ]
