@@ -7029,7 +7029,7 @@
     "product": {
       "productType": "generatorProduct",
       "DN": {
-        "CN": " iStock AI-Generated Image",
+        "CN": "iStock AI-Generated Image",
         "O": "Getty Images (US), Inc.",
         "OU": "",
         "C": "US"
@@ -7095,6 +7095,43 @@
       "conformance": "2026-07-23",
       "earliestPublicDisclosure": "2026-07-28",
       "lastModification": "2026-07-28"
+    }
+  },
+   {
+    "recordId": "019f5d75-e460-7ceb-b868-2dae9725025e",
+    "applicant": "Osman Demirtaş Sole Proprietorship",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Arkaeon Trading",
+        "O": "Osman Demirtas Sole Proprietorship",
+        "OU": "",
+        "C": "TR"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/png",
+          "image/svg+xml"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-07-13",
+      "conformance": "2026-07-30",
+      "earliestPublicDisclosure": "2026-07-13",
+      "lastModification": "2026-07-30"
     }
   }
 ]
