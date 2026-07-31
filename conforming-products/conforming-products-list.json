@@ -7359,5 +7359,45 @@
       "earliestPublicDisclosure": "2026-06-30",
       "lastModification": "2026-07-31"
     }
+  },
+  {
+    "recordId": "019f5bbe-324a-7b9a-8b33-7c148e10c836",
+    "applicant": "vivo Mobile Communication Co., Ltd.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Themes",
+        "O": "vivo Mobile Communication Co., Ltd.",
+        "OU": "",
+        "C": "CN"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/png"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/png"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-13",
+      "conformance": "2026-07-31",
+      "earliestPublicDisclosure": "2026-07-31",
+      "lastModification": "2026-07-31"
+    }
   }
 ]
