@@ -1,0 +1,1523 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "C2PA First Intermediate CA Certificate Profile Schema",
+    "description": "Validates JSON output of an X.509 certificate against the C2PA First Intermediate CA profile constraints.",
+    "allOf": [
+        {
+            "$ref": "#/$defs/baseCertificateOutputStructure"
+        },
+        {
+            "$ref": "#/$defs/c2paFirstIntermediateCaConstraints"
+        }
+    ],
+    "$defs": {
+        "algorithmIdentifier": {
+            "type": "object",
+            "properties": {
+                "algorithm": {
+                    "type": "object",
+                    "properties": {
+                        "oid": {
+                            "type": "string",
+                            "format": "regex",
+                            "pattern": "^\\d+(\\.\\d+)+$"
+                        },
+                        "name": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "oid",
+                        "name"
+                    ]
+                },
+                "parameters": {
+                    "description": "Algorithm parameters (structure varies or may be null/absent)",
+                    "type": [
+                        "object",
+                        "null",
+                        "string"
+                    ]
+                },
+                "parameters_hex": {
+                    "type": "string",
+                    "pattern": "^([0-9a-fA-F]{2})*$"
+                },
+                "parameters_repr": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "algorithm"
+            ]
+        },
+        "attributeTypeAndValue": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "type": "object",
+                    "properties": {
+                        "oid": {
+                            "type": "string",
+                            "format": "regex",
+                            "pattern": "^\\d+(\\.\\d+)+$"
+                        },
+                        "name": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "oid",
+                        "name"
+                    ]
+                },
+                "value": {
+                    "description": "Decoded attribute value (usually string)",
+                    "type": [
+                        "string",
+                        "number",
+                        "boolean",
+                        "object",
+                        "array"
+                    ]
+                }
+            },
+            "required": [
+                "type",
+                "value"
+            ]
+        },
+        "relativeDistinguishedName": {
+            "description": "Represents a SET OF AttributeTypeAndValue",
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "$ref": "#/$defs/attributeTypeAndValue"
+            }
+        },
+        "name": {
+            "description": "RDNSequence: SEQUENCE OF RelativeDistinguishedName",
+            "type": "array",
+            "items": {
+                "$ref": "#/$defs/relativeDistinguishedName"
+            }
+        },
+        "generalName": {
+            "type": "object",
+            "properties": {
+                "_type": {
+                    "type": "string",
+                    "enum": [
+                        "dNSName",
+                        "directoryName",
+                        "rfc822Name",
+                        "uniformResourceIdentifier",
+                        "iPAddress",
+                        "otherName",
+                        "registeredID",
+                        "UNKNOWN"
+                    ]
+                },
+                "value": {},
+                "type_id": {
+                    "type": "object",
+                    "properties": {
+                        "oid": {
+                            "type": "string"
+                        },
+                        "name": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "oid"
+                    ]
+                },
+                "value_hex": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_type"
+            ]
+        },
+        "publicKey": {
+            "type": "object",
+            "properties": {
+                "modulus_bits": {
+                    "type": "integer"
+                },
+                "modulus_hex": {
+                    "type": "string",
+                    "pattern": "^0x[0-9a-fA-F]+$"
+                },
+                "publicExponent": {
+                    "type": "integer"
+                },
+                "y_hex": {
+                    "type": "string",
+                    "pattern": "^0x[0-9a-fA-F]+$"
+                },
+                "parameters": {
+                    "type": "object"
+                },
+                "key_size_p_bits": {
+                    "type": "integer"
+                },
+                "curve": {
+                    "type": "string"
+                },
+                "point_uncompressed_hex": {
+                    "type": "string",
+                    "pattern": "^([0-9a-fA-F]{2})*$"
+                },
+                "x_hex": {
+                    "type": "string",
+                    "pattern": "^0x[0-9a-fA-F]+$"
+                },
+                "key_size_bits": {
+                    "type": "integer"
+                },
+                "spki_algorithm": {
+                    "$ref": "#/$defs/algorithmIdentifier"
+                },
+                "raw_spki_hex": {
+                    "type": "string",
+                    "pattern": "^([0-9a-fA-F]{2})*$"
+                }
+            },
+            "required": [
+                "spki_algorithm",
+                "raw_spki_hex"
+            ]
+        },
+        "extensionValue": {
+            "type": "object",
+            "properties": {
+                "_raw_value_hex": {
+                    "type": "string",
+                    "pattern": "^([0-9a-fA-F]{2})*$"
+                },
+                "_unrecognized": {
+                    "type": "boolean"
+                },
+                "_pyasn1_decoded": {
+                    "type": "object",
+                    "properties": {
+                        "_asn1_type": {
+                            "type": "string"
+                        },
+                        "value": {},
+                        "value_hex": {
+                            "type": "string"
+                        },
+                        "_encoding": {
+                            "type": "string"
+                        },
+                        "pretty_print": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "_asn1_type"
+                    ]
+                },
+                "_pyasn1_error": {
+                    "type": "string"
+                },
+                "_generic_value_repr": {
+                    "type": "string"
+                },
+                "_DECODING_ERROR": {
+                    "type": "string"
+                },
+                "cA": {
+                    "type": "boolean"
+                },
+                "pathLenConstraint": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "minimum": 0
+                },
+                "digitalSignature": {
+                    "type": "boolean"
+                },
+                "contentCommitment": {
+                    "type": "boolean"
+                },
+                "keyEncipherment": {
+                    "type": "boolean"
+                },
+                "dataEncipherment": {
+                    "type": "boolean"
+                },
+                "keyAgreement": {
+                    "type": "boolean"
+                },
+                "keyCertSign": {
+                    "type": "boolean"
+                },
+                "cRLSign": {
+                    "type": "boolean"
+                },
+                "encipherOnly": {
+                    "type": "boolean"
+                },
+                "decipherOnly": {
+                    "type": "boolean"
+                },
+                "_raw_bits_hex": {
+                    "type": "string"
+                },
+                "_unused_bits": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "generalNames": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/generalName"
+                    }
+                },
+                "keyIdentifier_hex": {
+                    "type": "string",
+                    "pattern": "^([0-9a-fA-F]{2})*$"
+                },
+                "authorityCertIssuer": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/generalName"
+                    }
+                },
+                "authorityCertSerialNumber_hex": {
+                    "type": "string",
+                    "pattern": "^0x[0-9a-fA-F]+$"
+                },
+                "certificatePolicies": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/policyInformation"
+                    }
+                },
+                "requireExplicitPolicy": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "minimum": 0
+                },
+                "inhibitPolicyMapping": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "minimum": 0
+                },
+                "permittedSubtrees": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/generalName"
+                    }
+                },
+                "excludedSubtrees": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/generalName"
+                    }
+                },
+                "extendedKeyUsage": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/policyIdentifier"
+                    }
+                },
+                "cRLDistributionPoints": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/distributionPoint"
+                    }
+                },
+                "authorityInfoAccess": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/accessDescription"
+                    }
+                },
+                "subjectInfoAccess": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/accessDescription"
+                    }
+                },
+                "skipCerts": {
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "policyMappings": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/policyMappingItem"
+                    }
+                },
+                "freshestCRL": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/distributionPoint"
+                    }
+                },
+                "subjectDirectoryAttributes": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/attributeTypeAndValue"
+                    }
+                },
+                "ocspNoCheck": {
+                    "type": "null"
+                }
+            }
+        },
+        "extension": {
+            "type": "object",
+            "properties": {
+                "extnID": {
+                    "$ref": "#/$defs/policyIdentifier"
+                },
+                "critical": {
+                    "type": "boolean"
+                },
+                "extnValue": {
+                    "$ref": "#/$defs/extensionValue"
+                }
+            },
+            "required": [
+                "extnID",
+                "critical",
+                "extnValue"
+            ]
+        },
+        "validity": {
+            "type": "object",
+            "properties": {
+                "notBefore": {
+                    "type": "object",
+                    "properties": {
+                        "_encoding": {
+                            "enum": [
+                                "UTCTime",
+                                "GeneralizedTime"
+                            ]
+                        },
+                        "value": {
+                            "type": "string",
+                            "format": "date-time"
+                        }
+                    },
+                    "required": [
+                        "_encoding",
+                        "value"
+                    ]
+                },
+                "notAfter": {
+                    "type": "object",
+                    "properties": {
+                        "_encoding": {
+                            "enum": [
+                                "UTCTime",
+                                "GeneralizedTime"
+                            ]
+                        },
+                        "value": {
+                            "type": "string",
+                            "format": "date-time"
+                        }
+                    },
+                    "required": [
+                        "_encoding",
+                        "value"
+                    ]
+                },
+                "computedValidityDays": {
+                    "description": "Calculated validity period in days (e.g., 5 years typical). Specific dates set at generation.",
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "notBefore",
+                "notAfter"
+            ]
+        },
+        "policyIdentifier": {
+            "type": "object",
+            "properties": {
+                "oid": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "oid"
+            ]
+        },
+        "policyQualifierInfo": {
+            "type": "object",
+            "properties": {
+                "_type": {
+                    "type": "string",
+                    "enum": [
+                        "id-qt-cps",
+                        "id-qt-unotice",
+                        "UNKNOWN"
+                    ]
+                },
+                "CPSuri": {
+                    "type": "string"
+                },
+                "noticeRef": {
+                    "type": "object",
+                    "properties": {
+                        "organization": {
+                            "type": "string"
+                        },
+                        "noticeNumbers": {
+                            "type": "array",
+                            "items": {
+                                "type": "integer"
+                            }
+                        }
+                    },
+                    "required": [
+                        "organization",
+                        "noticeNumbers"
+                    ]
+                },
+                "explicitText": {
+                    "type": "string"
+                },
+                "policyQualifierId": {
+                    "type": "string"
+                },
+                "qualifier_value": {}
+            },
+            "required": [
+                "_type"
+            ]
+        },
+        "policyInformation": {
+            "type": "object",
+            "properties": {
+                "policyIdentifier": {
+                    "$ref": "#/$defs/policyIdentifier"
+                },
+                "policyQualifiers": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/policyQualifierInfo"
+                    }
+                }
+            },
+            "required": [
+                "policyIdentifier"
+            ]
+        },
+        "distributionPoint": {
+            "type": "object",
+            "properties": {
+                "distributionPoint": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "fullName": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/$defs/generalName"
+                                    }
+                                }
+                            },
+                            "required": [
+                                "fullName"
+                            ]
+                        },
+                        {
+                            "properties": {
+                                "nameRelativeToCRLIssuer": {
+                                    "$ref": "#/$defs/relativeDistinguishedName"
+                                }
+                            },
+                            "required": [
+                                "nameRelativeToCRLIssuer"
+                            ]
+                        }
+                    ]
+                },
+                "reasons": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "cRLIssuer": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/generalName"
+                    }
+                }
+            },
+            "required": []
+        },
+        "accessDescription": {
+            "type": "object",
+            "properties": {
+                "accessMethod": {
+                    "$ref": "#/$defs/policyIdentifier"
+                },
+                "accessLocation": {
+                    "$ref": "#/$defs/generalName"
+                }
+            },
+            "required": [
+                "accessMethod",
+                "accessLocation"
+            ]
+        },
+        "policyMappingItem": {
+            "type": "object",
+            "properties": {
+                "issuerDomainPolicy": {
+                    "$ref": "#/$defs/policyIdentifier"
+                },
+                "subjectDomainPolicy": {
+                    "$ref": "#/$defs/policyIdentifier"
+                }
+            },
+            "required": [
+                "issuerDomainPolicy",
+                "subjectDomainPolicy"
+            ]
+        },
+        "tbsCertificateStructure": {
+            "type": "object",
+            "properties": {
+                "version": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "const": 2
+                        },
+                        "rawValue": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "value"
+                    ]
+                },
+                "serialNumber_hex": {
+                    "type": "string",
+                    "description": "Hex representation of serial number, 1 to 20 octets, positive.",
+                    "pattern": "^0x([0-9a-fA-F]){1,40}$",
+                    "not": {
+                        "pattern": "^0x(00)+$"
+                    }
+                },
+                "signature": {
+                    "$ref": "#/$defs/algorithmIdentifier"
+                },
+                "issuer": {
+                    "$ref": "#/$defs/name"
+                },
+                "validity": {
+                    "$ref": "#/$defs/validity"
+                },
+                "subject": {
+                    "$ref": "#/$defs/name"
+                },
+                "subjectPublicKeyInfo": {
+                    "type": "object",
+                    "properties": {
+                        "publicKey": {
+                            "$ref": "#/$defs/publicKey"
+                        }
+                    },
+                    "required": [
+                        "publicKey"
+                    ]
+                },
+                "extensions": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/extension"
+                    }
+                },
+                "extensions_error": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "version",
+                "serialNumber_hex",
+                "signature",
+                "issuer",
+                "validity",
+                "subject",
+                "subjectPublicKeyInfo"
+            ]
+        },
+        "baseCertificateStructure": {
+            "type": "object",
+            "properties": {
+                "tbsCertificate": {
+                    "$ref": "#/$defs/tbsCertificateStructure"
+                },
+                "signatureAlgorithm": {
+                    "$ref": "#/$defs/algorithmIdentifier"
+                },
+                "signatureValue_hex": {
+                    "type": "string",
+                    "pattern": "^([0-9a-fA-F]{2})*$"
+                }
+            },
+            "required": [
+                "tbsCertificate",
+                "signatureAlgorithm",
+                "signatureValue_hex"
+            ]
+        },
+        "baseCertificateOutputStructure": {
+            "description": "Matches the top-level output of the script for a certificate",
+            "type": "object",
+            "properties": {
+                "format": {
+                    "const": "certificate"
+                },
+                "decoded": {
+                    "$ref": "#/$defs/baseCertificateStructure"
+                },
+                "raw_hex": {
+                    "type": "string",
+                    "pattern": "^([0-9a-fA-F]{2})*$"
+                }
+            },
+            "required": [
+                "format",
+                "decoded"
+            ]
+        },
+        "c2paFirstIntermediateCaConstraints": {
+            "description": "Specific constraints for the C2PA First Intermediate CA profile",
+            "allOf": [
+                {
+                    "properties": {
+                        "decoded": {
+                            "properties": {
+                                "signatureAlgorithm": {
+                                    "properties": {
+                                        "algorithm": {
+                                            "properties": {
+                                                "oid": {
+                                                    "enum": [
+                                                        "1.2.840.113549.1.1.11",
+                                                        "1.2.840.113549.1.1.12",
+                                                        "1.2.840.113549.1.1.13",
+                                                        "1.2.840.113549.1.1.10",
+                                                        "1.2.840.10045.4.3.2",
+                                                        "1.2.840.10045.4.3.3",
+                                                        "1.2.840.10045.4.3.4"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "properties": {
+                        "decoded": {
+                            "properties": {
+                                "tbsCertificate": {
+                                    "properties": {
+                                        "subject": {
+                                            "description": "Subject DN must contain C, O, CN",
+                                            "allOf": [
+                                                {
+                                                    "contains": {
+                                                        "items": {
+                                                            "properties": {
+                                                                "type": {
+                                                                    "properties": {
+                                                                        "oid": {
+                                                                            "const": "2.5.4.6"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "contains": {
+                                                        "items": {
+                                                            "properties": {
+                                                                "type": {
+                                                                    "properties": {
+                                                                        "oid": {
+                                                                            "const": "2.5.4.10"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "contains": {
+                                                        "items": {
+                                                            "properties": {
+                                                                "type": {
+                                                                    "properties": {
+                                                                        "oid": {
+                                                                            "const": "2.5.4.3"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "issuer": {
+                                            "description": "Issuer DN must contain C, O, CN (matches Subject of Root CA)",
+                                            "allOf": [
+                                                {
+                                                    "contains": {
+                                                        "items": {
+                                                            "properties": {
+                                                                "type": {
+                                                                    "properties": {
+                                                                        "oid": {
+                                                                            "const": "2.5.4.6"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "contains": {
+                                                        "items": {
+                                                            "properties": {
+                                                                "type": {
+                                                                    "properties": {
+                                                                        "oid": {
+                                                                            "const": "2.5.4.10"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "contains": {
+                                                        "items": {
+                                                            "properties": {
+                                                                "type": {
+                                                                    "properties": {
+                                                                        "oid": {
+                                                                            "const": "2.5.4.3"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "properties": {
+                        "decoded": {
+                            "properties": {
+                                "tbsCertificate": {
+                                    "properties": {
+                                        "subjectPublicKeyInfo": {
+                                            "properties": {
+                                                "publicKey": {
+                                                    "allOf": [
+                                                        {
+                                                            "if": {
+                                                                "properties": {
+                                                                    "spki_algorithm": {
+                                                                        "properties": {
+                                                                            "algorithm": {
+                                                                                "properties": {
+                                                                                    "oid": {
+                                                                                        "const": "1.2.840.10045.2.1"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "then": {
+                                                                "properties": {
+                                                                    "curve": {
+                                                                        "enum": [
+                                                                            "secp384r1",
+                                                                            "secp521r1"
+                                                                        ]
+                                                                    },
+                                                                    "key_size_bits": {
+                                                                        "enum": [
+                                                                            384,
+                                                                            521
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "curve",
+                                                                    "key_size_bits"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "if": {
+                                                                "properties": {
+                                                                    "spki_algorithm": {
+                                                                        "properties": {
+                                                                            "algorithm": {
+                                                                                "properties": {
+                                                                                    "oid": {
+                                                                                        "const": "1.2.840.113549.1.1.1"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "then": {
+                                                                "properties": {
+                                                                    "modulus_bits": {
+                                                                        "minimum": 3072
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "modulus_bits"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "properties": {
+                                                                "spki_algorithm": {
+                                                                    "properties": {
+                                                                        "algorithm": {
+                                                                            "properties": {
+                                                                                "oid": {
+                                                                                    "enum": [
+                                                                                        "1.2.840.10045.2.1",
+                                                                                        "1.2.840.113549.1.1.1"
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "properties": {
+                        "decoded": {
+                            "properties": {
+                                "tbsCertificate": {
+                                    "properties": {
+                                        "validity": {
+                                            "properties": {
+                                                "computedValidityDays": {
+                                                    "description": "Calculated validity period in days (e.g., 5 years typical). Specific dates set at generation.",
+                                                    "type": [
+                                                        "integer",
+                                                        "null"
+                                                    ]
+                                                }
+                                            },
+                                            "required": [
+                                                "computedValidityDays"
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "properties": {
+                        "decoded": {
+                            "properties": {
+                                "tbsCertificate": {
+                                    "properties": {
+                                        "extensions": {
+                                            "description": "Extension constraints for First Intermediate CA",
+                                            "allOf": [
+                                                {
+                                                    "description": "Subject Key Identifier MUST be present, critical=false, require keyIdentifier_hex",
+                                                    "contains": {
+                                                        "properties": {
+                                                            "extnID": {
+                                                                "properties": {
+                                                                    "oid": {
+                                                                        "const": "2.5.29.14"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "critical": {
+                                                                "const": false
+                                                            },
+                                                            "extnValue": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "keyIdentifier_hex": {
+                                                                        "type": "string",
+                                                                        "pattern": "^([0-9a-fA-F]{2})*$"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "keyIdentifier_hex"
+                                                                ]
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "extnID",
+                                                            "critical",
+                                                            "extnValue"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "description": "Authority Key Identifier MUST be present, critical=false, require keyIdentifier_hex",
+                                                    "contains": {
+                                                        "properties": {
+                                                            "extnID": {
+                                                                "properties": {
+                                                                    "oid": {
+                                                                        "const": "2.5.29.35"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "critical": {
+                                                                "const": false
+                                                            },
+                                                            "extnValue": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "keyIdentifier_hex": {
+                                                                        "type": "string",
+                                                                        "pattern": "^([0-9a-fA-F]{2})*$"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "keyIdentifier_hex"
+                                                                ]
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "extnID",
+                                                            "critical",
+                                                            "extnValue"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "description": "Key Usage MUST be present, critical=true, ONLY keyCertSign & cRLSign",
+                                                    "contains": {
+                                                        "properties": {
+                                                            "extnID": {
+                                                                "properties": {
+                                                                    "oid": {
+                                                                        "const": "2.5.29.15"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "critical": {
+                                                                "const": true
+                                                            },
+                                                            "extnValue": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "keyCertSign": {
+                                                                        "const": true
+                                                                    },
+                                                                    "cRLSign": {
+                                                                        "const": true
+                                                                    },
+                                                                    "digitalSignature": {
+                                                                        "const": false
+                                                                    },
+                                                                    "contentCommitment": {
+                                                                        "const": false
+                                                                    },
+                                                                    "keyEncipherment": {
+                                                                        "const": false
+                                                                    },
+                                                                    "dataEncipherment": {
+                                                                        "const": false
+                                                                    },
+                                                                    "keyAgreement": {
+                                                                        "const": false
+                                                                    },
+                                                                    "encipherOnly": {
+                                                                        "const": false
+                                                                    },
+                                                                    "decipherOnly": {
+                                                                        "const": false
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "keyCertSign",
+                                                                    "cRLSign",
+                                                                    "digitalSignature",
+                                                                    "contentCommitment",
+                                                                    "keyEncipherment",
+                                                                    "dataEncipherment",
+                                                                    "keyAgreement",
+                                                                    "encipherOnly",
+                                                                    "decipherOnly"
+                                                                ]
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "extnID",
+                                                            "critical",
+                                                            "extnValue"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "description": "Basic Constraints MUST be present, critical=true, cA=true, pathLenConstraint=1",
+                                                    "contains": {
+                                                        "properties": {
+                                                            "extnID": {
+                                                                "properties": {
+                                                                    "oid": {
+                                                                        "const": "2.5.29.19"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "critical": {
+                                                                "const": true
+                                                            },
+                                                            "extnValue": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "cA": {
+                                                                        "const": true
+                                                                    },
+                                                                    "pathLenConstraint": {
+                                                                        "const": 1
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "cA",
+                                                                    "pathLenConstraint"
+                                                                ]
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "extnID",
+                                                            "critical",
+                                                            "extnValue"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "description": "Certificate Policies MUST be present, critical=false, contain C2PA policy",
+                                                    "contains": {
+                                                        "properties": {
+                                                            "extnID": {
+                                                                "properties": {
+                                                                    "oid": {
+                                                                        "const": "2.5.29.32"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "critical": {
+                                                                "const": false
+                                                            },
+                                                            "extnValue": {
+                                                                "properties": {
+                                                                    "certificatePolicies": {
+                                                                        "contains": {
+                                                                            "properties": {
+                                                                                "policyIdentifier": {
+                                                                                    "properties": {
+                                                                                        "oid": {
+                                                                                            "const": "1.3.6.1.4.1.62558.1.1"
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "certificatePolicies"
+                                                                ]
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "extnID",
+                                                            "critical",
+                                                            "extnValue"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "extensions"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "Check for presence of AIA (with OCSP) OR CDP",
+                    "properties": {
+                        "decoded": {
+                            "properties": {
+                                "tbsCertificate": {
+                                    "properties": {
+                                        "extensions": {
+                                            "oneOf": [
+                                                {
+                                                    "description": "May contain AIA with OCSP",
+                                                    "contains": {
+                                                        "properties": {
+                                                            "extnID": {
+                                                                "properties": {
+                                                                    "oid": {
+                                                                        "const": "1.3.6.1.5.5.7.1.1"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "critical": {
+                                                                "const": false
+                                                            },
+                                                            "extnValue": {
+                                                                "properties": {
+                                                                    "authorityInfoAccess": {
+                                                                        "contains": {
+                                                                            "properties": {
+                                                                                "accessMethod": {
+                                                                                    "properties": {
+                                                                                        "oid": {
+                                                                                            "const": "1.3.6.1.5.5.7.48.1"
+                                                                                        }
+                                                                                    }
+                                                                                },
+                                                                                "accessLocation": {
+                                                                                    "properties": {
+                                                                                        "_type": {
+                                                                                            "const": "uniformResourceIdentifier"
+                                                                                        },
+                                                                                        "value": {
+                                                                                            "type": "string",
+                                                                                            "pattern": "^http://.+"
+                                                                                        }
+                                                                                    },
+                                                                                    "required": [
+                                                                                        "_type",
+                                                                                        "value"
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "accessMethod",
+                                                                                "accessLocation"
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "authorityInfoAccess"
+                                                                ]
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "extnID",
+                                                            "critical",
+                                                            "extnValue"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "description": "May contain CRL DP",
+                                                    "contains": {
+                                                        "properties": {
+                                                            "extnID": {
+                                                                "properties": {
+                                                                    "oid": {
+                                                                        "const": "2.5.29.31"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "critical": {
+                                                                "const": false
+                                                            },
+                                                            "extnValue": {
+                                                                "properties": {
+                                                                    "cRLDistributionPoints": {
+                                                                        "type": "array",
+                                                                        "minItems": 1,
+                                                                        "items": {
+                                                                            "properties": {
+                                                                                "distributionPoint": {
+                                                                                    "properties": {
+                                                                                        "fullName": {
+                                                                                            "contains": {
+                                                                                                "properties": {
+                                                                                                    "_type": {
+                                                                                                        "const": "uniformResourceIdentifier"
+                                                                                                    },
+                                                                                                    "value": {
+                                                                                                        "type": "string",
+                                                                                                        "pattern": "^http://.+"
+                                                                                                    }
+                                                                                                },
+                                                                                                "required": [
+                                                                                                    "_type",
+                                                                                                    "value"
+                                                                                                ]
+                                                                                            }
+                                                                                        }
+                                                                                    },
+                                                                                    "required": [
+                                                                                        "fullName"
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "distributionPoint"
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "cRLDistributionPoints"
+                                                                ]
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "extnID",
+                                                            "critical",
+                                                            "extnValue"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "Check AIA details if present (Critical=false, HTTP URI, should contain caIssuers)",
+                    "properties": {
+                        "decoded": {
+                            "properties": {
+                                "tbsCertificate": {
+                                    "properties": {
+                                        "extensions": {
+                                            "items": {
+                                                "if": {
+                                                    "properties": {
+                                                        "extnID": {
+                                                            "properties": {
+                                                                "oid": {
+                                                                    "const": "1.3.6.1.5.5.7.1.1"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "then": {
+                                                    "properties": {
+                                                        "critical": {
+                                                            "const": false
+                                                        },
+                                                        "extnValue": {
+                                                            "properties": {
+                                                                "authorityInfoAccess": {
+                                                                    "description": "Should contain caIssuers (1.3.6.1.5.5.7.48.2) - This check is informational as 'should' is not strict",
+                                                                    "contains": {
+                                                                        "properties": {
+                                                                            "accessMethod": {
+                                                                                "properties": {
+                                                                                    "oid": {
+                                                                                        "const": "1.3.6.1.5.5.7.48.2"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "items": {
+                                                                        "properties": {
+                                                                            "accessLocation": {
+                                                                                "properties": {
+                                                                                    "_type": {
+                                                                                        "const": "uniformResourceIdentifier"
+                                                                                    },
+                                                                                    "value": {
+                                                                                        "type": "string",
+                                                                                        "pattern": "^http://.+"
+                                                                                    }
+                                                                                },
+                                                                                "required": [
+                                                                                    "_type",
+                                                                                    "value"
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        "required": [
+                                                                            "accessLocation"
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "authorityInfoAccess"
+                                                            ]
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "critical",
+                                                        "extnValue"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "Check CDP details if present (Critical=false, HTTP URI)",
+                    "properties": {
+                        "decoded": {
+                            "properties": {
+                                "tbsCertificate": {
+                                    "properties": {
+                                        "extensions": {
+                                            "items": {
+                                                "if": {
+                                                    "properties": {
+                                                        "extnID": {
+                                                            "properties": {
+                                                                "oid": {
+                                                                    "const": "2.5.29.31"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "then": {
+                                                    "properties": {
+                                                        "critical": {
+                                                            "const": false
+                                                        },
+                                                        "extnValue": {
+                                                            "properties": {
+                                                                "cRLDistributionPoints": {
+                                                                    "items": {
+                                                                        "properties": {
+                                                                            "distributionPoint": {
+                                                                                "properties": {
+                                                                                    "fullName": {
+                                                                                        "items": {
+                                                                                            "properties": {
+                                                                                                "_type": {
+                                                                                                    "const": "uniformResourceIdentifier"
+                                                                                                },
+                                                                                                "value": {
+                                                                                                    "type": "string",
+                                                                                                    "pattern": "^http://.+"
+                                                                                                }
+                                                                                            },
+                                                                                            "required": [
+                                                                                                "_type",
+                                                                                                "value"
+                                                                                            ]
+                                                                                        }
+                                                                                    }
+                                                                                },
+                                                                                "required": [
+                                                                                    "fullName"
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        "required": [
+                                                                            "distributionPoint"
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "cRLDistributionPoints"
+                                                            ]
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "critical",
+                                                        "extnValue"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

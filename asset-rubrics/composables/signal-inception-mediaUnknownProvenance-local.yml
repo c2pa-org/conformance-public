@@ -1,0 +1,22 @@
+rubric_metadata:
+  name: "Media of Unknown Provenance (Local)"
+  issuer: "C2PA Conformance Task Force"
+  date: "2026-03-30T16:15:23-07:00"
+  version: "1.0.0"
+  language: "en"
+
+include:
+  - globals-signals.yml
+
+---
+
+- id: "signal_mediaUnknownProvenance"
+  description: "Check if the manifest contains a Media of Unknown Provenance inception signal"
+  expression: |
+    assertions.'c2pa.ingredient.v3' != null &&
+    assertions.'c2pa.ingredient.v3'.activeManifest == null
+  reportText:
+    "true":
+      en: "Contains Media of Unknown Provenance"
+    "false":
+      en: "Does not contain Media of Unknown Provenance"

@@ -1,0 +1,36 @@
+rubric_metadata:
+  name: "C2PA Unified Action Definitions"
+  issuer: "C2PA Conformance Task Force"
+  date: "2026-06-26T00:00:00Z"
+  version: "1.0.0"
+  language: en
+
+variables:
+  # 1. Inception Actions
+  # Actions that represent the initial creation or opening of an asset.
+  "$inception_actions":
+    - "c2pa.created"
+    - "c2pa.opened"
+
+  # 2. Non-Editorial Actions
+  # Mechanical, administrative, or non-content-changing operations.
+  # These do not require a digitalSourceType to pass conformance, and they
+  # do not trigger perceptible/content-changing signals downstream.
+  "$non_editorial_actions":
+    - "c2pa.converted"
+    - "c2pa.published"
+    - "c2pa.repackaged"
+    - "c2pa.transcoded"
+    - "c2pa.resized.proportional"
+    - "c2pa.enhanced"
+    - "c2pa.edited.metadata"
+    - "c2pa.watermarked"
+    - "c2pa.watermarked.bound"
+    - "c2pa.watermarked.unbound"
+    - "c2pa.redacted"
+
+  # 3. DST-Exempt Perceptible Actions
+  # Actions that are neither inception nor non-editorial (and are thus "perceptible"),
+  # but are explicitly exempted from requiring a digitalSourceType under the Conformance Program.
+  "$dst_exempt_perceptible_actions":
+    - "c2pa.placed"

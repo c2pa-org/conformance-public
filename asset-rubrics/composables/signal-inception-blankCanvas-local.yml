@@ -1,0 +1,21 @@
+rubric_metadata:
+  name: "Blank Canvas (Local)"
+  issuer: "C2PA Conformance Task Force"
+  date: "2026-03-30T16:15:23-07:00"
+  version: "1.0.0"
+  language: "en"
+
+include:
+  - globals-signals.yml
+
+---
+
+- id: "signal_blankCanvas"
+  description: "Check if the manifest contains a Blank Canvas inception signal"
+  expression: |
+    _createdWithDst(@, "http://c2pa.org/digitalsourcetype/empty")
+  reportText:
+    "true":
+      en: "Contains Blank Canvas"
+    "false":
+      en: "Does not contain Blank Canvas"

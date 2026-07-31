@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "C2PA Asset Signals Rubric Output Schema",
+  "description": "Schema for the output of the C2PA Asset Signals Rubric Evaluator, representing detected provenance signals and lineage.",
+  "examples": [
+    {
+      "rubricName": "C2PA Asset Signals Rubric (Local)",
+      "rubricVersion": "1.0.0",
+      "manifests": [
+        {
+          "assertedBy": {
+            "subject": {
+              "CN": "Example CN",
+              "O": "Example O"
+            }
+          },
+          "dc:format": "image/jpeg",
+          "localInceptions": [
+            {
+              "trait": "inception:signal_capturedMedia",
+              "reportText": "Contains Captured Media",
+              "multiple": false
+            }
+          ],
+          "localTransformations": [],
+          "ingredients": []
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "required": ["rubricName", "rubricVersion", "manifests"],
+  "properties": {
+    "rubricName": {
+      "type": "string"
+    },
+    "rubricVersion": {
+      "type": "string"
+    },
+    "manifests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["assertedBy", "dc:format", "localInceptions", "localTransformations", "ingredients"],
+        "properties": {
+          "assertedBy": {
+            "type": "object",
+            "required": ["subject"],
+            "properties": {
+              "subject": {
+                "type": "object",
+                "required": ["CN", "O"],
+                "properties": {
+                  "CN": { "type": "string" },
+                  "O": { "type": "string" },
+                  "OU": { "type": "string" }
+                }
+              }
+            }
+          },
+          "localInceptions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["trait", "reportText", "multiple"],
+              "properties": {
+                "trait": { "type": "string" },
+                "reportText": { "type": "string" },
+                "multiple": { "type": "boolean" }
+              }
+            }
+          },
+          "localTransformations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["trait", "reportText", "multiple"],
+              "properties": {
+                "trait": { "type": "string" },
+                "reportText": { "type": "string" },
+                "multiple": { "type": "boolean" }
+              }
+            }
+          },
+          "ingredients": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["index", "relationship"],
+              "properties": {
+                "index": { "type": "integer" },
+                "relationship": { "type": "string" }
+              }
+            }
+          }
+        },
+        "patternProperties": {
+          "^dc:format$": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    }
+  }
+}
+

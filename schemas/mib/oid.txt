@@ -1,0 +1,51 @@
+C2PA-MIB DEFINITIONS ::= BEGIN
+
+  -- The root MIB for The Coalition for Content Provenance and Authenticity (C2PA)
+
+  IMPORTS
+          MODULE-IDENTITY, enterprises
+      FROM SNMPv2-SMI;
+
+  c2pa MODULE-IDENTITY
+    LAST-UPDATED "202411080900Z"  -- November 08, 2024
+    ORGANIZATION "The Coalition for Content Provenance and Authenticity"
+    CONTACT-INFO
+      "
+      Postal:	Andy Warner (awarner)
+        Google
+        1600 Amphitheatre Pkwy
+        Mountain View, CA 94035
+
+      email:	trust-list-admin@c2pa.org
+      "
+    DESCRIPTION
+    "This MIB is the root for all C2PA OIDs."
+
+    ::= { enterprises 62558 }
+
+  -- Following are the different groups in The C2PA's MIB tree.
+
+  -- C2PA Certificate Policies
+  c2pa-cp OBJECT IDENTIFIER ::= { c2pa 1 }
+  -- C2PA Certificate Policy
+  c2pa-certificate-policy OBJECT IDENTIFIER ::= { c2pa-cp 1 }
+
+
+  -- C2PA Key Usage
+  c2pa-kp OBJECT IDENTIFIER ::= { c2pa 2 }
+  -- claimSigning key usage
+  c2pa-kp-claimSigning OBJECT IDENTIFIER ::= { c2pa-kp 1 }
+
+  -- C2PA Claim Generator Assurance Levels
+  c2pa-al OBJECT IDENTIFIER ::= { c2pa 3 }
+  -- Assurance Level 1
+  c2pa-assuranceLevel-1 OBJECT IDENTIFIER ::= { c2pa-al 10 }
+  -- Assurance Level 2
+  c2pa-assuranceLevel-2 OBJECT IDENTIFIER ::= { c2pa-al 20 }
+
+  -- C2PA Conforming Products List Record Identifier
+  -- Acceptable values: UUID encoded using UTF8String (SIZE(36))
+  c2pa-cpl-record OBJECT IDENTIFIER ::= { c2pa 4 }
+
+  END
+    

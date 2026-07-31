@@ -1,0 +1,26 @@
+rubric_metadata:
+  name: "Ambiguous Actions Transformations (Local)"
+  issuer: "C2PA Conformance Task Force"
+  date: "2026-05-29T05:00:00Z"
+  version: "1.0.0"
+  language: "en"
+
+include:
+  - globals-signals.yml
+
+---
+
+- id: "signal_ambiguousActions"
+  description: "Check if the manifest contains ambiguous, custom, or incomplete actions"
+  expression: |
+    length(_signalActions()) == 0 ||
+
+    _actionsV2Assertion().allActionsIncluded != `true` ||
+    length(_signalActions()[? action != null && !startsWith(action, "c2pa.")]) > 0 ||
+    length(_signalActions()[? action == "c2pa.unknown"]) > 0 ||
+    length(_claimV2().gathered_assertions[? contains(url, "c2pa.actions")]) > 0
+  reportText:
+    "true":
+      en: "Contains ambiguous actions"
+    "false":
+      en: "All transformations actions are standard, complete, and unambiguous"

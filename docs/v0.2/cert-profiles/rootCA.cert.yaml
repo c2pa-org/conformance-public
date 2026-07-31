@@ -1,0 +1,40 @@
+# Summary of Certificate Profile Constraints for a self-signed C2PA Root CA certificate
+
+Profile: C2PA Root CA
+
+Core Fields:
+  Version: v3
+  Serial Number: Positive integer (high entropy recommended) up to 20 octets
+  Signature Algorithm: RSA (PSS or SHA2 variants) or ECDSA (SHA2 variants)
+  Issuer Name: Matches Subject Name (Self-Signed). Requires C, O, CN attributes.
+  Validity Period: Long-term (e.g., 20 years typical). Specific dates set at generation.
+  Subject Name: Unique name for the Root CA. Requires C, O, CN attributes. Matches Issuer Name.
+  Subject Public Key Info:
+    Algorithm: rsaEncryption or id-ecPublicKey
+    RSA Key Size: 3072 bits or larger
+    ECC Curve: P-384 or P-521
+
+Extensions:
+  Subject Key Identifier:
+    Presence: MUST
+    Critical: FALSE
+    Value: Hash of public key (RFC 5280 Method 1 - SHA-1)
+  Authority Key Identifier:
+    Presence: OPTIONAL
+    Critical: FALSE
+    Value: MUST contain keyIdentifier matching Subject Key Identifier (using RFC 5280 Method 1 - SHA-1). Issuer/Serial optional.
+  Key Usage:
+    Presence: MUST
+    Critical: TRUE
+    Bits: keyCertSign, cRLSign
+  Basic Constraints:
+    Presence: MUST
+    Critical: TRUE
+    Value: cA=TRUE, pathLenConstraint=2 or less
+  Certificate Policies:
+    Presence: OPTIONAL
+    Critical: FALSE
+  Authority Information Access:
+    Presence: MUST NOT
+  CRL Distribution Points:
+    Presence: MUST NOT

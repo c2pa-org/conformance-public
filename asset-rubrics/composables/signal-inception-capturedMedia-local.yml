@@ -1,0 +1,22 @@
+rubric_metadata:
+  name: "Captured Media (Local)"
+  issuer: "C2PA Conformance Task Force"
+  date: "2026-03-30T16:15:23-07:00"
+  version: "1.0.0"
+  language: "en"
+
+include:
+  - globals-signals.yml
+
+---
+
+- id: "signal_capturedMedia"
+  description: "Check if the manifest contains a Captured media inception signal"
+  expression: |
+    _createdWithDst(@, "http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture") ||
+    _createdWithDst(@, "http://cv.iptc.org/newscodes/digitalsourcetype/computationalCapture")
+  reportText:
+    "true":
+      en: "Contains Captured Media"
+    "false":
+      en: "Does not contain Captured Media"

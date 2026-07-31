@@ -1,0 +1,110 @@
+- id: validation:no_deprecated_claim_fields
+  description: Check for deprecated fields in the claim (e.g. specVersion in claim instead of claim_generator_info)
+  specSection: "Spec 2.4 §10.2.3.2, §10.2.1"
+  failIfMatched: true
+  expression: |
+    _claimV2().specVersion != null && `["specVersion in claim"]` || `[]`
+  reportText:
+    'true':
+      en: "No deprecated claim fields found (Spec 2.4 §10.2.3.2, §10.2.1)"
+    'false':
+      en: "Found deprecated claim fields: {{matches}} (Spec 2.4 §10.2.3.2, §10.2.1)"
+
+
+
+- id: validation:ingredient_v3_choice
+  description: Check that ingredient v3 does not contain both activeManifest and digitalSourceType
+  specSection: "Spec 2.4 §18.16.12.3"
+  expression: |
+    length(_ingredientAssertions()[? activeManifest != null && digitalSourceType != null]) == 0
+  reportText:
+    'true':
+      en: "No ingredient v3 assertion contains both activeManifest and digitalSourceType (Spec 2.4 §18.16.12.3)"
+    'false':
+      en: "Found ingredient v3 assertion containing both activeManifest and digitalSourceType (Spec 2.4 §18.16.12.3)"
+
+- id: validation:alternative_content_representation_choice
+  description: Check that alternative content representation has exactly one of multiAssetPartIndex or embeddedOriginalPreservationImage
+  specSection: "Spec 2.4 §15.10.3.2.7"
+  expression: |
+    length(_assertionValues()[?
+      (type == "exif.originalPreservationImage" || parameters.type == "exif.originalPreservationImage") &&
+      ((parameters.multiAssetPartIndex != null && parameters.embeddedOriginalPreservationImage != null) ||
+       (parameters.multiAssetPartIndex == null && parameters.embeddedOriginalPreservationImage == null))
+    ]) == 0
+  reportText:
+    'true':
+      en: "Alternative content representation assertions have valid choice of parameters (Spec 2.4 §15.10.3.2.7)"
+    'false':
+      en: "Found alternative content representation assertion with invalid choice of parameters (both or neither present) (Spec 2.4 §15.10.3.2.7)"
+
+- id: validation:forbidden_labels_in_external_references
+  description: Check that external references do not point to forbidden labels
+  specSection: "Spec 2.4 §15.10.3.2.2, §18.24.1"
+  failIfMatched: true
+  expression: |
+    _assertionValues()[? label != null && url != null && relationship == null &&
+      (contains(`["c2pa.actions", "c2pa.actions.v2", "c2pa.cloud-data", "c2pa.external-reference"]`, label) ||
+       startsWith(label, "c2pa.hash") ||
+       startsWith(label, "c2pa.ingredient"))].label
+  reportText:
+    'true':
+      en: "No external references point to forbidden labels (Spec 2.4 §15.10.3.2.2, §18.24.1)"
+    'false':
+      en: "Found external reference pointing to forbidden label: {{matches}} (Spec 2.4 §15.10.3.2.2, §18.24.1)"
+
+- id: validation:no_url_in_hashes
+  description: Check that deprecated url field is not present in hash assertions (Spec 2.4)
+  specSection: "Spec 2.4 §18.5, §18.6"
+  failIfMatched: true
+  expression: |
+    notNull(manifests[0].assertions.'c2pa.hash.data'.url && `["c2pa.hash.data"]`, manifests[0].assertions.'c2pa.hash.bmff.v3'.url && `["c2pa.hash.bmff.v3"]`) || `[]`
+  reportText:
+    'true':
+      en: "No deprecated url field found in hash assertions (Spec 2.4 §18.5, §18.6)"
+    'false':
+      en: "Found deprecated url field in hash assertions: {{matches}} (Spec 2.4 §18.5, §18.6)"
+
+- id: validation:all_actions_included_opened
+  description: Check that allActionsIncluded is true when a claim generator opens and immediately re-saves an asset without making other changes (Spec 2.4)
+  specSection: "Spec 2.4 §18.15.3"
+  failIfMatched: true
+  expression: |
+    length(_actionsV2()) == 1 &&
+    _actionsV2Assertion().allActionsIncluded != `true` &&
+    _actionsV2()[?action == "c2pa.opened"]
+  reportText:
+    'true':
+      en: "allActionsIncluded is correctly set to true for open-and-re-save manifest (Spec 2.4 §18.15.3)"
+    'false':
+      en: "Missing mandatory allActionsIncluded: true in actions assertion for open-and-re-save manifest. Matches: {{matches}} (Spec 2.4 §18.15.3)"
+
+- id: validation:opened_action_ingredient_reference
+  description: Check that a c2pa.opened action includes exactly one reference to the corresponding parentOf ingredient assertion (Spec 2.4)
+  specSection: "Spec 2.4 §15.10.3.2.3, §18.15.4.7"
+  failIfMatched: true
+  expression: |
+    _actionsV2()[?action == "c2pa.opened" &&
+      (parameters == null ||
+       parameters.ingredients == null ||
+       length(parameters.ingredients) != 1)
+    ]
+  reportText:
+    'true':
+      en: "All c2pa.opened actions have exactly one ingredient reference (Spec 2.4 §15.10.3.2.3, §18.15.4.7)"
+    'false':
+      en: "Found c2pa.opened actions missing or having incorrect number of ingredient references: {{matches}} (Spec 2.4 §15.10.3.2.3, §18.15.4.7)"
+
+- id: validation:no_box_hash_for_tiff
+  description: Verify that deprecated box hash is not used for TIFF-based assets (Spec 2.4)
+  specSection: "Spec 2.4 §18.7.3.3, §15.10.1.2"
+  failIfMatched: true
+  expression: |
+    contains(_assertionKeys(), "c2pa.hash.boxes") &&
+    contains($tiff_media_types, manifests[0].assertions.'c2pa.asset-type.v2'.'dc:format') &&
+    `["c2pa.hash.boxes"]` || `[]`
+  reportText:
+    'true':
+      en: "No deprecated box hash found for TIFF-based assets (Spec 2.4 §18.7.3.3, §15.10.1.2)"
+    'false':
+      en: "Found deprecated box hash for TIFF-based assets: {{matches}} (Spec 2.4 §18.7.3.3, §15.10.1.2)"

@@ -1,0 +1,22 @@
+rubric_metadata:
+  name: "Non-Editorial Transformations (Local)"
+  issuer: "C2PA Conformance Task Force"
+  date: "2026-03-30T16:28:39-07:00"
+  version: "1.0.0"
+  language: "en"
+
+include:
+  - globals-signals.yml
+
+---
+
+- id: "signal_nonEditorial"
+  description: "Check if the manifest contains a Non-Editorial Transformations signal"
+  expression: |
+    length(_signalActions()[? action != null &&
+      contains($non_editorial_actions, action)]) > 0
+  reportText:
+    "true":
+      en: "Contains Non-editorial Transformations"
+    "false":
+      en: "Does not contain Non-editorial Transformations"

@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Extension of ETSI TS 119 602 to support C2PA Trust List specific requirements",
+  "description": "This extension adds C2PA-specific requirements to the ETSI TS 119 602 Trust List schema",
+  "allOf": [
+    {
+      "$ref": "./ETSI-TS-119-602-schemas/v1.1.1/1960201_json_schema/1960201_json_schema.json"
+    }
+  ],
+  "properties": {
+    "LoTE": {
+      "properties": {
+        "TrustedEntitiesList": {
+          "items": {
+            "properties": {
+              "TrustedEntityServices": {
+                "items": {
+                  "properties": {
+                    "ServiceInformation": {
+                      "properties": {
+                        "ServiceInformation": {
+                          "properties": {
+                            "ServiceStatus": {
+                              "enum": [
+                                "http://c2pa.org/conformance/trust-list/trusted",
+                                "http://c2pa.org/conformance/trust-list/untrusted"
+                              ]
+                            }
+                          }
+                        },
+                        "ServiceHistory": {
+                          "items": {
+                            "properties": {
+                              "ServiceStatus": {
+                                "enum": [
+                                  "http://c2pa.org/conformance/trust-list/trusted",
+                                  "http://c2pa.org/conformance/trust-list/untrusted"
+                                ],
+                                "description": "This constrains the ServiceStatus values to be either 'trusted' or 'untrusted'. The trusted status is represented by the URL 'http://c2pa.org/conformance/trust-list/trusted' and used to capture the date a certificate was added to the trust list. The untrusted status is represented by the URL 'http://c2pa.org/conformance/trust-list/untrusted' and represents the date a certificate was untrusted. Note that these value maybe different from the notBefore and notAfter dates of the certificate itself"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "LoTE": {
+        "ListAndSchemeInformation": {
+          "LoTEVersionIdentifier": 1,
+          "LoTESequenceNumber": 1,
+          "SchemeOperatorName": [
+            {
+              "lang": "en",
+              "value": "C2PA - Coalition for Content Provenance and Authenticity"
+            }
+          ],
+          "ListIssueDateTime": "2025-02-01T00:00:00Z",
+          "NextUpdate": "2025-03-01T00:00:00Z"
+        },
+        "TrustedEntitiesList": [
+          {
+            "TrustedEntityInformation": {
+              "TEName": [
+                {
+                  "lang": "en",
+                  "value": "Example CA"
+                }
+              ],
+              "TEAddress": {
+                "TEPostalAddress": [
+                  {
+                    "lang": "en",
+                    "StreetAddress": "A Street 1",
+                    "Country": "Switzerland"
+                  }
+                ],
+                "TEElectronicAddress": [
+                  {
+                    "lang": "en",
+                    "uriValue": "mailto:email@example.com"
+                  }
+                ]
+              },
+              "TEInformationURI": [
+                {
+                  "lang": "en",
+                  "uriValue": "https://example.com"
+                }
+              ]
+            },
+            "TrustedEntityServices": [
+              {
+                "ServiceInformation": {
+                  "ServiceName": [
+                    {
+                      "lang": "en",
+                      "value": "Example CA Root"
+                    }
+                  ],
+                  "ServiceDigitalIdentity": {
+                    "X509Certificates": [
+                      {
+                        "val": "MA=="
+                      }
+                    ]
+                  },
+                  "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
+                  "StatusStartingTime": "2025-02-01T00:00:00Z"
+                },
+                "ServiceHistory": [
+                  {
+                    "ServiceName": [
+                      {
+                        "lang": "en",
+                        "value": "Example CA Root"
+                      }
+                    ],
+                    "ServiceDigitalIdentity": {
+                      "X509Certificates": [
+                        {
+                          "val": "MA=="
+                        }
+                      ]
+                    },
+                    "ServiceStatus": "http://c2pa.org/conformance/trust-list/untrusted",
+                    "StatusStartingTime": "2025-06-01T00:00:00Z"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

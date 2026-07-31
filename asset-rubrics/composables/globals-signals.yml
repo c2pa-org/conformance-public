@@ -1,0 +1,38 @@
+rubric_metadata:
+  name: "C2PA Signal Rubric Globals"
+  issuer: "C2PA Conformance Task Force"
+  date: "2026-03-31T05:00:00Z"
+  version: "1.0.0"
+  language: en
+
+variables:
+
+  # GenAI digitalSourceType values — used positively in perceptibleGenAI, negatively in perceptibleNonGenAI
+  "$genai_dst_types":
+    - "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+    - "http://cv.iptc.org/newscodes/digitalsourcetype/compositeWithTrainedAlgorithmicMedia"
+    - "http://cv.iptc.org/newscodes/digitalsourcetype/compositeSynthetic"
+    - "http://c2pa.org/digitalsourcetype/trainedAlgorithmicData"
+
+  # digitalSourceType values that indicate perceptible transformations possibly using GenAI
+  "$possibly_genai_dst_types":
+    - "http://cv.iptc.org/newscodes/digitalsourcetype/digitalArt"
+    - "http://cv.iptc.org/newscodes/digitalsourcetype/composite"
+
+include:
+  - globals-actions.yml
+  - globals-manifest.yml
+
+expressions:
+  # Zero-arg and single-arg wrappers for signal context (root = individual manifest, injected by evaluator loop).
+  # Each binds @ (the current root) as the active manifest and delegates to the
+  # parameterized base in globals-manifest.yml — composable call sites unchanged.
+  _signalActions:           "_manifest_signalActions(@)"
+  _actionsV2Assertion:      "_manifest_actionsV2Assertion(@)"
+  _claimV2:                 "_manifest_claimV2(@)"
+  _ingredientAssertions:    "_manifest_ingredientAssertions(@)"
+
+  # $args[0] = manifest (arg 0), $args[1] = digitalSourceType URI (arg 1).
+  # Call as: _createdWithDst(@, "http://...") — the first @ is the manifest root.
+  _createdWithDst:          "_manifest_createdWithDst($args[0], $args[1])"
+

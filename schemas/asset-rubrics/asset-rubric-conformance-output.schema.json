@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "C2PA Asset Conformance Rubric Output Schema",
+  "type": "object",
+  "required": ["rubricName", "rubricVersion", "true", "false"],
+  "properties": {
+    "rubricName": {
+      "type": "string"
+    },
+    "rubricVersion": {
+      "type": "string"
+    },
+    "true": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z0-9_]+$": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["trait", "reportText"],
+            "properties": {
+              "trait": { "type": "string" },
+              "reportText": { "type": "string" }
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "false": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z0-9_]+$": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["trait", "reportText"],
+            "properties": {
+              "trait": { "type": "string" },
+              "reportText": { "type": "string" }
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

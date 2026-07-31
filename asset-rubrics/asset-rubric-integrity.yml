@@ -1,0 +1,142 @@
+rubric_metadata:
+  name: C2PA Asset Integrity Rubric
+  issuer: C2PA Conformance Task Force
+  date: '2026-03-31T05:00:00Z'
+  version: 1.1.0
+  language: en
+variables:
+  $well_formed_error_codes:
+  - assertion.action.malformed
+  - assertion.bmffHash.malformed
+  - assertion.boxesHash.malformed
+  - assertion.collectionHash.malformed
+  - assertion.dataHash.malformed
+  - assertion.external-reference.malformed
+  - assertion.external-reference.labelMismatch
+  - assertion.external-reference.created
+  - assertion.ingredient.malformed
+  - assertion.alternativeContentRepresentation.malformed
+  - assertion.alternativeContentRepresentation.missing
+  - assertion.multiAssetHash.malformed
+  - assertion.cbor.invalid
+  - assertion.json.invalid
+  - claim.cbor.invalid
+  - claim.hardBindings.missing
+  - claim.malformed
+  - claim.missing
+  - claim.multiple
+  - hashedURI.missing
+  - ingredient.manifest.missing
+  - assertion.boxesHash.unknownBox
+  - assertion.multipleHardBindings
+  - manifest.compressed.invalid
+  - manifest.html.multipleManifests
+  - manifest.inaccessible
+  - manifest.multipleParents
+  - manifest.structuredText.emptyReference
+  - manifest.structuredText.malformedReference
+  - manifest.structuredText.multipleReferences
+  - manifest.structuredText.noManifest
+  - manifest.structuredText.noResolutionPath
+  - manifest.timestamp.invalid
+  - manifest.timestamp.wrongParents
+  - manifest.update.invalid
+  - manifest.update.wrongParents
+  - MISSING_VALIDATION_RESULTS
+  $valid_error_codes:
+  - assertion.action.ingredientMismatch
+  - assertion.action.redactionMismatch
+  - assertion.bmffHash.mismatch
+  - assertion.boxesHash.mismatch
+  - assertion.collectionHash.mismatch
+  - assertion.dataHash.mismatch
+  - assertion.external-reference.hashMismatch
+  - assertion.alternativeContentRepresentation.hashMismatch
+  - assertion.multiAssetHash.mismatch
+  - assertion.hashedURI.mismatch
+  - assertion.hardBinding.redacted
+  - hashedURI.mismatch
+  - ingredient.manifest.mismatch
+  - ingredient.claimSignature.missing
+  - ingredient.claimSignature.mismatch
+  - claimSignature.missing
+  - MISSING_VALIDATION_RESULTS
+  $trust_error_codes:
+  - claimSignature.mismatch
+  - claimSignature.outsideValidity
+  - signingCredential.invalid
+  - signingCredential.ocsp.revoked
+  - signingCredential.untrusted
+  - MISSING_VALIDATION_RESULTS
+expressions:
+  _manifest_validationResults: |-
+    ($args[0].validationResults || { failure: [{code: "MISSING_VALIDATION_RESULTS"}] })
+  _activeManifest: manifests[0]
+  _validationResults: _manifest_validationResults(_activeManifest())
+
+---
+
+- id: validation:well_formed_data_present
+  description: Check if validation results are present for structural analysis
+  expression: 'manifests[0].validationResults != null
+
+    '
+  reportText:
+    'true':
+      en: Validation results are present for structural analysis
+    'false':
+      en: Missing validation results in the manifest
+- id: validation:well_formed_success
+  description: |-
+    Check if the asset has any structural or malformation failures (from the well-formed list)
+  failIfMatched: true
+  expression: '_validationResults().failure[?contains($well_formed_error_codes, code)].code
+
+    '
+  reportText:
+    'true':
+      en: No structural failures found
+    'false':
+      en: 'Found structural failures: {{matches}}'
+- id: validation:valid_data_present
+  description: Check if validation results are present for integrity analysis
+  expression: 'manifests[0].validationResults != null
+
+    '
+  reportText:
+    'true':
+      en: Validation results are present for integrity analysis
+    'false':
+      en: Missing validation results in the manifest
+- id: validation:valid_success
+  description: Check if the asset has any validation mismatches (from the valid list)
+  failIfMatched: true
+  expression: '_validationResults().failure[?contains($valid_error_codes, code)].code
+
+    '
+  reportText:
+    'true':
+      en: No validation mismatches found
+    'false':
+      en: 'Found validation mismatches: {{matches}}'
+- id: validation:trusted_data_present
+  description: Check if validation results are present for trust analysis
+  expression: 'manifests[0].validationResults != null
+
+    '
+  reportText:
+    'true':
+      en: Validation results are present for trust analysis
+    'false':
+      en: Missing validation results in the manifest
+- id: validation:trusted_success
+  description: Check if the asset has any trust failures (from the trusted list)
+  failIfMatched: true
+  expression: '_validationResults().failure[?contains($trust_error_codes, code)].code
+
+    '
+  reportText:
+    'true':
+      en: Asset is trusted
+    'false':
+      en: 'Found trust failures: {{matches}}'

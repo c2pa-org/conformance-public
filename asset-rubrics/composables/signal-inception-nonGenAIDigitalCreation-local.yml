@@ -1,0 +1,21 @@
+rubric_metadata:
+  name: "Non-GenAI digital creation (Local)"
+  issuer: "C2PA Conformance Task Force"
+  date: "2026-03-30T16:15:23-07:00"
+  version: "1.0.0"
+  language: "en"
+
+include:
+  - globals-signals.yml
+
+---
+
+- id: "signal_nonGenAIDigitalCreation"
+  description: "Check if the manifest contains a Non-GenAI digital creation inception signal"
+  expression: |
+    _createdWithDst(@, "http://cv.iptc.org/newscodes/digitalsourcetype/digitalCreation")
+  reportText:
+    "true":
+      en: "Contains Non-GenAI digital creation"
+    "false":
+      en: "Does not contain Non-GenAI digital creation"

@@ -1,0 +1,816 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://c2pa.org/conformance/conforming-products-list.schema.json",
+  "title": "C2PA Conforming Products List Schema",
+  "description": "Schema for the C2PA Conforming Products List",
+
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "recordId": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+        "description": "An RFC 9562 Version 7 UUID identifying this record on the CPL"
+      },
+      "applicant": {
+        "type": "string",
+        "description": "Legal name of the applicant organization"
+      },
+      "product": {
+        "type": "object",
+        "description": "Product details as described here and below",
+        "properties": {
+          "productType": {
+            "type": "string",
+            "description": "Whether the product is a Generator Product or a Validator Product",
+            "enum": [
+              "generatorProduct",
+              "validatorProduct"
+            ]
+          },
+          "DN": {
+            "type": "object",
+            "description": "The name that uniquely identifies the product, as defined by the fields below",
+            "properties": {
+              "CN": {
+                "type": "string",
+                "description": "The user-facing marketing name and/or model of the device, application, or service"
+              },
+              "O": {
+                "type": "string",
+                "description": "Legal name of the applicant organization"
+              },
+              "OU": {
+                "type": "string",
+                "description": "Department or subdivision within the applicant's organization that created this product"
+              },
+              "C": {
+                "type": "string",
+                "description": "Two-letter country code in ISO 3166-1 alpha-2 format where the organization named in the 'O' field has its base of operations"
+              }
+            },
+            "required": [
+              "CN",
+              "O",
+              "C"
+            ]
+          },
+          "infoURL": {
+            "type": "string",
+            "pattern": "^https?://[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}(?:/\\S*)?$",
+            "description": "Optional URL containing additional information about the product"
+          },
+          "minVersion": {
+            "type": "string",
+            "description": "The minimum software version of this product (for example, in SemVer format) that is eligible for certificates under this record; if the product is a device, then this is the minimum firmware version"
+          }
+        },
+        "if": {
+          "properties": {
+            "productType": {
+              "const": "generatorProduct"
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "assurance": {
+              "type": "object",
+              "description": "Attributes which further define levels of relied confidence into the security of this product's implementation",
+              "properties": {
+                "maxAssuranceLevel": {
+                  "type": "integer",
+                  "description": "A numeric designation, chosen at the discretion of the C2PA Conformance Program, based on evaluating the security functions, properties, and attributes of an Applicant Generator Product against the Generator Product Security Requirements defined by the C2PA Conformance Program",
+                  "minimum": 1,
+                  "maximum": 2
+                },
+                "attestationMethods": {
+                  "type": "array",
+                  "description": "Methods of key or integrity assurance that the Generator Product supports, which produce artifacts that are presented as Dynamic Evidence to Certification Authorities during certificate enrollment if required by the Assurance Level",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "Android_KeyAttestation",
+                      "Google_PlayIntegrity",
+                      "Apple_AppAttest",
+                      "Qualcomm_WES",
+                      "IETF_RATS",
+                      "AWS_NitroEnclaveAttestation",
+                      "Microsoft_AzureAttestation",
+                      "Microsoft_AzureManagedHSMAttestation",
+                      "GoogleCloud_CloudHSMKeyAttestation",
+                      "GoogleCloud_ConfidentialVMAttestation"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "maxAssuranceLevel"
+              ]
+            },
+            "disallowedSignals": {
+              "type": "object",
+              "description": "Signals from the Signals Rubric that this generator product is explicitly disallowed from emitting in active manifests whose claims it signs",
+              "properties": {
+                "inception": {
+                  "type": "array",
+                  "description": "Disallowed inception signals",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "capturedMedia",
+                      "capturedMediaStitched",
+                      "nonGenAIDigitalCreation"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "inception"
+              ]
+            }
+          },
+          "required": [
+            "assurance",
+            "disallowedSignals"
+          ]
+        },
+        "required": [
+          "productType",
+          "DN"
+        ]
+      },
+      "specVersion": {
+        "type": "array",
+        "description": "The version(s) of the C2PA Content Credentials specification that is supported by this product",
+        "items": {
+          "type": "string",
+          "enum": [
+            "2.2",
+            "2.4"
+          ]
+        }
+      },
+      "conformanceProgramVersion": {
+        "type": "string",
+        "description": "The version of the C2PA Conformance Program that was in effect when this product was submitted for evaluation",
+        "enum": [
+          "0.1",
+          "0.2"
+        ]
+      },
+      "containers": {
+        "type": "object",
+        "description": "The file types supported by the product for both C2PA claim generation and/or validation",
+        "properties": {
+          "generate": {
+            "type": "object",
+            "description": "The file types for which the product can support C2PA claim generation",
+            "properties": {
+              "image": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported image file MIME type",
+                  "enum": [
+                    "image/jpeg",
+                    "image/jxl",
+                    "image/png",
+                    "image/svg+xml",
+                    "image/gif",
+                    "image/x-adobe-dng",
+                    "image/tiff",
+                    "image/webp",
+                    "image/heic",
+                    "image/heic-sequence",
+                    "image/heif",
+                    "image/heif-sequence",
+                    "image/avif",
+                    "image/x-tiff-based",
+                    "image/x-riff-based"
+                  ]
+                }
+              },
+              "video": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported video file MIME type",
+                  "enum": [
+                    "video/x-msvideo",
+                    "video/mp4",
+                    "video/quicktime",
+                    "video/x-bmff-based",
+                    "video/x-riff-based"
+                  ]
+                }
+              },
+              "audio": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported audio file MIME type",
+                  "enum": [
+                    "audio/flac",
+                    "audio/MPA",
+                    "audio/mpeg",
+                    "audio/wav",
+                    "audio/aac",
+                    "audio/mp4",
+                    "audio/x-riff-based"
+                  ]
+                }
+              },
+              "textHtml": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported HTML-based text file MIME type",
+                  "enum": [
+                    "text/html"
+                  ]
+                }
+              },
+              "textUnstructured": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported unstructured text file MIME type",
+                  "enum": [
+                    "text/csv",
+                    "text/tab-separated-values",
+                    "text/plain"
+                  ]
+                }
+              },
+              "textStructured": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported structured text file MIME type",
+                  "enum": [
+                    "text/markdown",
+                    "text/xml",
+                    "application/xml",
+                    "application/xhtml+xml"
+                  ]
+                }
+              },
+              "documents": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported document file MIME type",
+                  "enum": [
+                    "application/pdf",
+                    "application/epub+zip",
+                    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                    "application/vnd.openxmlformats-officedocument.presentationml.slideshow",
+                    "application/vnd.oasis.opendocument.text",
+                    "application/vnd.oasis.opendocument.spreadsheet",
+                    "application/vnd.oasis.opendocument.presentation",
+                    "application/vnd.oasis.opendocument.graphics",
+                    "application/oxps",
+                    "application/x-zip-based"
+                  ]
+                }
+              },
+              "fonts": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported font file MIME type",
+                  "enum": [
+                    "font/otf"
+                  ]
+                }
+              },
+              "mlModel": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported ML model type",
+                  "enum": [
+                    "jax",
+                    "keras",
+                    "ml_net",
+                    "mxnet",
+                    "onnx",
+                    "openvivo.parameter",
+                    "openvivo.topology",
+                    "pytorch",
+                    "tensorflow",
+                    "numpy",
+                    "protobuf",
+                    "pickle",
+                    "savedmodel"
+                  ]
+                }
+              }
+            }
+          },
+          "validate": {
+            "type": "object",
+            "description": "The file types for which the product can support C2PA claim validation",
+            "properties": {
+              "image": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported image file MIME type",
+                  "enum": [
+                    "image/jpeg",
+                    "image/jxl",
+                    "image/png",
+                    "image/svg+xml",
+                    "image/gif",
+                    "image/x-adobe-dng",
+                    "image/tiff",
+                    "image/webp",
+                    "image/heic",
+                    "image/heic-sequence",
+                    "image/heif",
+                    "image/heif-sequence",
+                    "image/avif",
+                    "image/x-tiff-based",
+                    "image/x-riff-based"
+                  ]
+                }
+              },
+              "video": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported video file MIME type",
+                  "enum": [
+                    "video/x-msvideo",
+                    "video/mp4",
+                    "video/quicktime",
+                    "video/x-bmff-based",
+                    "video/x-riff-based"
+                  ]
+                }
+              },
+              "audio": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported audio file MIME type",
+                  "enum": [
+                    "audio/flac",
+                    "audio/MPA",
+                    "audio/mpeg",
+                    "audio/wav",
+                    "audio/aac",
+                    "audio/mp4",
+                    "audio/x-riff-based"
+                  ]
+                }
+              },
+              "textHtml": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported HTML-based text file MIME type",
+                  "enum": [
+                    "text/html"
+                  ]
+                }
+              },
+              "textUnstructured": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported unstructured text file MIME type",
+                  "enum": [
+                    "text/csv",
+                    "text/tab-separated-values",
+                    "text/plain"
+                  ]
+                }
+              },
+              "textStructured": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported structured text file MIME type",
+                  "enum": [
+                    "text/markdown",
+                    "text/xml",
+                    "application/xml",
+                    "application/xhtml+xml"
+                  ]
+                }
+              },
+              "documents": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported document file MIME type",
+                  "enum": [
+                    "application/pdf",
+                    "application/epub+zip",
+                    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                    "application/vnd.openxmlformats-officedocument.presentationml.slideshow",
+                    "application/vnd.oasis.opendocument.text",
+                    "application/vnd.oasis.opendocument.spreadsheet",
+                    "application/vnd.oasis.opendocument.presentation",
+                    "application/vnd.oasis.opendocument.graphics",
+                    "application/oxps",
+                    "application/x-zip-based"
+                  ]
+                }
+              },
+              "fonts": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported font file MIME type",
+                  "enum": [
+                    "font/otf"
+                  ]
+                }
+              },
+              "mlModel": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Supported ML model type",
+                  "enum": [
+                    "jax",
+                    "keras",
+                    "ml_net",
+                    "mxnet",
+                    "onnx",
+                    "openvivo.parameter",
+                    "openvivo.topology",
+                    "pytorch",
+                    "tensorflow",
+                    "numpy",
+                    "protobuf",
+                    "pickle",
+                    "savedmodel"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "generate",
+          "validate"
+        ]
+      },
+      "liveVideo": {
+        "type": "object",
+        "description": "Indicates whether the product supports live streaming/dynamic packaging, and if so, which method(s) it supports",
+        "properties": {
+          "supported": {
+            "type": "boolean",
+            "default": false,
+            "description": "Whether the product supports live streaming"
+          },
+          "encapsulations": {
+            "type": "array",
+            "description": "The container encapsulations supported for live streaming, and the signing methods for each",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "description": "The encapsulation format",
+                  "enum": [
+                    "fMP4",
+                    "CMAF"
+                  ]
+                },
+                "methods": {
+                  "type": "array",
+                  "description": "The live streaming signing methods supported for this encapsulation",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "per-segment",
+                      "verifiable-segment-info"
+                    ]
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "generation": {
+                  "type": "boolean",
+                  "default": false,
+                  "description": "Whether the product supports generation of live streams in this encapsulation format"
+                },
+                "validation": {
+                  "type": "boolean",
+                  "default": false,
+                  "description": "Whether the product supports validation of live streams in this encapsulation format"
+                }
+              },
+              "required": [
+                "type",
+                "methods"
+              ],
+              "anyOf": [
+                {
+                  "required": ["generation"],
+                  "properties": { "generation": { "const": true } }
+                },
+                {
+                  "required": ["validation"],
+                  "properties": { "validation": { "const": true } }
+                }
+              ]
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "supported"
+        ],
+        "if": {
+          "properties": {
+            "supported": {
+              "const": true
+            }
+          }
+        },
+        "then": {
+          "required": [
+            "encapsulations"
+          ]
+        }
+      },
+      "supportsCompressedManifests": {
+        "type": "boolean",
+        "description": "Indicates if the product supports compressed manifests. For validators, this means they can validate assets containing compressed manifests. For generators, this means they can generate assets containing compressed manifests"
+      },
+      "status": {
+        "type": "string",
+        "description": "Status of the product's standing in the C2PA Conformance Program. Generator Products with a status of 'conformant' are eligible for C2PA Claim Signing Certificates from Certification Authorities on the C2PA Trust List",
+        "enum": [
+          "conformant",
+          "revoked",
+          "revoked_eol",
+          "revoked_vulnerability"
+        ]
+      },
+      "dates": {
+        "type": "object",
+        "description": "Dates associated with this record",
+        "properties": {
+          "creation": {
+            "type": "string",
+            "description": "[Constant] The date that the product record was created on the CPL. This value shall not be changed from its original value",
+            "format": "date"
+          },
+          "conformance": {
+            "type": "string",
+            "description": "The date that the product was deemed conformant",
+            "format": "date"
+          },
+          "earliestPublicDisclosure": {
+            "type": "string",
+            "description": "The date that the product record can be added to the public CPL",
+            "format": "date"
+          },
+          "lastModification": {
+            "type": "string",
+            "description": "The date that this product record on the CPL was last modified",
+            "format": "date"
+          }
+        },
+        "required": [
+          "creation",
+          "conformance",
+          "earliestPublicDisclosure",
+          "lastModification"
+        ]
+      }
+    },
+    "required": [
+      "recordId",
+      "applicant",
+      "product",
+      "specVersion",
+      "conformanceProgramVersion",
+      "status",
+      "dates"
+    ],
+    "anyOf": [
+      {
+        "required": [
+          "containers"
+        ]
+      },
+      {
+        "required": [
+          "liveVideo"
+        ]
+      }
+    ],
+    "additionalProperties": false
+  },
+  "examples": [
+    [
+      {
+        "recordId": "01945130-1bf6-7bf7-94c2-6cb30206eaed",
+        "applicant": "Acme Corp.",
+        "product": {
+          "productType": "generatorProduct",
+          "DN": {
+            "CN": "Awesome Camera App for Android",
+            "O": "Acme Corp.",
+            "OU": "Android",
+            "C": "GB"
+          },
+          "infoURL": "https://acme.com/awesome-camera",
+          "minVersion": "2.3.0",
+          "assurance": {
+            "maxAssuranceLevel": 2,
+            "attestationMethods": [
+              "Android_KeyAttestation"
+            ]
+          },
+          "disallowedSignals": {
+            "inception": [],
+            "transformation": []
+          }
+        },
+        "specVersion": [
+          "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+          "generate": {
+            "image": [
+              "image/jpeg",
+              "image/heic"
+            ]
+          },
+          "validate": {
+            "image": [
+              "image/jpeg",
+              "image/heic"
+            ]
+          }
+        },
+        "supportsCompressedManifests": true,
+        "status": "revoked_eol",
+        "dates": {
+          "creation": "2025-02-15",
+          "conformance": "2024-02-28",
+          "earliestPublicDisclosure": "2025-03-31",
+          "lastModification": "2025-09-30"
+        }
+      },
+      {
+        "recordId": "0194513c-bc37-7208-8108-6d3971bcc283",
+        "applicant": "Acme Corp.",
+        "product": {
+          "productType": "generatorProduct",
+          "DN": {
+            "CN": "Awesome Camera App for Android",
+            "O": "Acme Corp.",
+            "OU": "Android",
+            "C": "GB"
+          },
+          "infoURL": "https://acme.com/awesome-camera",
+          "minVersion": "3.0.0",
+          "assurance": {
+            "maxAssuranceLevel": 2,
+            "attestationMethods": [
+              "Android_KeyAttestation"
+            ]
+          },
+          "disallowedSignals": {
+            "inception": [],
+            "transformation": []
+          }
+        },
+        "specVersion": [
+          "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "liveVideo": {
+          "supported": true,
+          "encapsulations": [
+            {
+              "type": "fMP4",
+              "methods": [
+                "per-segment",
+                "verifiable-segment-info"
+              ],
+              "generation": true
+            },
+            {
+              "type": "CMAF",
+              "methods": [
+                "per-segment",
+                "verifiable-segment-info"
+              ],
+              "validation": true,
+              "generation": false
+            }
+          ]
+        },
+        "containers": {
+          "generate": {
+            "image": [
+              "image/jpeg",
+              "image/heic"
+            ],
+            "video": [
+              "video/mp4"
+            ]
+          },
+          "validate": {
+            "image": [
+              "image/jpeg",
+              "image/heic"
+            ],
+            "video": [
+              "video/mp4"
+            ]
+          }
+        },
+        "supportsCompressedManifests": true,
+        "status": "conformant",
+        "dates": {
+          "creation": "2025-08-15",
+          "conformance": "2025-08-31",
+          "earliestPublicDisclosure": "2025-09-30",
+          "lastModification": "2025-08-31"
+        }
+      },
+      {
+        "recordId": "0194514a-bc37-7208-8108-6d3971bcc284",
+        "applicant": "GenAI Labs",
+        "product": {
+          "productType": "generatorProduct",
+          "DN": {
+            "CN": "Dreamer Image & Video Generator",
+            "O": "GenAI Labs",
+            "OU": "Cloud API",
+            "C": "US"
+          },
+          "minVersion": "1.0.0",
+          "assurance": {
+            "maxAssuranceLevel": 1,
+            "attestationMethods": [
+              "AWS_NitroEnclaveAttestation"
+            ]
+          },
+          "disallowedSignals": {
+            "inception": [
+              "capturedMedia",
+              "capturedMediaStitched",
+              "nonGenAIDigitalCreation"
+            ],
+            "transformation": [
+              "perceptibleNonAI",
+              "nonEditorial"
+            ]
+          }
+        },
+        "specVersion": [
+          "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "containers": {
+          "generate": {
+            "image": [
+              "image/jpeg",
+              "image/png"
+            ],
+            "video": [
+              "video/mp4"
+            ]
+          },
+          "validate": {
+            "image": [
+              "image/jpeg",
+              "image/png"
+            ],
+            "video": [
+              "video/mp4"
+            ]
+          }
+        },
+        "status": "conformant",
+        "dates": {
+          "creation": "2026-03-31",
+          "conformance": "2026-03-31",
+          "earliestPublicDisclosure": "2026-03-31",
+          "lastModification": "2026-03-31"
+        }
+      }
+    ]
+  ]
+}

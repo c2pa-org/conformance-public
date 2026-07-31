@@ -1,0 +1,125 @@
+rubric_metadata:
+  name: "C2PA Text Asset Conformance Rubric"
+  issuer: "C2PA Conformance Task Force"
+  date: "2026-05-04T00:00:00Z"
+  version: "0.1.0"
+  language: en
+
+variables:
+  # HTML validation failure codes retained in the C2PA validation vocabulary.
+  "$html_text_error_codes":
+    - "manifest.html.multipleManifests"
+
+  # Text MIME types recognized by this rubric. These groups mirror the CPL
+  # schema's C2PA 2.4 text support structure.
+  "$text_html_mime_types":
+    - "text/html"
+
+  "$text_unstructured_mime_types":
+    - "text/plain"
+    - "text/csv"
+    - "text/tab-separated-values"
+
+  "$text_structured_mime_types":
+    - "text/markdown"
+    - "text/xml"
+    - "application/xml"
+    - "application/xhtml+xml"
+
+  "$text_mime_types":
+    - "text/html"
+    - "text/plain"
+    - "text/csv"
+    - "text/tab-separated-values"
+    - "text/markdown"
+    - "text/xml"
+    - "application/xml"
+    - "application/xhtml+xml"
+
+expressions:
+  _activeManifest: "manifests[0]"
+  _validationResults: '(_activeManifest().validationResults || { failure: [{code: "MISSING_VALIDATION_RESULTS"}] })'
+
+---
+
+#
+# Text-specific well-formedness checks
+#
+
+- id: "text:no_html_text_errors"
+  description: "No HTML-specific manifest location failures in validation results"
+  failIfMatched: true
+  expression: |
+    _validationResults().failure[?contains($html_text_error_codes, code)].code
+  reportText:
+    "true":
+      en: "HTML text manifest references are well-formed"
+    "false":
+      en: "HTML text manifest reference failures detected"
+
+#
+# Text asset identity checks
+#
+
+- id: "text:is_text_asset"
+  description: "Active manifest declares a supported text MIME type in dc:format"
+  expression: |
+    contains($text_mime_types, _activeManifest().assertions.'c2pa.actions.v2'.actions[0].parameters.'dc:format') ||
+    contains($text_mime_types, _activeManifest().'claim.v2'.dc_format)
+  reportText:
+    "true":
+      en: "Asset declares a supported text MIME type"
+    "false":
+      en: "Asset does not declare a supported text MIME type"
+
+#
+# Text-specific structural checks
+#
+
+- id: "text:hard_binding_present"
+  description: "At least one c2pa.hash.data assertion provides content binding"
+  expression: |
+    _activeManifest().assertions.'c2pa.hash.data' != `null`
+  reportText:
+    "true":
+      en: "Hard binding assertion present for text content"
+    "false":
+      en: "No hard binding assertion found"
+
+- id: "text:exclusions_defined"
+  description: "Hash data assertion includes exclusions for the text manifest region"
+  expression: |
+    _activeManifest().assertions.'c2pa.hash.data' != `null` &&
+    _activeManifest().assertions.'c2pa.hash.data'.exclusions != `null` &&
+    length(_activeManifest().assertions.'c2pa.hash.data'.exclusions) > `0`
+  reportText:
+    "true":
+      en: "Hash exclusions define text manifest boundaries"
+    "false":
+      en: "No hash exclusions defined for text manifest boundaries"
+
+#
+# Text-specific inception checks
+#
+
+- id: "text:inception_action_present"
+  description: "Active manifest contains a c2pa.created action"
+  expression: |
+    _activeManifest().assertions.'c2pa.actions.v2' != `null` &&
+    length(_activeManifest().assertions.'c2pa.actions.v2'.actions[?action == "c2pa.created"]) > `0`
+  reportText:
+    "true":
+      en: "Text asset has an inception action"
+    "false":
+      en: "No inception action found"
+
+- id: "text:inception_has_dst"
+  description: "Inception action declares a digitalSourceType"
+  expression: |
+    _activeManifest().assertions.'c2pa.actions.v2' != `null` &&
+    length(_activeManifest().assertions.'c2pa.actions.v2'.actions[?action == "c2pa.created" && digitalSourceType != `null`]) > `0`
+  reportText:
+    "true":
+      en: "Inception action declares a digitalSourceType"
+    "false":
+      en: "Inception action missing digitalSourceType"

@@ -901,3 +901,275 @@ Log Entry: Fri Jul 31 13:36:55 UTC 2026
 Triggering Commit SHA: 4de94c0ffc2591731fb59a7e076c8effbbd59a51
 Action: Synced conforming-products/conforming-products-list.json from the conformance-submissions repository.
 --------------------------------------------------
+Log Entry: Fri Jul 31 23:41:27 UTC 2026
+Triggering Commit SHA: a9c24621f076f6c2165190bef6bed5b372527247
+Action: Populated 'docs/v0.2' directory and updated release documentation using 'conformance_release.json'.
+
+Files included in release v0.2:
+
+  - File: asset-rubrics/C2PA Asset Rubrics.md
+    Commit: a9fd42a
+    Date: 2026-07-31T22:27:54Z
+  - File: asset-rubrics/C2PA Asset Rubrics.pdf
+    Commit: a9fd42a
+    Date: 2026-07-31T22:27:54Z
+  - File: asset-rubrics/asset-rubric-conformance0.1-spec2.2.yml
+    Commit: 008c54c
+    Date: 2026-07-24T15:41:23Z
+  - File: asset-rubrics/asset-rubric-conformance0.2-spec2.2.yml
+    Commit: 008c54c
+    Date: 2026-07-24T15:41:23Z
+  - File: asset-rubrics/asset-rubric-conformance0.2-spec2.4.yml
+    Commit: 008c54c
+    Date: 2026-07-24T15:41:23Z
+  - File: asset-rubrics/asset-rubric-integrity.yml
+    Commit: 5309438
+    Date: 2026-06-16T19:08:19Z
+  - File: asset-rubrics/asset-rubric-signals-local.yml
+    Commit: 825fdc2
+    Date: 2026-07-17T18:31:53Z
+  - File: asset-rubrics/asset-rubric-text-conformance.yml
+    Commit: 809b999
+    Date: 2026-07-31T14:40:24Z
+  - File: asset-rubrics/build_conformance_rubrics.py
+    Commit: 008c54c
+    Date: 2026-07-24T15:41:23Z
+  - File: asset-rubrics/build_integrity_rubric.py
+    Commit: 008c54c
+    Date: 2026-07-24T15:41:23Z
+  - File: asset-rubrics/build_local_signals_rubric.py
+    Commit: 008c54c
+    Date: 2026-07-24T15:41:23Z
+  - File: asset-rubrics/build_rubrics.sh
+    Commit: b136c4a
+    Date: 2026-06-26T15:57:45Z
+  - File: asset-rubrics/c2pa_conformance_rubric_evaluator.py
+    Commit: d59431e
+    Date: 2026-07-22T01:03:35Z
+  - File: asset-rubrics/c2pa_signals_rubric_evaluator.py
+    Commit: 1c0d2ff
+    Date: 2026-07-31T19:52:13Z
+  - File: asset-rubrics/composables/conformance-program-0.1.yml
+    Commit: 6895569
+    Date: 2026-07-17T18:31:27Z
+  - File: asset-rubrics/composables/conformance-program-0.2.yml
+    Commit: 008c54c
+    Date: 2026-07-24T15:41:23Z
+  - File: asset-rubrics/composables/conformance-spec-2.2.yml
+    Commit: 0a2c6a1
+    Date: 2026-07-22T00:52:07Z
+  - File: asset-rubrics/composables/conformance-spec-2.4.yml
+    Commit: 0a2c6a1
+    Date: 2026-07-22T00:52:07Z
+  - File: asset-rubrics/composables/globals-actions.yml
+    Commit: e0de2ff
+    Date: 2026-06-26T16:09:56Z
+  - File: asset-rubrics/composables/globals-manifest.yml
+    Commit: 825fdc2
+    Date: 2026-07-17T18:31:53Z
+  - File: asset-rubrics/composables/globals-signals.yml
+    Commit: e0de2ff
+    Date: 2026-06-26T16:09:56Z
+  - File: asset-rubrics/composables/globals.yml
+    Commit: efd624c
+    Date: 2026-07-17T17:08:31Z
+  - File: asset-rubrics/composables/integrity-structural.yml
+    Commit: 15eb81f
+    Date: 2026-06-16T20:15:17Z
+  - File: asset-rubrics/composables/integrity-trust.yml
+    Commit: 15eb81f
+    Date: 2026-06-16T20:15:17Z
+  - File: asset-rubrics/composables/signal-inception-blankCanvas-local.yml
+    Commit: 064c785
+    Date: 2026-06-09T15:49:48-04:00
+  - File: asset-rubrics/composables/signal-inception-capturedMedia-local.yml
+    Commit: 064c785
+    Date: 2026-06-09T15:49:48-04:00
+  - File: asset-rubrics/composables/signal-inception-capturedMediaStitched-local.yml
+    Commit: 064c785
+    Date: 2026-06-09T15:49:48-04:00
+  - File: asset-rubrics/composables/signal-inception-compositionMayContainGenAI-local.yml
+    Commit: 064c785
+    Date: 2026-06-09T15:49:48-04:00
+  - File: asset-rubrics/composables/signal-inception-fullyGenAIMedia-local.yml
+    Commit: 064c785
+    Date: 2026-06-09T15:49:48-04:00
+  - File: asset-rubrics/composables/signal-inception-mediaUnknownProvenance-local.yml
+    Commit: 4053c05
+    Date: 2026-06-09T08:57:39-04:00
+  - File: asset-rubrics/composables/signal-inception-nonGenAIDigitalCreation-local.yml
+    Commit: 064c785
+    Date: 2026-06-09T15:49:48-04:00
+  - File: asset-rubrics/composables/signal-inception-partlyGenAICreation-local.yml
+    Commit: 064c785
+    Date: 2026-06-09T15:49:48-04:00
+  - File: asset-rubrics/composables/signal-inception-screenCaptureMayContainGenAI-local.yml
+    Commit: 064c785
+    Date: 2026-06-09T15:49:48-04:00
+  - File: asset-rubrics/composables/signal-transformations-ambiguousActions-local.yml
+    Commit: 948ea0d
+    Date: 2026-06-16T20:10:44Z
+  - File: asset-rubrics/composables/signal-transformations-nonEditorial-local.yml
+    Commit: eff1229
+    Date: 2026-06-26T14:48:09Z
+  - File: asset-rubrics/composables/signal-transformations-perceptibleGenAI-local.yml
+    Commit: eff1229
+    Date: 2026-06-26T14:48:09Z
+  - File: asset-rubrics/composables/signal-transformations-perceptibleNonGenAI-local.yml
+    Commit: eff1229
+    Date: 2026-06-26T14:48:09Z
+  - File: asset-rubrics/composables/signal-transformations-perceptiblePossiblyGenAI-local.yml
+    Commit: eff1229
+    Date: 2026-06-26T14:48:09Z
+  - File: asset-rubrics/eval_composable.py
+    Commit: ffc53d4
+    Date: 2026-04-21T11:52:10-04:00
+  - File: asset-rubrics/requirements.txt
+    Commit: 0707e31
+    Date: 2026-07-31T22:42:35Z
+  - File: asset-rubrics/validate_rubric.py
+    Commit: e7f43e5
+    Date: 2026-07-31T15:24:46Z
+  - File: docs/Additional Conformance Requirements Against the Content Credentials Specification.md
+    Commit: 8b2c930
+    Date: 2026-07-31T21:27:38Z
+  - File: docs/Additional Conformance Requirements Against the Content Credentials Specification.pdf
+    Commit: a9fd42a
+    Date: 2026-07-31T22:27:54Z
+  - File: docs/C2PA Certificate Policy.md
+    Commit: 8b2c930
+    Date: 2026-07-31T21:27:38Z
+  - File: docs/C2PA Certificate Policy.pdf
+    Commit: a9fd42a
+    Date: 2026-07-31T22:27:54Z
+  - File: docs/C2PA Conformance Program.md
+    Commit: f519f80
+    Date: 2026-07-31T23:17:45Z
+  - File: docs/C2PA Conformance Program.pdf
+    Commit: f519f80
+    Date: 2026-07-31T23:17:45Z
+  - File: docs/C2PA Generator Product Security Architecture Document Template.md
+    Commit: 25d298a
+    Date: 2026-07-31T17:35:02Z
+  - File: docs/C2PA Generator Product Security Requirements.md
+    Commit: 8b2c930
+    Date: 2026-07-31T21:27:38Z
+  - File: docs/C2PA Generator Product Security Requirements.pdf
+    Commit: a9fd42a
+    Date: 2026-07-31T22:27:54Z
+  - File: docs/C2PA Governance Framework.md
+    Commit: 8b2c930
+    Date: 2026-07-31T21:27:38Z
+  - File: docs/C2PA Governance Framework.pdf
+    Commit: a9fd42a
+    Date: 2026-07-31T22:27:54Z
+  - File: docs/cert-profiles/claimSigningIssuingCA.cert.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/claimSigningIssuingCA.cert.yaml
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/claimSigningIssuingCA.csr.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/claimSigningLeaf.al1.cert.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/claimSigningLeaf.al1.cert.yaml
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/claimSigningLeaf.al1.csr.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/claimSigningLeaf.al2.cert.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/claimSigningLeaf.al2.cert.yaml
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/claimSigningLeaf.al2.csr.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/intermediateCA.cert.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/intermediateCA.csr.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/intermediateCa.cert.yaml
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/ocspResponderLeaf.cert.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/ocspResponderLeaf.cert.yaml
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/ocspResponderLeaf.csr.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/rootCA.cert.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/rootCA.cert.yaml
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/rootCA.csr.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/tsaIssuingCA.cert.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/tsaIssuingCA.cert.yaml
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/tsaIssuingCA.csr.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/tsaLeaf.cert.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/tsaLeaf.cert.schema.yaml
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: docs/cert-profiles/tsaLeaf.csr.schema.json
+    Commit: b2a23e5
+    Date: 2026-07-31T17:07:56Z
+  - File: schemas/asset-rubrics/asset-rubric-conformance-output.schema.json
+    Commit: e7f43e5
+    Date: 2026-07-31T15:24:46Z
+  - File: schemas/asset-rubrics/asset-rubric-signals-local-output.schema.json
+    Commit: e7f43e5
+    Date: 2026-07-31T15:24:46Z
+  - File: schemas/asset-rubrics/asset-rubrics.schema.json
+    Commit: fc9f7f0
+    Date: 2026-07-31T23:28:44Z
+  - File: schemas/conforming-products/Companion Guide for the C2PA Conforming Products List.md
+    Commit: a9fd42a
+    Date: 2026-07-31T22:27:54Z
+  - File: schemas/conforming-products/Companion Guide for the C2PA Conforming Products List.pdf
+    Commit: a9fd42a
+    Date: 2026-07-31T22:27:54Z
+  - File: schemas/conforming-products/conforming-products-list.schema.json
+    Commit: 64e4f27
+    Date: 2026-07-31T14:38:44-07:00
+  - File: schemas/mib/oid.txt
+    Commit: e7f43e5
+    Date: 2026-07-31T15:24:46Z
+  - File: schemas/trust-list/ETSI-TS-119-602-schemas/v1.1.1/1960201_json_schema/1960201_json_schema.json
+    Commit: e7f43e5
+    Date: 2026-07-31T15:24:46Z
+  - File: schemas/trust-list/ETSI-TS-119-602-schemas/v1.1.1/1960201_json_schema/1960201_json_schema_sie.json
+    Commit: e7f43e5
+    Date: 2026-07-31T15:24:46Z
+  - File: schemas/trust-list/ETSI-TS-119-602-schemas/v1.1.1/1960201_json_schema/1960201_json_schema_tie.json
+    Commit: e7f43e5
+    Date: 2026-07-31T15:24:46Z
+  - File: schemas/trust-list/ETSI-TS-119-602-schemas/v1.1.1/1960201_json_schema/rfcs/rfc7517.json
+    Commit: e7f43e5
+    Date: 2026-07-31T15:24:46Z
+  - File: schemas/trust-list/c2pa-trust-list-extensions.schema.json
+    Commit: e7f43e5
+    Date: 2026-07-31T15:24:46Z
+
+--------------------------------------------------

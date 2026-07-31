@@ -1,0 +1,16 @@
+- id: validation:mandatory_dst_for_perceptible_transformations
+  description: Check if every predefined C2PA perceptible transformation action in the active manifest has a digitalSourceType (Conformance Program requirement)
+  failIfMatched: true
+  expression: |
+    _actionsV2()[?
+      startsWith(action, "c2pa.") &&
+      !contains($inception_actions, action) &&
+      !contains($non_editorial_actions, action) &&
+      !contains($dst_exempt_perceptible_actions, action) &&
+      digitalSourceType == null
+    ].action
+  reportText:
+    'true':
+      en: Every predefined C2PA perceptible transformation action has a digitalSourceType
+    'false':
+      en: "Found predefined C2PA perceptible transformation actions missing a digitalSourceType: {{matches}}"

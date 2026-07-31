@@ -1,0 +1,21 @@
+rubric_metadata:
+  name: "Screen Capture Which May Contain GenAI Content (Local)"
+  issuer: "C2PA Conformance Task Force"
+  date: "2026-03-30T16:15:23-07:00"
+  version: "1.0.0"
+  language: "en"
+
+include:
+  - globals-signals.yml
+
+---
+
+- id: "signal_screenCaptureMayContainGenAI"
+  description: "Check if the manifest contains a Screen Capture Which May Contain GenAI Content inception signal"
+  expression: |
+    _createdWithDst(@, "http://cv.iptc.org/newscodes/digitalsourcetype/screenCapture")
+  reportText:
+    "true":
+      en: "Contains Screen Capture Which May Contain GenAI Content"
+    "false":
+      en: "Does not contain Screen Capture Which May Contain GenAI Content"

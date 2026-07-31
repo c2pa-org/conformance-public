@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "OtherAssociatedBodies": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/AssociatedBody"
+      },
+      "minItems": 1
+    },
+    "AssociatedBody": {
+      "type": "object",
+      "properties": {
+        "AssociatedBodyName": {
+          "$ref": "#/definitions/AssociatedBodyName"
+        },
+        "AssociatedBodyTradeName": {
+          "$ref": "#/definitions/AssociatedBodyTradeName"
+        },
+        "AssociatedBodyAddress": {
+          "$ref": "#/definitions/AssociatedBodyAddress"
+        },
+        "AssociatedBodyInformationURI": {
+          "$ref": "#/definitions/AssociatedBodyInformationURI"
+        },
+        "AssociatedBodyTypeIdentifier": {
+          "$ref": "#/definitions/AssociatedBodyTypeIdentifier"
+        },
+        "AssociatedBodyInformationExtensions": {
+          "$ref": "#/definitions/AssociatedBodyInformationExtensions"
+        }
+      },
+      "required": [
+        "AssociatedBodyName"
+      ],
+      "additionalProperties": false
+    },
+    "AssociatedBodyName": {
+      "type": "array",
+      "items": {
+        "$ref": "1960201-jsonSchema.json#/definitions/multiLangString"
+      },
+      "minItems": 1
+    },
+    "AssociatedBodyTradeName": {
+      "type": "array",
+      "items": {
+        "$ref": "1960201-jsonSchema.json#/definitions/multiLangString"
+      },
+      "minItems": 1
+    },
+    "AssociatedBodyAddress": {
+      "type": "object",
+      "properties": {
+        "AssociatedBodyPostalAddress": {
+          "$ref": "1960201-jsonSchema.json#/definitions/PostalAddress"
+        },
+        "AssociatedBodyElectronicAddress": {
+          "$ref": "1960201-jsonSchema.json#/definitions/ElectronicAddress"
+        }
+      },
+      "required": [
+        "AssociatedBodyPostalAddress",
+        "AssociatedBodyElectronicAddress"
+      ],
+      "additionalProperties": false
+    },
+    "AssociatedBodyInformationURI": {
+      "type": "array",
+      "items": {
+        "$ref": "1960201-jsonSchema.json#/definitions/NonEmptyMultiLangURI"
+      },
+      "minItems": 1
+    },
+    "AssociatedBodyTypeIdentifier": {
+      "type": "string",
+      "format": "uri"
+    },
+    "AssociatedBodyInformationExtensions": {
+      "type": "array",
+      "minItems": 1
+    }
+  }
+}

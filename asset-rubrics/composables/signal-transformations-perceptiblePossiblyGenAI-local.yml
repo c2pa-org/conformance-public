@@ -1,0 +1,24 @@
+rubric_metadata:
+  name: "Perceptible Transformations Possibly Using GenAI (Local)"
+  issuer: "C2PA Conformance Task Force"
+  date: "2026-03-30T16:47:50-07:00"
+  version: "1.0.0"
+  language: "en"
+
+include:
+  - globals-signals.yml
+
+---
+
+- id: "signal_perceptiblePossiblyGenAI"
+  description: "Check if the manifest contains a Perceptible Transformations Possibly Using GenAI signal"
+  expression: |
+    length(_signalActions()[? action != null &&
+      !contains($inception_actions, action) &&
+      !contains($non_editorial_actions, action) &&
+      contains($possibly_genai_dst_types, digitalSourceType)]) > 0
+  reportText:
+    "true":
+      en: "Contains Perceptible Transformations Possibly Using GenAI"
+    "false":
+      en: "Does not contain Perceptible Transformations Possibly Using GenAI"

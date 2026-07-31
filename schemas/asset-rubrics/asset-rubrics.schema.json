@@ -1,0 +1,213 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://c2pa.org/schemas/asset-profile.schema.json",
+  "title": "C2PA Asset Rubric",
+  "description": "Schema for validating C2PA Asset Rubric multi-document YAML files. The Python validator assembles the parsed documents into {\"information_block\": <doc0>, \"sections\": [<doc1>, ...]} before validating.",
+  "type": "object",
+  "required": ["information_block"],
+  "properties": {
+    "information_block": { "$ref": "#/$defs/information_block" },
+    "sections": {
+      "type": "array",
+      "description": "One or more statement sections (YAML documents 2+), each a list of statements and/or data blocks.",
+      "items": { "$ref": "#/$defs/section" }
+    }
+  },
+  "additionalProperties": false,
+
+  "$defs": {
+
+    "ml_dict": {
+      "type": "object",
+      "title": "Multilingual text dictionary",
+      "description": "Maps BCP 47 language tags (e.g. \"en\", \"fr\") to the corresponding text.",
+      "minProperties": 1,
+      "additionalProperties": { "type": "string" }
+    },
+
+    "reportText_value": {
+      "description": "A single report-text value: either a plain string or a multilingual dict.",
+      "oneOf": [
+        { "type": "string" },
+        { "$ref": "#/$defs/ml_dict" }
+      ]
+    },
+
+    "reportText": {
+      "description": "The reportText field. May be a plain string, a multilingual dict, or a mapping keyed by the string literals \"true\" and/or \"false\" whose values are plain strings or multilingual dicts.",
+      "oneOf": [
+        { "type": "string" },
+        {
+          "type": "object",
+          "description": "Boolean-keyed report text (keys are the string literals \"true\" and/or \"false\").",
+          "properties": {
+            "true":  { "$ref": "#/$defs/reportText_value" },
+            "false": { "$ref": "#/$defs/reportText_value" }
+          },
+          "minProperties": 1,
+          "additionalProperties": false
+        },
+        { "$ref": "#/$defs/ml_dict" }
+      ]
+    },
+
+    "title_field": {
+      "description": "A section/statement title: plain string or multilingual dict.",
+      "oneOf": [
+        { "type": "string" },
+        { "$ref": "#/$defs/ml_dict" }
+      ]
+    },
+
+    "rubric_metadata": {
+      "type": "object",
+      "title": "rubric_metadata",
+      "description": "Mandatory metadata block for the asset rubric.",
+      "required": ["name", "issuer", "date", "version"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Human-readable name of the asset rubric."
+        },
+        "issuer": {
+          "type": "string",
+          "description": "Name of the organisation or person that issued this profile."
+        },
+        "date": {
+          "type": "string",
+          "description": "ISO 8601 date/datetime when the profile was issued.",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}"
+        },
+        "version": {
+          "type": "string",
+          "description": "Semantic version string (MAJOR.MINOR.PATCH).",
+          "pattern": "^\\d+\\.\\d+\\.\\d+"
+        },
+        "language": {
+          "type": "string",
+          "description": "BCP 47 language tag for the default language used in non-multilingual text fields."
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "variables": {
+      "type": "object",
+      "title": "variables",
+      "description": "Named constants available in expressions. Every key must start with '$'.",
+      "patternProperties": {
+        "^\\$": {}
+      },
+      "additionalProperties": false
+    },
+
+    "expressions": {
+      "type": "object",
+      "title": "expressions",
+      "description": "Named JMESPath expressions available globally. Every key must start with '_'.",
+      "patternProperties": {
+        "^_": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+
+    "include": {
+      "type": "array",
+      "title": "include",
+      "description": "Paths to asset rubric snippet files to include (absolute or relative).",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+
+    "information_block": {
+      "type": "object",
+      "title": "Information block (YAML document 1)",
+      "description": "The first YAML document in an asset rubric. Must contain rubric_metadata; may also contain variables, expressions, include directives, and arbitrary custom mappings.",
+      "required": ["rubric_metadata"],
+      "properties": {
+        "rubric_metadata": { "$ref": "#/$defs/rubric_metadata" },
+        "variables":        { "$ref": "#/$defs/variables" },
+        "expressions":      { "$ref": "#/$defs/expressions" },
+        "include":          { "$ref": "#/$defs/include" }
+      }
+    },
+
+    "statement_id": {
+      "type": "string",
+      "description": "Unique statement identifier within the profile. Alphanumeric, underscores, dots, hyphens, and colons allowed. The prefix 'c2pa:' is reserved for predefined identifiers.",
+      "pattern": "^[a-zA-Z0-9_.:-]+$"
+    },
+
+    "information_statement": {
+      "type": "object",
+      "title": "Information statement",
+      "description": "Provides a title and/or static text in the report without evaluating any expression.",
+      "required": ["id", "reportText"],
+      "properties": {
+        "id":          { "$ref": "#/$defs/statement_id" },
+        "description": { "type": "string" },
+        "title":       { "$ref": "#/$defs/title_field" },
+        "reportText": { "$ref": "#/$defs/reportText" }
+      },
+      "additionalProperties": false
+    },
+
+    "expression_statement": {
+      "type": "object",
+      "title": "Expression statement",
+      "description": "Evaluates a JMESPath expression against the crJSON and writes the result to the report.",
+      "required": ["id", "expression", "reportText"],
+      "properties": {
+        "id": { "$ref": "#/$defs/statement_id" },
+        "description": {
+          "oneOf": [
+            { "type": "string" },
+            { "$ref": "#/$defs/ml_dict" }
+          ]
+        },
+        "expression":  { "type": "string" },
+        "specSection":  { "type": "string", "description": "Reference section in the C2PA specification." },
+        "failIfMatched": { "type": "boolean" },
+        "warnIfMatched": { "type": "boolean" },
+        "reportText": { "$ref": "#/$defs/reportText" }
+      },
+      "additionalProperties": false
+    },
+
+    "data_block": {
+      "type": "object",
+      "title": "Data block",
+      "description": "Extracts or computes a named value to include in the report.",
+      "required": ["block"],
+      "properties": {
+        "block": {
+          "type": "object",
+          "required": ["name", "value"],
+          "properties": {
+            "name":  { "type": "string" },
+            "value": {}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "section_item": {
+      "description": "A single item within a statement section: a data block, an expression statement, or an information statement.",
+      "oneOf": [
+        { "$ref": "#/$defs/data_block" },
+        { "$ref": "#/$defs/expression_statement" },
+        { "$ref": "#/$defs/information_statement" }
+      ]
+    },
+
+    "section": {
+      "type": "array",
+      "title": "Statement section (YAML document 2+)",
+      "description": "A YAML document (after the information block) containing an ordered list of statements and/or data blocks.",
+      "items": { "$ref": "#/$defs/section_item" },
+      "minItems": 1
+    }
+  }
+}

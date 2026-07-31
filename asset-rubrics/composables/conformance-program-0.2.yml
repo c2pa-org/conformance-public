@@ -1,0 +1,63 @@
+- id: validation:mandatory_spec_version
+  description: Check if specVersion is present and correct in claim_generator_info (mandatory since Conformance v0.2 for Spec 2.4+)
+  failIfMatched: true
+  expression: |
+    if(
+      (_claimV2().claim_generator_info[0].specVersion || _claimV2().claim_generator_info.specVersion) == null,
+      if(
+        (split($expected_spec_version, `"."`)[0] > `"2"`) || 
+        (split($expected_spec_version, `"."`)[0] == `"2"` && split($expected_spec_version, `"."`)[1] >= `"4"`),
+        `["missing"]`,
+        `[]`
+      ),
+      if(
+        type((_claimV2().claim_generator_info[0].specVersion || _claimV2().claim_generator_info.specVersion)) != `"string"`,
+        [(_claimV2().claim_generator_info[0].specVersion || _claimV2().claim_generator_info.specVersion)],
+        if(
+          (split((_claimV2().claim_generator_info[0].specVersion || _claimV2().claim_generator_info.specVersion), `"."`)[0] == split($expected_spec_version, `"."`)[0]) &&
+          (split((_claimV2().claim_generator_info[0].specVersion || _claimV2().claim_generator_info.specVersion), `"."`)[1] == split($expected_spec_version, `"."`)[1]),
+          `[]`,
+          [(_claimV2().claim_generator_info[0].specVersion || _claimV2().claim_generator_info.specVersion)]
+        )
+      )
+    )
+
+
+
+
+
+
+
+
+  reportText:
+    'true':
+      en: Found correct 'specVersion' in claim_generator_info matching the expected version
+    'false':
+      en: "Missing or incorrect 'specVersion' in claim_generator_info: {{matches}}"
+
+- id: validation:mandatory_all_actions_included
+  description: Check that allActionsIncluded is populated in all actions assertions (Conformance Program requirement)
+  expression: |
+    length(values(_activeManifest().assertions || `{}`)[? actions != null && allActionsIncluded == null]) == 0
+  reportText:
+    'true':
+      en: The allActionsIncluded field is populated in all actions assertions
+    'false':
+      en: Missing mandatory allActionsIncluded field in one or more actions assertions
+
+- id: validation:no_dst_for_opened_action
+  description: Check that c2pa.opened actions do not have digitalSourceType (Conformance Program 0.2 requirement, enforced for Spec 2.4+)
+  failIfMatched: true
+  expression: |
+    if(
+      (split($expected_spec_version, `"."`)[0] * 1 > 2.0) || 
+      (split($expected_spec_version, `"."`)[0] * 1 == 2.0 && split($expected_spec_version, `"."`)[1] * 1 >= 4.0),
+      _actionsV2()[?action == "c2pa.opened" && digitalSourceType != null].digitalSourceType,
+      `[]`
+    )
+  reportText:
+    'true':
+      en: No c2pa.opened actions have a digitalSourceType
+    'false':
+      en: "Found c2pa.opened actions with digitalSourceType: {{matches}}"
+

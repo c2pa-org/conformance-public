@@ -1,0 +1,41 @@
+- id: validation:well_formed_data_present
+  description: Check if validation results are present for structural analysis
+  expression: |
+    manifests[0].validationResults != null
+  reportText:
+    'true':
+      en: Validation results are present for structural analysis
+    'false':
+      en: Missing validation results in the manifest
+
+- id: validation:well_formed_success
+  description: Check if the asset has any structural or malformation failures (from the well-formed list)
+  failIfMatched: true
+  expression: |
+    _validationResults().failure[?contains($well_formed_error_codes, code)].code
+  reportText:
+    'true':
+      en: No structural failures found
+    'false':
+      en: "Found structural failures: {{matches}}"
+
+- id: validation:valid_data_present
+  description: Check if validation results are present for integrity analysis
+  expression: |
+    manifests[0].validationResults != null
+  reportText:
+    'true':
+      en: Validation results are present for integrity analysis
+    'false':
+      en: Missing validation results in the manifest
+
+- id: validation:valid_success
+  description: Check if the asset has any validation mismatches (from the valid list)
+  failIfMatched: true
+  expression: |
+    _validationResults().failure[?contains($valid_error_codes, code)].code
+  reportText:
+    'true':
+      en: No validation mismatches found
+    'false':
+      en: "Found validation mismatches: {{matches}}"

@@ -1,0 +1,186 @@
+- id: validation:inception_action_position
+  description: Check if an inception action is the first action in the first actions assertion in created_assertions (mandatory since Spec 2.2)
+  specSection: "Spec 2.2 §18.14.2"
+  expression: |
+    endsWith(notNull(_createdAssertions()[?contains(url, "c2pa.actions")] | [0].url, ""), "c2pa.actions.v2") &&
+    (length(_actionsV2()[?action == "c2pa.created"]) == 0 ||
+      contains(`["c2pa.created", "c2pa.opened"]`, _actionsV2()[0].action))
+  reportText:
+    'true':
+      en: "Inception action is correctly positioned as the first item in the first created actions assertion (Spec 2.2 §18.14.2)"
+    'false':
+      en: "Inception action is not in the first actions assertion of created_assertions (or first item is not an actions assertion) (Spec 2.2 §18.14.2)"
+
+- id: validation:no_deprecated_assertions
+  description: Check for known deprecated assertion labels (mandatory since Spec 2.2)
+  specSection: "Spec 2.2 §6.3, App C.1"
+  failIfMatched: true
+  expression: |
+    _assertionKeys()[?startsWith(@, "stds.") || contains($deprecated_assertion_labels, @)]
+  reportText:
+    'true':
+      en: "No deprecated standard assertions found (Spec 2.2 §6.3, App C.1)"
+    'false':
+      en: "Found deprecated standard assertions: {{matches}} (Spec 2.2 §6.3, App C.1)"
+
+- id: validation:no_unsupported_assertions
+  description: Check if all C2PA standard assertions are in the allow-list (mandatory since Spec 2.2)
+  specSection: "Spec 2.2 §6.2, §6.2.2, §6.3"
+  failIfMatched: true
+  expression: |
+    _assertionKeys()[?startsWith(@, "c2pa.") &&
+      !contains($allowed_assertions, _baseAssertionLabel(@)) &&
+      !contains($deprecated_assertion_labels, _baseAssertionLabel(@))]
+  reportText:
+    'true':
+      en: "All standard assertions are supported for this spec version (Spec 2.2 §6.2, §6.2.2, §6.3)"
+    'false':
+      en: "Found unsupported or unknown standard C2PA assertions: {{matches}} (Spec 2.2 §6.2, §6.2.2, §6.3)"
+
+- id: validation:no_deprecated_actions
+  description: Check for deprecated action types in c2pa.actions.v2 (mandatory since Spec 2.2)
+  specSection: "Spec 2.2 §18.14.11, App C.1"
+  failIfMatched: true
+  expression: |
+    _actionsV2()[?contains($deprecated_action_labels, action)].action
+  reportText:
+    'true':
+      en: "No deprecated actions used (Spec 2.2 §18.14.11, App C.1)"
+    'false':
+      en: "Found deprecated actions: {{matches}} (Spec 2.2 §18.14.11, App C.1)"
+
+- id: validation:no_unsupported_actions
+  description: Check if all C2PA standard actions are in the allow-list (mandatory since Spec 2.2)
+  specSection: "Spec 2.2 §18.14, §18.14.12"
+  failIfMatched: true
+  expression: |
+    _actionsV2()[?startsWith(action, "c2pa.") && !contains($allowed_actions, action)].action
+  reportText:
+    'true':
+      en: "All standard actions are supported for this spec version (Spec 2.2 §18.14, §18.14.12)"
+    'false':
+      en: "Found unsupported or unknown standard C2PA actions: {{matches}} (Spec 2.2 §18.14, §18.14.12)"
+
+- id: validation:no_unrecognized_custom_assertions
+  description: Verify that custom assertions conform to entity-specific namespacing (MUST contain a dot '.') (mandatory since Spec 2.2)
+  specSection: "Spec 2.2 §6.2.2"
+  failIfMatched: true
+  expression: |
+    _assertionKeys()[?
+      !startsWith(@, "c2pa.") &&
+      !contains(@, ".")
+    ]
+  reportText:
+    'true':
+      en: "All custom assertions conform to entity-specific namespacing (contain a dot '.') (Spec 2.2 §6.2.2)"
+    'false':
+      en: "Found custom assertions violating namespacing rules (missing a dot '.'): {{matches}} (Spec 2.2 §6.2.2)"
+
+- id: validation:no_unrecognized_custom_actions
+  description: Verify that custom actions conform to entity-specific namespacing (MUST contain a dot '.') (mandatory since Spec 2.2)
+  specSection: "Spec 2.2 §18.14, §18.14.12"
+  failIfMatched: true
+  expression: |
+    _actionsV2()[?
+      !startsWith(action, "c2pa.") &&
+      !contains(action, ".")
+    ].action
+  reportText:
+    'true':
+      en: "All custom actions conform to entity-specific namespacing (contain a dot '.') (Spec 2.2 §18.14, §18.14.12)"
+    'false':
+      en: "Found custom actions violating namespacing rules (missing a dot '.'): {{matches}} (Spec 2.2 §18.14, §18.14.12)"
+
+- id: validation:no_unrecognized_custom_action_parameters
+  description: Verify that custom action parameters conform to entity-specific namespacing (MUST contain a dot '.') (mandatory since Spec 2.2)
+  specSection: "Spec 2.2 §18.14.4.7"
+  failIfMatched: true
+  expression: |
+    _actionsV2()[?parameters != null] |
+      [].keys(parameters)[] |
+      [? !contains($standard_parameters, @) && !contains(@, ".")]
+  reportText:
+    'true':
+      en: "All custom action parameters conform to entity-specific namespacing (contain a dot '.') (Spec 2.2 §18.14.4.7)"
+    'false':
+      en: "Found custom action parameters violating namespacing rules (missing a dot '.'): {{matches}} (Spec 2.2 §18.14.4.7)"
+
+- id: validation:discouraged_legacy_action_parameters
+  description: Check for deprecated or misplaced standard parameters inside the parameters block (warn since Spec 2.2)
+  specSection: "Spec 2.2 §18.14.4.1, §18.14.12"
+  warnIfMatched: true
+  expression: |
+    _actionsV2()[?parameters != null] |
+      [?parameters.description != null || parameters.ingredient != null].action
+  reportText:
+    'true':
+      en: "No discouraged legacy action parameters found in parameters block (Spec 2.2 §18.14.4.1, §18.14.12)"
+    'false':
+      en: "Found discouraged legacy action parameters (description or ingredient) inside the parameters block of actions: {{matches}}. These should be migrated to the v2 structure (description at top level, ingredients as plural array). (Spec 2.2 §18.14.4.1, §18.14.12)"
+
+- id: validation:active_manifest_urn
+  description: Check if the active manifest URN uses 'urn:c2pa:' prefix (v2.2+ requirement)
+  specSection: "Spec 2.2 §8.1, §10.2.1"
+  expression: |
+    startsWith(notNull(manifests[0].label, ""), "urn:c2pa:")
+  reportText:
+    'true':
+      en: "Active manifest URN uses standard 'urn:c2pa:' prefix (Spec 2.2 §8.1, §10.2.1)"
+    'false':
+      en: "Active manifest URN uses old 'urn:uuid' prefix (pre-v2.2) (Spec 2.2 §8.1, §10.2.1)"
+
+- id: validation:review_ratings_datasource
+  description: Check that reviewRatings is absent when dataSource type is human entry
+  specSection: "Spec 2.2 §18.3.3"
+  expression: |
+    length(_assertionValues()[? reviewRatings != null && contains($human_entry_source_types, dataSource.type)]) == 0
+  reportText:
+    'true':
+      en: "No invalid co-occurrence of reviewRatings and human entry dataSource (Spec 2.2 §18.3.3)"
+    'false':
+      en: "Found reviewRatings in an assertion with human entry dataSource (Spec 2.2 §18.3.3)"
+
+- id: validation:ingredient_v3_no_active_manifest
+  description: Check that ingredient v3 has no validationResults if no activeManifest
+  specSection: "Spec 2.2 §18.15.12.4.3"
+  expression: |
+    length(_ingredientAssertions()[? activeManifest == null && validationResults != null]) == 0
+  reportText:
+    'true':
+      en: "Ingredient v3 assertions without activeManifest correctly omit validationResults (Spec 2.2 §18.15.12.4.3)"
+    'false':
+      en: "Found ingredient v3 assertion without activeManifest but containing validationResults (Spec 2.2 §18.15.12.4.3)"
+
+- id: validation:ingredient_v3_mandatory_validation_results
+  description: Check that ingredient v3 has validationResults if activeManifest is present
+  specSection: "Spec 2.2 §18.15.12.4.3"
+  expression: |
+    length(_ingredientAssertions()[? activeManifest != null && validationResults == null]) == 0
+  reportText:
+    'true':
+      en: "Ingredient v3 assertions with activeManifest correctly include validationResults (Spec 2.2 §18.15.12.4.3)"
+    'false':
+      en: "Found ingredient v3 assertion with activeManifest but missing validationResults (Spec 2.2 §18.15.12.4.3)"
+
+- id: validation:ingredient_relationship_values
+  description: Check that the relationship field in all ingredient assertions is valid
+  specSection: "Spec 2.2 §18.15.3"
+  failIfMatched: true
+  expression: |
+    _ingredientAssertions()[? !contains($valid_relationship_values, relationship)].relationship
+  reportText:
+    'true':
+      en: "All ingredient assertions have valid relationship values (Spec 2.2 §18.15.3)"
+    'false':
+      en: "Found ingredient assertion with invalid relationship value: {{matches}} (Spec 2.2 §18.15.3)"
+
+- id: validation:mandatory_dst_for_created_action
+  description: Check that c2pa.created actions have a digitalSourceType (mandatory since Spec 2.2)
+  specSection: "Spec 2.2 §18.14.2, §18.14.4.5"
+  expression: |
+    length(_actionsV2()[?action == "c2pa.created" && digitalSourceType == null]) == 0
+  reportText:
+    'true':
+      en: "All c2pa.created actions have a digitalSourceType (Spec 2.2 §18.14.2, §18.14.4.5)"
+    'false':
+      en: "Found c2pa.created action missing a digitalSourceType (Spec 2.2 §18.14.2, §18.14.4.5)"

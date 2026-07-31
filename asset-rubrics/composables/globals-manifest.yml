@@ -1,0 +1,34 @@
+rubric_metadata:
+  name: "C2PA Rubric Manifest Expressions"
+  issuer: "C2PA Conformance Task Force"
+  date: "2026-04-21T00:00:00Z"
+  version: "1.0.0"
+  language: en
+
+expressions:
+  # Parameterized manifest accessors — @ is a manifest object.
+  #
+  # These are the single source of truth for all manifest-relative field access.
+  # Context-specific globals files (globals.yml, globals-signals.yml) include this
+  # file and expose zero-arg wrappers that bind the appropriate manifest, so
+  # composable call sites never need to change.
+
+  _manifest_validationResults:     '($args[0].validationResults || { failure: [{code: "MISSING_VALIDATION_RESULTS"}] })'
+  _manifest_assertionKeys:         "keys($args[0].assertions || `{}`)"
+  _manifest_assertionValues:       "values($args[0].assertions || `{}`)"
+  _manifest_actionsV2:             "values($args[0].assertions || `{}`)[?actions != null][].actions[] || `[]`"
+  _manifest_actionsV2Assertion:    "$args[0].assertions.'c2pa.actions.v2'"
+  _manifest_claimV2:               "$args[0].'claim.v2'"
+  _manifest_createdAssertions:     "$args[0].'claim.v2'.created_assertions || `[]`"
+  _manifest_ingredientAssertions:  "values($args[0].assertions || `{}`)[? relationship != null]"
+  _baseAssertionLabel:             'split($args[0], "__")[0]'
+
+  # Signal-oriented accessors ($args[0] = manifest object)
+  _manifest_hasActionsV2:    '$args[0].assertions.''c2pa.actions.v2'' != null && length($args[0].''claim.v2''.created_assertions[?contains(url, "c2pa.actions.v2")]) > 0'
+  _manifest_signalActions:   "$args[0].assertions.'c2pa.actions.v2'.actions"
+
+  # $args[0] = manifest (arg 0), $args[1] = digitalSourceType URI (arg 1).
+  # $args is a global array and is NOT shadowed inside [?...], unlike @.
+  # Call as: _manifest_createdWithDst(manifest, "http://...")
+  _manifest_createdWithDst:  'length(_manifest_signalActions($args[0])[? (action == "c2pa.created" || action == "c2pa.opened") && digitalSourceType == $args[1]]) > 0'
+

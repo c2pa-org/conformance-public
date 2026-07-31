@@ -1,0 +1,20 @@
+- id: validation:trusted_data_present
+  description: Check if validation results are present for trust analysis
+  expression: |
+    manifests[0].validationResults != null
+  reportText:
+    'true':
+      en: Validation results are present for trust analysis
+    'false':
+      en: Missing validation results in the manifest
+
+- id: validation:trusted_success
+  description: Check if the asset has any trust failures (from the trusted list)
+  failIfMatched: true
+  expression: |
+    _validationResults().failure[?contains($trust_error_codes, code)].code
+  reportText:
+    'true':
+      en: Asset is trusted
+    'false':
+      en: "Found trust failures: {{matches}}"

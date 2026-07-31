@@ -1,0 +1,45 @@
+# Summary of C2PA OCSP Responder Certificate Profile Constraints (leaf certificate)
+
+Profile: C2PA OCSP Responder
+
+Core Fields:
+  Version: v3
+  Serial Number: Positive integer (high entropy recommended) up to 20 octets
+  Signature Algorithm: RSA (PSS or SHA2 variants) or ECDSA (SHA2 variants) - EdDSA excluded.
+  Issuer Name: Matches Subject Name of signing Issuing CA.
+  Validity Period: Specific dates set at generation (Max duration not specified by C2PA profile).
+  Subject Name: Unique name for the OCSP Responder. Requires C, O, CN attributes.
+  Subject Public Key Info:
+    Algorithm: rsaEncryption or id-ecPublicKey
+    RSA Key Size: 2048 bits or larger
+    ECC Curve: P-256, P-384, or P-521
+
+Extensions:
+  Subject Key Identifier:
+    Presence: MUST
+    Critical: FALSE
+    Value: Hash of public key (RFC 5280 Method 1 - SHA-1)
+  Authority Key Identifier:
+    Presence: MUST
+    Critical: FALSE
+    Value: MUST contain keyIdentifier (matching Issuing CA SKI, using RFC 5280 Method 1). Issuer/Serial optional.
+  Key Usage:
+    Presence: MUST
+    Critical: TRUE
+    Bits: digitalSignature
+  Basic Constraints:
+    Presence: MUST
+    Critical: TRUE
+    Value: cA=FALSE
+  Extended Key Usage:
+    Presence: MUST
+    Critical: FALSE
+    Value: MUST contain exactly id-kp-OCSPSigning.
+  OCSP NoCheck:
+    Presence: MUST
+    Critical: FALSE
+    Value: NULL
+  Authority Information Access:
+    Presence: MUST NOT
+  CRL Distribution Points:
+    Presence: MUST NOT

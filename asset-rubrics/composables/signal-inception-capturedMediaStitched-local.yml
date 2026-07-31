@@ -1,0 +1,21 @@
+rubric_metadata:
+  name: "Stitched Captured Media (Local)"
+  issuer: "C2PA Conformance Task Force"
+  date: "2026-03-30T16:15:23-07:00"
+  version: "1.0.0"
+  language: "en"
+
+include:
+  - globals-signals.yml
+
+---
+
+- id: "signal_capturedMediaStitched"
+  description: "Check if the manifest contains a Stitched Captured Media inception signal"
+  expression: |
+    _createdWithDst(@, "http://cv.iptc.org/newscodes/digitalsourcetype/compositeCapture")
+  reportText:
+    "true":
+      en: "Contains Stitched Captured Media"
+    "false":
+      en: "Does not contain Stitched Captured Media"
