@@ -7290,5 +7290,74 @@
       "earliestPublicDisclosure": "2026-07-31",
       "lastModification": "2026-07-31"
     }
+  },
+   {
+    "recordId": "019f5e9b-3012-738a-98ec-9289279aa4eb",
+    "applicant": "TMKR AI, Inc.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "TMKR ",
+        "O": "TMKR AI, Inc.",
+        "OU": "Engineering",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "AWS_NitroEnclaveAttestation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-14",
+      "conformance": "2026-07-30",
+      "earliestPublicDisclosure": "2026-06-30",
+      "lastModification": "2026-07-31"
+    }
   }
 ]
