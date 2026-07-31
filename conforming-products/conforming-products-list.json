@@ -7217,5 +7217,42 @@
       "earliestPublicDisclosure": "2026-05-22",
       "lastModification": "2026-07-30"
     }
+  },
+    {
+    "recordId": "019f5a3e-c1cd-7ccf-b191-d6b401389b82",
+    "applicant": "MIRROR MIRROR AI, INC.",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "MirrorMirrorAI Studio",
+        "O": "MIRROR MIRROR AI, INC.",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "2.15.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-07-13",
+      "conformance": "2026-07-30",
+      "earliestPublicDisclosure": "2026-07-13",
+      "lastModification": "2026-07-31"
+    }
   }
 ]
