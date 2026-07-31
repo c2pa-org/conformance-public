@@ -7181,5 +7181,41 @@
       "earliestPublicDisclosure": "2026-07-29",
       "lastModification": "2026-07-30"
     }
+  },
+  {
+    "recordId": "019e52c9-6654-72f4-b165-d3e6dd3ada40",
+    "applicant": "Software Innovations Group LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "ProofSnap",
+        "O": "Software Innovations Group LLC",
+        "OU": "",
+        "C": "AE"
+      },
+      "minVersion": "1.16.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-05-23",
+      "conformance": "2026-07-30",
+      "earliestPublicDisclosure": "2026-05-22",
+      "lastModification": "2026-07-30"
+    }
   }
 ]
