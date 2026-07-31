@@ -38,7 +38,7 @@ Extensions:
   Certificate Policies:
     Presence: MUST
     Critical: FALSE
-    Value: Must contain c2pa-certificate-policy OID (1.3.6.1.4.1.62558.1.1). Qualifiers optional.
+    Value: Must contain c2pa-certificate-policy OID (1.3.6.1.4.1.62558.1.1).MAY also contain an additional policy OID from the IANA private arc controlled by the CA to indicate the CPS under which the CA is operated. Qualifiers optional.
   Authority Information Access:
     Presence: MUST (if CRL Distribution Points is not present)
     Critical: FALSE
