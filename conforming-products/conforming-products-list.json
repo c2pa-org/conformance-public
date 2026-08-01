@@ -7399,5 +7399,48 @@
       "earliestPublicDisclosure": "2026-07-31",
       "lastModification": "2026-07-31"
     }
+  },
+  {
+    "recordId": "019f0d7a-607e-7589-bdb2-6e12f4b8b50e",
+    "applicant": "REVERCE GmbH",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Reference Models",
+        "O": "REVERCE GmbH",
+        "OU": "",
+        "C": "DE"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "GoogleCloud_CloudHSMKeyAttestation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/png"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/png"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-06-28",
+      "conformance": "2026-07-11",
+      "earliestPublicDisclosure": "2026-08-01",
+      "lastModification": "2026-08-01"
+    }
   }
 ]
