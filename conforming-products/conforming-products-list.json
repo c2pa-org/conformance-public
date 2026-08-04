@@ -7442,5 +7442,58 @@
       "earliestPublicDisclosure": "2026-08-01",
       "lastModification": "2026-08-01"
     }
+  },
+   {
+    "recordId": "019f7f65-b088-75c4-9300-3bf8bd2a711d",
+    "applicant": "REVERCE GmbH",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "CRESTAG",
+        "O": "REVERCE GmbH",
+        "OU": "",
+        "C": "DE"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "GoogleCloud_CloudHSMKeyAttestation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-20",
+      "conformance": "2026-08-04",
+      "earliestPublicDisclosure": "2026-08-01",
+      "lastModification": "2026-08-04"
+    }
   }
 ]
