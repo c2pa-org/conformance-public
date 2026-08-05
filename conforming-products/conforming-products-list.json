@@ -2,6 +2,7 @@
   {
     "recordId": "0197aa34-665b-7811-9bbc-317cfd988d0a",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -17,6 +18,10 @@
         "attestationMethods": [
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -35,12 +40,13 @@
       "creation": "2025-06-26",
       "conformance": "2025-06-27",
       "earliestPublicDisclosure": "2025-08-21",
-      "lastModification": "2025-06-27"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "0197ae4d-5c85-739f-91ae-70b0523425a7",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -56,6 +62,10 @@
         "attestationMethods": [
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -78,12 +88,13 @@
       "creation": "2025-06-26",
       "conformance": "2025-06-27",
       "earliestPublicDisclosure": "2025-08-21",
-      "lastModification": "2025-06-27"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "01981b77-97a6-70a1-8c82-bee8e48eef4c",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -96,6 +107,10 @@
       "minVersion": "7.37",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -118,12 +133,13 @@
       "creation": "2025-07-18",
       "conformance": "2025-07-21",
       "earliestPublicDisclosure": "2025-08-21",
-      "lastModification": "2025-07-21"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "01981fb6-143a-74d7-b490-322ebb14babd",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -136,6 +152,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -160,12 +180,13 @@
       "creation": "2025-07-18",
       "conformance": "2025-07-22",
       "earliestPublicDisclosure": "2025-08-21",
-      "lastModification": "2025-07-22"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "01983ac3-fc32-7402-b0bf-cc90725fe475",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -178,6 +199,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -196,12 +221,13 @@
       "creation": "2025-07-24",
       "conformance": "2025-07-27",
       "earliestPublicDisclosure": "2025-08-21",
-      "lastModification": "2025-07-27"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "01989be1-36f9-7db7-98e2-340e19e9280c",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -214,6 +240,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -250,12 +280,13 @@
       "creation": "2025-08-12",
       "conformance": "2025-08-13",
       "earliestPublicDisclosure": "2025-08-21",
-      "lastModification": "2025-08-13"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "01989f24-24ef-78ff-8c1a-90a2f4f1b349",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -271,6 +302,10 @@
         "attestationMethods": [
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -295,12 +330,13 @@
       "creation": "2025-08-12",
       "conformance": "2025-08-13",
       "earliestPublicDisclosure": "2025-08-21",
-      "lastModification": "2025-08-13"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "0198a72e-99f4-7171-9fc0-ff4caac984cf",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -313,6 +349,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -340,12 +380,13 @@
       "creation": "2025-08-14",
       "conformance": "2025-08-14",
       "earliestPublicDisclosure": "2025-08-21",
-      "lastModification": "2025-08-14"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "01987b59-4920-7391-a63f-bdd53ced9547",
     "applicant": "Adobe Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -391,12 +432,13 @@
       "creation": "2025-08-05",
       "conformance": "2025-08-05",
       "earliestPublicDisclosure": "2025-09-01",
-      "lastModification": "2025-09-04"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "0197e699-8f23-718d-b3ef-60080d4c5b7d",
     "applicant": "EZDRM, Inc",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -413,6 +455,10 @@
           "AWS_NitroEnclaveAttestation",
           "Microsoft_AzureAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -443,12 +489,13 @@
       "creation": "2025-07-07",
       "conformance": "2025-08-28",
       "earliestPublicDisclosure": "2025-09-01",
-      "lastModification": "2025-09-13"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "01997fda-550f-7b58-9d1e-42cb959dd0db",
     "applicant": "Xiaomi Communications Co., Ltd",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -478,12 +525,13 @@
       "creation": "2025-09-25",
       "conformance": "2025-09-25",
       "earliestPublicDisclosure": "2025-09-25",
-      "lastModification": "2025-09-25"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "01991a81-4f5c-770a-b290-8bde8c858677",
     "applicant": "Limbo AI, LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -513,12 +561,13 @@
       "creation": "2025-09-05",
       "conformance": "2025-09-05",
       "earliestPublicDisclosure": "2025-10-01",
-      "lastModification": "2025-09-16"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "01997fd7-e2de-7283-ac45-9c7b779f1540",
     "applicant": "Xiaomi Communications Co., Ltd",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -531,6 +580,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -551,12 +604,13 @@
       "creation": "2025-09-25",
       "conformance": "2025-09-25",
       "earliestPublicDisclosure": "2025-09-25",
-      "lastModification": "2025-10-31"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "01997fde-f78b-74d7-8209-b4674f15f50e",
     "applicant": "Xiaomi Communications Co., Ltd",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -569,6 +623,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -595,12 +653,13 @@
       "creation": "2025-09-25",
       "conformance": "2025-09-25",
       "earliestPublicDisclosure": "2025-09-25",
-      "lastModification": "2025-09-25"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "0198cc16-0cd2-730a-bada-15bec6b5b7f5",
     "applicant": "vivo Mobile Communication Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -628,12 +687,13 @@
       "creation": "2025-08-21",
       "conformance": "2025-09-20",
       "earliestPublicDisclosure": "2025-10-28",
-      "lastModification": "2025-09-29"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "0198cc01-540f-77be-b15d-152fb3f20984",
     "applicant": "vivo Mobile Communication Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -646,6 +706,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -664,12 +728,13 @@
       "creation": "2025-08-21",
       "conformance": "2025-09-19",
       "earliestPublicDisclosure": "2025-10-28",
-      "lastModification": "2025-10-29"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "0199f31c-6575-70ec-b3f2-058b09fc054a",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -682,6 +747,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -714,12 +783,13 @@
       "creation": "2025-10-17",
       "conformance": "2025-10-28",
       "earliestPublicDisclosure": "2025-10-17",
-      "lastModification": "2025-10-28"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "0199ccd5-daed-79a7-8b8a-b0bedc0af6fa",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -732,6 +802,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -768,12 +842,13 @@
       "creation": "2025-10-10",
       "conformance": "2025-10-29",
       "earliestPublicDisclosure": "2025-10-10",
-      "lastModification": "2025-10-29"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "0199cd03-8a43-7ce8-b005-b7e454d5b3c1",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -789,6 +864,10 @@
         "attestationMethods": [
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -821,12 +900,13 @@
       "creation": "2025-10-10",
       "conformance": "2025-10-31",
       "earliestPublicDisclosure": "2025-10-10",
-      "lastModification": "2025-10-31"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019a7a9f-cb2f-7e2d-b222-9aa444fc383e",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -839,6 +919,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -866,12 +950,13 @@
       "creation": "2025-11-13",
       "conformance": "2025-11-13",
       "earliestPublicDisclosure": "2025-11-12",
-      "lastModification": "2025-11-13"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019a7aa2-5791-7e3f-8ecf-22ef01e30838",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -884,6 +969,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -908,12 +997,13 @@
       "creation": "2025-11-13",
       "conformance": "2025-11-13",
       "earliestPublicDisclosure": "2025-11-12",
-      "lastModification": "2025-11-13"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019a7a56-7744-7062-96d9-220b58359619",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -926,6 +1016,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -957,12 +1051,13 @@
       "creation": "2025-11-12",
       "conformance": "2025-11-13",
       "earliestPublicDisclosure": "2025-11-12",
-      "lastModification": "2025-11-13"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "01981d76-f92a-79a1-a70f-614ef17b44f3",
     "applicant": "Digitality Consulting S.r.l.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -975,6 +1070,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1025,14 +1124,15 @@
     },
     "dates": {
       "creation": "2025-07-18",
-      "conformance": "2025-11-5",
+      "conformance": "2025-11-05",
       "earliestPublicDisclosure": "2025-07-16",
-      "lastModification": "2025-11-13"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019a94a9-668f-76ef-8b22-a15b9a490011",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1048,6 +1148,10 @@
         "attestationMethods": [
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1073,12 +1177,13 @@
       "creation": "2025-11-18",
       "conformance": "2025-11-24",
       "earliestPublicDisclosure": "2025-11-17",
-      "lastModification": "2025-11-24"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019a94ab-95d9-74b7-965c-8b23935a76df",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1091,6 +1196,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1113,12 +1222,13 @@
       "creation": "2025-11-18",
       "conformance": "2025-11-24",
       "earliestPublicDisclosure": "2025-11-17",
-      "lastModification": "2025-11-24"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019aa0c2-03ee-708e-b095-e138683acca2",
     "applicant": "Safe Creative, SL",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -1178,12 +1288,13 @@
       "creation": "2025-11-20",
       "conformance": "2025-11-20",
       "earliestPublicDisclosure": "2025-11-20",
-      "lastModification": "2025-11-20"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019a7af3-cc41-78fa-b0de-cfae4229c74c",
     "applicant": "Copihue Studio, Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1196,6 +1307,10 @@
       "minVersion": "0.9.1",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1214,12 +1329,13 @@
       "creation": "2025-11-13",
       "conformance": "2025-11-18",
       "earliestPublicDisclosure": "2025-12-01",
-      "lastModification": "2025-12-06"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019b06cf-372d-7d19-a8ab-446b10ac119f",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1232,6 +1348,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1255,12 +1375,13 @@
       "creation": "2025-12-10",
       "conformance": "2025-12-13",
       "earliestPublicDisclosure": "2025-12-18",
-      "lastModification": "2025-12-13"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "0198989c-95be-753c-99db-598517152f1d",
     "applicant": "Archive Origin LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1273,6 +1394,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1309,12 +1434,13 @@
       "creation": "2025-08-11",
       "conformance": "2026-01-16",
       "earliestPublicDisclosure": "2025-12-31",
-      "lastModification": "2026-01-17"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019b3d69-3eea-7ffb-80b2-01f5fa5f98a2",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1327,6 +1453,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1349,12 +1479,13 @@
       "creation": "2025-12-20",
       "conformance": "2025-12-30",
       "earliestPublicDisclosure": "2025-12-20",
-      "lastModification": "2025-12-30"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019b3d82-2b5f-71d8-8089-10fcfc2b6ec3",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1367,6 +1498,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1396,12 +1531,13 @@
       "creation": "2025-12-20",
       "conformance": "2026-01-16",
       "earliestPublicDisclosure": "2025-12-20",
-      "lastModification": "2026-01-17"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019b32c8-2031-72b0-8fdd-c6f93051d592",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1414,6 +1550,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1468,12 +1608,13 @@
       "creation": "2025-12-18",
       "conformance": "2026-01-16",
       "earliestPublicDisclosure": "2025-12-18",
-      "lastModification": "2026-01-17"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019a35f6-d9d2-7166-ba83-74f5942f27d9",
     "applicant": "Vbrick Systems Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1489,6 +1630,10 @@
         "attestationMethods": [
           "AWS_NitroEnclaveAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1534,12 +1679,13 @@
       "creation": "2025-10-30",
       "conformance": "2026-01-27",
       "earliestPublicDisclosure": "2025-12-15",
-      "lastModification": "2026-01-27"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019bc6fd-29de-7c64-8a91-427475c1d4e3",
     "applicant": "Numbers Co. Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1552,6 +1698,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1588,12 +1738,13 @@
       "creation": "2026-01-16",
       "conformance": "2026-01-27",
       "earliestPublicDisclosure": "2026-01-16",
-      "lastModification": "2026-01-27"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019bc6f9-2193-73e8-aac8-8a3ee77ca9f0",
     "applicant": "Numbers Co. Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1606,6 +1757,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1642,12 +1797,13 @@
       "creation": "2026-01-16",
       "conformance": "2026-01-27",
       "earliestPublicDisclosure": "2026-01-16",
-      "lastModification": "2026-01-27"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019bc403-5cd7-7669-afe6-fdb17177d428",
     "applicant": "OpenAI OpCo, LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1660,6 +1816,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1710,12 +1870,13 @@
       "creation": "2026-01-15",
       "conformance": "2026-01-28",
       "earliestPublicDisclosure": "2026-01-15",
-      "lastModification": "2026-01-28"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019aca24-0055-79b9-8577-9195fdbcda54",
     "applicant": "A Bord !",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -1750,12 +1911,13 @@
       "creation": "2025-11-28",
       "conformance": "2026-01-08",
       "earliestPublicDisclosure": "2026-02-02",
-      "lastModification": "2026-01-08"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019c34d3-733f-7a47-b917-50dd38f41ece",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1768,6 +1930,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1806,12 +1972,13 @@
       "creation": "2026-02-06",
       "conformance": "2026-02-09",
       "earliestPublicDisclosure": "2026-02-06",
-      "lastModification": "2026-02-09"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019c29ef-885c-7e0a-9a85-6075f658f12a",
     "applicant": "Evergreen Labs",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1828,6 +1995,10 @@
           "Google_PlayIntegrity",
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1849,12 +2020,13 @@
       "creation": "2026-02-04",
       "conformance": "2026-02-06",
       "earliestPublicDisclosure": "2026-02-05",
-      "lastModification": "2026-02-06"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019b95e1-89cd-7159-a581-ede60e674f20",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1870,6 +2042,10 @@
         "attestationMethods": [
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1889,12 +2065,13 @@
       "creation": "2026-01-07",
       "conformance": "2026-01-12",
       "earliestPublicDisclosure": "2026-02-16",
-      "lastModification": "2026-01-12"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019c584c-c2e0-7757-8263-6bb1eeb3d276",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1907,6 +2084,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1929,12 +2110,13 @@
       "creation": "2026-02-13",
       "conformance": "2026-02-23",
       "earliestPublicDisclosure": "2026-02-13",
-      "lastModification": "2026-02-23"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019b1c68-7150-7999-a357-84595640f3cb",
     "applicant": "Actual Intelligence Pty Ltd",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1950,6 +2132,10 @@
         "attestationMethods": [
           "Apple_AppAttest"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -1969,12 +2155,13 @@
       "creation": "2025-12-14",
       "conformance": "2026-02-16",
       "earliestPublicDisclosure": "2025-12-12",
-      "lastModification": "2026-03-10"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019cbee7-916e-7f89-8482-258f65f9478b",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -1987,6 +2174,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2010,12 +2201,13 @@
       "creation": "2026-03-05",
       "conformance": "2026-03-09",
       "earliestPublicDisclosure": "2026-03-04",
-      "lastModification": "2026-03-09"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019bbc4a-03ce-7351-8975-05f48559cb2d",
     "applicant": "DigiCert, Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2028,6 +2220,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2052,12 +2248,13 @@
       "creation": "2026-01-14",
       "conformance": "2026-02-18",
       "earliestPublicDisclosure": "2026-01-14",
-      "lastModification": "2026-02-18"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019cb514-9476-7a37-ad96-ea41a15e9ed6",
     "applicant": "Sound Patrol, Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -2087,12 +2284,13 @@
       "creation": "2026-03-03",
       "conformance": "2026-03-16",
       "earliestPublicDisclosure": "2026-02-26",
-      "lastModification": "2026-03-16"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019a6cf5-07ac-7285-b8e8-63063a5417fa",
     "applicant": "SanMarcSoft LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -2139,12 +2337,13 @@
       "creation": "2025-11-10",
       "conformance": "2026-03-17",
       "earliestPublicDisclosure": "2025-11-14",
-      "lastModification": "2026-03-17"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "0197ee27-094f-74bc-be92-6dbd3483c5f4",
     "applicant": "Comite International des Telecommunications de Presse",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2157,6 +2356,10 @@
       "minVersion": "1",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2187,12 +2390,13 @@
       "creation": "2025-07-09",
       "conformance": "2026-03-20",
       "earliestPublicDisclosure": "2025-07-09",
-      "lastModification": "2026-03-20"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019bbd62-6609-7bae-a688-7181f513f568",
     "applicant": "Pixlmob Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2208,6 +2412,10 @@
         "attestationMethods": [
           "GoogleCloud_CloudHSMKeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2241,12 +2449,13 @@
       "creation": "2026-01-14",
       "conformance": "2026-04-03",
       "earliestPublicDisclosure": "2026-01-13",
-      "lastModification": "2026-04-03"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019bebcc-5ea3-7f49-810f-2385c4617e2f",
     "applicant": "Valid Technologies GmbH",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2259,6 +2468,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2319,12 +2532,13 @@
       "creation": "2026-01-23",
       "conformance": "2026-04-07",
       "earliestPublicDisclosure": "2026-02-15",
-      "lastModification": "2026-04-07"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019876c6-8379-73d1-9f3b-c6c5a880f6d9",
     "applicant": "Proofmode Reality Systems LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2341,6 +2555,10 @@
           "Android_KeyAttestation",
           "Google_PlayIntegrity"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2369,12 +2587,13 @@
       "creation": "2025-08-04",
       "conformance": "2026-04-06",
       "earliestPublicDisclosure": "2025-09-01",
-      "lastModification": "2026-04-22"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019c9780-f0cf-7857-91a7-821fa1bc5de1",
     "applicant": "Nuevo.Studio LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2391,6 +2610,10 @@
           "Android_KeyAttestation",
           "Google_PlayIntegrity"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2410,12 +2633,13 @@
       "creation": "2026-02-26",
       "conformance": "2026-03-18",
       "earliestPublicDisclosure": "2026-05-04",
-      "lastModification": "2026-05-05"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d2ad3-316a-75b4-b23e-0188df6d4962",
     "applicant": "ChainAI Networks GmbH",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2428,6 +2652,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2465,12 +2693,13 @@
       "creation": "2026-03-26",
       "conformance": "2026-05-05",
       "earliestPublicDisclosure": "2026-04-15",
-      "lastModification": "2026-05-05"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019cb8b3-d0ff-7230-95bf-8f1730293fac",
     "applicant": "Okeanos B.V.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2483,6 +2712,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2523,12 +2756,13 @@
       "creation": "2026-03-04",
       "conformance": "2026-05-05",
       "earliestPublicDisclosure": "2026-03-09",
-      "lastModification": "2026-05-05"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019c0139-064e-7cf9-8c32-86667ce7f9d1",
     "applicant": "Pixelstream, Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -2570,12 +2804,13 @@
       "creation": "2026-01-27",
       "conformance": "2026-04-29",
       "earliestPublicDisclosure": "2026-01-27",
-      "lastModification": "2026-05-05"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d2ac2-7028-79f1-aa71-94d77b05978a",
     "applicant": "Joint Stock Company \"Public Broadcasting Company of Ukraine\"",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2588,6 +2823,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2611,12 +2850,13 @@
       "creation": "2026-03-26",
       "conformance": "2026-05-05",
       "earliestPublicDisclosure": "2026-03-26",
-      "lastModification": "2026-05-06"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d0d24-c776-7a1d-9753-cd96973a86df",
     "applicant": "Inspireip Tecnologia Blockchain LTDA",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2629,6 +2869,10 @@
       "minVersion": "1",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2663,12 +2907,13 @@
       "creation": "2026-03-20",
       "conformance": "2026-05-06",
       "earliestPublicDisclosure": "2026-04-03",
-      "lastModification": "2026-05-06"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019b9756-6e4a-7830-8226-dde89b87594b",
     "applicant": "vivo Mobile Communication Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2681,6 +2926,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2702,12 +2951,13 @@
       "creation": "2026-01-07",
       "conformance": "2026-01-28",
       "earliestPublicDisclosure": "2026-05-06",
-      "lastModification": "2026-05-07"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019b97f9-80b0-72ff-8377-633ade8c369e",
     "applicant": "vivo Mobile Communication Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2720,6 +2970,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2741,12 +2995,13 @@
       "creation": "2026-01-07",
       "conformance": "2026-01-28",
       "earliestPublicDisclosure": "2026-05-06",
-      "lastModification": "2026-05-07"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019aaa54-f554-7798-98ee-0c0149934a80",
     "applicant": "Inborn Technologies Private Limited",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2763,6 +3018,10 @@
           "Microsoft_AzureAttestation",
           "Microsoft_AzureManagedHSMAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2806,12 +3065,13 @@
       "creation": "2025-11-22",
       "conformance": "2026-05-08",
       "earliestPublicDisclosure": "2025-11-25",
-      "lastModification": "2026-05-08"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019cad46-19cf-7505-8ec8-cf61520b0e54",
     "applicant": "Trufo Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2827,6 +3087,10 @@
         "attestationMethods": [
           "AWS_NitroEnclaveAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2891,12 +3155,13 @@
       "creation": "2026-03-02",
       "conformance": "2026-05-08",
       "earliestPublicDisclosure": "2026-03-01",
-      "lastModification": "2026-05-08"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019be2b9-cf00-713b-8abd-838b1a3d4913",
     "applicant": "ODDR Group Pty Ltd",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2909,6 +3174,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2941,12 +3210,13 @@
       "creation": "2026-01-21",
       "conformance": "2026-05-16",
       "earliestPublicDisclosure": "2026-02-09",
-      "lastModification": "2026-05-17"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019c6cc4-6ed0-73bc-aa27-eed755ca8ee1",
     "applicant": "Evergreen Labs",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -2962,6 +3232,10 @@
         "attestationMethods": [
           "Apple_AppAttest"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -2983,12 +3257,13 @@
       "creation": "2026-02-17",
       "conformance": "2026-05-15",
       "earliestPublicDisclosure": "2026-02-18",
-      "lastModification": "2026-05-17"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019cf922-64bc-7098-9b41-0083afa0c67f",
     "applicant": "TrueTake Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3001,6 +3276,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3055,12 +3334,13 @@
       "creation": "2026-03-17",
       "conformance": "2026-05-19",
       "earliestPublicDisclosure": "2026-05-01",
-      "lastModification": "2026-05-19"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019cd9ba-3b51-73b7-b95f-5bf87f60f3f2",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3076,6 +3356,10 @@
         "attestationMethods": [
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3098,12 +3382,13 @@
       "creation": "2026-03-10",
       "conformance": "2026-03-16",
       "earliestPublicDisclosure": "2026-05-21",
-      "lastModification": "2026-05-21"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d7042-2bb2-737a-a5a7-4471dae32a0c",
     "applicant": "Jaded Content LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3116,6 +3401,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3138,12 +3427,13 @@
       "creation": "2026-04-09",
       "conformance": "2026-05-22",
       "earliestPublicDisclosure": "2026-04-08",
-      "lastModification": "2026-05-26"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019df7fc-11a5-7968-bf19-0822fa0969b0",
     "applicant": "InReality ApS",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3159,6 +3449,10 @@
         "attestationMethods": [
           "Apple_AppAttest"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3182,12 +3476,13 @@
       "creation": "2026-05-05",
       "conformance": "2026-05-22",
       "earliestPublicDisclosure": "2026-05-15",
-      "lastModification": "2026-05-26"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019df7f8-828a-7b9e-80e3-5cabc3c3bc3e",
     "applicant": "InReality ApS",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3203,6 +3498,10 @@
         "attestationMethods": [
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3225,12 +3524,13 @@
       "creation": "2026-05-05",
       "conformance": "2026-05-22",
       "earliestPublicDisclosure": "2026-05-15",
-      "lastModification": "2026-05-26"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d6f8e-6069-7d07-a000-53b3b84f07dc",
     "applicant": "Gelatin Labs LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3243,6 +3543,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3262,12 +3566,13 @@
       "creation": "2026-04-09",
       "conformance": "2026-05-22",
       "earliestPublicDisclosure": "2026-04-08",
-      "lastModification": "2026-05-26"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019b9806-b600-77c7-9790-135484444639",
     "applicant": "vivo Mobile Communication Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -3300,12 +3605,13 @@
       "creation": "2026-01-07",
       "conformance": "2026-05-22",
       "earliestPublicDisclosure": "2026-05-06",
-      "lastModification": "2026-05-26"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019b9800-7bc5-799e-8c5c-3cee21b656ec",
     "applicant": "vivo Mobile Communication Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -3338,12 +3644,13 @@
       "creation": "2026-01-07",
       "conformance": "2026-05-22",
       "earliestPublicDisclosure": "2026-05-06",
-      "lastModification": "2026-05-26"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019c012e-2b75-71c8-9093-89c57bdc8838",
     "applicant": "Pixelstream, Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3359,6 +3666,10 @@
         "attestationMethods": [
           "GoogleCloud_CloudHSMKeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3400,12 +3711,13 @@
       "creation": "2026-01-27",
       "conformance": "2026-05-26",
       "earliestPublicDisclosure": "2026-01-27",
-      "lastModification": "2026-05-26"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d2241-eb97-7728-9ec0-cdaafba300c2",
     "applicant": "Encypher Corporation",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3418,6 +3730,10 @@
       "minVersion": "2.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3490,12 +3806,13 @@
       "creation": "2026-03-24",
       "conformance": "2026-05-26",
       "earliestPublicDisclosure": "2026-03-30",
-      "lastModification": "2026-05-26"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d19f5-321c-7e1f-9915-3b674641c372",
     "applicant": "Brahma AI LTD",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3508,6 +3825,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3541,12 +3862,13 @@
       "creation": "2026-03-23",
       "conformance": "2026-05-26",
       "earliestPublicDisclosure": "2026-05-01",
-      "lastModification": "2026-05-26"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d8d83-ed1c-787c-920c-8fad67b55cbe",
     "applicant": "Jura Labs CIC ",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -3577,12 +3899,13 @@
       "creation": "2026-04-14",
       "conformance": "2026-05-06",
       "earliestPublicDisclosure": "2026-05-31",
-      "lastModification": "2026-06-01"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019cbb4d-6137-7784-8905-2570f45822a3",
     "applicant": "Clipstudios.ai",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3595,6 +3918,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3621,12 +3948,13 @@
       "creation": "2026-03-05",
       "conformance": "2026-06-11",
       "earliestPublicDisclosure": "2026-05-05",
-      "lastModification": "2026-06-12"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019b70ff-4efa-7702-ad45-616f6800387a",
     "applicant": "CHECKHC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3639,6 +3967,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3677,12 +4009,13 @@
       "creation": "2025-12-30",
       "conformance": "2026-06-11",
       "earliestPublicDisclosure": "2025-12-30",
-      "lastModification": "2026-06-12"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d9492-c448-76a4-b6a1-00f4f301299d",
     "applicant": "MuseBlossom Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3695,6 +4028,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3723,12 +4060,13 @@
       "creation": "2026-04-16",
       "conformance": "2026-06-11",
       "earliestPublicDisclosure": "2026-04-27",
-      "lastModification": "2026-06-12"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d4b9b-4c3a-7459-8300-9b27d3024949",
     "applicant": "MarkAny",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3741,6 +4079,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3805,12 +4147,13 @@
       "creation": "2026-04-02",
       "conformance": "2026-06-12",
       "earliestPublicDisclosure": "2026-04-10",
-      "lastModification": "2026-06-12"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e57db-8777-70f3-b978-711b2481c57c",
     "applicant": "Jaded Content LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3823,6 +4166,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3879,12 +4226,13 @@
       "creation": "2026-05-24",
       "conformance": "2026-06-12",
       "earliestPublicDisclosure": "2026-05-23",
-      "lastModification": "2026-06-13"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e5792-e360-7ef1-9e7a-057f42f442a0",
     "applicant": "Pixelstream, Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -3897,6 +4245,10 @@
       "minVersion": "1.1",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -3941,12 +4293,13 @@
       "creation": "2026-05-24",
       "conformance": "2026-06-15",
       "earliestPublicDisclosure": "2026-05-23",
-      "lastModification": "2026-06-15"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e612a-16fa-7c13-93ca-37297cd68b6c",
     "applicant": "SamuRAI OS",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -3984,12 +4337,13 @@
       "creation": "2026-05-25",
       "conformance": "2026-06-16",
       "earliestPublicDisclosure": "2026-05-25",
-      "lastModification": "2026-06-16"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e60f8-a130-719b-81fd-cf5c6e69fd2c",
     "applicant": "SamuRAI OS",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4002,6 +4356,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4044,12 +4402,13 @@
       "creation": "2026-05-25",
       "conformance": "2026-06-16",
       "earliestPublicDisclosure": "2026-05-25",
-      "lastModification": "2026-06-16"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d7691-9957-7414-b678-f9df6ae020de",
     "applicant": "InReality ApS",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -4083,12 +4442,13 @@
       "creation": "2026-04-10",
       "conformance": "2026-06-16",
       "earliestPublicDisclosure": "2026-04-10",
-      "lastModification": "2026-06-16"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e227d-c115-7549-918f-9807b2cd1a39",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4101,6 +4461,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4132,12 +4496,13 @@
       "creation": "2026-05-13",
       "conformance": "2026-06-17",
       "earliestPublicDisclosure": "2026-05-13",
-      "lastModification": "2026-06-17"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e4994-3b7d-7c3c-b081-792a619b60f8",
     "applicant": "Platform Technology Ventures LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4153,6 +4518,10 @@
         "attestationMethods": [
           "Apple_AppAttest"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4171,12 +4540,13 @@
       "creation": "2026-05-21",
       "conformance": "2026-06-18",
       "earliestPublicDisclosure": "2026-05-29",
-      "lastModification": "2026-06-18"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e4999-2b8d-7d5c-b5f8-67a3f9a53458",
     "applicant": "Platform Technology Ventures LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4192,6 +4562,10 @@
         "attestationMethods": [
           "Google_PlayIntegrity"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4210,12 +4584,13 @@
       "creation": "2026-05-21",
       "conformance": "2026-06-18",
       "earliestPublicDisclosure": "2026-05-28",
-      "lastModification": "2026-06-19"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019c968b-e2e5-7245-a2b1-7712b42e809b",
     "applicant": "Stability Solutions Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4228,6 +4603,10 @@
       "minVersion": "0.1.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4326,12 +4705,13 @@
       "creation": "2026-02-25",
       "conformance": "2026-06-23",
       "earliestPublicDisclosure": "2026-02-12",
-      "lastModification": "2026-06-24"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e4988-947c-72f8-8675-22eac83e1904",
     "applicant": "SantaHades Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4348,6 +4728,10 @@
           "Google_PlayIntegrity",
           "Apple_AppAttest"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4370,12 +4754,13 @@
       "creation": "2026-05-21",
       "conformance": "2026-06-23",
       "earliestPublicDisclosure": "2026-06-01",
-      "lastModification": "2026-06-24"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e0cda-6aa4-721e-83a3-696000b4f4be",
     "applicant": "vivo Mobile Communication Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4388,6 +4773,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4410,12 +4799,13 @@
       "creation": "2026-05-09",
       "conformance": "2026-06-23",
       "earliestPublicDisclosure": "2026-05-25",
-      "lastModification": "2026-06-24"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e0cd7-2320-7ae9-92ec-2d116954dbbe",
     "applicant": "vivo Mobile Communication Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4428,6 +4818,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4450,12 +4844,13 @@
       "creation": "2026-05-09",
       "conformance": "2026-05-27",
       "earliestPublicDisclosure": "2026-05-25",
-      "lastModification": "2026-05-27"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019c53e4-7318-75ec-8f94-797674bab875",
     "applicant": "Qualcomm Technologies Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4471,6 +4866,10 @@
         "attestationMethods": [
           "Qualcomm_WES"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4519,12 +4918,13 @@
       "creation": "2026-02-12",
       "conformance": "2026-06-29",
       "earliestPublicDisclosure": "2026-02-12",
-      "lastModification": "2026-06-29"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f19e7-3582-7670-9df8-f90c24fdd0fe",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4537,6 +4937,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4582,12 +4986,13 @@
       "creation": "2026-06-30",
       "conformance": "2026-06-30",
       "earliestPublicDisclosure": "2026-06-30",
-      "lastModification": "2026-06-30"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d464c-38fa-7ead-8fa1-d26c8a363ac3",
     "applicant": "Air4media LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4600,6 +5005,10 @@
       "minVersion": "10.1.1",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4626,12 +5035,13 @@
       "creation": "2026-03-31",
       "conformance": "2026-07-05",
       "earliestPublicDisclosure": "2026-03-31",
-      "lastModification": "2026-07-06"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e06f7-9772-7af6-a749-43ed1916018c",
     "applicant": "DigiCert, Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4644,6 +5054,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4712,12 +5126,13 @@
       "creation": "2026-05-08",
       "conformance": "2026-07-06",
       "earliestPublicDisclosure": "2026-05-09",
-      "lastModification": "2026-07-06"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019cd891-cc4b-796b-b961-302a0ce73c33",
     "applicant": "Validag Solutions Ltd",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4730,6 +5145,10 @@
       "minVersion": "1.3.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4748,12 +5167,13 @@
       "creation": "2026-03-10",
       "conformance": "2026-07-06",
       "earliestPublicDisclosure": "2026-05-01",
-      "lastModification": "2026-07-06"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e425a-d485-73a4-bc38-dbc005d3ebb0",
     "applicant": "Ingenium Labor, S.L.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4766,6 +5186,10 @@
       "minVersion": "0.9.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4792,12 +5216,13 @@
       "creation": "2026-05-19",
       "conformance": "2026-07-07",
       "earliestPublicDisclosure": "2026-05-19",
-      "lastModification": "2026-07-08"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e0ccd-3089-74e0-90ae-1423c5642540",
     "applicant": "vivo Mobile Communication Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4810,6 +5235,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4833,12 +5262,13 @@
       "creation": "2026-05-09",
       "conformance": "2026-07-07",
       "earliestPublicDisclosure": "2026-05-25",
-      "lastModification": "2026-07-08"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e0cd3-0bba-740c-8726-474f14b0a36a",
     "applicant": "vivo Mobile Communication Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4851,6 +5281,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4874,12 +5308,13 @@
       "creation": "2026-05-09",
       "conformance": "2026-07-08",
       "earliestPublicDisclosure": "2026-05-25",
-      "lastModification": "2026-07-08"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019ef582-474e-703c-873a-733689aeb1a3",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4895,6 +5330,10 @@
         "attestationMethods": [
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4927,12 +5366,13 @@
       "creation": "2026-06-23",
       "conformance": "2026-07-08",
       "earliestPublicDisclosure": "2026-06-23",
-      "lastModification": "2026-07-08"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019ef8d2-51e2-7ea0-927e-aa1d1908fc4e",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4948,6 +5388,10 @@
         "attestationMethods": [
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -4977,12 +5421,13 @@
       "creation": "2026-06-24",
       "conformance": "2026-07-08",
       "earliestPublicDisclosure": "2026-06-24",
-      "lastModification": "2026-07-08"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019b347e-79bd-7072-b073-58504115a4ba",
     "applicant": "Proof of Publish LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -4995,6 +5440,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5051,12 +5500,13 @@
       "creation": "2025-12-19",
       "conformance": "2026-07-08",
       "earliestPublicDisclosure": "2025-12-18",
-      "lastModification": "2026-07-08"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f2384-17d5-7b87-9884-4bc84a49b8ca",
     "applicant": "Jukee.AI Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5069,6 +5519,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5087,12 +5541,13 @@
       "creation": "2026-07-02",
       "conformance": "2026-07-08",
       "earliestPublicDisclosure": "2026-07-02",
-      "lastModification": "2026-07-09"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019efbbd-2c44-7cc1-a503-c7be4deb9a8d",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5108,6 +5563,10 @@
         "attestationMethods": [
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5145,12 +5604,13 @@
       "creation": "2026-06-24",
       "conformance": "2026-07-08",
       "earliestPublicDisclosure": "2026-06-24",
-      "lastModification": "2026-07-09"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f202e-9ba6-7246-a825-1e9b85998971",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5163,6 +5623,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5185,12 +5649,13 @@
       "creation": "2026-07-02",
       "conformance": "2026-07-08",
       "earliestPublicDisclosure": "2026-07-01",
-      "lastModification": "2026-07-09"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019ef2da-0eb4-779c-9d06-d76ee8b8bbd4",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5203,6 +5668,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5242,12 +5711,13 @@
       "creation": "2026-06-23",
       "conformance": "2026-07-08",
       "earliestPublicDisclosure": "2026-06-22",
-      "lastModification": "2026-07-09"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e9040-fbb6-7021-9f70-710c2c4b3fde",
     "applicant": "Amazon Development Center U.S., Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5260,6 +5730,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5281,12 +5755,13 @@
       "creation": "2026-06-04",
       "conformance": "2026-07-10",
       "earliestPublicDisclosure": "2026-06-03",
-      "lastModification": "2026-07-12"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e8b37-579b-7d09-9795-2536cdf273b0",
     "applicant": "Glass Plate Works LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5299,6 +5774,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5327,12 +5806,13 @@
       "creation": "2026-06-03",
       "conformance": "2026-07-10",
       "earliestPublicDisclosure": "2026-07-05",
-      "lastModification": "2026-07-12"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e078d-c0be-736a-9c6d-e591ed136a7b",
     "applicant": "Big Blue Marble Sp. z o.o.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5345,6 +5825,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5377,12 +5861,13 @@
       "creation": "2026-05-08",
       "conformance": "2026-07-11",
       "earliestPublicDisclosure": "2026-07-01",
-      "lastModification": "2026-07-11"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019c5ab7-77d8-75ef-8936-67de52594d2c",
     "applicant": "Fieldnotes dot Dev Opc",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5398,6 +5883,10 @@
         "attestationMethods": [
           "Apple_AppAttest"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5420,12 +5909,13 @@
       "creation": "2026-02-14",
       "conformance": "2026-07-11",
       "earliestPublicDisclosure": "2026-04-02",
-      "lastModification": "2026-07-12"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e27b6-a5d4-74bd-8bc7-aff73697a15b",
     "applicant": "Honestli Idiotiki Kefalaiouchiki Etaireia",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5442,6 +5932,10 @@
           "Android_KeyAttestation",
           "Google_PlayIntegrity"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5463,12 +5957,13 @@
       "creation": "2026-05-14",
       "conformance": "2026-07-11",
       "earliestPublicDisclosure": "2026-05-14",
-      "lastModification": "2026-07-12"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019dfe5f-40cc-7cfb-8082-96ba7548bfbd",
     "applicant": "Proofmode Reality Systems LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5484,6 +5979,10 @@
         "attestationMethods": [
           "Apple_AppAttest"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5512,12 +6011,13 @@
       "creation": "2026-05-06",
       "conformance": "2026-07-11",
       "earliestPublicDisclosure": "2026-05-06",
-      "lastModification": "2026-07-12"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f1fea-d410-7119-b750-bfc24bc74456",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5533,6 +6033,10 @@
         "attestationMethods": [
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5566,12 +6070,13 @@
       "creation": "2026-07-01",
       "conformance": "2026-07-13",
       "earliestPublicDisclosure": "2026-07-01",
-      "lastModification": "2026-07-13"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f1fc5-8dec-7c35-b556-d31a46dd3b5b",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5584,6 +6089,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5611,12 +6120,13 @@
       "creation": "2026-07-01",
       "conformance": "2026-07-13",
       "earliestPublicDisclosure": "2026-07-01",
-      "lastModification": "2026-07-13"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f3dc5-bdf3-755c-af30-477233ffcd0f",
     "applicant": "Nobyunjungdam(노변정담)",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5629,6 +6139,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5661,12 +6175,13 @@
       "creation": "2026-07-07",
       "conformance": "2026-07-14",
       "earliestPublicDisclosure": "2026-07-08",
-      "lastModification": "2026-07-14"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019ed681-a6f7-7a70-a1ab-09b8133fd8bf",
     "applicant": "Mondelez Global LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5679,6 +6194,10 @@
       "minVersion": "1.1.12",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5701,12 +6220,13 @@
       "creation": "2026-06-17",
       "conformance": "2026-07-14",
       "earliestPublicDisclosure": "2026-07-01",
-      "lastModification": "2026-07-14"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d6e06-1e5d-78c6-8fb6-15e0c1bd0829",
     "applicant": "Addi Inc",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5719,6 +6239,10 @@
       "minVersion": "1.6.1",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5755,12 +6279,13 @@
       "creation": "2026-04-08",
       "conformance": "2026-07-14",
       "earliestPublicDisclosure": "2026-04-08",
-      "lastModification": "2026-07-14"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f47f6-45cb-7a84-a860-a30324514c4e",
     "applicant": "Lil Dog Productions, LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5773,6 +6298,10 @@
       "minVersion": "1",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5811,12 +6340,13 @@
       "creation": "2026-07-09",
       "conformance": "2026-07-14",
       "earliestPublicDisclosure": "2026-07-09",
-      "lastModification": "2026-07-14"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f57de-20a0-7d11-a36a-8bd16632182b",
     "applicant": "Glass Plate Works LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5829,6 +6359,10 @@
       "minVersion": "0.1.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5890,12 +6424,13 @@
       "creation": "2026-07-12",
       "conformance": "2026-07-14",
       "earliestPublicDisclosure": "2026-07-15",
-      "lastModification": "2026-07-15"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e2a4e-e82e-7054-8340-7cffe03fdb7e",
     "applicant": "TOPPAN Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5908,6 +6443,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5952,12 +6491,13 @@
       "creation": "2026-05-15",
       "conformance": "2026-07-15",
       "earliestPublicDisclosure": "2026-05-15",
-      "lastModification": "2026-07-15"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019ef8f7-cbc0-7b2c-aba3-887e713f809e",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -5970,6 +6510,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -5999,12 +6543,13 @@
       "creation": "2026-06-24",
       "conformance": "2026-07-15",
       "earliestPublicDisclosure": "2026-06-24",
-      "lastModification": "2026-07-15"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f4d3c-d327-7ed6-ae86-ad6e14bc53d7",
     "applicant": "Ride The Wave Media, LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6017,6 +6562,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6039,12 +6588,13 @@
       "creation": "2026-07-10",
       "conformance": "2026-07-16",
       "earliestPublicDisclosure": "2026-06-10",
-      "lastModification": "2026-07-16"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019d8e85-2ba3-7e40-acf8-c4d515166cd7",
     "applicant": "RajISG",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -6081,12 +6631,13 @@
       "creation": "2026-04-15",
       "conformance": "2026-07-16",
       "earliestPublicDisclosure": "2026-06-19",
-      "lastModification": "2026-07-16"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f62b4-a255-724e-ac53-de0d663a29ec",
     "applicant": "Star & Partners Ltd",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6099,6 +6650,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6125,12 +6680,13 @@
       "creation": "2026-07-14",
       "conformance": "2026-07-16",
       "earliestPublicDisclosure": "2026-07-14",
-      "lastModification": "2026-07-16"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f66cf-52cf-7c9a-b412-d3885622107b",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6143,6 +6699,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6165,12 +6725,13 @@
       "creation": "2026-07-15",
       "conformance": "2026-07-16",
       "earliestPublicDisclosure": "2026-07-15",
-      "lastModification": "2026-07-16"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019ddd8a-8330-747f-9bd2-95165fcfcbcd",
     "applicant": "IMATAG",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6186,6 +6747,10 @@
         "attestationMethods": [
           "IETF_RATS"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6214,12 +6779,13 @@
       "creation": "2026-04-30",
       "conformance": "2026-07-16",
       "earliestPublicDisclosure": "2026-05-01",
-      "lastModification": "2026-07-16"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f6d7d-4d54-7e47-ae3d-32568b82c77a",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6235,6 +6801,10 @@
         "attestationMethods": [
           "Android_KeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6272,12 +6842,13 @@
       "creation": "2026-07-17",
       "conformance": "2026-07-17",
       "earliestPublicDisclosure": "2026-07-16",
-      "lastModification": "2026-07-17"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f201e-2300-70cc-b22c-8dfe59bc77ee",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6290,6 +6861,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6320,12 +6895,13 @@
       "creation": "2026-07-01",
       "conformance": "2026-07-17",
       "earliestPublicDisclosure": "2026-07-01",
-      "lastModification": "2026-07-18"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019ddc8b-9667-7c6f-ac08-26125a0ab922",
     "applicant": "Trufo Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6338,6 +6914,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6406,12 +6986,13 @@
       "creation": "2026-04-30",
       "conformance": "2026-06-27",
       "earliestPublicDisclosure": "2026-05-08",
-      "lastModification": "2026-06-27"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f6d9d-795d-7e13-8d53-db4bf6ea8d99",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6424,6 +7005,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6451,12 +7036,13 @@
       "creation": "2026-07-17",
       "conformance": "2026-07-21",
       "earliestPublicDisclosure": "2026-07-16",
-      "lastModification": "2026-07-21"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019aba70-38cc-7b98-af59-614dde4ae863",
     "applicant": "Fotoware AS",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -6485,12 +7071,13 @@
       "creation": "2025-11-25",
       "conformance": "2026-07-21",
       "earliestPublicDisclosure": "2026-02-27",
-      "lastModification": "2026-07-21"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e2783-bdf8-7222-9153-09391ac26616",
     "applicant": "Inspireip Tecnologia Blockchain LTDA",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -6524,12 +7111,13 @@
       "creation": "2026-05-14",
       "conformance": "2026-07-21",
       "earliestPublicDisclosure": "2026-06-14",
-      "lastModification": "2026-07-21"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019eb58c-6910-713c-a463-3b93cb7c323d",
     "applicant": "Reality Inc",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6542,6 +7130,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6566,12 +7158,13 @@
       "creation": "2026-06-11",
       "conformance": "2026-07-22",
       "earliestPublicDisclosure": "2026-06-15",
-      "lastModification": "2026-07-22"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f6d60-8a68-7a8d-bf02-fa4c2dea0d7f",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6584,6 +7177,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6603,12 +7200,13 @@
       "creation": "2026-07-17",
       "conformance": "2026-07-22",
       "earliestPublicDisclosure": "2026-07-16",
-      "lastModification": "2026-07-22"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f7222-467a-7991-885e-d15d2401f79a",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6621,6 +7219,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6655,12 +7257,13 @@
       "creation": "2026-07-17",
       "conformance": "2026-07-22",
       "earliestPublicDisclosure": "2026-07-16",
-      "lastModification": "2026-7-22"
+      "lastModification": "2026-08-05"
     }
   },
-   {
+  {
     "recordId": "019d463c-46cb-735a-8f2e-533725009404",
     "applicant": "Air4media LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -6696,58 +7299,64 @@
       "creation": "2026-03-31",
       "conformance": "2026-07-23",
       "earliestPublicDisclosure": "2026-03-31",
-      "lastModification": "2026-07-23"
+      "lastModification": "2026-08-05"
     }
   },
   {
-  "recordId": "019f8c13-91b1-78fb-9b34-fbddd8ef6d93",
-  "applicant": "Google LLC",
-  "status": "conformant",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Google Media Processing Services",
-      "O": "Google LLC",
-      "OU": "Google System 19061",
-      "C": "US"
+    "recordId": "019f8c13-91b1-78fb-9b34-fbddd8ef6d93",
+    "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "OU": "Google System 19061",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
+      }
     },
-    "minVersion": "",
-    "assurance": {
-      "maxAssuranceLevel": 1
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-07-22",
+      "conformance": "2026-07-27",
+      "earliestPublicDisclosure": "2026-07-22",
+      "lastModification": "2026-08-05"
     }
   },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.1",
-  "containers": {
-    "generate": {
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mp4"
-      ]
-    },
-    "validate": {
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mp4"
-      ]
-    }
-  },
-  "dates": {
-    "creation": "2026-07-22",
-    "conformance": "2026-07-27",
-    "earliestPublicDisclosure": "2026-07-22",
-    "lastModification": "2026-07-27"
-  }
-},
-    {
+  {
     "recordId": "019f61b8-82c3-7afc-951e-4d2e3e9063be",
     "applicant": "Getty Images (US), Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6760,6 +7369,10 @@
       "minVersion": "5",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6781,12 +7394,13 @@
       "creation": "2026-07-14",
       "conformance": "2026-07-15",
       "earliestPublicDisclosure": "2026-07-27",
-      "lastModification": "2026-07-15"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019ec2d2-70c7-7903-8969-6f3c4ff255b0",
     "applicant": "Retiretainment, LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6799,6 +7413,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6844,12 +7462,13 @@
       "creation": "2026-06-13",
       "conformance": "2026-07-27",
       "earliestPublicDisclosure": "2026-06-13",
-      "lastModification": "2026-07-27"
+      "lastModification": "2026-08-05"
     }
   },
-   {
+  {
     "recordId": "019eb73e-4e85-7b4c-9138-f05c365b575d",
     "applicant": "Getty Images (US), Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6862,6 +7481,10 @@
       "minVersion": "5",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6883,12 +7506,13 @@
       "creation": "2026-06-11",
       "conformance": "2026-06-29",
       "earliestPublicDisclosure": "2026-07-24",
-      "lastModification": "2026-07-27"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f6b49-79cd-7453-9bcd-79284820b026",
     "applicant": "Getty Images (US), Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6901,6 +7525,10 @@
       "minVersion": "5",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6922,12 +7550,13 @@
       "creation": "2026-07-16",
       "conformance": "2026-07-28",
       "earliestPublicDisclosure": "2026-07-27",
-      "lastModification": "2026-07-28"
+      "lastModification": "2026-08-05"
     }
   },
-    {
+  {
     "recordId": "019fa058-c512-7f87-a214-4d8cfbda73ce",
     "applicant": "Hamsa Software LTD",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -6940,6 +7569,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -6964,12 +7597,13 @@
       "creation": "2026-07-26",
       "conformance": "2026-07-28",
       "earliestPublicDisclosure": "2026-07-26",
-      "lastModification": "2026-07-28"
+      "lastModification": "2026-08-05"
     }
   },
-    {
+  {
     "recordId": "019ed566-9fc3-7e69-908d-ff8173967552",
     "applicant": "Numbers Co. Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -7019,12 +7653,13 @@
       "creation": "2026-06-17",
       "conformance": "2026-07-28",
       "earliestPublicDisclosure": "2026-06-17",
-      "lastModification": "2026-07-28"
+      "lastModification": "2026-08-05"
     }
   },
-    {
+  {
     "recordId": "019f6165-37e6-75ce-8226-977096bcf071",
     "applicant": "Getty Images (US), Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -7037,6 +7672,10 @@
       "minVersion": "5",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -7058,12 +7697,13 @@
       "creation": "2026-07-14",
       "conformance": "2026-07-15",
       "earliestPublicDisclosure": "2026-07-27",
-      "lastModification": "2026-07-28"
+      "lastModification": "2026-08-05"
     }
-  },  
+  },
   {
     "recordId": "019f8a20-6452-7a43-b11b-59d0b0e4a84a",
     "applicant": "ChronoVerify",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "validatorProduct",
@@ -7094,12 +7734,13 @@
       "creation": "2026-07-22",
       "conformance": "2026-07-23",
       "earliestPublicDisclosure": "2026-07-28",
-      "lastModification": "2026-07-28"
+      "lastModification": "2026-08-05"
     }
   },
-   {
+  {
     "recordId": "019f5d75-e460-7ceb-b868-2dae9725025e",
     "applicant": "Osman Demirtaş Sole Proprietorship",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -7112,6 +7753,10 @@
       "minVersion": "1.0.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -7131,12 +7776,13 @@
       "creation": "2026-07-13",
       "conformance": "2026-07-30",
       "earliestPublicDisclosure": "2026-07-13",
-      "lastModification": "2026-07-30"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019fb001-40c7-709d-a083-21234fd74ea6",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -7149,6 +7795,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -7179,12 +7829,13 @@
       "creation": "2026-07-29",
       "conformance": "2026-07-30",
       "earliestPublicDisclosure": "2026-07-29",
-      "lastModification": "2026-07-30"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019e52c9-6654-72f4-b165-d3e6dd3ada40",
     "applicant": "Software Innovations Group LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -7197,6 +7848,10 @@
       "minVersion": "1.16.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -7215,12 +7870,13 @@
       "creation": "2026-05-23",
       "conformance": "2026-07-30",
       "earliestPublicDisclosure": "2026-05-22",
-      "lastModification": "2026-07-30"
+      "lastModification": "2026-08-05"
     }
   },
-    {
+  {
     "recordId": "019f5a3e-c1cd-7ccf-b191-d6b401389b82",
     "applicant": "MIRROR MIRROR AI, INC.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -7233,6 +7889,10 @@
       "minVersion": "2.15.0",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -7252,12 +7912,13 @@
       "creation": "2026-07-13",
       "conformance": "2026-07-30",
       "earliestPublicDisclosure": "2026-07-13",
-      "lastModification": "2026-07-31"
+      "lastModification": "2026-08-05"
     }
   },
-   {
+  {
     "recordId": "019f5bb8-d726-7136-ade9-ca322f25b381",
     "applicant": "vivo Mobile Communication Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -7270,6 +7931,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -7288,12 +7953,13 @@
       "creation": "2026-07-13",
       "conformance": "2026-07-29",
       "earliestPublicDisclosure": "2026-07-31",
-      "lastModification": "2026-07-31"
+      "lastModification": "2026-08-05"
     }
   },
-   {
+  {
     "recordId": "019f5e9b-3012-738a-98ec-9289279aa4eb",
     "applicant": "TMKR AI, Inc.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -7309,6 +7975,10 @@
         "attestationMethods": [
           "AWS_NitroEnclaveAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -7357,12 +8027,13 @@
       "creation": "2026-07-14",
       "conformance": "2026-07-30",
       "earliestPublicDisclosure": "2026-06-30",
-      "lastModification": "2026-07-31"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f5bbe-324a-7b9a-8b33-7c148e10c836",
     "applicant": "vivo Mobile Communication Co., Ltd.",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -7375,6 +8046,10 @@
       "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -7397,12 +8072,13 @@
       "creation": "2026-07-13",
       "conformance": "2026-07-31",
       "earliestPublicDisclosure": "2026-07-31",
-      "lastModification": "2026-07-31"
+      "lastModification": "2026-08-05"
     }
   },
   {
     "recordId": "019f0d7a-607e-7589-bdb2-6e12f4b8b50e",
     "applicant": "REVERCE GmbH",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -7418,6 +8094,10 @@
         "attestationMethods": [
           "GoogleCloud_CloudHSMKeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -7440,12 +8120,13 @@
       "creation": "2026-06-28",
       "conformance": "2026-07-11",
       "earliestPublicDisclosure": "2026-08-01",
-      "lastModification": "2026-08-01"
+      "lastModification": "2026-08-05"
     }
   },
-   {
+  {
     "recordId": "019f7f65-b088-75c4-9300-3bf8bd2a711d",
     "applicant": "REVERCE GmbH",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -7461,6 +8142,10 @@
         "attestationMethods": [
           "GoogleCloud_CloudHSMKeyAttestation"
         ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
@@ -7493,10 +8178,10 @@
       "creation": "2026-07-20",
       "conformance": "2026-08-04",
       "earliestPublicDisclosure": "2026-08-01",
-      "lastModification": "2026-08-04"
+      "lastModification": "2026-08-05"
     }
   },
-   {
+  {
     "recordId": "019fba04-f7a2-7ef5-bc3b-46ce1c161430",
     "applicant": "Google LLC",
     "product": {
@@ -7545,17 +8230,19 @@
         "mlModel": []
       }
     },
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "dates": {
       "creation": "2026-07-31",
       "conformance": "2026-08-04",
       "earliestPublicDisclosure": "2026-07-31",
-      "lastModification": "2026-08-04"
+      "lastModification": "2026-08-05"
     }
   },
-    {
+  {
     "recordId": "019a401d-8b72-7c75-8d00-be018cbb5d21",
     "applicant": "Limbo AI, LLC",
+    "supportsCompressedManifests": false,
     "status": "conformant",
     "product": {
       "productType": "generatorProduct",
@@ -7568,6 +8255,10 @@
       "minVersion": "1",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
       }
     },
     "specVersion": [
