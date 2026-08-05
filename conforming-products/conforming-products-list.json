@@ -7552,5 +7552,55 @@
       "earliestPublicDisclosure": "2026-07-31",
       "lastModification": "2026-08-04"
     }
+  },
+    {
+    "recordId": "019a401d-8b72-7c75-8d00-be018cbb5d21",
+    "applicant": "Limbo AI, LLC",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Limbo Integrity",
+        "O": "Limbo AI, LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "1",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp",
+          "image/heif",
+          "image/heic"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp",
+          "image/heic",
+          "image/heif"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2025-11-01",
+      "conformance": "2026-08-05",
+      "earliestPublicDisclosure": "2025-10-29",
+      "lastModification": "2026-08-05"
+    }
   }
 ]
