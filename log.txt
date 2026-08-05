@@ -1193,3 +1193,7 @@ Log Entry: Wed Aug  5 21:38:04 UTC 2026
 Triggering Commit SHA: ed785f204c1ee78eafc27525d057853b75b477f0
 Action: Synced conforming-products/conforming-products-list.json from the conformance-submissions repository.
 --------------------------------------------------
+Log Entry: Wed Aug  5 23:26:16 UTC 2026
+Triggering Commit SHA: 1aba54203286bb33371ce6d67afc10076562b08c
+Action: Synced trust-list/C2PA-TRUST-LIST.pem and C2PA-TRUST-LIST.json from the conformance-submissions repository.
+--------------------------------------------------
