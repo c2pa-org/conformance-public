@@ -8184,6 +8184,8 @@
   {
     "recordId": "019fba04-f7a2-7ef5-bc3b-46ce1c161430",
     "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
+    "status": "conformant",
     "product": {
       "productType": "generatorProduct",
       "DN": {
@@ -8230,8 +8232,6 @@
         "mlModel": []
       }
     },
-    "supportsCompressedManifests": false,
-    "status": "conformant",
     "dates": {
       "creation": "2026-07-31",
       "conformance": "2026-08-04",
@@ -8291,6 +8291,91 @@
       "creation": "2025-11-01",
       "conformance": "2026-08-05",
       "earliestPublicDisclosure": "2025-10-29",
+      "lastModification": "2026-08-05"
+    }
+  },
+  {
+    "recordId": "019fb5a2-83c8-7291-973b-48617dc8418a",
+    "applicant": "Google LLC",
+    "supportsCompressedManifests": false,
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "NotebookLM",
+        "O": "Google LLC",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/wav",
+          "audio/mpeg"
+        ],
+        "documents": [
+          "application/pdf",
+          "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+          "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        ],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp",
+          "image/avif",
+          "image/heic",
+          "image/heif",
+          "image/tiff"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/wav",
+          "audio/mpeg",
+          "audio/flac",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "dates": {
+      "creation": "2026-07-31",
+      "conformance": "2026-08-04",
+      "earliestPublicDisclosure": "2026-07-30",
       "lastModification": "2026-08-05"
     }
   }
