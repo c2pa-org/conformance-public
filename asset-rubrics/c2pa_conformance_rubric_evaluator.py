@@ -514,7 +514,7 @@ def evaluate_asset_against_rubric(rubric_path, json_path=None, data_dict=None, d
             output[outcome][cat] = []
         output[outcome][cat].append(v)
 
-    print(json.dumps(output, indent=2))
+    print(json.dumps(output, indent=2, ensure_ascii=False))
     return output
 
 

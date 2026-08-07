@@ -111,7 +111,7 @@
   warnIfMatched: true
   expression: |
     _actionsV2()[?parameters != null] |
-      [?parameters.description != null || parameters.ingredient != null].action
+      [?parameters.description != null || parameters.ingredient != null].notNull(action, "unknown")
   reportText:
     'true':
       en: "No discouraged legacy action parameters found in parameters block (Spec 2.2 §18.14.4.1, §18.14.12)"

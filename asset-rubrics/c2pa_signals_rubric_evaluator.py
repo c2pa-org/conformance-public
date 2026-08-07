@@ -306,7 +306,7 @@ def evaluate_asset(rubric_path, json_path=None, debug=False, data_dict=None):
         "manifests": output_manifests
     }
 
-    print(json.dumps(final_output, indent=2))
+    print(json.dumps(final_output, indent=2, ensure_ascii=False))
     return final_output
 
 

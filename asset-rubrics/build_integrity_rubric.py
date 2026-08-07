@@ -72,6 +72,13 @@ def filter_used_globals(statements, all_globals):
     expressions = {k: v for k, v in all_globals['expressions'].items() if k in used_exprs}
     return variables, expressions
 
+def get_version():
+    version_file = os.path.join(os.path.dirname(__file__), 'VERSION')
+    if os.path.exists(version_file):
+        with open(version_file, 'r') as f:
+            return f.read().strip()
+    return "0.1.1"
+
 def main():
     print("Generating Rubric: asset-rubric-integrity.yml")
 
@@ -100,8 +107,8 @@ def main():
             "rubric_metadata": {
                 "name": "C2PA Asset Integrity Rubric",
                 "issuer": "C2PA Conformance Task Force",
-                "date": "2026-03-31T05:00:00Z",
-                "version": "1.1.0",
+                "date": "2026-08-06T00:00:00Z",
+                "version": get_version(),
                 "language": "en"
             }
         }

@@ -117,7 +117,7 @@ def assemble_rubric(target_filename, name, version, files, all_globals, spec):
         "rubric_metadata": {
             "name": name,
             "issuer": "C2PA Conformance Task Force",
-            "date": "2026-03-31T05:00:00Z",
+            "date": "2026-08-06T00:00:00Z",
             "version": version,
             "language": "en"
         }
@@ -137,29 +137,37 @@ def assemble_rubric(target_filename, name, version, files, all_globals, spec):
     except Exception as e:
         print(f"Error writing rubric {target_filename}: {e}", file=sys.stderr)
 
+def get_version():
+    version_file = os.path.join(os.path.dirname(__file__), 'VERSION')
+    if os.path.exists(version_file):
+        with open(version_file, 'r') as f:
+            return f.read().strip()
+    return "0.1.1"
+
 def main():
     all_globals = load_globals(os.path.join('composables', 'globals.yml'))
+    rubric_version = get_version()
 
     # Recipe definitions
     recipes = [
         {
             "target": "asset-rubric-conformance0.1-spec2.2.yml",
             "name": "C2PA Asset Conformance 0.1 Spec 2.2 Rubric",
-            "version": "0.1.0",
+            "version": rubric_version,
             "spec": "2.2",
             "files": ["conformance-program-0.1.yml", "integrity-structural.yml", "conformance-spec-2.2.yml"]
         },
         {
             "target": "asset-rubric-conformance0.2-spec2.2.yml",
             "name": "C2PA Asset Conformance 0.2 Spec 2.2 Rubric",
-            "version": "0.2.0",
+            "version": rubric_version,
             "spec": "2.2",
             "files": ["conformance-program-0.1.yml", "conformance-program-0.2.yml", "integrity-structural.yml", "conformance-spec-2.2.yml"]
         },
         {
             "target": "asset-rubric-conformance0.2-spec2.4.yml",
             "name": "C2PA Asset Conformance 0.2 Spec 2.4 Rubric",
-            "version": "0.2.0",
+            "version": rubric_version,
             "spec": "2.4",
             "files": ["conformance-program-0.1.yml", "conformance-program-0.2.yml", "integrity-structural.yml", "conformance-spec-2.2.yml", "conformance-spec-2.4.yml"]
         }

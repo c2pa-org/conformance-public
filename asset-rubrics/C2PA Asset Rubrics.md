@@ -1,7 +1,8 @@
 ---
 author: C2PA Technical Working Group Conformance Task Force
-date: 2026-07-31
+date: 2026-08-06
 title: C2PA Asset Rubrics
+version: v1.0
 ---
 
 # Overview
@@ -621,9 +622,11 @@ Validator Products can analyze this structured DAG output to render precise prov
 
 # Rubric Composition and Build System
 
-To improve maintainability, the source files for the rubrics are modularized and stored in the `composables/` directory. Monolithic rubrics are generated from these components using Python build scripts.
+To improve maintainability, the source files for the rubrics are modularized and stored in the `composables/` directory. Monolithic rubrics are generated from these components using Python build scripts. The version for all compiled rubrics is managed centrally via `VERSION`.
 
 ## Project Structure
+
+- `VERSION`: Stores the shared rubric version string (e.g., `1.0`).
 
 - `composables/`: Contains partial YAML definitions (e.g., `signal-*.yml`, `integrity.yml`, `conformance-*.yml`).
 
@@ -639,13 +642,21 @@ To improve maintainability, the source files for the rubrics are modularized and
 
 - `build_integrity_rubric.py`: Generates the standalone `asset-rubric-integrity.yml` from `composables/integrity.yml`.
 
+- `build_rubrics.sh`: Shell script that runs all builders to regenerate all monolithic rubrics.
+
 ### Dynamic Variable Injection
 
 When `build_conformance_rubrics.py` compiles a specification target, it dynamically maps version-specific variables (e.g., `$allowed_assertions_v24`, `$allowed_actions_v24`, `$deprecated_assertion_labels_v24`) to generic aliases (`$allowed_assertions`, `$allowed_actions`, `$deprecated_assertion_labels`). This enables rules inherited from Spec 2.2 to automatically evaluate against expanded Spec 2.4 registries without code duplication.
 
 ## Generating Rubrics
 
-When modifying rules or adding new signals, developers should edit the source files in the `composables/` directory and then run the appropriate build script to regenerate the monolithic rubrics:
+When modifying rules or updating `VERSION`, developers should run the orchestrator script to regenerate all monolithic rubrics:
+
+``` bash
+./build_rubrics.sh
+```
+
+Or run individual build scripts:
 
 ``` bash
 python3 build_local_signals_rubric.py
