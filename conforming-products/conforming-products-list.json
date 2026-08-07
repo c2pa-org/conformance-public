@@ -8378,5 +8378,64 @@
       "earliestPublicDisclosure": "2026-07-30",
       "lastModification": "2026-08-05"
     }
+  },
+    {
+    "recordId": "019e44ec-6d2b-718c-a441-ec04bdd392f8",
+    "applicant": "Cloudinary LTD",
+    "supportsCompressedManifests": false,
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Cloudinary",
+        "O": "Cloudinary LTD",
+        "OU": "",
+        "C": "IL"
+      },
+      "minVersion": "v1.1",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/svg+xml",
+          "image/png",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/svg+xml",
+          "image/png",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-20",
+      "conformance": "2026-08-05",
+      "earliestPublicDisclosure": "2026-06-01",
+      "lastModification": "2026-08-06"
+    }
   }
 ]
