@@ -1339,3 +1339,7 @@ Files included in rubric release 1.0:
     Date: 2026-07-31T15:24:46Z
 
 --------------------------------------------------
+Log Entry: Fri Aug  7 16:37:51 UTC 2026
+Triggering Commit SHA: 877addb16ab1719799b038de604cbe6ad3b91054
+Action: Synced trust-list/C2PA-TRUST-LIST.pem and C2PA-TRUST-LIST.json from the conformance-submissions repository.
+--------------------------------------------------

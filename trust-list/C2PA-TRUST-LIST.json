@@ -1009,14 +1009,14 @@
             "TEElectronicAddress": [
               {
                 "lang": "en",
-                "uriValue": "mailto:todo@example.com"
+                "uriValue": "mailto:contact@realreel.xyz"
               }
             ]
           },
           "TEInformationURI": [
             {
               "lang": "en",
-              "uriValue": "https://todo.example.com"
+              "uriValue": "https://www.realreel.xyz"
             }
           ]
         },
