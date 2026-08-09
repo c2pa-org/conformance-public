@@ -8273,17 +8273,41 @@
           "image/gif",
           "image/webp",
           "image/heif",
-          "image/heic"
+          "image/heic",
+          "image/avif",
+          "image/x-adobe-dng",
+          "image/svg+xml"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime", 
+          "video/x-msvideo" 
+        ],
+        "audio": [
+          "audio/wav",
+          "audio/aac" 
         ]
       },
       "validate": {
-        "image": [
+         "image": [
           "image/jpeg",
           "image/png",
           "image/gif",
           "image/webp",
+          "image/heif",
           "image/heic",
-          "image/heif"
+          "image/avif",
+          "image/x-adobe-dng",
+          "image/svg+xml"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime", 
+          "video/x-msvideo" 
+        ],
+        "audio": [
+          "audio/wav",
+          "audio/aac" 
         ]
       }
     },
