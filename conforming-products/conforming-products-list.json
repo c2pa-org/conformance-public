@@ -8403,7 +8403,7 @@
       "lastModification": "2026-08-05"
     }
   },
-    {
+  {
     "recordId": "019e44ec-6d2b-718c-a441-ec04bdd392f8",
     "applicant": "Cloudinary LTD",
     "supportsCompressedManifests": false,
@@ -8460,6 +8460,92 @@
       "conformance": "2026-08-05",
       "earliestPublicDisclosure": "2026-06-01",
       "lastModification": "2026-08-06"
+    }
+  },
+  {
+    "recordId": "019fdca6-429c-7db1-b32a-dc3ef7ccce28",
+    "applicant": "Okeanos B.V",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Diker",
+        "O": "Okeanos B.V",
+        "C": "NL"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://diker.io",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "GoogleCloud_CloudHSMKeyAttestation"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/tiff",
+          "image/webp",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/tiff",
+          "image/webp",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-07",
+      "conformance": "2026-08-08",
+      "earliestPublicDisclosure": "2026-08-10",
+      "lastModification": "2026-08-08"
     }
   }
 ]
