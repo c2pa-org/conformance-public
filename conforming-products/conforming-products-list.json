@@ -8547,5 +8547,76 @@
       "earliestPublicDisclosure": "2026-08-10",
       "lastModification": "2026-08-08"
     }
+  },
+   {
+    "recordId": "019fdd1b-5c98-7cfd-83a6-622ac6ff133d",
+    "applicant": "ming UG (haftungsbeschränkt)",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Ming C2PA Signer",
+        "O": "ming UG (haftungsbeschraenkt)",
+        "C": "DE"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-07",
+      "conformance": "2026-08-10",
+      "earliestPublicDisclosure": "2026-08-07",
+      "lastModification": "2026-08-10"
+    }
   }
 ]
