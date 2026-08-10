@@ -1392,6 +1392,7 @@
         "C": "US"
       },
       "minVersion": "1.0.0",
+      "infoURL": "https://archiveorigin.com/",
       "assurance": {
         "maxAssuranceLevel": 1
       },
@@ -1434,7 +1435,7 @@
       "creation": "2025-08-11",
       "conformance": "2026-01-16",
       "earliestPublicDisclosure": "2025-12-31",
-      "lastModification": "2026-08-05"
+      "lastModification": "2026-08-10"
     }
   },
   {
