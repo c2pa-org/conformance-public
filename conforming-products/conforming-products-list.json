@@ -8281,16 +8281,16 @@
         ],
         "video": [
           "video/mp4",
-          "video/quicktime", 
-          "video/x-msvideo" 
+          "video/quicktime",
+          "video/x-msvideo"
         ],
         "audio": [
           "audio/wav",
-          "audio/aac" 
+          "audio/aac"
         ]
       },
       "validate": {
-         "image": [
+        "image": [
           "image/jpeg",
           "image/png",
           "image/gif",
@@ -8303,12 +8303,12 @@
         ],
         "video": [
           "video/mp4",
-          "video/quicktime", 
-          "video/x-msvideo" 
+          "video/quicktime",
+          "video/x-msvideo"
         ],
         "audio": [
           "audio/wav",
-          "audio/aac" 
+          "audio/aac"
         ]
       }
     },
@@ -8549,7 +8549,7 @@
       "lastModification": "2026-08-08"
     }
   },
-   {
+  {
     "recordId": "019fdd1b-5c98-7cfd-83a6-622ac6ff133d",
     "applicant": "ming UG (haftungsbeschränkt)",
     "product": {
@@ -8618,6 +8618,79 @@
       "conformance": "2026-08-10",
       "earliestPublicDisclosure": "2026-08-07",
       "lastModification": "2026-08-10"
+    }
+  },
+  {
+    "recordId": "019fde5e-f5c1-76e5-aa13-a46d5cc8df00",
+    "applicant": "Google LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Snapseed",
+        "O": "Google LLC",
+        "C": "US",
+        "OU": "Snapseed iOS"
+      },
+      "minVersion": "4.0.9",
+      "infoURL": "https://apps.apple.com/us/app/snapseed-photo-editor/id439438619",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heic"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heic"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-07",
+      "conformance": "2026-08-11",
+      "earliestPublicDisclosure": "2026-08-07",
+      "lastModification": "2026-08-11"
     }
   }
 ]
