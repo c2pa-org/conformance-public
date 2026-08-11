@@ -8692,5 +8692,81 @@
       "earliestPublicDisclosure": "2026-08-07",
       "lastModification": "2026-08-11"
     }
+  },
+  {
+    "recordId": "019fdce0-3f23-7521-88bc-ba63a9876725",
+    "applicant": "ZeroLight Limited",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "SpotLight Suite",
+        "O": "ZeroLight Limited",
+        "C": "GB",
+        "OU": "Product Team"
+      },
+      "minVersion": "0.1",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-07",
+      "conformance": "2026-08-11",
+      "earliestPublicDisclosure": "2026-08-07",
+      "lastModification": "2026-08-11"
+    }
   }
 ]
