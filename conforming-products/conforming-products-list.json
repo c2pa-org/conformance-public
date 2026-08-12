@@ -8852,5 +8852,74 @@
       "earliestPublicDisclosure": "2026-08-10",
       "lastModification": "2026-08-11"
     }
+  },
+   {
+    "recordId": "019e06ad-0073-760a-aa3d-7f98a9060503",
+    "applicant": "Neocortext Inc.",
+    "supportsCompressedManifests": false,
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "RefaceAI",
+        "O": "Neocortext Inc.",
+        "OU": "RefaceAI Media Processing Service",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation",
+          "Google_PlayIntegrity",
+          "GoogleCloud_CloudHSMKeyAttestation",
+          "GoogleCloud_ConfidentialVMAttestation"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-08",
+      "conformance": "2026-08-12",
+      "earliestPublicDisclosure": "2026-07-01",
+      "lastModification": "2026-08-12"
+    }
   }
 ]
