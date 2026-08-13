@@ -1118,14 +1118,14 @@
             "TEElectronicAddress": [
               {
                 "lang": "en",
-                "uriValue": "mailto:todo@example.com"
+                "uriValue": "mailto:trustmark@vivo.com"
               }
             ]
           },
           "TEInformationURI": [
             {
               "lang": "en",
-              "uriValue": "https://todo.example.com"
+              "uriValue": " https://ai-detect-eu.vivo.com/cert-info"
             }
           ]
         },
