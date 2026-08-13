@@ -8853,7 +8853,7 @@
       "lastModification": "2026-08-11"
     }
   },
-   {
+  {
     "recordId": "019e06ad-0073-760a-aa3d-7f98a9060503",
     "applicant": "Neocortext Inc.",
     "supportsCompressedManifests": false,
@@ -8922,7 +8922,7 @@
       "lastModification": "2026-08-12"
     }
   },
-    {
+  {
     "recordId": "019f0370-82e4-7659-8ca4-019684c65b04",
     "applicant": "DigiCert, Inc.",
     "supportsCompressedManifests": false,
@@ -9015,7 +9015,7 @@
       "lastModification": "2026-08-12"
     }
   },
-   {
+  {
     "recordId": "019fefee-bec2-7c73-a07b-0fdb5cb0e770",
     "applicant": "PLWebsites",
     "product": {
@@ -9084,6 +9084,74 @@
       "conformance": "2026-08-12",
       "earliestPublicDisclosure": "2026-08-11",
       "lastModification": "2026-08-12"
+    }
+  },
+  {
+    "recordId": "019fed67-ad3f-7db2-b923-43facdf2836b",
+    "applicant": "The Software Construction Company, Inc",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "SCC MediaServer Cloud Edition Digital Asset Management System",
+        "O": "The Software Construction Company, Inc",
+        "C": "US"
+      },
+      "minVersion": "12.5",
+      "infoURL": "http://www.sccmediaserver.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-10",
+      "conformance": "2026-08-13",
+      "earliestPublicDisclosure": "2026-08-10",
+      "lastModification": "2026-08-13"
     }
   }
 ]
