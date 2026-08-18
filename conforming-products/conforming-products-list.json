@@ -9357,5 +9357,75 @@
       "earliestPublicDisclosure": "2026-08-11",
       "lastModification": "2026-08-18"
     }
+  },
+    {
+    "recordId": "019ff646-3840-72f5-aa92-d089522fc54c",
+    "applicant": "BrennerMedien GmbH",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "BrennerMedien GmbH AI Generator",
+        "O": "BrennerMedien GmbH",
+        "C": "DE"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://www.ansagen.ai",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [],
+        "video": [],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [],
+        "video": [],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-12",
+      "conformance": "2026-08-17",
+      "earliestPublicDisclosure": "2026-08-12",
+      "lastModification": "2026-08-18"
+    }
   }
 ]
