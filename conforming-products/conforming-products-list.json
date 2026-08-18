@@ -9223,5 +9223,83 @@
       "earliestPublicDisclosure": "2026-08-11",
       "lastModification": "2026-08-14"
     }
+  },
+   {
+    "recordId": "019fe372-a787-7fa4-a664-1d8e17c616de",
+    "applicant": "Fieldnotes dot Dev Opc",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Lens Proof-of-Work",
+        "O": "Fieldnotes dot Dev Opc",
+        "C": "PH"
+      },
+      "minVersion": "4.2.22",
+      "infoURL": "https://lensproof.app/",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/heic"
+        ],
+        "video": [
+          "video/quicktime"
+        ],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [
+          "application/pdf"
+        ],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heic"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-08",
+      "conformance": "2026-08-12",
+      "earliestPublicDisclosure": "2026-08-18",
+      "lastModification": "2026-08-18"
+    }
   }
 ]

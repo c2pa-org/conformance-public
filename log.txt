@@ -1425,3 +1425,7 @@ Action: Synced updated trust lists from conformance-submissions repository:
   - trust-list/C2PA-TRUST-LIST.json
   - trust-list/C2PA-TSA-TRUST-LIST.json
 --------------------------------------------------
+Log Entry: Tue Aug 18 16:29:55 UTC 2026
+Triggering Commit SHA: 0866146405741332a55fac62b4c79adb62b1dc40
+Action: Synced conforming-products/conforming-products-list.json from the conformance-submissions repository.
+--------------------------------------------------
