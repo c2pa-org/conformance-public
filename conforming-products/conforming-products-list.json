@@ -9427,5 +9427,92 @@
       "earliestPublicDisclosure": "2026-08-12",
       "lastModification": "2026-08-18"
     }
+  },
+    {
+    "recordId": "019ed5bb-aafa-7568-bede-d80a021b796f",
+    "applicant": "SSL Corp",
+    "supportsCompressedManifests": false,
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "SSL Provenance API",
+        "O": "SSL Corp",
+        "OU": "",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/tiff",
+          "image/webp",
+          "image/x-adobe-dng",
+          "image/avif",
+          "image/heif",
+          "image/heic"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/mp4",
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/tiff",
+          "image/webp",
+          "image/x-adobe-dng",
+          "image/avif",
+          "image/heif",
+          "image/heic"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-06-17",
+      "conformance": "2026-08-19",
+      "earliestPublicDisclosure": "2026-06-17",
+      "lastModification": "2026-08-19"
+    }
   }
 ]
