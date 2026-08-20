@@ -9689,5 +9689,81 @@
       "earliestPublicDisclosure": "2026-08-12",
       "lastModification": "2026-08-20"
     }
+  },  
+  {
+    "recordId": "019ff6b1-0a7b-79c0-9190-8488896a27a0",
+    "applicant": "Narrative Nexus LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Narrative Nexus",
+        "O": "Narrative Nexus LLC",
+        "C": "US"
+      },
+      "minVersion": "0.1.0",
+      "infoURL": "https://narrative.sh",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2",
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/tiff",
+          "image/webp",
+          "image/heif"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-12",
+      "conformance": "2026-08-20",
+      "earliestPublicDisclosure": "2026-08-10",
+      "lastModification": "2026-08-20"
+    }
   }
 ]
