@@ -9514,5 +9514,77 @@
       "earliestPublicDisclosure": "2026-06-17",
       "lastModification": "2026-08-19"
     }
+  },
+    {
+    "recordId": "01a00070-da20-764e-9266-e89f8580e6d2",
+    "applicant": "Jasper AI Global, LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Jasper",
+        "O": "Jasper AI Global, LLC",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://images.jasper.ai/",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-14",
+      "conformance": "2026-08-20",
+      "earliestPublicDisclosure": "2026-08-14",
+      "lastModification": "2026-08-20"
+    }
   }
 ]
