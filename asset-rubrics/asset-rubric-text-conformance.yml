@@ -1,8 +1,8 @@
 rubric_metadata:
   name: "C2PA Text Asset Conformance Rubric"
   issuer: "C2PA Conformance Task Force"
-  date: "2026-05-04T00:00:00Z"
-  version: "0.1.0"
+  date: "2026-08-06T00:00:00Z"
+  version: "1.0"
   language: en
 
 variables:

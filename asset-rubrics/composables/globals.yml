@@ -1,8 +1,8 @@
 rubric_metadata:
   name: "C2PA Rubric Globals"
   issuer: "C2PA Conformance Task Force"
-  date: "2026-03-31T05:00:00Z"
-  version: "1.0.0"
+  date: "2026-08-06T00:00:00Z"
+  version: "1.0"
   language: en
 
 variables:

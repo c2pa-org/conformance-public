@@ -1453,3 +1453,137 @@ Log Entry: Thu Aug 20 19:58:56 UTC 2026
 Triggering Commit SHA: b93e15e376008a194605029b36bab5c9f2863ebb
 Action: Synced conforming-products/conforming-products-list.json from the conformance-submissions repository.
 --------------------------------------------------
+Log Entry: Fri Aug 21 16:56:24 UTC 2026
+Triggering Commit SHA: d8cf4e078975ef5e5899a2fd9b3e05edb72ead3d
+Action: Populated 'asset-rubrics' directory using 'rubric_release.json'.
+
+Files included in rubric release 1.0:
+
+  - File: asset-rubrics/C2PA Asset Rubrics.md
+    Commit: b33bc47
+    Date: 2026-08-06T21:57:42Z
+  - File: asset-rubrics/C2PA Asset Rubrics.pdf
+    Commit: b33bc47
+    Date: 2026-08-06T21:57:42Z
+  - File: asset-rubrics/VERSION
+    Commit: b33bc47
+    Date: 2026-08-06T21:57:42Z
+  - File: asset-rubrics/asset-rubric-conformance0.1-spec2.2.yml
+    Commit: b33bc47
+    Date: 2026-08-06T21:57:42Z
+  - File: asset-rubrics/asset-rubric-conformance0.2-spec2.2.yml
+    Commit: b33bc47
+    Date: 2026-08-06T21:57:42Z
+  - File: asset-rubrics/asset-rubric-conformance0.2-spec2.4.yml
+    Commit: b33bc47
+    Date: 2026-08-06T21:57:42Z
+  - File: asset-rubrics/asset-rubric-integrity.yml
+    Commit: b33bc47
+    Date: 2026-08-06T21:57:42Z
+  - File: asset-rubrics/asset-rubric-signals-local.yml
+    Commit: b33bc47
+    Date: 2026-08-06T21:57:42Z
+  - File: asset-rubrics/asset-rubric-text-conformance.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/build_conformance_rubrics.py
+    Commit: b33bc47
+    Date: 2026-08-06T21:57:42Z
+  - File: asset-rubrics/build_integrity_rubric.py
+    Commit: b33bc47
+    Date: 2026-08-06T21:57:42Z
+  - File: asset-rubrics/build_local_signals_rubric.py
+    Commit: b33bc47
+    Date: 2026-08-06T21:57:42Z
+  - File: asset-rubrics/build_rubrics.sh
+    Commit: b136c4a
+    Date: 2026-06-26T15:57:45Z
+  - File: asset-rubrics/c2pa_conformance_rubric_evaluator.py
+    Commit: 1779cba
+    Date: 2026-08-04T18:48:15Z
+  - File: asset-rubrics/c2pa_signals_rubric_evaluator.py
+    Commit: 1779cba
+    Date: 2026-08-04T18:48:15Z
+  - File: asset-rubrics/composables/conformance-program-0.1.yml
+    Commit: 6895569
+    Date: 2026-07-17T18:31:27Z
+  - File: asset-rubrics/composables/conformance-program-0.2.yml
+    Commit: 008c54c
+    Date: 2026-07-24T15:41:23Z
+  - File: asset-rubrics/composables/conformance-spec-2.2.yml
+    Commit: a95c8c2
+    Date: 2026-08-04T21:08:14+02:00
+  - File: asset-rubrics/composables/conformance-spec-2.4.yml
+    Commit: 0a2c6a1
+    Date: 2026-07-22T00:52:07Z
+  - File: asset-rubrics/composables/globals-actions.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/globals-manifest.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/globals-signals.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/globals.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/integrity-structural.yml
+    Commit: 15eb81f
+    Date: 2026-06-16T20:15:17Z
+  - File: asset-rubrics/composables/integrity-trust.yml
+    Commit: 15eb81f
+    Date: 2026-06-16T20:15:17Z
+  - File: asset-rubrics/composables/signal-inception-blankCanvas-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/signal-inception-capturedMedia-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/signal-inception-capturedMediaStitched-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/signal-inception-compositionMayContainGenAI-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/signal-inception-fullyGenAIMedia-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/signal-inception-mediaUnknownProvenance-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/signal-inception-nonGenAIDigitalCreation-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/signal-inception-partlyGenAICreation-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/signal-inception-screenCaptureMayContainGenAI-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/signal-transformations-ambiguousActions-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/signal-transformations-nonEditorial-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/signal-transformations-perceptibleGenAI-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/signal-transformations-perceptibleNonGenAI-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/composables/signal-transformations-perceptiblePossiblyGenAI-local.yml
+    Commit: 814cbde
+    Date: 2026-08-07T17:30:49Z
+  - File: asset-rubrics/eval_composable.py
+    Commit: ffc53d4
+    Date: 2026-04-21T11:52:10-04:00
+  - File: asset-rubrics/requirements.txt
+    Commit: 0707e31
+    Date: 2026-07-31T22:42:35Z
+  - File: asset-rubrics/validate_rubric.py
+    Commit: e7f43e5
+    Date: 2026-07-31T15:24:46Z
+
+--------------------------------------------------

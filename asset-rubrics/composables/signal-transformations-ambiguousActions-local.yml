@@ -1,8 +1,8 @@
 rubric_metadata:
   name: "Ambiguous Actions Transformations (Local)"
   issuer: "C2PA Conformance Task Force"
-  date: "2026-05-29T05:00:00Z"
-  version: "1.0.0"
+  date: "2026-08-06T00:00:00Z"
+  version: "1.0"
   language: "en"
 
 include:
