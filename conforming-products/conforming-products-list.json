@@ -7965,7 +7965,7 @@
     "product": {
       "productType": "generatorProduct",
       "DN": {
-        "CN": "TMKR ",
+        "CN": "TMKR",
         "O": "TMKR AI, Inc.",
         "OU": "Engineering",
         "C": "US"
