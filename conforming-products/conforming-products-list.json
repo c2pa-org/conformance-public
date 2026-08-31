@@ -8465,12 +8465,12 @@
   },
   {
     "recordId": "019fdca6-429c-7db1-b32a-dc3ef7ccce28",
-    "applicant": "Okeanos B.V",
+    "applicant": "Okeanos B.V.",
     "product": {
       "productType": "generatorProduct",
       "DN": {
         "CN": "Diker",
-        "O": "Okeanos B.V",
+        "O": "Okeanos B.V.",
         "C": "NL"
       },
       "minVersion": "1.0.0",
