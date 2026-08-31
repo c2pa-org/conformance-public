@@ -9840,5 +9840,64 @@
       "earliestPublicDisclosure": "2026-08-24",
       "lastModification": "2026-08-31"
     }
+  },
+   {
+    "recordId": "01a0155c-bb7f-70e1-966e-adf8964eca0f",
+    "applicant": "Canadian Broadcasting Corporation / Société Radio-Canada",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "CBC/Radio-Canada Content Provenance Platform",
+        "O": "Canadian Broadcasting Corporation / Radio-Canada",
+        "C": "CA"
+      },
+      "minVersion": "1",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-18",
+      "conformance": "2026-08-26",
+      "earliestPublicDisclosure": "2026-08-18",
+      "lastModification": "2026-08-31"
+    }
   }
 ]
