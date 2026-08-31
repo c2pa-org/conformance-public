@@ -9970,5 +9970,67 @@
       "earliestPublicDisclosure": "2026-08-10",
       "lastModification": "2026-08-31"
     }
+  },
+    {
+    "recordId": "01a01a34-cff3-7a71-90a0-28025e457c67",
+    "applicant": "Compare the Cloud Ltd",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "CTC VoiceGuard",
+        "O": "Compare the Cloud Ltd",
+        "C": "GB"
+      },
+      "minVersion": "1",
+      "infoURL": "https://voiceguard.comparethecloud.net",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-19",
+      "conformance": "2026-08-26",
+      "earliestPublicDisclosure": "2026-08-24",
+      "lastModification": "2026-08-31"
+    }
   }
 ]
