@@ -9154,7 +9154,7 @@
       "lastModification": "2026-08-13"
     }
   },
-    {
+  {
     "recordId": "019ff1c1-a96b-7d9d-990d-1c121dc097d8",
     "applicant": "Gingco Communication GmbH & Co. KG",
     "product": {
@@ -9224,7 +9224,7 @@
       "lastModification": "2026-08-14"
     }
   },
-   {
+  {
     "recordId": "019fe372-a787-7fa4-a664-1d8e17c616de",
     "applicant": "Fieldnotes dot Dev Opc",
     "product": {
@@ -9302,7 +9302,7 @@
       "lastModification": "2026-08-18"
     }
   },
-   {
+  {
     "recordId": "019ff19a-8bc8-7748-9e88-a8fe8b23e2d7",
     "applicant": "both WORKS Inc.",
     "product": {
@@ -9358,7 +9358,7 @@
       "lastModification": "2026-08-18"
     }
   },
-    {
+  {
     "recordId": "019ff646-3840-72f5-aa92-d089522fc54c",
     "applicant": "BrennerMedien GmbH",
     "product": {
@@ -9428,7 +9428,7 @@
       "lastModification": "2026-08-18"
     }
   },
-    {
+  {
     "recordId": "019ed5bb-aafa-7568-bede-d80a021b796f",
     "applicant": "SSL Corp",
     "supportsCompressedManifests": false,
@@ -9515,7 +9515,7 @@
       "lastModification": "2026-08-19"
     }
   },
-    {
+  {
     "recordId": "01a00070-da20-764e-9266-e89f8580e6d2",
     "applicant": "Jasper AI Global, LLC",
     "product": {
@@ -9689,7 +9689,7 @@
       "earliestPublicDisclosure": "2026-08-12",
       "lastModification": "2026-08-20"
     }
-  },  
+  },
   {
     "recordId": "019ff6b1-0a7b-79c0-9190-8488896a27a0",
     "applicant": "Narrative Nexus LLC",
@@ -9766,7 +9766,7 @@
       "lastModification": "2026-08-20"
     }
   },
-    {
+  {
     "recordId": "01a00a67-dc84-788f-8ff1-5b9c6b2b08e1",
     "applicant": "Modelia, Inc.",
     "product": {
@@ -9841,7 +9841,7 @@
       "lastModification": "2026-08-31"
     }
   },
-   {
+  {
     "recordId": "01a0155c-bb7f-70e1-966e-adf8964eca0f",
     "applicant": "Canadian Broadcasting Corporation / Société Radio-Canada",
     "product": {
@@ -9897,6 +9897,77 @@
       "creation": "2026-08-18",
       "conformance": "2026-08-26",
       "earliestPublicDisclosure": "2026-08-18",
+      "lastModification": "2026-08-31"
+    }
+  },
+  {
+    "recordId": "019feca7-a3f5-74a9-9eeb-39989f8bfcc3",
+    "applicant": "Soundmarque Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Soundmarque",
+        "O": "Soundmarque Inc.",
+        "C": "US"
+      },
+      "minVersion": "0.1.0",
+      "infoURL": "https://www.soundmarque.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [],
+        "video": [],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [],
+        "video": [],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav"
+        ],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-10",
+      "conformance": "2026-08-26",
+      "earliestPublicDisclosure": "2026-08-10",
       "lastModification": "2026-08-31"
     }
   }
