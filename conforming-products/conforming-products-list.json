@@ -10104,5 +10104,77 @@
       "earliestPublicDisclosure": "2026-08-04",
       "lastModification": "2026-08-31"
     }
+  },
+    {
+    "recordId": "019ffb87-9506-70ec-8eb4-9264790429d1",
+    "applicant": "Zen Network AB",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Magnifiq",
+        "O": "Zen Network AB",
+        "C": "SE"
+      },
+      "minVersion": "1",
+      "infoURL": "https://magnifiq.ai",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp",
+          "image/avif"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-13",
+      "conformance": "2026-08-26",
+      "earliestPublicDisclosure": "2026-08-13",
+      "lastModification": "2026-08-31"
+    }
   }
 ]
