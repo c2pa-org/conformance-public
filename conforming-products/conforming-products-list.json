@@ -10032,5 +10032,77 @@
       "earliestPublicDisclosure": "2026-08-24",
       "lastModification": "2026-08-31"
     }
+  },
+  {
+    "recordId": "019ff2bd-4bb7-7e35-b7fb-25a2f0a03f57",
+    "applicant": "Stability AI US Services Corporation",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Brand Studio, Stable Audio and Developer Platform API",
+        "O": "Stability AI US Services Corporation",
+        "C": "US"
+      },
+      "minVersion": "",
+      "infoURL": "https://stability.ai/news-updates/brand-studio-by-stability-ai-creative-production-platform-for-brands",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-11",
+      "conformance": "2026-08-26",
+      "earliestPublicDisclosure": "2026-08-04",
+      "lastModification": "2026-08-31"
+    }
   }
 ]
