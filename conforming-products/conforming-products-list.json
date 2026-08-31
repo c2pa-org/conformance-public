@@ -9765,5 +9765,80 @@
       "earliestPublicDisclosure": "2026-08-10",
       "lastModification": "2026-08-20"
     }
+  },
+    {
+    "recordId": "01a00a67-dc84-788f-8ff1-5b9c6b2b08e1",
+    "applicant": "Modelia, Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Modelia",
+        "O": "Modelia, Inc.",
+        "C": "US"
+      },
+      "minVersion": "4.0.0",
+      "infoURL": "https://www.modelia.ai",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-16",
+      "conformance": "2026-08-18",
+      "earliestPublicDisclosure": "2026-08-24",
+      "lastModification": "2026-08-31"
+    }
   }
 ]
