@@ -9971,7 +9971,7 @@
       "lastModification": "2026-08-31"
     }
   },
-    {
+  {
     "recordId": "01a01a34-cff3-7a71-90a0-28025e457c67",
     "applicant": "Compare the Cloud Ltd",
     "product": {
@@ -10105,7 +10105,7 @@
       "lastModification": "2026-08-31"
     }
   },
-    {
+  {
     "recordId": "019ffb87-9506-70ec-8eb4-9264790429d1",
     "applicant": "Zen Network AB",
     "product": {
@@ -10228,7 +10228,7 @@
       "lastModification": "2026-09-01"
     }
   },
-    {
+  {
     "recordId": "01a01392-2479-7227-95b5-3d898ab6424d",
     "applicant": "SkrewAI LLC",
     "product": {
@@ -10280,7 +10280,7 @@
       "lastModification": "2026-09-01"
     }
   },
-    {
+  {
     "recordId": "01a02329-70ea-7f16-a970-dd5bc60d13db",
     "applicant": "Kontainer A/S",
     "product": {
@@ -10475,7 +10475,7 @@
       "lastModification": "2026-09-01"
     }
   },
-    {
+  {
     "recordId": "019fe01e-e303-7043-8676-b2d2c8cabcb4",
     "applicant": "Viktor Scheiermann (Einzelunternehmen), trading as ReplixCast",
     "product": {
@@ -10552,6 +10552,72 @@
       "creation": "2026-08-08",
       "conformance": "2026-08-27",
       "earliestPublicDisclosure": "2026-08-08",
+      "lastModification": "2026-09-01"
+    }
+  },
+  {
+    "recordId": "019fed18-cf6e-721e-806c-4e19236787cd",
+    "applicant": "Timelimit Inc.",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Timelimit Content Credentials",
+        "O": "Timelimit Inc.",
+        "C": "KR",
+        "OU": "Visual Architecture"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://tlimit.co.kr/"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/heic"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [
+          "application/pdf"
+        ],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-10",
+      "conformance": "2026-08-14",
+      "earliestPublicDisclosure": "2026-09-01",
       "lastModification": "2026-09-01"
     }
   }
