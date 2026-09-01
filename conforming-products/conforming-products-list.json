@@ -10620,5 +10620,74 @@
       "earliestPublicDisclosure": "2026-09-01",
       "lastModification": "2026-09-01"
     }
+  },
+    {
+    "recordId": "019eaa8d-1307-7b0c-9519-ea52d5bea15b",
+    "applicant": "Timelimit Inc.",
+    "supportsCompressedManifests": false,
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Timelimit Content Credentials",
+        "O": "Timelimit Inc.",
+        "OU": "Visual Architecture",
+        "C": "KR"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/heic",
+          "image/svg+xml",
+          "image/x-adobe-dng"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/heic",
+          "image/svg+xml",
+          "image/x-adobe-dng"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-06-09",
+      "conformance": "2026-07-20",
+      "earliestPublicDisclosure": "2026-09-01",
+      "lastModification": "2026-09-01"
+    }
   }
 ]
