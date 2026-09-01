@@ -10279,5 +10279,105 @@
       "earliestPublicDisclosure": "2026-08-31",
       "lastModification": "2026-09-01"
     }
+  },
+    {
+    "recordId": "01a02329-70ea-7f16-a970-dd5bc60d13db",
+    "applicant": "Kontainer A/S",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Kontainer",
+        "O": "Kontainer A/S",
+        "C": "DK"
+      },
+      "minVersion": "9.26.0",
+      "infoURL": "https://kontainer.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-21",
+      "conformance": "2026-08-27",
+      "earliestPublicDisclosure": "2026-08-14",
+      "lastModification": "2026-09-01"
+    }
   }
 ]
