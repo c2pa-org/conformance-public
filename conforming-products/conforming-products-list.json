@@ -10176,5 +10176,56 @@
       "earliestPublicDisclosure": "2026-08-13",
       "lastModification": "2026-08-31"
     }
+  },
+  {
+    "recordId": "01a0138e-cb9d-7769-9532-871028e86959",
+    "applicant": "SkrewAI LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "SkrewAI for iOS",
+        "O": "SkrewAI LLC",
+        "C": "US"
+      },
+      "minVersion": "2.0.0",
+      "infoURL": "https://skrew.ai",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-18",
+      "conformance": "2026-08-18",
+      "earliestPublicDisclosure": "2026-08-31",
+      "lastModification": "2026-09-01"
+    }
   }
 ]
