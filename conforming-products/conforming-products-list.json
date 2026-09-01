@@ -10474,5 +10474,85 @@
       "earliestPublicDisclosure": "2026-08-14",
       "lastModification": "2026-09-01"
     }
+  },
+    {
+    "recordId": "019fe01e-e303-7043-8676-b2d2c8cabcb4",
+    "applicant": "Viktor Scheiermann (Einzelunternehmen), trading as ReplixCast",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "ReplixCast",
+        "O": "Viktor Scheiermann (Einzelunternehmen), trading as ReplixCast",
+        "C": "DE"
+      },
+      "minVersion": "2026.08",
+      "infoURL": "https://replixcast.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg"
+        ],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg"
+        ],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-08",
+      "conformance": "2026-08-27",
+      "earliestPublicDisclosure": "2026-08-08",
+      "lastModification": "2026-09-01"
+    }
   }
 ]
