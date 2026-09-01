@@ -10227,5 +10227,57 @@
       "earliestPublicDisclosure": "2026-08-31",
       "lastModification": "2026-09-01"
     }
+  },
+    {
+    "recordId": "01a01392-2479-7227-95b5-3d898ab6424d",
+    "applicant": "SkrewAI LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "SkrewAI for Android",
+        "O": "SkrewAI LLC",
+        "C": "US"
+      },
+      "minVersion": "2.0.0",
+      "infoURL": "https://skrew.ai",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation",
+          "Google_PlayIntegrity"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-18",
+      "conformance": "2026-08-26",
+      "earliestPublicDisclosure": "2026-08-31",
+      "lastModification": "2026-09-01"
+    }
   }
 ]
