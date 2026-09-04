@@ -4723,6 +4723,7 @@
         "C": "KR"
       },
       "minVersion": "1.0.0",
+      "infoURL": "https://ori.pics",
       "assurance": {
         "maxAssuranceLevel": 1,
         "attestationMethods": [
@@ -4755,7 +4756,7 @@
       "creation": "2026-05-21",
       "conformance": "2026-06-23",
       "earliestPublicDisclosure": "2026-06-01",
-      "lastModification": "2026-08-05"
+      "lastModification": "2026-09-04"
     }
   },
   {
@@ -10688,6 +10689,55 @@
       "conformance": "2026-07-20",
       "earliestPublicDisclosure": "2026-09-01",
       "lastModification": "2026-09-01"
+    }
+  },
+    {
+    "recordId": "019f4835-7029-7bc6-9721-2c0efdfeb56d",
+    "applicant": "UX Vision LLC",
+    "supportsCompressedManifests": false,
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Stroma",
+        "O": "UX Vision LLC",
+        "OU": "Engineering",
+        "C": "US"
+      },
+      "minVersion": "1",
+      "assurance": {
+        "maxAssuranceLevel": 2,
+        "attestationMethods": [
+          "Apple_AppAttest",
+          "GoogleCloud_CloudHSMKeyAttestation",
+          "GoogleCloud_ConfidentialVMAttestation"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [],
+        "transformation": []
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "dates": {
+      "creation": "2026-07-09",
+      "conformance": "2026-07-16",
+      "earliestPublicDisclosure": "2026-09-01",
+      "lastModification": "2026-09-04"
     }
   }
 ]
