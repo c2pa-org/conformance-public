@@ -8133,7 +8133,7 @@
     "product": {
       "productType": "generatorProduct",
       "DN": {
-        "CN": "CRESTAG",
+        "CN": "verstag",
         "O": "REVERCE GmbH",
         "OU": "",
         "C": "DE"
@@ -10902,6 +10902,57 @@
       "creation": "2026-08-21",
       "conformance": "2026-09-04",
       "earliestPublicDisclosure": "2026-09-01",
+      "lastModification": "2026-09-08"
+    }
+  },
+    {
+    "recordId": "01a04385-0096-7a5c-a512-c5425637d39e",
+    "applicant": "Monocursive",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Hubfluencer",
+        "O": "Monocursive",
+        "C": "FR"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://hubfluencer.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-27",
+      "conformance": "2026-09-04",
+      "earliestPublicDisclosure": "2026-08-27",
       "lastModification": "2026-09-08"
     }
   }
