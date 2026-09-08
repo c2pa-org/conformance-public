@@ -11079,5 +11079,79 @@
       "earliestPublicDisclosure": "2026-09-15",
       "lastModification": "2026-09-08"
     }
+  },
+  {
+    "recordId": "019fedb8-bcc4-7214-a718-7494f356d144",
+    "applicant": "QUATVISION YAZILIM TEKNOLOJI SANAYI TICARET ANONIM SIRKETI",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "QuatMark",
+        "O": "QUATVISION YAZILIM TEKNOLOJI SANAYI TICARET ANONIM SIRKETI",
+        "C": "TR"
+      },
+      "minVersion": "0.1.0",
+      "infoURL": "https://quatmark.com/en",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-10",
+      "conformance": "2026-09-08",
+      "earliestPublicDisclosure": "2026-08-09",
+      "lastModification": "2026-09-08"
+    }
   }
 ]
