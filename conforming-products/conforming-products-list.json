@@ -11153,5 +11153,66 @@
       "earliestPublicDisclosure": "2026-08-09",
       "lastModification": "2026-09-08"
     }
+  },
+   {
+    "recordId": "01a011a9-902c-7e26-bdc1-a36059c7291a",
+    "applicant": "RajISG LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "RajISG Provenance & Content Authenticity (RPCA)",
+        "O": "RajISG",
+        "C": "IN",
+        "OU": "RajISG Provenance & Content Authenticity"
+      },
+      "minVersion": "1.7.0",
+      "infoURL": "https://rajisg.com/content-authenticity",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-17",
+      "conformance": "2026-09-08",
+      "earliestPublicDisclosure": "2026-09-03",
+      "lastModification": "2026-09-08"
+    }
   }
 ]
