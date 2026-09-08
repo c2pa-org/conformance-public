@@ -11013,5 +11013,71 @@
       "earliestPublicDisclosure": "2026-08-10",
       "lastModification": "2026-09-08"
     }
+  },
+    {
+    "recordId": "01a01001-5328-755b-8caf-070637f9d041",
+    "applicant": "yRuler Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Tangiblee AI",
+        "O": "yRuler Inc.",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/webp"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-17",
+      "conformance": "2026-09-05",
+      "earliestPublicDisclosure": "2026-09-15",
+      "lastModification": "2026-09-08"
+    }
   }
 ]
