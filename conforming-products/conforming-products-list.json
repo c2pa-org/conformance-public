@@ -10855,5 +10855,54 @@
       "earliestPublicDisclosure": "2026-09-02",
       "lastModification": "2026-09-08"
     }
+  },
+   {
+    "recordId": "01a0255a-ee04-7991-b951-622ef49a282b",
+    "applicant": "Voicefinderapp, S.L.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Voicefinder",
+        "O": "Voicefinderapp, S.L.",
+        "C": "ES"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://voicefinder.io/",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-21",
+      "conformance": "2026-09-04",
+      "earliestPublicDisclosure": "2026-09-01",
+      "lastModification": "2026-09-08"
+    }
   }
 ]
