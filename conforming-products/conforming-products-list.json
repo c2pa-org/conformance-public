@@ -10955,5 +10955,63 @@
       "earliestPublicDisclosure": "2026-08-27",
       "lastModification": "2026-09-08"
     }
+  },
+    {
+    "recordId": "019fec86-2548-7b10-aaf3-0f10614237fb",
+    "applicant": "DAZZL INC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Dazzl",
+        "O": "Dazzl Inc",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://dazzl.cc",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-10",
+      "conformance": "2026-09-04",
+      "earliestPublicDisclosure": "2026-08-10",
+      "lastModification": "2026-09-08"
+    }
   }
 ]
