@@ -10622,7 +10622,7 @@
       "lastModification": "2026-09-01"
     }
   },
-    {
+  {
     "recordId": "019eaa8d-1307-7b0c-9519-ea52d5bea15b",
     "applicant": "Timelimit Inc.",
     "supportsCompressedManifests": false,
@@ -10691,7 +10691,7 @@
       "lastModification": "2026-09-01"
     }
   },
-    {
+  {
     "recordId": "019f4835-7029-7bc6-9721-2c0efdfeb56d",
     "applicant": "UX Vision LLC",
     "supportsCompressedManifests": false,
@@ -10738,6 +10738,53 @@
       "conformance": "2026-07-16",
       "earliestPublicDisclosure": "2026-09-01",
       "lastModification": "2026-09-04"
+    }
+  },
+  {
+    "recordId": "01a019f9-fc29-753d-a3be-45ac25a4a715",
+    "applicant": "Ring LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Amazon.com Services LLC",
+        "O": "Amazon.com Services LLC",
+        "C": "US",
+        "OU": "Amazon Ring"
+      },
+      "minVersion": "",
+      "infoURL": "https://ring.com/verify.",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-19",
+      "conformance": "2026-09-04",
+      "earliestPublicDisclosure": "2026-01-22",
+      "lastModification": "2026-09-05"
     }
   }
 ]
