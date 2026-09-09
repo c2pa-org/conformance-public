@@ -11322,5 +11322,55 @@
       "earliestPublicDisclosure": "2026-08-31",
       "lastModification": "2026-09-09"
     }
+  },
+  {
+    "recordId": "01a05171-b570-7fe4-87a9-d872e5ab9ede",
+    "applicant": "Nuevo.Studio LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "VWFNDR MBL iOS",
+        "O": "Nuevo.Studio LLC",
+        "C": "JP",
+        "OU": "VWFNDR"
+      },
+      "minVersion": "1.3.0",
+      "infoURL": "https://www.vwfndr.camera/mbl",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/x-adobe-dng"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-30",
+      "conformance": "2026-09-08",
+      "earliestPublicDisclosure": "2026-09-09",
+      "lastModification": "2026-09-09"
+    }
   }
 ]
