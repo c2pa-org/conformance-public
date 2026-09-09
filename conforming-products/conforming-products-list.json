@@ -10752,7 +10752,7 @@
         "OU": "Amazon Ring"
       },
       "minVersion": "",
-      "infoURL": "https://ring.com/verify.",
+      "infoURL": "https://ring.com/verify",
       "assurance": {
         "maxAssuranceLevel": 1,
         "attestationMethods": []
@@ -11370,6 +11370,57 @@
       "creation": "2026-08-30",
       "conformance": "2026-09-08",
       "earliestPublicDisclosure": "2026-09-09",
+      "lastModification": "2026-09-09"
+    }
+  },
+    {
+    "recordId": "01a01f3c-1fa6-70e3-8f6d-1d43a9c099e1",
+    "applicant": "Autoenhance Ltd",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Autoenhance.ai",
+        "O": "Autoenhance Ltd",
+        "C": "UK",
+        "OU": "Product"
+      },
+      "minVersion": "",
+      "infoURL": "https://autoenhance.ai",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp",
+        "image/avif"
+      ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-20",
+      "conformance": "2026-09-09",
+      "earliestPublicDisclosure": "2026-09-01",
       "lastModification": "2026-09-09"
     }
   }
