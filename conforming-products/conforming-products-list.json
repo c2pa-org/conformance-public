@@ -11214,5 +11214,58 @@
       "earliestPublicDisclosure": "2026-09-03",
       "lastModification": "2026-09-08"
     }
+  },
+    {
+    "recordId": "01a04e16-a5c9-7d57-8796-2da53886df48",
+    "applicant": "Digitalmuse GmbH & Co. KG",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Digitalmuse Content Labeling Workflow",
+        "O": "Digitalmuse GmbH & Co. KG",
+        "C": "DE"
+      },
+      "minVersion": "0.27.15",
+      "infoURL": "https://www.yourdigitalmuse.de/eu-aiact",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-29",
+      "conformance": "2026-09-08",
+      "earliestPublicDisclosure": "2026-08-29",
+      "lastModification": "2026-09-08"
+    }
   }
 ]
