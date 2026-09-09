@@ -11267,5 +11267,60 @@
       "earliestPublicDisclosure": "2026-08-29",
       "lastModification": "2026-09-08"
     }
+  },
+   {
+    "recordId": "01a05628-85cd-70b1-840c-6e82a65b1044",
+    "applicant": "RIGHT-ON-SKILL",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "sumvadis-fabrique",
+        "O": "RIGHT-ON-SKILL",
+        "C": "LU"
+      },
+      "minVersion": "1",
+      "infoURL": "https://sumvadis.ai",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-31",
+      "conformance": "2026-09-04",
+      "earliestPublicDisclosure": "2026-08-31",
+      "lastModification": "2026-09-09"
+    }
   }
 ]
