@@ -10787,7 +10787,7 @@
       "lastModification": "2026-09-05"
     }
   },
-    {
+  {
     "recordId": "01a062c3-1187-7366-a1c5-e7884b4429c0",
     "applicant": "Google LLC",
     "product": {
@@ -10856,7 +10856,7 @@
       "lastModification": "2026-09-08"
     }
   },
-   {
+  {
     "recordId": "01a0255a-ee04-7991-b951-622ef49a282b",
     "applicant": "Voicefinderapp, S.L.",
     "product": {
@@ -10905,7 +10905,7 @@
       "lastModification": "2026-09-08"
     }
   },
-    {
+  {
     "recordId": "01a04385-0096-7a5c-a512-c5425637d39e",
     "applicant": "Monocursive",
     "product": {
@@ -10956,7 +10956,7 @@
       "lastModification": "2026-09-08"
     }
   },
-    {
+  {
     "recordId": "019fec86-2548-7b10-aaf3-0f10614237fb",
     "applicant": "DAZZL INC",
     "product": {
@@ -11014,7 +11014,7 @@
       "lastModification": "2026-09-08"
     }
   },
-    {
+  {
     "recordId": "01a01001-5328-755b-8caf-070637f9d041",
     "applicant": "yRuler Inc.",
     "product": {
@@ -11154,7 +11154,7 @@
       "lastModification": "2026-09-08"
     }
   },
-   {
+  {
     "recordId": "01a011a9-902c-7e26-bdc1-a36059c7291a",
     "applicant": "RajISG LLC",
     "product": {
@@ -11215,7 +11215,7 @@
       "lastModification": "2026-09-08"
     }
   },
-    {
+  {
     "recordId": "01a04e16-a5c9-7d57-8796-2da53886df48",
     "applicant": "Digitalmuse GmbH & Co. KG",
     "product": {
@@ -11268,7 +11268,7 @@
       "lastModification": "2026-09-08"
     }
   },
-   {
+  {
     "recordId": "01a05628-85cd-70b1-840c-6e82a65b1044",
     "applicant": "RIGHT-ON-SKILL",
     "product": {
@@ -11373,7 +11373,7 @@
       "lastModification": "2026-09-09"
     }
   },
-    {
+  {
     "recordId": "01a01f3c-1fa6-70e3-8f6d-1d43a9c099e1",
     "applicant": "Autoenhance Ltd",
     "product": {
@@ -11404,12 +11404,12 @@
     "supportsCompressedManifests": false,
     "containers": {
       "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/webp",
-        "image/avif"
-      ]
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp",
+          "image/avif"
+        ]
       },
       "validate": {}
     },
@@ -11422,6 +11422,53 @@
       "conformance": "2026-09-09",
       "earliestPublicDisclosure": "2026-09-01",
       "lastModification": "2026-09-09"
+    }
+  },
+  {
+    "recordId": "01a06d52-857e-72da-9ef7-709193669393",
+    "applicant": "SapienCX",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "ChaosMark",
+        "O": "SapienCX",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://chaos-mark.com/"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-04",
+      "conformance": "2026-09-10",
+      "earliestPublicDisclosure": "2026-09-04",
+      "lastModification": "2026-09-10"
     }
   }
 ]
