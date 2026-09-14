@@ -11472,50 +11472,123 @@
     }
   },
   {
-  "recordId": "01a08fb3-1e1d-78a1-aba7-4f9ce3a3c283",
-  "applicant": "Modelia, Inc.",
-  "product": {
-    "productType": "validatorProduct",
-    "DN": {
-      "CN": "Modelia Verify",
-      "O": "Modelia, Inc.",
-      "C": "US"
+    "recordId": "01a08fb3-1e1d-78a1-aba7-4f9ce3a3c283",
+    "applicant": "Modelia, Inc.",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Modelia Verify",
+        "O": "Modelia, Inc.",
+        "C": "US"
+      },
+      "minVersion": "",
+      "infoURL": "https://modelia.ai/verify"
     },
-    "minVersion": "",
-    "infoURL": "https://modelia.ai/verify"
-  },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": true,
-  "containers": {
-    "generate": {},
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/tiff",
-        "image/webp",
-        "image/heic",
-        "image/heif",
-        "image/avif"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ]
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-11",
+      "conformance": "2026-09-11",
+      "earliestPublicDisclosure": "2026-09-14",
+      "lastModification": "2026-09-11"
     }
   },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-11",
-    "conformance": "2026-09-11",
-    "earliestPublicDisclosure": "2026-09-14",
-    "lastModification": "2026-09-11"
+  {
+    "recordId": "01a024e8-8990-7350-99c4-fb5647731690",
+    "applicant": "Teila LTD",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Teila",
+        "O": "Teila Ltd",
+        "C": "GB"
+      },
+      "minVersion": "0.1.0",
+      "infoURL": "https://teila.ai/trust-policy/c2pa",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/png"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-21",
+      "conformance": "2026-09-14",
+      "earliestPublicDisclosure": "2026-08-21",
+      "lastModification": "2026-09-14"
+    }
   }
-}
 ]
