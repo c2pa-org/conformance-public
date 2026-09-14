@@ -9778,7 +9778,7 @@
         "C": "US"
       },
       "minVersion": "4.0.0",
-      "infoURL": "https://www.modelia.ai",
+      "infoURL": "https://modelia.ai",
       "assurance": {
         "maxAssuranceLevel": 1,
         "attestationMethods": []
@@ -11588,6 +11588,108 @@
       "creation": "2026-08-21",
       "conformance": "2026-09-14",
       "earliestPublicDisclosure": "2026-08-21",
+      "lastModification": "2026-09-14"
+    }
+  },
+    {
+    "recordId": "019ff48d-4a4c-7558-803f-2320ea4eff9f",
+    "applicant": "Press Play Labs, Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Eddie AI",
+        "O": "Press Play Labs, Inc.",
+        "C": "US"
+      },
+      "minVersion": "v3.5",
+      "infoURL": "https://www.heyeddie.ai",
+      "assurance": {
+        "maxAssuranceLevel": 2,
+        "attestationMethods": [
+          "GoogleCloud_CloudHSMKeyAttestation"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+           "audio/mp4"
+        ],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heic-sequence",
+          "image/heif",
+          "image/heif-sequence",
+          "image/avif",
+          "image/x-tiff-based",
+          "image/x-riff-based"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/MPA",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/aac",
+          "audio/mp4",
+          "audio/x-riff-based"
+        ],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-12",
+      "conformance": "2026-09-14",
+      "earliestPublicDisclosure": "2026-09-10",
       "lastModification": "2026-09-14"
     }
   }
