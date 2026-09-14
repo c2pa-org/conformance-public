@@ -11470,5 +11470,52 @@
       "earliestPublicDisclosure": "2026-09-04",
       "lastModification": "2026-09-10"
     }
+  },
+  {
+  "recordId": "01a08fb3-1e1d-78a1-aba7-4f9ce3a3c283",
+  "applicant": "Modelia, Inc.",
+  "product": {
+    "productType": "validatorProduct",
+    "DN": {
+      "CN": "Modelia Verify",
+      "O": "Modelia, Inc.",
+      "C": "US"
+    },
+    "minVersion": "",
+    "infoURL": "https://modelia.ai/verify"
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {},
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-11",
+    "conformance": "2026-09-11",
+    "earliestPublicDisclosure": "2026-09-14",
+    "lastModification": "2026-09-11"
   }
+}
 ]
