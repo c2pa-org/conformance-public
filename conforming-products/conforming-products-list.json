@@ -11937,5 +11937,55 @@
       "earliestPublicDisclosure": "2026-08-28",
       "lastModification": "2026-09-15"
     }
+  },
+    {
+    "recordId": "01a038a1-67b3-7482-a562-dd5eb7dd890d",
+    "applicant": "Digitum Consulting",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "DIGITUM Entreprise",
+        "O": "DIGITUM CONSULTING",
+        "C": "CA"
+      },
+      "minVersion": "0.1.0",
+      "infoURL": "https://www.digitumconsulting.com/en/digitum-entreprise-2/",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-25",
+      "conformance": "2026-09-08",
+      "earliestPublicDisclosure": "2026-09-15",
+      "lastModification": "2026-09-15"
+    }
   }
 ]
