@@ -11591,7 +11591,7 @@
       "lastModification": "2026-09-14"
     }
   },
-    {
+  {
     "recordId": "019ff48d-4a4c-7558-803f-2320ea4eff9f",
     "applicant": "Press Play Labs, Inc.",
     "product": {
@@ -11634,7 +11634,7 @@
         "audio": [
           "audio/mpeg",
           "audio/wav",
-           "audio/mp4"
+          "audio/mp4"
         ],
         "textHtml": [],
         "textUnstructured": [],
@@ -11691,6 +11691,63 @@
       "conformance": "2026-09-14",
       "earliestPublicDisclosure": "2026-09-10",
       "lastModification": "2026-09-14"
+    }
+  },
+  {
+    "recordId": "01a08754-09b1-7a38-89af-bba6a7e82d31",
+    "applicant": "Veritypress, Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Verity",
+        "O": "Veritypress, Inc.",
+        "C": "US",
+        "OU": "Content Provenance"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://veritypress.ai",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-09",
+      "conformance": "2026-09-15",
+      "earliestPublicDisclosure": "2026-09-09",
+      "lastModification": "2026-09-15"
     }
   }
 ]
