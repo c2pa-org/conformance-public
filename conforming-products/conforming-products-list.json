@@ -11826,5 +11826,51 @@
       "earliestPublicDisclosure": "2026-08-12",
       "lastModification": "2026-09-15"
     }
+  },
+  {
+    "recordId": "01a05b67-1282-753b-8ee4-7fa1cccd995a",
+    "applicant": "SPNID, LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Spnid Creations",
+        "O": "SPNID, LLC",
+        "C": "US"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://spnid.com/creations",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-01",
+      "conformance": "2026-09-15",
+      "earliestPublicDisclosure": "2026-09-01",
+      "lastModification": "2026-09-15"
+    }
   }
 ]
