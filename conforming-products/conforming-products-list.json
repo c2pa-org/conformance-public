@@ -11749,5 +11749,82 @@
       "earliestPublicDisclosure": "2026-09-09",
       "lastModification": "2026-09-15"
     }
+  },
+  {
+    "recordId": "019fef14-77d6-7356-b693-3fd8f625cd1b",
+    "applicant": "Deep Blue Coding Company Limited",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "euaiact watermark toolkit",
+        "O": "Deep Blue Coding Company Limited",
+        "C": "VN"
+      },
+      "minVersion": "0.1.0",
+      "infoURL": "https://euaiact.deepbluecoding.com/watermark",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2",
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-11",
+      "conformance": "2026-09-15",
+      "earliestPublicDisclosure": "2026-08-12",
+      "lastModification": "2026-09-15"
+    }
   }
 ]
