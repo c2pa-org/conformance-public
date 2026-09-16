@@ -11837,7 +11837,7 @@
         "O": "SPNID, LLC",
         "C": "US"
       },
-      "minVersion": "1.0.0",
+      "minVersion": "1.1.0",
       "infoURL": "https://spnid.com/creations",
       "assurance": {
         "maxAssuranceLevel": 1,
@@ -11938,7 +11938,7 @@
       "lastModification": "2026-09-15"
     }
   },
-    {
+  {
     "recordId": "01a038a1-67b3-7482-a562-dd5eb7dd890d",
     "applicant": "Digitum Consulting",
     "product": {
@@ -11986,6 +11986,73 @@
       "conformance": "2026-09-08",
       "earliestPublicDisclosure": "2026-09-15",
       "lastModification": "2026-09-15"
+    }
+  },
+  {
+    "recordId": "01a002b7-3663-7b3b-a60e-db3b99ee2d94",
+    "applicant": "Echelon Intelligence Group LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Rubric Protocol",
+        "O": "Echelon Intelligence Group LLC",
+        "C": "US",
+        "OU": "Rubric Protocol"
+      },
+      "minVersion": "2.0.0",
+      "infoURL": "https://www.rubric-protocol.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [
+          "application/pdf"
+        ],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-14",
+      "conformance": "2026-09-16",
+      "earliestPublicDisclosure": "2026-09-01",
+      "lastModification": "2026-09-16"
     }
   }
 ]
