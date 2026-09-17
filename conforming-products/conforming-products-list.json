@@ -12236,5 +12236,60 @@
       "earliestPublicDisclosure": "2026-09-09",
       "lastModification": "2026-09-17"
     }
+  },
+  {
+    "recordId": "01a0a91a-808e-76d0-bbfd-8b3a2c35f6e8",
+    "applicant": "KARIROE, K.K.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Shamaru Camera",
+        "O": "KARIROE, K.K.",
+        "C": "JP"
+      },
+      "minVersion": "0.1.10",
+      "infoURL": "https://callirrhoe.jp/app/shamaru-kun/",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-16",
+      "conformance": "2026-09-17",
+      "earliestPublicDisclosure": "2026-09-09",
+      "lastModification": "2026-09-17"
+    }
   }
 ]
