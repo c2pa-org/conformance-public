@@ -12054,5 +12054,65 @@
       "earliestPublicDisclosure": "2026-09-01",
       "lastModification": "2026-09-16"
     }
+  },
+  {
+  "recordId": "01a0a756-4488-7c8e-9533-a55326943ab1",
+  "applicant": "Whole Earth Labs LLC",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "RealReel Android",
+      "O": "Whole Earth Labs LLC",
+      "C": "US"
+    },
+    "minVersion": "0.1.5",
+    "infoURL": "https://realreel.xyz",
+    "assurance": {
+      "maxAssuranceLevel": 2,
+      "attestationMethods": [
+        "Android_KeyAttestation",
+        "Google_PlayIntegrity"
+      ]
+    },
+    "disallowedSignals": {
+      "inception": [
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-15",
+    "conformance": "2026-09-16",
+    "earliestPublicDisclosure": "2026-09-15",
+    "lastModification": "2026-09-16"
   }
+}
 ]
