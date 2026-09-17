@@ -12174,5 +12174,67 @@
       "earliestPublicDisclosure": "2026-08-24",
       "lastModification": "2026-09-16"
     }
+  },
+  {
+    "recordId": "01a0863e-b914-79f4-93f9-ff5c5f639427",
+    "applicant": "BESTSELLER A/S",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "StorM",
+        "O": "BESTSELLER A/S",
+        "C": "DK",
+        "OU": "BESTSELLER TECH"
+      },
+      "minVersion": "60.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-09",
+      "conformance": "2026-09-17",
+      "earliestPublicDisclosure": "2026-09-09",
+      "lastModification": "2026-09-17"
+    }
   }
 ]
