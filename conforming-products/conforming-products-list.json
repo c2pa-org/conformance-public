@@ -12056,63 +12056,123 @@
     }
   },
   {
-  "recordId": "01a0a756-4488-7c8e-9533-a55326943ab1",
-  "applicant": "Whole Earth Labs LLC",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "RealReel Android",
-      "O": "Whole Earth Labs LLC",
-      "C": "US"
+    "recordId": "01a0a756-4488-7c8e-9533-a55326943ab1",
+    "applicant": "Whole Earth Labs LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "RealReel Android",
+        "O": "Whole Earth Labs LLC",
+        "C": "US"
+      },
+      "minVersion": "0.1.5",
+      "infoURL": "https://realreel.xyz",
+      "assurance": {
+        "maxAssuranceLevel": 2,
+        "attestationMethods": [
+          "Android_KeyAttestation",
+          "Google_PlayIntegrity"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "0.1.5",
-    "infoURL": "https://realreel.xyz",
-    "assurance": {
-      "maxAssuranceLevel": 2,
-      "attestationMethods": [
-        "Android_KeyAttestation",
-        "Google_PlayIntegrity"
-      ]
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-15",
+      "conformance": "2026-09-16",
+      "earliestPublicDisclosure": "2026-09-15",
+      "lastModification": "2026-09-16"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg"
-      ],
-      "video": [
-        "video/mp4"
-      ]
+  {
+    "recordId": "01a034de-3d29-7d32-bd07-8cf4cede05bf",
+    "applicant": "Whole Earth Labs LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "RealReel iOS",
+        "O": "Whole Earth Labs LLC",
+        "C": "US"
+      },
+      "minVersion": "0.1.7",
+      "infoURL": "https://www.realreel.xyz",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "validate": {
-      "image": [
-        "image/jpeg"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ]
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-24",
+      "conformance": "2026-09-16",
+      "earliestPublicDisclosure": "2026-08-24",
+      "lastModification": "2026-09-16"
     }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-15",
-    "conformance": "2026-09-16",
-    "earliestPublicDisclosure": "2026-09-15",
-    "lastModification": "2026-09-16"
   }
-}
 ]
