@@ -12291,5 +12291,56 @@
       "earliestPublicDisclosure": "2026-09-09",
       "lastModification": "2026-09-17"
     }
+  },
+  {
+    "recordId": "01a05c79-cebd-7233-b511-48bc931cf2bf",
+    "applicant": "InReality ApS",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "InReality Capture - Android",
+        "O": "InReality ApS",
+        "C": "DK"
+      },
+      "minVersion": "1",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation",
+          "Google_PlayIntegrity"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-01",
+      "conformance": "2026-09-21",
+      "earliestPublicDisclosure": "2026-09-01",
+      "lastModification": "2026-09-21"
+    }
   }
 ]
