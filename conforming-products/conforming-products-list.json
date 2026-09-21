@@ -12293,12 +12293,12 @@
     }
   },
   {
-    "recordId": "01a05c79-cebd-7233-b511-48bc931cf2bf",
+    "recordId": "01a05c83-e09b-7abf-a9d3-4221680ac2c8",
     "applicant": "InReality ApS",
     "product": {
       "productType": "generatorProduct",
       "DN": {
-        "CN": "InReality Capture - Android",
+        "CN": "InReality Capture - iOS",
         "O": "InReality ApS",
         "C": "DK"
       },
@@ -12306,8 +12306,7 @@
       "assurance": {
         "maxAssuranceLevel": 1,
         "attestationMethods": [
-          "Android_KeyAttestation",
-          "Google_PlayIntegrity"
+          "Apple_AppAttest"
         ]
       },
       "disallowedSignals": {
