@@ -12482,5 +12482,54 @@
       "earliestPublicDisclosure": "2026-09-03",
       "lastModification": "2026-09-22"
     }
+  },
+  {
+    "recordId": "01a01eff-c2da-743b-985f-175d6767c282",
+    "applicant": "AI-ID Center",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "AI-ID",
+        "O": "AI-ID Center",
+        "C": "FR"
+      },
+      "minVersion": "2.1.3",
+      "infoURL": "https://ai-idcenter.org",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/png"
+        ],
+        "textUnstructured": []
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-20",
+      "conformance": "2026-09-22",
+      "earliestPublicDisclosure": "2026-09-20",
+      "lastModification": "2026-09-22"
+    }
   }
 ]
