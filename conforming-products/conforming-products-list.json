@@ -12343,81 +12343,144 @@
     }
   },
   {
-  "recordId": "01a0a29b-1db3-7d2d-a95e-7323eaea9aa8",
-  "applicant": "MuseBlossom Co., Ltd.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Contents Defence",
-      "O": "MuseBlossom Co., Ltd.",
-      "C": "KR"
+    "recordId": "01a0a29b-1db3-7d2d-a95e-7323eaea9aa8",
+    "applicant": "MuseBlossom Co., Ltd.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Contents Defence",
+        "O": "MuseBlossom Co., Ltd.",
+        "C": "KR"
+      },
+      "minVersion": "0.137.4",
+      "infoURL": "https://video.contentsdefence.com/create",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "0.137.4",
-    "infoURL": "https://video.contentsdefence.com/create",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-15",
+      "conformance": "2026-09-21",
+      "earliestPublicDisclosure": "2026-09-15",
+      "lastModification": "2026-09-21"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/tiff",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ],
-      "audio": [
-        "audio/flac",
-        "audio/mpeg",
-        "audio/wav",
-        "audio/mp4"
-      ]
+  {
+    "recordId": "01a0671b-e25c-70d4-b1bb-0937c4e43097",
+    "applicant": "DMRC LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Digimarc Validate Content Authenticity",
+        "O": "DMRC LLC",
+        "C": "US"
+      },
+      "minVersion": "",
+      "infoURL": "https://www.digimarc.com/solutions/provenance-authenticity",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched"
+        ]
+      }
     },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/tiff",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ],
-      "audio": [
-        "audio/flac",
-        "audio/mpeg",
-        "audio/wav",
-        "audio/mp4"
-      ]
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-03",
+      "conformance": "2026-09-22",
+      "earliestPublicDisclosure": "2026-09-03",
+      "lastModification": "2026-09-22"
     }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-15",
-    "conformance": "2026-09-21",
-    "earliestPublicDisclosure": "2026-09-15",
-    "lastModification": "2026-09-21"
   }
-}
 ]
