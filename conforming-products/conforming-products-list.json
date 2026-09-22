@@ -12341,5 +12341,83 @@
       "earliestPublicDisclosure": "2026-09-01",
       "lastModification": "2026-09-21"
     }
+  },
+  {
+  "recordId": "01a0a29b-1db3-7d2d-a95e-7323eaea9aa8",
+  "applicant": "MuseBlossom Co., Ltd.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Contents Defence",
+      "O": "MuseBlossom Co., Ltd.",
+      "C": "KR"
+    },
+    "minVersion": "0.137.4",
+    "infoURL": "https://video.contentsdefence.com/create",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/tiff",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/tiff",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-15",
+    "conformance": "2026-09-21",
+    "earliestPublicDisclosure": "2026-09-15",
+    "lastModification": "2026-09-21"
   }
+}
 ]
