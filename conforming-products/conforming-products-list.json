@@ -12531,5 +12531,62 @@
       "earliestPublicDisclosure": "2026-09-20",
       "lastModification": "2026-09-22"
     }
+  },
+  {
+  "recordId": "01a08d0d-49e6-7c53-9cb1-3411d7d6846f",
+  "applicant": "upperfast GmbH",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "ground6",
+      "O": "upperfast GmbH",
+      "C": "DE"
+    },
+    "minVersion": "",
+    "infoURL": "https://ground6.de",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-10",
+    "conformance": "2026-09-22",
+    "earliestPublicDisclosure": "2026-09-10",
+    "lastModification": "2026-09-22"
   }
+}
 ]
