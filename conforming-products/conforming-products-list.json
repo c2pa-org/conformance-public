@@ -11375,12 +11375,12 @@
   },
   {
     "recordId": "01a01f3c-1fa6-70e3-8f6d-1d43a9c099e1",
-    "applicant": "Autoenhance Ltd",
+    "applicant": "Autoenhance AI Ltd",
     "product": {
       "productType": "generatorProduct",
       "DN": {
         "CN": "Autoenhance.ai",
-        "O": "Autoenhance Ltd",
+        "O": "Autoenhance AI Ltd",
         "C": "UK",
         "OU": "Product"
       },
@@ -12533,63 +12533,63 @@
     }
   },
   {
-  "recordId": "01a08d0d-49e6-7c53-9cb1-3411d7d6846f",
-  "applicant": "upperfast GmbH",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "ground6",
-      "O": "upperfast GmbH",
-      "C": "DE"
+    "recordId": "01a08d0d-49e6-7c53-9cb1-3411d7d6846f",
+    "applicant": "upperfast GmbH",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "ground6",
+        "O": "upperfast GmbH",
+        "C": "DE"
+      },
+      "minVersion": "",
+      "infoURL": "https://ground6.de",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "",
-    "infoURL": "https://ground6.de",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-10",
+      "conformance": "2026-09-22",
+      "earliestPublicDisclosure": "2026-09-10",
+      "lastModification": "2026-09-22"
     }
   },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png"
-      ],
-      "video": [
-        "video/mp4"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-10",
-    "conformance": "2026-09-22",
-    "earliestPublicDisclosure": "2026-09-10",
-    "lastModification": "2026-09-22"
-  }
-},
-    {
+  {
     "recordId": "01a05c79-cebd-7233-b511-48bc931cf2bf",
     "applicant": "InReality ApS",
     "product": {
@@ -12639,5 +12639,57 @@
       "earliestPublicDisclosure": "2026-09-01",
       "lastModification": "2026-09-21"
     }
+  },
+  {
+    "recordId": "01a0cf84-fd53-71de-a670-568a16a7573a",
+    "applicant": "Google LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Media Processing Services",
+        "O": "Google LLC",
+        "C": "US",
+        "OU": "Google System 94123"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-23",
+      "conformance": "2026-09-25",
+      "earliestPublicDisclosure": "2026-09-23",
+      "lastModification": "2026-09-28"
+    }
   }
- ]
+]
