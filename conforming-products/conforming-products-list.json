@@ -11375,13 +11375,13 @@
   },
   {
     "recordId": "01a01f3c-1fa6-70e3-8f6d-1d43a9c099e1",
-    "applicant": "Autoenhance AI Ltd",
+    "applicant": "Autoenhance.AI Ltd",
     "product": {
       "productType": "generatorProduct",
       "DN": {
         "CN": "Autoenhance.ai",
-        "O": "Autoenhance AI Ltd",
-        "C": "UK",
+        "O": "Autoenhance.AI Ltd",
+        "C": "GB",
         "OU": "Product"
       },
       "minVersion": "",
@@ -12690,6 +12690,99 @@
       "conformance": "2026-09-25",
       "earliestPublicDisclosure": "2026-09-23",
       "lastModification": "2026-09-28"
+    }
+  },
+  {
+    "recordId": "019fea79-e32e-73d2-bcfe-33ed12828104",
+    "applicant": "SAP SE",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "SAP Watermark Service",
+        "O": "SAP SE",
+        "C": "DE"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-10",
+      "conformance": "2026-08-10",
+      "earliestPublicDisclosure": "2026-09-21",
+      "lastModification": "2026-09-29"
     }
   }
 ]
