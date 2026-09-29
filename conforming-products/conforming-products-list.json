@@ -12784,54 +12784,5 @@
       "earliestPublicDisclosure": "2026-09-21",
       "lastModification": "2026-09-29"
     }
-  },
-    {
-    "recordId": "019876a0-a763-7346-b7c8-fbba14fba9b2",
-    "applicant": "Adobe, Inc.",
-    "supportsCompressedManifests": false,
-    "status": "conformant",
-    "product": {
-      "productType": "generatorProduct",
-      "DN": {
-        "CN": "Adobe Content Authenticity",
-        "O": "Adobe, Inc.",
-        "OU": "",
-        "C": "US"
-      },
-      "minVersion": "1.0.0",
-      "assurance": {
-        "maxAssuranceLevel": 1
-      },
-      "disallowedSignals": {
-        "inception": [
-          "capturedMedia",
-          "capturedMediaStitched",
-          "nonGenAIDigitalCreation"
-        ]
-      }
-    },
-    "specVersion": [
-      "2.2"
-    ],
-    "conformanceProgramVersion": "0.1",
-    "containers": {
-      "generate": {},
-      "validate": {
-        "image": [
-          "image/jpeg",
-          "image/png"
-        ],
-        "video": [
-          "video/mp4",
-          "video/quicktime"
-        ]
-      }
-    },
-    "dates": {
-      "creation": "2025-08-04",
-      "conformance": "2026-09-16",
-      "earliestPublicDisclosure": "2025-08-17",
-      "lastModification": "2026-09-29"
-    }
   }
 ]
