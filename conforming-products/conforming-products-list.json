@@ -13030,5 +13030,63 @@
       "earliestPublicDisclosure": "2026-09-19",
       "lastModification": "2026-09-30"
     }
+  },
+   {
+  "recordId": "01a06150-5168-770f-b17a-8580c335a0e8",
+  "applicant": "InReality ApS",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "InReality Signing Service",
+      "O": "InReality ApS",
+      "C": "DK"
+    },
+    "minVersion": "1",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-02",
+    "conformance": "2026-09-29",
+    "earliestPublicDisclosure": "2026-09-02",
+    "lastModification": "2026-09-30"
   }
+}
 ]
