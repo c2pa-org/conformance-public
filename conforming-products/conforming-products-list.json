@@ -12975,5 +12975,60 @@
     "earliestPublicDisclosure": "2026-08-10",
     "lastModification": "2026-09-30"
   }
-}
+},
+  {
+    "recordId": "01a0bb0e-7e50-7284-987e-6c30a8ee7064",
+    "applicant": "Soundmarque Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Soundmarque",
+        "O": "Soundmarque Inc.",
+        "C": "US"
+      },
+      "minVersion": "0.1.0",
+      "infoURL": "https://www.soundmarque.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-19",
+      "conformance": "2026-09-29",
+      "earliestPublicDisclosure": "2026-09-19",
+      "lastModification": "2026-09-30"
+    }
+  }
 ]
