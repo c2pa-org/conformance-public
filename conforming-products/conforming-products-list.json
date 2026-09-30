@@ -12831,5 +12831,77 @@
     "earliestPublicDisclosure": "2026-09-11",
     "lastModification": "2026-09-30"
   }
+},
+  {
+  "recordId": "01a06b7f-44dd-705e-8f3d-d44e149817a3",
+  "applicant": "Smulp AB",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Crust",
+      "O": "Smulp AB",
+      "C": "SE"
+    },
+    "minVersion": "0.9.8",
+    "infoURL": "https://crustsystem.com/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-04",
+    "conformance": "2026-09-29",
+    "earliestPublicDisclosure": "2026-09-17",
+    "lastModification": "2026-09-30"
+  }
 }
 ]
