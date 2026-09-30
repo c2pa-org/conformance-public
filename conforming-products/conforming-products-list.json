@@ -12784,5 +12784,52 @@
       "earliestPublicDisclosure": "2026-09-21",
       "lastModification": "2026-09-29"
     }
+  },
+  {
+  "recordId": "01a02eb1-d2e8-7d58-bf1f-3a4914d85610",
+  "applicant": "Fieldnotes dot Dev Opc",
+  "product": {
+    "productType": "validatorProduct",
+    "DN": {
+      "CN": "Lens Proof Check",
+      "O": "Fieldnotes dot Dev Opc",
+      "C": "PH"
+    },
+    "minVersion": "0.14",
+    "infoURL": "https://check.lensproof.app/"
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {},
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp",
+        "image/heic"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-08-23",
+    "conformance": "2026-09-29",
+    "earliestPublicDisclosure": "2026-09-11",
+    "lastModification": "2026-09-30"
   }
+}
 ]
