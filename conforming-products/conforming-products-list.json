@@ -13063,10 +13063,16 @@
     "generate": {
       "image": [
         "image/jpeg",
-        "image/png"
+        "image/png",
+        "image/gif",
+        "image/webp"
       ],
       "video": [
         "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav"
       ]
     },
     "validate": {
@@ -13086,6 +13092,104 @@
     "creation": "2026-09-02",
     "conformance": "2026-09-29",
     "earliestPublicDisclosure": "2026-09-02",
+    "lastModification": "2026-09-30"
+  }
+},
+  {
+  "recordId": "01a07cbb-16a7-724f-bd20-98f8a4e03711",
+  "applicant": "IdentifAI Labs S.p.A.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "identifAI Watermarking Platform",
+      "O": "identifAI Labs S.p.A.",
+      "C": "IT"
+    },
+    "minVersion": "",
+    "infoURL": "https://identifai.net",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-07",
+    "conformance": "2026-09-29",
+    "earliestPublicDisclosure": "2026-09-28",
     "lastModification": "2026-09-30"
   }
 }
