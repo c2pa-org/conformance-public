@@ -13240,5 +13240,53 @@
     "earliestPublicDisclosure": "2026-10-01",
     "lastModification": "2026-10-01"
   }
+},
+   {
+  "recordId": "01a0852e-e04f-7fdb-b225-bb2298ae0d37",
+  "applicant": "Digital Sandbox B.V.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "EverStamp for iOS",
+      "O": "Digital Sandbox B.V.",
+      "C": "NL"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://everstamp.app",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": [
+        "Apple_AppAttest"
+      ]
+    },
+    "disallowedSignals": {
+      "inception": [
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-09",
+    "conformance": "2026-09-09",
+    "earliestPublicDisclosure": "2026-10-01",
+    "lastModification": "2026-10-01"
+  }
 }
 ]
