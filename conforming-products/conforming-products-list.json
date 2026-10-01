@@ -13288,5 +13288,82 @@
     "earliestPublicDisclosure": "2026-10-01",
     "lastModification": "2026-10-01"
   }
+},
+  {
+  "recordId": "01a085bf-e936-7ac3-991c-b5323c3dec4a",
+  "applicant": "Paia Intelligence GmbH",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "laria",
+      "O": "Paia Intelligence GmbH",
+      "C": "DE"
+    },
+    "minVersion": "1",
+    "infoURL": "https://www.laria.ai/en/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/webp",
+        "image/avif"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/webp",
+        "image/avif"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-09",
+    "conformance": "2026-09-15",
+    "earliestPublicDisclosure": "2026-10-01",
+    "lastModification": "2026-10-01"
+  }
 }
 ]
