@@ -13423,5 +13423,56 @@
     "earliestPublicDisclosure": "2026-09-28",
     "lastModification": "2026-10-05"
   }
+},
+  {
+  "recordId": "01a01c77-f0b9-7436-a638-a19f1c7853eb",
+  "applicant": "Rheely Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Rheely for iOS",
+      "O": "Rheely Inc.",
+      "C": "CA"
+    },
+    "minVersion": "0.4.0",
+    "infoURL": "https://www.rheely.com/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": [
+        "Apple_AppAttest"
+      ]
+    },
+    "disallowedSignals": {
+      "inception": [
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg"
+      ],
+      "video": [
+        "video/quicktime"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-08-20",
+    "conformance": "2026-10-05",
+    "earliestPublicDisclosure": "2026-08-29",
+    "lastModification": "2026-10-05"
+  }
 }
 ]
