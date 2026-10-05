@@ -13365,5 +13365,63 @@
     "earliestPublicDisclosure": "2026-10-01",
     "lastModification": "2026-10-01"
   }
+},
+    {
+  "recordId": "01a0e937-f263-7d96-819e-6b45e2d68870",
+  "applicant": "Apolonis Social Media Management Services - FZCO",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Say It Again",
+      "O": "Apolonis Social Media Management Services - FZCO",
+      "C": "AE"
+    },
+    "minVersion": "1",
+    "infoURL": "https://sayitagain.ai",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-28",
+    "conformance": "2026-10-05",
+    "earliestPublicDisclosure": "2026-09-28",
+    "lastModification": "2026-10-05"
+  }
 }
 ]
