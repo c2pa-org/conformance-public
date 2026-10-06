@@ -13526,5 +13526,143 @@
       "earliestPublicDisclosure": "2026-08-29",
       "lastModification": "2026-10-05"
     }
+  },
+    {
+  "recordId": "01a001ae-b04c-7a11-b0c1-65302e1db9ba",
+  "applicant": "Trufo Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Trufo Provenance Service",
+      "O": "Trufo Inc.",
+      "C": "US"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://trufo.ai/products/provenance",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif",
+        "image/x-tiff-based",
+        "image/x-riff-based"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime",
+        "video/x-bmff-based",
+        "video/x-riff-based"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4",
+        "audio/x-riff-based"
+      ],
+      "textHtml": [],
+      "textUnstructured": [],
+      "textStructured": [],
+      "documents": [
+        "application/pdf"
+      ],
+      "fonts": [],
+      "mlModel": []
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif",
+        "image/x-tiff-based",
+        "image/x-riff-based"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime",
+        "video/x-bmff-based",
+        "video/x-riff-based"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4",
+        "audio/x-riff-based"
+      ],
+      "textHtml": [],
+      "textUnstructured": [],
+      "textStructured": [],
+      "documents": [
+        "application/pdf"
+      ],
+      "fonts": [],
+      "mlModel": []
+    }
+  },
+  "liveVideo": {
+    "supported": true,
+    "encapsulations": [
+      {
+        "type": "fMP4",
+        "methods": [
+          "verifiable-segment-info"
+        ],
+        "generation": true,
+        "validation": true
+      },
+      {
+        "type": "CMAF",
+        "methods": [
+          "verifiable-segment-info"
+        ],
+        "generation": true,
+        "validation": true
+      }
+    ]
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-08-14",
+    "conformance": "2026-10-05",
+    "earliestPublicDisclosure": "2026-08-17",
+    "lastModification": "2026-10-06"
   }
+}
 ]
