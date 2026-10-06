@@ -12786,196 +12786,196 @@
     }
   },
   {
-  "recordId": "01a02eb1-d2e8-7d58-bf1f-3a4914d85610",
-  "applicant": "Fieldnotes dot Dev Opc",
-  "product": {
-    "productType": "validatorProduct",
-    "DN": {
-      "CN": "Lens Proof Check",
-      "O": "Fieldnotes dot Dev Opc",
-      "C": "PH"
+    "recordId": "01a02eb1-d2e8-7d58-bf1f-3a4914d85610",
+    "applicant": "Fieldnotes dot Dev Opc",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Lens Proof Check",
+        "O": "Fieldnotes dot Dev Opc",
+        "C": "PH"
+      },
+      "minVersion": "0.14",
+      "infoURL": "https://check.lensproof.app/"
     },
-    "minVersion": "0.14",
-    "infoURL": "https://check.lensproof.app/"
-  },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": true,
-  "containers": {
-    "generate": {},
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/webp",
-        "image/heic"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ],
-      "documents": [
-        "application/pdf"
-      ]
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp",
+          "image/heic"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-23",
+      "conformance": "2026-09-29",
+      "earliestPublicDisclosure": "2026-09-11",
+      "lastModification": "2026-09-30"
     }
   },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-08-23",
-    "conformance": "2026-09-29",
-    "earliestPublicDisclosure": "2026-09-11",
-    "lastModification": "2026-09-30"
-  }
-},
   {
-  "recordId": "01a06b7f-44dd-705e-8f3d-d44e149817a3",
-  "applicant": "Smulp AB",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Crust",
-      "O": "Smulp AB",
-      "C": "SE"
+    "recordId": "01a06b7f-44dd-705e-8f3d-d44e149817a3",
+    "applicant": "Smulp AB",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Crust",
+        "O": "Smulp AB",
+        "C": "SE"
+      },
+      "minVersion": "0.9.8",
+      "infoURL": "https://crustsystem.com/",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "0.9.8",
-    "infoURL": "https://crustsystem.com/",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-04",
+      "conformance": "2026-09-29",
+      "earliestPublicDisclosure": "2026-09-17",
+      "lastModification": "2026-09-30"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/gif",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mpeg",
-        "audio/wav"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/gif",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mpeg",
-        "audio/wav"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-04",
-    "conformance": "2026-09-29",
-    "earliestPublicDisclosure": "2026-09-17",
-    "lastModification": "2026-09-30"
-  }
-},
   {
-  "recordId": "019fea49-23ce-7731-b324-c9325964c421",
-  "applicant": "DIGITALPASSION LTD",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "kontiqo",
-      "O": "DIGITALPASSION LTD",
-      "C": "CY"
+    "recordId": "019fea49-23ce-7731-b324-c9325964c421",
+    "applicant": "DIGITALPASSION LTD",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "kontiqo",
+        "O": "DIGITALPASSION LTD",
+        "C": "CY"
+      },
+      "minVersion": "",
+      "infoURL": "https://kontiqo.io",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "",
-    "infoURL": "https://kontiqo.io",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp"
+        ],
+        "video": [],
+        "audio": [],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-10",
+      "conformance": "2026-09-29",
+      "earliestPublicDisclosure": "2026-08-10",
+      "lastModification": "2026-09-30"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": true,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png"
-      ],
-      "video": [],
-      "audio": [],
-      "textHtml": [],
-      "textUnstructured": [],
-      "textStructured": [],
-      "documents": [],
-      "fonts": [],
-      "mlModel": []
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/gif",
-        "image/webp"
-      ],
-      "video": [],
-      "audio": [],
-      "textHtml": [],
-      "textUnstructured": [],
-      "textStructured": [],
-      "documents": [],
-      "fonts": [],
-      "mlModel": []
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-08-10",
-    "conformance": "2026-09-29",
-    "earliestPublicDisclosure": "2026-08-10",
-    "lastModification": "2026-09-30"
-  }
-},
   {
     "recordId": "01a0bb0e-7e50-7284-987e-6c30a8ee7064",
     "applicant": "Soundmarque Inc.",
@@ -13031,499 +13031,500 @@
       "lastModification": "2026-09-30"
     }
   },
-   {
-  "recordId": "01a06150-5168-770f-b17a-8580c335a0e8",
-  "applicant": "InReality ApS",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "InReality Signing Service",
-      "O": "InReality ApS",
-      "C": "DK"
-    },
-    "minVersion": "1",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
-    },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
-    }
-  },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/gif",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mpeg",
-        "audio/wav"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg"
-      ],
-      "video": [
-        "video/mp4"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-02",
-    "conformance": "2026-09-29",
-    "earliestPublicDisclosure": "2026-09-02",
-    "lastModification": "2026-09-30"
-  }
-},
   {
-  "recordId": "01a07cbb-16a7-724f-bd20-98f8a4e03711",
-  "applicant": "IdentifAI Labs S.p.A.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "identifAI Watermarking Platform",
-      "O": "identifAI Labs S.p.A.",
-      "C": "IT"
+    "recordId": "01a06150-5168-770f-b17a-8580c335a0e8",
+    "applicant": "InReality ApS",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "InReality Signing Service",
+        "O": "InReality ApS",
+        "C": "DK"
+      },
+      "minVersion": "1",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "",
-    "infoURL": "https://identifai.net",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-02",
+      "conformance": "2026-09-29",
+      "earliestPublicDisclosure": "2026-09-02",
+      "lastModification": "2026-09-30"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/jxl",
-        "image/png",
-        "image/gif",
-        "image/x-adobe-dng",
-        "image/tiff",
-        "image/webp",
-        "image/heic",
-        "image/heif",
-        "image/avif"
-      ],
-      "video": [
-        "video/x-msvideo",
-        "video/mp4",
-        "video/quicktime"
-      ],
-      "audio": [
-        "audio/flac",
-        "audio/mpeg",
-        "audio/wav",
-        "audio/mp4"
-      ],
-      "documents": [
-        "application/pdf"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/jxl",
-        "image/png",
-        "image/gif",
-        "image/x-adobe-dng",
-        "image/tiff",
-        "image/webp",
-        "image/heic",
-        "image/heif",
-        "image/avif"
-      ],
-      "video": [
-        "video/x-msvideo",
-        "video/mp4",
-        "video/quicktime"
-      ],
-      "audio": [
-        "audio/flac",
-        "audio/mpeg",
-        "audio/wav",
-        "audio/mp4"
-      ],
-      "documents": [
-        "application/pdf"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-07",
-    "conformance": "2026-09-29",
-    "earliestPublicDisclosure": "2026-09-28",
-    "lastModification": "2026-09-30"
-  }
-},
   {
-  "recordId": "01a08fdc-dfb3-70e5-bc1b-c691340600b9",
-  "applicant": "Digital Sandbox B.V.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "EverStamp for Android",
-      "O": "Digital Sandbox B.V.",
-      "C": "NL"
+    "recordId": "01a07cbb-16a7-724f-bd20-98f8a4e03711",
+    "applicant": "IdentifAI Labs S.p.A.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "identifAI Watermarking Platform",
+        "O": "identifAI Labs S.p.A.",
+        "C": "IT"
+      },
+      "minVersion": "",
+      "infoURL": "https://identifai.net",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "1.0.0",
-    "infoURL": "https://everstamp.app",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": [
-        "Android_KeyAttestation"
-      ]
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-07",
+      "conformance": "2026-09-29",
+      "earliestPublicDisclosure": "2026-09-28",
+      "lastModification": "2026-09-30"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg"
-      ]
-    },
-    "validate": {}
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-11",
-    "conformance": "2026-09-11",
-    "earliestPublicDisclosure": "2026-10-01",
-    "lastModification": "2026-10-01"
-  }
-},
-   {
-  "recordId": "01a0852e-e04f-7fdb-b225-bb2298ae0d37",
-  "applicant": "Digital Sandbox B.V.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "EverStamp for iOS",
-      "O": "Digital Sandbox B.V.",
-      "C": "NL"
-    },
-    "minVersion": "1.0.0",
-    "infoURL": "https://everstamp.app",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": [
-        "Apple_AppAttest"
-      ]
-    },
-    "disallowedSignals": {
-      "inception": [
-        "nonGenAIDigitalCreation"
-      ]
-    }
-  },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg"
-      ]
-    },
-    "validate": {}
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-09",
-    "conformance": "2026-09-09",
-    "earliestPublicDisclosure": "2026-10-01",
-    "lastModification": "2026-10-01"
-  }
-},
   {
-  "recordId": "01a085bf-e936-7ac3-991c-b5323c3dec4a",
-  "applicant": "Paia Intelligence GmbH",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "laria",
-      "O": "Paia Intelligence GmbH",
-      "C": "DE"
+    "recordId": "01a08fdc-dfb3-70e5-bc1b-c691340600b9",
+    "applicant": "Digital Sandbox B.V.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "EverStamp for Android",
+        "O": "Digital Sandbox B.V.",
+        "C": "NL"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://everstamp.app",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "1",
-    "infoURL": "https://www.laria.ai/en/",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {}
     },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-11",
+      "conformance": "2026-09-11",
+      "earliestPublicDisclosure": "2026-10-01",
+      "lastModification": "2026-10-01"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/gif",
-        "image/webp",
-        "image/avif"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mpeg",
-        "audio/wav",
-        "audio/mp4"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/gif",
-        "image/webp",
-        "image/avif"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ],
-      "audio": [
-        "audio/mpeg",
-        "audio/wav",
-        "audio/mp4"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-09",
-    "conformance": "2026-09-15",
-    "earliestPublicDisclosure": "2026-10-01",
-    "lastModification": "2026-10-01"
-  }
-},
-    {
-  "recordId": "01a0e937-f263-7d96-819e-6b45e2d68870",
-  "applicant": "Apolonis Social Media Management Services - FZCO",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Say It Again",
-      "O": "Apolonis Social Media Management Services - FZCO",
-      "C": "AE"
-    },
-    "minVersion": "1",
-    "infoURL": "https://sayitagain.ai",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
-    },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
-    }
-  },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg"
-      ],
-      "video": [
-        "video/mp4"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg"
-      ],
-      "video": [
-        "video/mp4"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-28",
-    "conformance": "2026-10-05",
-    "earliestPublicDisclosure": "2026-09-28",
-    "lastModification": "2026-10-05"
-  }
-},
   {
-  "recordId": "01a01c77-f0b9-7436-a638-a19f1c7853eb",
-  "applicant": "Rheely Inc.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Rheely for iOS",
-      "O": "Rheely Inc.",
-      "C": "CA"
+    "recordId": "01a0852e-e04f-7fdb-b225-bb2298ae0d37",
+    "applicant": "Digital Sandbox B.V.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "EverStamp for iOS",
+        "O": "Digital Sandbox B.V.",
+        "C": "NL"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://everstamp.app",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "0.4.0",
-    "infoURL": "https://www.rheely.com/",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": [
-        "Apple_AppAttest"
-      ]
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {}
     },
-    "disallowedSignals": {
-      "inception": [
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-09",
+      "conformance": "2026-09-09",
+      "earliestPublicDisclosure": "2026-10-01",
+      "lastModification": "2026-10-01"
     }
   },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg"
-      ],
-      "video": [
-        "video/quicktime"
-      ]
-    },
-    "validate": {}
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-08-20",
-    "conformance": "2026-10-05",
-    "earliestPublicDisclosure": "2026-08-29",
-    "lastModification": "2026-10-05"
-  }
-},
   {
-  "recordId": "01a01c77-f0b9-7436-a638-a19f1c7853eb",
-  "applicant": "Rheely Inc.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Rheely for iOS",
-      "O": "Rheely Inc.",
-      "C": "CA"
+    "recordId": "01a085bf-e936-7ac3-991c-b5323c3dec4a",
+    "applicant": "Paia Intelligence GmbH",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "laria",
+        "O": "Paia Intelligence GmbH",
+        "C": "DE"
+      },
+      "minVersion": "1",
+      "infoURL": "https://www.laria.ai/en/",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "0.4.0",
-    "infoURL": "https://www.rheely.com/",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": [
-        "Apple_AppAttest"
-      ]
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp",
+          "image/avif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-09",
+      "conformance": "2026-09-15",
+      "earliestPublicDisclosure": "2026-10-01",
+      "lastModification": "2026-10-01"
     }
   },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg"
-      ],
-      "video": [
-        "video/quicktime"
-      ]
+  {
+    "recordId": "01a0e937-f263-7d96-819e-6b45e2d68870",
+    "applicant": "Apolonis Social Media Management Services - FZCO",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Say It Again",
+        "O": "Apolonis Social Media Management Services - FZCO",
+        "C": "AE"
+      },
+      "minVersion": "1",
+      "infoURL": "https://sayitagain.ai",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "validate": {}
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-28",
+      "conformance": "2026-10-05",
+      "earliestPublicDisclosure": "2026-09-28",
+      "lastModification": "2026-10-05"
+    }
   },
-  "liveVideo": {
-    "supported": false
+  {
+    "recordId": "01a01c77-f0b9-7436-a638-a19f1c7853eb",
+    "applicant": "Rheely Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Rheely for iOS",
+        "O": "Rheely Inc.",
+        "C": "CA"
+      },
+      "minVersion": "0.4.0",
+      "infoURL": "https://www.rheely.com/",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/quicktime"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-20",
+      "conformance": "2026-10-05",
+      "earliestPublicDisclosure": "2026-08-29",
+      "lastModification": "2026-10-05"
+    }
   },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-08-20",
-    "conformance": "2026-10-05",
-    "earliestPublicDisclosure": "2026-08-29",
-    "lastModification": "2026-10-05"
+  {
+    "recordId": "01a01c80-2192-7a84-a866-5644d791cdd2",
+    "applicant": "Rheely Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Rheely for Android",
+        "O": "Rheely Inc.",
+        "C": "CA"
+      },
+      "minVersion": "0.4.0",
+      "infoURL": "https://www.rheely.com/",
+      "assurance": {
+        "maxAssuranceLevel": 2,
+        "attestationMethods": [
+          "Android_KeyAttestation",
+          "Google_PlayIntegrity"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-20",
+      "conformance": "2026-10-05",
+      "earliestPublicDisclosure": "2026-08-29",
+      "lastModification": "2026-10-05"
+    }
   }
-}
 ]
