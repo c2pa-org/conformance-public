@@ -13787,5 +13787,132 @@
     "earliestPublicDisclosure": "2026-09-23",
     "lastModification": "2026-10-06"
   }
+},
+  {
+  "recordId": "01a00bcb-822b-7522-857f-9cb119937071",
+  "applicant": "Swiss Trust Layer AG",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Swiss Copyright Office",
+      "O": "Swiss Trust Layer AG",
+      "C": "CH",
+      "OU": "Compliance Department"
+    },
+    "minVersion": "1",
+    "infoURL": "http://www.swisstrustlayer.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2",
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ],
+      "textHtml": [],
+      "textUnstructured": [],
+      "textStructured": [],
+      "documents": [],
+      "fonts": [],
+      "mlModel": []
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ],
+      "textHtml": [],
+      "textUnstructured": [],
+      "textStructured": [],
+      "documents": [],
+      "fonts": [],
+      "mlModel": []
+    }
+  },
+  "liveVideo": {
+    "supported": true,
+    "encapsulations": [
+      {
+        "type": "fMP4",
+        "methods": [
+          "per-segment",
+          "verifiable-segment-info"
+        ],
+        "generation": false,
+        "validation": true
+      },
+      {
+        "type": "CMAF",
+        "methods": [
+          "per-segment",
+          "verifiable-segment-info"
+        ],
+        "generation": false,
+        "validation": true
+      }
+    ]
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-08-16",
+    "conformance": "2026-10-05",
+    "earliestPublicDisclosure": "2026-08-18",
+    "lastModification": "2026-10-06"
+  }
 }
 ]
