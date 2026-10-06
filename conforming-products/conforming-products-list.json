@@ -13747,5 +13747,45 @@
     "earliestPublicDisclosure": "2026-08-31",
     "lastModification": "2026-10-06"
   }
+},
+  {
+  "recordId": "01a0d0e4-b6c7-73e8-84ff-7442cf014805",
+  "applicant": "Aethyia Inc.",
+  "product": {
+    "productType": "validatorProduct",
+    "DN": {
+      "CN": "Provenote",
+      "O": "Aethyia Inc.",
+      "C": "US"
+    },
+    "minVersion": "0.1.0",
+    "infoURL": "https://provenote.us"
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {},
+    "validate": {
+      "image": [
+        "image/jpeg"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-24",
+    "conformance": "2026-10-05",
+    "earliestPublicDisclosure": "2026-09-23",
+    "lastModification": "2026-10-06"
+  }
 }
 ]
