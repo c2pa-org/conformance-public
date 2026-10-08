@@ -14029,5 +14029,67 @@
     "earliestPublicDisclosure": "2026-10-02",
     "lastModification": "2026-10-08"
   }
+},
+  {
+  "recordId": "01a0e90c-9959-78f0-ba15-241dd5ba4e51",
+  "applicant": "Awen AI Corporation",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Awen",
+      "O": "Awen AI Corporation",
+      "C": "US"
+    },
+    "minVersion": "v1.54.0",
+    "infoURL": "https://www.awen.ai/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/svg+xml",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-28",
+    "conformance": "2026-10-08",
+    "earliestPublicDisclosure": "2026-10-01",
+    "lastModification": "2026-10-08"
+  }
 }
 ]
