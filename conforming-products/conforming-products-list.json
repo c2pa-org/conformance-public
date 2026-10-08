@@ -14131,5 +14131,77 @@
     "earliestPublicDisclosure": "2026-09-09",
     "lastModification": "2026-10-08"
   }
+},
+  
+  {
+  "recordId": "01a01b59-ea6c-70d5-9ea5-931d801bb7d5",
+  "applicant": "Luma AI, Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Luma",
+      "O": "Luma AI, Inc.",
+      "C": "US"
+    },
+    "minVersion": "",
+    "infoURL": "https://lumalabs.ai/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-08-19",
+    "conformance": "2026-10-08",
+    "earliestPublicDisclosure": "2026-09-30",
+    "lastModification": "2026-10-08"
+  }
 }
 ]
