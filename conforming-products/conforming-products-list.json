@@ -14091,5 +14091,45 @@
     "earliestPublicDisclosure": "2026-10-01",
     "lastModification": "2026-10-08"
   }
+},
+  {
+  "recordId": "01a08bc1-f24c-74a6-a967-283ae7ef00f8",
+  "applicant": "Cultural Exchanges",
+  "product": {
+    "productType": "validatorProduct",
+    "DN": {
+      "CN": "CEPS",
+      "O": "Cultural Exchanges",
+      "C": "IN"
+    },
+    "minVersion": "1",
+    "infoURL": "https://culturalexchanges.net"
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {},
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/webp"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-10",
+    "conformance": "2026-10-08",
+    "earliestPublicDisclosure": "2026-09-09",
+    "lastModification": "2026-10-08"
+  }
 }
 ]
