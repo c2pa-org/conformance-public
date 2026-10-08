@@ -13968,5 +13968,66 @@
     "earliestPublicDisclosure": "2026-08-18",
     "lastModification": "2026-10-07"
   }
+},
+  {
+  "recordId": "01a10a3f-780a-7cb4-bcf4-8992db217cb9",
+  "applicant": "Pixmine AB",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "PixPax",
+      "O": "Pixmine AB",
+      "C": "SE"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://www.pixpax.ai",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-05",
+    "conformance": "2026-10-08",
+    "earliestPublicDisclosure": "2026-10-02",
+    "lastModification": "2026-10-08"
+  }
 }
 ]
