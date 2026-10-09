@@ -14202,5 +14202,71 @@
     "earliestPublicDisclosure": "2026-09-30",
     "lastModification": "2026-10-08"
   }
+},
+  {
+  "recordId": "01a021e0-1a39-76a2-b4d3-164bb031ebfa",
+  "applicant": "Evixar Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "EAF",
+      "O": "Evixar Inc.",
+      "C": "JP"
+    },
+    "minVersion": "1",
+    "infoURL": "https://www.evixar.com/overview/en/#eaf",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    },
+    "validate": {
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-08-21",
+    "conformance": "2026-10-08",
+    "earliestPublicDisclosure": "2026-08-21",
+    "lastModification": "2026-10-08"
+  }
 }
 ]
