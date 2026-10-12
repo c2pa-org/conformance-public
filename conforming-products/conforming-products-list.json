@@ -14840,5 +14840,71 @@
     "earliestPublicDisclosure": "2026-08-23",
     "lastModification": "2026-10-12"
   }
+},
+  {
+  "recordId": "01a0fed6-63c5-786f-b3e0-11936316deae",
+  "applicant": "Camera Bits, Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Photo Mechanic",
+      "O": "Camera Bits, Inc.",
+      "C": "US"
+    },
+    "minVersion": "2026.10.9976",
+    "infoURL": "https://www.camerabits.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-02",
+    "conformance": "2026-10-12",
+    "earliestPublicDisclosure": "2026-10-08",
+    "lastModification": "2026-10-12"
+  }
 }
 ]
