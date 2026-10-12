@@ -14377,5 +14377,59 @@
     "earliestPublicDisclosure": "2026-10-01",
     "lastModification": "2026-10-09"
   }
+},
+  {
+  "recordId": "01a10ed4-4b2c-7653-bc58-0d7e92abf584",
+  "applicant": "Google LLC",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Google Media Processing Services",
+      "O": "Google LLC",
+      "C": "US",
+      "OU": "Google System 71651"
+    },
+    "minVersion": "",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.1",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-06",
+    "conformance": "2026-10-09",
+    "earliestPublicDisclosure": "2026-10-05",
+    "lastModification": "2026-10-09"
+  }
 }
 ]
