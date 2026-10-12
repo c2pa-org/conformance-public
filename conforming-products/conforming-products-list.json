@@ -14431,5 +14431,69 @@
     "earliestPublicDisclosure": "2026-10-05",
     "lastModification": "2026-10-09"
   }
+},
+  {
+  "recordId": "019ff2ac-ccfb-7524-90ff-796e5010cf51",
+  "applicant": "Sitecore USA, Inc.",
+  "product": {
+    "productType": "validatorProduct",
+    "DN": {
+      "CN": "SitecoreAI DAM (fka Content Hub)",
+      "O": "Sitecore",
+      "C": "US"
+    },
+    "minVersion": "",
+    "infoURL": "https://www.sitecore.com/platform/digital-asset-management"
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [],
+      "video": [],
+      "audio": [],
+      "textHtml": [],
+      "textUnstructured": [],
+      "textStructured": [],
+      "documents": [],
+      "fonts": [],
+      "mlModel": []
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/wav"
+      ],
+      "textHtml": [],
+      "textUnstructured": [],
+      "textStructured": [],
+      "documents": [],
+      "fonts": [],
+      "mlModel": []
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-08-11",
+    "conformance": "2026-10-12",
+    "earliestPublicDisclosure": "2026-08-18",
+    "lastModification": "2026-10-12"
+  }
 }
 ]
