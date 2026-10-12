@@ -14549,5 +14549,55 @@
     "earliestPublicDisclosure": "2026-10-05",
     "lastModification": "2026-10-12"
   }
+},
+  {
+  "recordId": "01a0d465-935b-7b22-bc84-c9dad753e8b0",
+  "applicant": "TOONHUB TECH LTD",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "ToonHub AI Marking Service",
+      "O": "TOONHUB TECH LTD",
+      "C": "CY"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://toon-hub.com/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-24",
+    "conformance": "2026-10-12",
+    "earliestPublicDisclosure": "2026-09-24",
+    "lastModification": "2026-10-12"
+  }
 }
 ]
