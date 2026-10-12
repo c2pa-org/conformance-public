@@ -14906,5 +14906,55 @@
     "earliestPublicDisclosure": "2026-10-08",
     "lastModification": "2026-10-12"
   }
+},
+ {
+  "recordId": "01a03444-aad0-768b-a90b-bed11aa64966",
+  "applicant": "HeyGen Technology Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "HeyGen",
+      "O": "HeyGen Technology Inc.",
+      "C": "US"
+    },
+    "minVersion": "",
+    "infoURL": "https://www.heygen.com/about",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": [
+        "AWS_NitroEnclaveAttestation"
+      ]
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.1",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-08-24",
+    "conformance": "2026-10-12",
+    "earliestPublicDisclosure": "2026-08-22",
+    "lastModification": "2026-10-12"
+  }
 }
 ]
