@@ -14753,5 +14753,92 @@
     "earliestPublicDisclosure": "2026-09-14",
     "lastModification": "2026-10-12"
   }
+},
+  {
+  "recordId": "01a02dac-0da7-7617-ab70-0ae408dac757",
+  "applicant": "Idomoo Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Lucas AI Video",
+      "O": "Idomoo Inc.",
+      "C": "US",
+      "OU": "R&D"
+    },
+    "minVersion": "",
+    "infoURL": "https://studio.idomoo.com/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/wav"
+      ]
+    },
+    "validate": {
+       "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/wav",
+        "audio/mpeg"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": true,
+    "encapsulations": [
+      {
+        "type": "fMP4",
+        "methods": [
+          "verifiable-segment-info"
+        ],
+        "generation": true,
+        "validation": false
+      },
+      {
+        "type": "CMAF",
+        "methods": [
+          "verifiable-segment-info"
+        ],
+        "generation": true,
+        "validation": false
+      }
+    ]
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-08-23",
+    "conformance": "2026-10-12",
+    "earliestPublicDisclosure": "2026-08-23",
+    "lastModification": "2026-10-12"
+  }
 }
 ]
