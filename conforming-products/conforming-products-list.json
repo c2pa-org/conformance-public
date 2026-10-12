@@ -14495,5 +14495,59 @@
     "earliestPublicDisclosure": "2026-08-18",
     "lastModification": "2026-10-12"
   }
+},
+  {
+  "recordId": "01a10d5d-6218-78dd-be2d-5eafe698dd55",
+  "applicant": "EVOLOX, Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Genera Space",
+      "O": "EVOLOX, Inc.",
+      "C": "US"
+    },
+    "minVersion": "1",
+    "infoURL": "https://www.generaspace.ai/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/tiff",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-05",
+    "conformance": "2026-10-12",
+    "earliestPublicDisclosure": "2026-10-05",
+    "lastModification": "2026-10-12"
+  }
 }
 ]
