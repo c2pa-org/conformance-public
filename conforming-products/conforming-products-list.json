@@ -14956,5 +14956,105 @@
     "earliestPublicDisclosure": "2026-08-22",
     "lastModification": "2026-10-12"
   }
+},
+  {
+  "recordId": "01a0fa65-d5d1-7377-9edc-14730c9cbff6",
+  "applicant": "Original Pictures Technologies, Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Original Pictures Generator Product",
+      "O": "Original Pictures Technologies, Inc.",
+      "C": "US"
+    },
+    "minVersion": "sign0.8.0",
+    "infoURL": "https://originalpictures.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+        "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/webp",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav",
+        "audio/flac",
+        "audio/mp4"
+      ],
+      "documents": [],
+      "fonts": [],
+      "mlModel": []
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/webp",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav",
+        "audio/flac",
+        "audio/mp4"
+      ],
+      "documents": [],
+      "fonts": [],
+      "mlModel": []
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-02",
+    "conformance": "2026-10-13",
+    "earliestPublicDisclosure": "2026-10-02",
+    "lastModification": "2026-10-13"
+  }
 }
 ]
