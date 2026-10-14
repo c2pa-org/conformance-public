@@ -15056,5 +15056,53 @@
     "earliestPublicDisclosure": "2026-10-02",
     "lastModification": "2026-10-13"
   }
+},
+    {
+  "recordId": "01a12a60-253a-7333-b6fb-69b44226f6d8",
+  "applicant": "Monocursive",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Hubfluencer Studio",
+      "O": "Monocursive",
+      "C": "FR"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://hubfluencer.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-11",
+    "conformance": "2026-10-14",
+    "earliestPublicDisclosure": "2026-10-11",
+    "lastModification": "2026-10-14"
+  }
 }
 ]
