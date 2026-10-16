@@ -15104,5 +15104,82 @@
     "earliestPublicDisclosure": "2026-10-11",
     "lastModification": "2026-10-14"
   }
-}
+},
+  {
+    "recordId": "01a057f5-cd6b-700a-8e3a-6996bddbc14d",
+    "applicant": "vivo Mobile Communication Co., Ltd.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Jovi Windows",
+        "O": "vivo Mobile Communication Co., Ltd.",
+        "C": "CN"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ],
+        "textHtml": [],
+        "textStructured": []
+        },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ],
+        "textHtml": [],
+        "textStructured": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-31",
+      "conformance": "2026-09-22",
+      "earliestPublicDisclosure": "2026-10-08",
+      "lastModification": "2026-10-16"
+    }
+  }
 ]
