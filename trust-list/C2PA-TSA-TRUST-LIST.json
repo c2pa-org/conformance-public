@@ -910,6 +910,61 @@
             }
           }
         ]
+      },
+        {
+        "TrustedEntityInformation": {
+          "TEName": [
+            {
+              "lang": "en",
+              "value": "NETLOCK Informatikai és Hálózatbiztonsági Korlátolt Felelősségű Társaság"
+            }
+          ],
+          "TEAddress": {
+            "TEPostalAddress": [
+              {
+                "lang": "en",
+                "StreetAddress": "Hungária körút 17-19.",
+                "Country": "Hungary",
+                "Locality": "Budapest",
+                "StateOrProvince": "Budapest",
+                "PostalCode": "1143"
+              }
+            ],
+            "TEElectronicAddress": [
+              {
+                "lang": "en",
+                "uriValue": "mailto:trust@netlock.com"
+              }
+            ]
+          },
+          "TEInformationURI": [
+            {
+              "lang": "en",
+              "uriValue": "netlock.com"
+            }
+          ]
+        },
+        "TrustedEntityServices": [
+          {
+            "ServiceInformation": {
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "NETLOCK ECC C2PA TSA G2 CA 1"
+                }
+              ],
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIDRDCCAsmgAwIBAgIOaqKfZwATAKo2v7zrim8wCgYIKoZIzj0EAwMwSjELMAkGA1UEBhMCSFUxFTATBgNVBAoMDE5FVExPQ0sgS2Z0LjEkMCIGA1UEAwwbTkVUTE9DSyBFQ0MgQzJQQSBSb290IENBIEcyMB4XDTI2MDkxMDEzMjUxNVoXDTM4MDEwNzEzMjUxNVowSzELMAkGA1UEBhMCSFUxFTATBgNVBAoMDE5FVExPQ0sgS2Z0LjElMCMGA1UEAwwcTkVUTE9DSyBFQ0MgQzJQQSBUU0EgRzIgQ0EgMTB2MBAGByqGSM49AgEGBSuBBAAiA2IABHIeMn3Vbe31QUdtPA8RZTR/cHrV2ncKLH+OZsjEpmVrcOHgvefkn4wroq+oz+YvMaeVHi4U8Br0IBKZs9EyX8z4gXk74P08q2WvT5xjy9inWKTTAk2HWfaIA6Vg7/n5sqOCAXMwggFvMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMBMGA1UdJQQMMAoGCCsGAQUFBwMIMB0GA1UdDgQWBBRZPt5mrBPBMUKnL2sfZ+9R0dQxZTAfBgNVHSMEGDAWgBQADb0BmkzbYJDQCwbge8nEmwlFlTBIBgNVHR8EQTA/MD2gO6A5hjdodHRwOi8vY3JsLmVjYy5uZXRsb2NrLmh1L2luZGV4LmNnaT9jcmw9ZWNjYzJwYXJvb3RjYWcyMIGQBggrBgEFBQcBAQSBgzCBgDA6BggrBgEFBQcwAYYuaHR0cDovL29jc3AuZWNjLm5ldGxvY2suaHUvZWNjYzJwYXJvb3RjYWcyLmNnaTBCBggrBgEFBQcwAoY2aHR0cDovL2FpYS5lY2MubmV0bG9jay5odS9pbmRleC5jZ2k/Y2E9ZWNjYzJwYXJvb3RjYWcyMBcGA1UdIAQQMA4wDAYKKwYBBAGD6F4BATAKBggqhkjOPQQDAwNpADBmAjEA0ejq4UgkDw39zAmuA2wu/iGasmvf9TA6MhdRb/GT6MVmss7pVXR97UoRJL4vY2UnAjEA0QsC+wkL1f79zJXwBvtDLT62nAl+Q9Y1sQY6c/JSJwhfp7AjdVQB3pjkW2agVu3m"
+                  }
+                ]
+              },
+              "ServiceStatus": "",
+              "StatusStartingTime": ""
+            }
+          }
+        ]
       }
     ]
   }

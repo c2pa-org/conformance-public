@@ -1205,6 +1205,80 @@
             }
           }
         ]
+      },
+      {
+        "TrustedEntityInformation": {
+          "TEName": [
+            {
+              "lang": "en",
+              "value": "NETLOCK Informatikai és Hálózatbiztonsági Korlátolt Felelősségű Társaság"
+            }
+          ],
+          "TEAddress": {
+            "TEPostalAddress": [
+              {
+                "lang": "en",
+                "StreetAddress": "Hungária körút 17-19.",
+                "Country": "Hungary",
+                "Locality": "Budapest",
+                "StateOrProvince": "Budapest",
+                "PostalCode": "1143"
+              }
+            ],
+            "TEElectronicAddress": [
+              {
+                "lang": "en",
+                "uriValue": "mailto:trust@netlock.com"
+              }
+            ]
+          },
+          "TEInformationURI": [
+            {
+              "lang": "en",
+              "uriValue": "netlock.com"
+            }
+          ]
+        },
+        "TrustedEntityServices": [
+          {
+            "ServiceInformation": {
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "NETLOCK ECC C2PA Root CA G2"
+                }
+              ],
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIICNDCCAbmgAwIBAgIOaqKfZwAQVgLG28qDBwwwCgYIKoZIzj0EAwMwSjELMAkGA1UEBhMCSFUxFTATBgNVBAoMDE5FVExPQ0sgS2Z0LjEkMCIGA1UEAwwbTkVUTE9DSyBFQ0MgQzJQQSBSb290IENBIEcyMB4XDTI2MDkxMDEyMTUzNVoXDTQ2MDkxMDEyMTUzNVowSjELMAkGA1UEBhMCSFUxFTATBgNVBAoMDE5FVExPQ0sgS2Z0LjEkMCIGA1UEAwwbTkVUTE9DSyBFQ0MgQzJQQSBSb290IENBIEcyMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEHTmQ+x+UmVGeF6yhIW+YX2ualZU7c4ayVbKUM5NdkB5Clho0rBaM20GiJfzpL77AYdpwi+32I6FHcAJvBej66teQBGFwgfWzDoB3sB5/R2EWVHfTYVl045r0HSrYhz3bo2YwZDASBgNVHRMBAf8ECDAGAQH/AgEBMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUAA29AZpM22CQ0AsG4HvJxJsJRZUwHwYDVR0jBBgwFoAUAA29AZpM22CQ0AsG4HvJxJsJRZUwCgYIKoZIzj0EAwMDaQAwZgIxAP94aUUQG/w4O7nmtIxiQ5u2ncc+qFwIF0/k1Y6iK/cZ+qtr7kv9jUkC+WMKOMuWAQIxAMgGKZiheGUyMXItIzxnAcpKnDQ086cMWNi2tWDlKSqX+k8GB1mdrJmObqnKeZTbeg=="
+                  }
+                ]
+              },
+              "ServiceStatus": "",
+              "StatusStartingTime": ""
+            }
+          },
+          {
+            "ServiceInformation": {
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "NETLOCK ECC C2PA Claim Signing G2 CA 1"
+                }
+              ],
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIDYzCCAumgAwIBAgIOaqKfZwARyv+zZG6aaCUwCgYIKoZIzj0EAwMwSjELMAkGA1UEBhMCSFUxFTATBgNVBAoMDE5FVExPQ0sgS2Z0LjEkMCIGA1UEAwwbTkVUTE9DSyBFQ0MgQzJQQSBSb290IENBIEcyMB4XDTI2MDkxMDEzMTMzOFoXDTMxMDkxMTEzMTMzOFowVTELMAkGA1UEBhMCSFUxFTATBgNVBAoMDE5FVExPQ0sgS2Z0LjEvMC0GA1UEAwwmTkVUTE9DSyBFQ0MgQzJQQSBDbGFpbSBTaWduaW5nIEcyIENBIDEwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAQn7hIuwc6rA0c10MMseTJAFJsAKiaTK/j3gdhrDR4cBqelMltU6mAjVM1TQpDUz9Gd7p7ytQL1klyOA171OpkC9diLjSaYmuSAz6V5+Yyc41VwBt59M/xCrae2yyUOU0ijggGJMIIBhTASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBBjApBgNVHSUEIjAgBgorBgEEAYPoXgIBBggrBgEFBQcDBAYIKwYBBQUHAyQwHQYDVR0OBBYEFD78hIEkbyQZC/GeemPvrtZ0u1WUMB8GA1UdIwQYMBaAFAANvQGaTNtgkNALBuB7ycSbCUWVMEgGA1UdHwRBMD8wPaA7oDmGN2h0dHA6Ly9jcmwuZWNjLm5ldGxvY2suaHUvaW5kZXguY2dpP2NybD1lY2NjMnBhcm9vdGNhZzIwgZAGCCsGAQUFBwEBBIGDMIGAMDoGCCsGAQUFBzABhi5odHRwOi8vb2NzcC5lY2MubmV0bG9jay5odS9lY2NjMnBhcm9vdGNhZzIuY2dpMEIGCCsGAQUFBzAChjZodHRwOi8vYWlhLmVjYy5uZXRsb2NrLmh1L2luZGV4LmNnaT9jYT1lY2NjMnBhcm9vdGNhZzIwFwYDVR0gBBAwDjAMBgorBgEEAYPoXgEBMAoGCCqGSM49BAMDA2gAMGUCMBgrHv4tU9usRTsH9fYOVuHIvLUv/pupbz3htwGedmNU+BcjyhBBBPHLbGjnPiGwegIxAM8uUME5bh24GdbXYuiSfop69Yh9u+cJsix+CVPmDDaPuP/x3yfVk5PSpCuVsRVMcw=="
+                  }
+                ]
+              },
+              "ServiceStatus": "",
+              "StatusStartingTime": ""
+            }
+          }
+        ]
       }
     ]
   }
