@@ -15652,5 +15652,55 @@
       "earliestPublicDisclosure": "2026-10-05",
       "lastModification": "2026-10-20"
     }
+  },
+  {
+  "recordId": "01a06673-4ffd-771f-ace5-4bc2144709af",
+  "applicant": "Elpical Software B.V.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Pixometry Cloud",
+      "O": "Elpical Software B.V.",
+      "C": "NL"
+    },
+    "minVersion": "1",
+    "infoURL": "https://pixometry.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-03",
+    "conformance": "2026-10-16",
+    "earliestPublicDisclosure": "2026-10-01",
+    "lastModification": "2026-10-20"
   }
+}
 ]
