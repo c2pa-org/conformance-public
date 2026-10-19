@@ -15244,5 +15244,63 @@
       "earliestPublicDisclosure": "2026-09-15",
       "lastModification": "2026-10-16"
     }
+  },
+    {
+  "recordId": "01a01b72-af79-7bb3-a850-24a1d01cb447",
+  "applicant": "TikBox.io Ltd",
+  "product": {
+    "productType": "validatorProduct",
+    "DN": {
+      "CN": "TikBox.io",
+      "O": "TikBox.io Ltd",
+      "C": "GB",
+      "OU": "Trust and Data Governance"
+    },
+    "minVersion": "2.4.0",
+    "infoURL": "https://tikbox.io"
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {},
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-08-19",
+    "conformance": "2026-10-15",
+    "earliestPublicDisclosure": "2026-08-21",
+    "lastModification": "2026-10-20"
   }
+}
 ]
