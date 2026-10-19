@@ -15511,5 +15511,79 @@
     "earliestPublicDisclosure": "2026-10-15",
     "lastModification": "2026-10-20"
   }
-}
+},
+  {
+  "recordId": "01a139a0-f87d-7d28-9757-83e64a8b1838",
+  "applicant": "Xplosion AI, SL",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "VibeTasking",
+      "O": "Xplosion AI, SL",
+      "C": "ES"
+    },
+    "minVersion": "",
+    "infoURL": "https://vibetasking.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-14",
+    "conformance": "2026-10-16",
+    "earliestPublicDisclosure": "2026-10-14",
+    "lastModification": "2026-10-20"
+  }
+} 
 ]
