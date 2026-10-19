@@ -15702,5 +15702,57 @@
     "earliestPublicDisclosure": "2026-10-01",
     "lastModification": "2026-10-20"
   }
+},
+  {
+  "recordId": "01a0e887-a94e-75e7-b8ae-71d7c7f96044",
+  "applicant": "time2prove S.L",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "TIME2PROVE Android",
+      "O": "time2prove S.L",
+      "C": "ES"
+    },
+    "minVersion": "1.3.0",
+    "infoURL": "https://www.time2prove.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mp4"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-28",
+    "conformance": "2026-10-17",
+    "earliestPublicDisclosure": "2026-10-19",
+    "lastModification": "2026-10-19"
+  }
 }
 ]
