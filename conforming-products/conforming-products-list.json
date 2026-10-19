@@ -15412,5 +15412,53 @@
     "earliestPublicDisclosure": "2026-10-12",
     "lastModification": "2026-10-20"
   }
+},
+  {
+  "recordId": "01a0f957-d3ae-7faf-a77e-1c4912d618f3",
+  "applicant": "Nobyunjungdam",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Takibi",
+      "O": "Nobyunjungdam",
+      "C": "KR"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://takibi.pub",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "documents": [
+        "application/pdf"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-01",
+    "conformance": "2026-10-17",
+    "earliestPublicDisclosure": "2026-10-02",
+    "lastModification": "2026-10-20"
+  }
 }
 ]
