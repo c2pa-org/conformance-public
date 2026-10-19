@@ -15585,5 +15585,72 @@
     "earliestPublicDisclosure": "2026-10-14",
     "lastModification": "2026-10-20"
   }
-} 
+},
+  {
+    "recordId": "01a10d5f-e863-74a8-b0af-0d4ec88dfb2e",
+    "applicant": "Nexaluna AI Solutions UG (haftungsbeschrankt)",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "PostMaestro.ai",
+        "O": "Nexaluna AI Solutions UG (haftungsbeschraenkt)",
+        "C": "DE"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://app.postmaestro.ai/",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2",
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-10-05",
+      "conformance": "2026-10-16",
+      "earliestPublicDisclosure": "2026-10-05",
+      "lastModification": "2026-10-20"
+    }
+  }
 ]
