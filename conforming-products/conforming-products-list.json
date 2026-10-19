@@ -15302,5 +15302,115 @@
     "earliestPublicDisclosure": "2026-08-21",
     "lastModification": "2026-10-20"
   }
+},
+  {
+  "recordId": "01a122c3-67f3-7fe5-9759-37bebeb2bf71",
+  "applicant": "Trufo Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Trufo AI Labeling Service",
+      "O": "Trufo Inc.",
+      "C": "US"
+    },
+    "minVersion": "1.5.0",
+    "infoURL": "https://trufo.ai/products/provenance",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif",
+        "image/x-tiff-based",
+        "image/x-riff-based"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime",
+        "video/x-bmff-based",
+        "video/x-riff-based"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4",
+        "audio/x-riff-based"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif",
+        "image/x-tiff-based",
+        "image/x-riff-based"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime",
+        "video/x-bmff-based",
+        "video/x-riff-based"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4",
+        "audio/x-riff-based"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-09",
+    "conformance": "2026-10-17",
+    "earliestPublicDisclosure": "2026-10-12",
+    "lastModification": "2026-10-20"
+  }
 }
 ]
