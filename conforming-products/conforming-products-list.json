@@ -11880,7 +11880,7 @@
       "productType": "generatorProduct",
       "DN": {
         "CN": "Runway",
-        "O": "Runway AI, Inc",
+        "O": "Runway AI, Inc.",
         "C": "US"
       },
       "minVersion": "",
@@ -11935,7 +11935,7 @@
       "creation": "2026-08-26",
       "conformance": "2026-09-15",
       "earliestPublicDisclosure": "2026-08-28",
-      "lastModification": "2026-09-15"
+      "lastModification": "2026-10-20"
     }
   },
   {
