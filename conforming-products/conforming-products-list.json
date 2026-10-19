@@ -15460,5 +15460,56 @@
     "earliestPublicDisclosure": "2026-10-02",
     "lastModification": "2026-10-20"
   }
+},
+  {
+  "recordId": "01a14034-284f-755b-83c8-7c325eac8307",
+  "applicant": "Timo Schusser, trading as Traceframe",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Traceframe App",
+      "O": "Timo Schusser, trading as Traceframe",
+      "C": "DE"
+    },
+    "minVersion": "0.2",
+    "infoURL": "https://app.traceframe.eu",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": [
+        "Apple_AppAttest"
+      ]
+    },
+    "disallowedSignals": {
+      "inception": [
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-15",
+    "conformance": "2026-10-17",
+    "earliestPublicDisclosure": "2026-10-15",
+    "lastModification": "2026-10-20"
+  }
 }
 ]
