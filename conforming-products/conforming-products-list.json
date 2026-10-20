@@ -15799,5 +15799,53 @@
     "earliestPublicDisclosure": "2026-10-15",
     "lastModification": "2026-10-20"
   }
+},
+  {
+  "recordId": "01a13cd7-d03c-7f08-827f-9697a3b04079",
+  "applicant": "AGNUS CLOUD TECNOLOGIA DA INFORMACAO LTDA",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "agnus.chat",
+      "O": "AGNUS CLOUD TECNOLOGIA DA INFORMACAO LTDA",
+      "C": "BR"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://agnus.chat",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/png"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-14",
+    "conformance": "2026-10-20",
+    "earliestPublicDisclosure": "2026-10-14",
+    "lastModification": "2026-10-20"
+  }
 }
 ]
