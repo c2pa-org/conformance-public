@@ -13671,7 +13671,7 @@
   "product": {
     "productType": "generatorProduct",
     "DN": {
-      "CN": "Adobe Content Authenticity",
+      "CN": "Adobe Experience Manager Assets",
       "O": "Adobe Inc.",
       "C": "US"
     },
@@ -13745,7 +13745,7 @@
     "creation": "2026-08-17",
     "conformance": "2026-10-05",
     "earliestPublicDisclosure": "2026-08-31",
-    "lastModification": "2026-10-06"
+    "lastModification": "2026-10-20"
   }
 },
   {
