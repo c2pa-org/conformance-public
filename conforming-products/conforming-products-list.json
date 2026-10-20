@@ -15754,5 +15754,50 @@
     "earliestPublicDisclosure": "2026-10-19",
     "lastModification": "2026-10-19"
   }
+},
+  {
+  "recordId": "01a13da2-7a3c-70f9-85f2-8bb2203d95c1",
+  "applicant": "Invinoveritas SpA",
+  "product": {
+    "productType": "validatorProduct",
+    "DN": {
+      "CN": "invinoveritas media verifier",
+      "O": "Invinoveritas SpA",
+      "C": "CL"
+    },
+    "minVersion": "0.1.0",
+    "infoURL": "https://invinoveritas.dev/check"
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {},
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-15",
+    "conformance": "2026-10-19",
+    "earliestPublicDisclosure": "2026-10-15",
+    "lastModification": "2026-10-20"
+  }
 }
 ]
