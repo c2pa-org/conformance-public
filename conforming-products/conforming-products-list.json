@@ -15909,5 +15909,52 @@
     "earliestPublicDisclosure": "2026-10-05",
     "lastModification": "2026-10-21"
   }
+},
+  {
+  "recordId": "01a0f1de-a0c1-76b4-8ef1-2541edbd5478",
+  "applicant": "MONOGRID S.r.l.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Moncler AI Virtual Try-On",
+      "O": "MONOGRID S.r.l.",
+      "C": "IT"
+    },
+    "minVersion": "1.0.0",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-30",
+    "conformance": "2026-10-16",
+    "earliestPublicDisclosure": "2026-10-21",
+    "lastModification": "2026-10-21"
+  }
 }
 ]
