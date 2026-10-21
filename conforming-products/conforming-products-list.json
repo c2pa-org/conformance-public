@@ -15847,5 +15847,67 @@
     "earliestPublicDisclosure": "2026-10-14",
     "lastModification": "2026-10-20"
   }
+},
+ {
+  "recordId": "01a10ed8-79c1-721d-9d7c-3a9256580301",
+  "applicant": "Google LLC",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Google Media Processing Services",
+      "O": "Google LLC",
+      "C": "US",
+      "OU": "Google System 60032"
+    },
+    "minVersion": "",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.1",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-06",
+    "conformance": "2026-10-21",
+    "earliestPublicDisclosure": "2026-10-05",
+    "lastModification": "2026-10-21"
+  }
 }
 ]
