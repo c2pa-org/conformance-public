@@ -15957,7 +15957,6 @@
     "lastModification": "2026-10-21"
   }
 },
-  
   {
   "recordId": "01a143a3-1c23-7eb8-a1e7-70e366773cf6",
   "applicant": "Samsa Labs AG",
@@ -16017,6 +16016,96 @@
     "creation": "2026-10-16",
     "conformance": "2026-10-22",
     "earliestPublicDisclosure": "2026-10-16",
+    "lastModification": "2026-10-22"
+  }
+},
+    {
+  "recordId": "01a0ddcc-598c-7bb5-aa54-9bfbd73bea0e",
+  "applicant": "Tauth Labs Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "TauthID",
+      "O": "Tauth Labs Inc.",
+      "C": "US"
+    },
+    "minVersion": "",
+    "infoURL": "https://tauth.io",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": [
+        "Microsoft_AzureAttestation"
+      ]
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-26",
+    "conformance": "2026-10-22",
+    "earliestPublicDisclosure": "2026-10-01",
     "lastModification": "2026-10-22"
   }
 }
