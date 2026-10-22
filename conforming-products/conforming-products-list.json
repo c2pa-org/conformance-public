@@ -16108,5 +16108,54 @@
     "earliestPublicDisclosure": "2026-10-01",
     "lastModification": "2026-10-22"
   }
+},
+  {
+  "recordId": "01a08b65-aa09-77e1-9167-755fea0946c3",
+  "applicant": "AVATALK, Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "AVATALK",
+      "O": "AVATALK, Inc.",
+      "C": "US"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://avatalk.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/png",
+        "image/webp"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-10",
+    "conformance": "2026-10-22",
+    "earliestPublicDisclosure": "2026-09-10",
+    "lastModification": "2026-10-22"
+  }
 }
 ]
