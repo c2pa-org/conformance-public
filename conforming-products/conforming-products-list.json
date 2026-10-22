@@ -15956,5 +15956,68 @@
     "earliestPublicDisclosure": "2026-10-21",
     "lastModification": "2026-10-21"
   }
+},
+  
+  {
+  "recordId": "01a143a3-1c23-7eb8-a1e7-70e366773cf6",
+  "applicant": "Samsa Labs AG",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Samsa Media Service",
+      "O": "Samsa Labs AG",
+      "C": "CH"
+    },
+    "minVersion": "1.6.0",
+    "infoURL": "https://samsa.ai",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-16",
+    "conformance": "2026-10-22",
+    "earliestPublicDisclosure": "2026-10-16",
+    "lastModification": "2026-10-22"
+  }
 }
 ]
