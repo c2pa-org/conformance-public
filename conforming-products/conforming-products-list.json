@@ -16493,5 +16493,56 @@
     "earliestPublicDisclosure": "2026-10-15",
     "lastModification": "2026-10-27"
   }
+},
+  {
+  "recordId": "01a0fdb7-5f57-7e05-a4b4-23570ca60eca",
+  "applicant": "Getty Images (US), Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Getty Images Creative",
+      "O": "Getty Images (US), Inc.",
+      "C": "US"
+    },
+    "minVersion": "5.5",
+    "infoURL": "https://www.gettyimages.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp",
+        "image/avif"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-02",
+    "conformance": "2026-10-27",
+    "earliestPublicDisclosure": "2026-10-30",
+    "lastModification": "2026-10-27"
+  }
 }
 ]
