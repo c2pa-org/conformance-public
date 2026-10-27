@@ -11994,13 +11994,13 @@
     "product": {
       "productType": "generatorProduct",
       "DN": {
-        "CN": "Rubric Protocol",
+        "CN": "TenPrint",
         "O": "Echelon Intelligence Group LLC",
         "C": "US",
-        "OU": "Rubric Protocol"
+        "OU": "TenPrint"
       },
       "minVersion": "2.0.0",
-      "infoURL": "https://www.rubric-protocol.com",
+      "infoURL": "https://tenprint.ai",
       "assurance": {
         "maxAssuranceLevel": 1,
         "attestationMethods": []
