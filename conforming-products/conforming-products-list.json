@@ -16441,5 +16441,57 @@
       "earliestPublicDisclosure": "2026-09-01",
       "lastModification": "2026-10-27"
     }
-  } 
+  },
+  {
+  "recordId": "01a13fa1-8d58-7a93-8ea2-e2ffa8e6f886",
+  "applicant": "DX CLOUDITIVE LLC",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Autonomah",
+      "O": "DX CLOUDITIVE LLC",
+      "C": "US"
+    },
+    "minVersion": "1.116.2",
+    "infoURL": "https://autonomah.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-15",
+    "conformance": "2026-10-27",
+    "earliestPublicDisclosure": "2026-10-15",
+    "lastModification": "2026-10-27"
+  }
+}
 ]
