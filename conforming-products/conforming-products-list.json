@@ -16357,5 +16357,89 @@
     "earliestPublicDisclosure": "2026-10-12",
     "lastModification": "2026-10-27"
   }
-}
+},
+  {
+    "recordId": "019fef33-d7f0-77b8-9c7b-4ef7764f03bf",
+    "applicant": "SonicOrigin",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "SonicOrigin Sign",
+        "O": "SonicOrigin",
+        "C": "GB"
+      },
+      "minVersion": "7",
+      "infoURL": "https://www.sonicorigin.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/aac",
+          "audio/mp4"
+        ],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      },
+      "validate": {
+        "image": [],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/aac",
+          "audio/mp4"
+        ],
+        "textHtml": [],
+        "textUnstructured": [],
+        "textStructured": [],
+        "documents": [],
+        "fonts": [],
+        "mlModel": []
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-11",
+      "conformance": "2026-10-27",
+      "earliestPublicDisclosure": "2026-09-01",
+      "lastModification": "2026-10-27"
+    }
+  } 
 ]
