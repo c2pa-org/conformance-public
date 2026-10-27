@@ -16157,5 +16157,56 @@
     "earliestPublicDisclosure": "2026-09-10",
     "lastModification": "2026-10-22"
   }
+},
+  {
+  "recordId": "01a10713-a9b1-78ff-b56f-20726ebe6285",
+  "applicant": "Brandmachine GmbH",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Brandmachine",
+      "O": "Brandmachine GmbH",
+      "C": "DE"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://brandmachine.shop",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp",
+        "image/avif"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-04",
+    "conformance": "2026-10-21",
+    "earliestPublicDisclosure": "2026-10-27",
+    "lastModification": "2026-10-27"
+  }
 }
 ]
