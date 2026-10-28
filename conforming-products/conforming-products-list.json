@@ -16787,5 +16787,71 @@
     "earliestPublicDisclosure": "2026-10-26",
     "lastModification": "2026-10-28"
   }
+},
+   {
+  "recordId": "01a156de-2f6b-7915-8a81-c6367411c973",
+  "applicant": "Shachihata Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "SIGNED SOUND",
+      "O": "Shachihata Inc.",
+      "C": "JP"
+    },
+    "minVersion": "",
+    "infoURL": "https://www.signed-sound.jp/en/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    },
+    "validate": {
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-20",
+    "conformance": "2026-10-28",
+    "earliestPublicDisclosure": "2026-10-20",
+    "lastModification": "2026-10-28"
+  }
 }
 ]
