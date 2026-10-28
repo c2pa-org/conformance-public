@@ -16853,5 +16853,56 @@
     "earliestPublicDisclosure": "2026-10-20",
     "lastModification": "2026-10-28"
   }
-}
+},
+  {
+  "recordId": "01a14ee5-1922-751c-8d6b-c1bb07b44baf",
+  "applicant": "Digital Sandbox B.V.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "EverStamp for Android",
+      "O": "Digital Sandbox B.V.",
+      "C": "NL"
+    },
+    "minVersion": "1.2.0",
+    "infoURL": "https://everstamp.app",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": [
+        "Android_KeyAttestation"
+      ]
+    },
+    "disallowedSignals": {
+      "inception": [
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-18",
+    "conformance": "2026-10-28",
+    "earliestPublicDisclosure": "2026-10-25",
+    "lastModification": "2026-10-28"
+  }
+} 
 ]
