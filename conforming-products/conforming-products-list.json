@@ -16730,5 +16730,62 @@
     "earliestPublicDisclosure": "2026-10-15",
     "lastModification": "2026-10-27"
   }
+},
+  {
+  "recordId": "01a13505-a62d-7ef7-bdc3-d1702785e113",
+  "applicant": "Michael Kochenburger, dba The House of Koco",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Glimmerglass",
+      "O": "Michael Kochenburger dba The House of Koco",
+      "C": "NL"
+    },
+    "minVersion": "0.3.0",
+    "infoURL": "https://glimmerglass.app",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-13",
+    "conformance": "2026-10-28",
+    "earliestPublicDisclosure": "2026-10-26",
+    "lastModification": "2026-10-28"
+  }
 }
 ]
