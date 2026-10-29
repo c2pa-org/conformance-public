@@ -17098,5 +17098,57 @@
     "earliestPublicDisclosure": "2026-09-23",
     "lastModification": "2026-10-29"
   }
+},
+    {
+  "recordId": "01a17f58-90a2-71ee-a0be-d9662d75d061",
+  "applicant": "Stefan Fischnaller",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Filmatica Studio",
+      "O": "Stefan Fischnaller",
+      "C": "AT"
+    },
+    "minVersion": "",
+    "infoURL": "https://www.filmatica-studio.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "video": [
+        "video/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-27",
+    "conformance": "2026-10-29",
+    "earliestPublicDisclosure": "2026-10-27",
+    "lastModification": "2026-10-29"
+  }
 }
 ]
