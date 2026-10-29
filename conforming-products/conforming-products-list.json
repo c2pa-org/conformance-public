@@ -16960,5 +16960,62 @@
     "earliestPublicDisclosure": "2026-09-03",
     "lastModification": "2026-10-29"
   }
+},
+ {
+  "recordId": "01a17f72-2e4c-7e28-b49b-af6e06dcdc0e",
+  "applicant": "MarkMaker LLC",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Markmaker Signer",
+      "O": "MarkMaker LLC",
+      "C": "US"
+    },
+    "minVersion": "0.4.0",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/avif"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-27",
+    "conformance": "2026-10-29",
+    "earliestPublicDisclosure": "2026-10-27",
+    "lastModification": "2026-10-29"
+  }
 }
 ]
