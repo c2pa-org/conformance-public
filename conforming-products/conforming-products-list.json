@@ -16904,5 +16904,61 @@
     "earliestPublicDisclosure": "2026-10-25",
     "lastModification": "2026-10-28"
   }
-} 
+},
+    {
+  "recordId": "01a06690-d01e-7608-ad8a-cd4f1a49d76e",
+  "applicant": "HOLY Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Ledra",
+      "O": "HOLY Inc.",
+      "C": "JP"
+    },
+    "minVersion": "",
+    "infoURL": "https://www.ledra.co.jp",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp",
+        "image/heic"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp",
+        "image/heic"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-03",
+    "conformance": "2026-10-29",
+    "earliestPublicDisclosure": "2026-09-03",
+    "lastModification": "2026-10-29"
+  }
+}
 ]
