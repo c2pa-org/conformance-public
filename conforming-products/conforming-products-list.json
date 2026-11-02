@@ -17192,5 +17192,55 @@
     "earliestPublicDisclosure": "2026-10-22",
     "lastModification": "2026-11-02"
   }
+},
+ {
+  "recordId": "01a1655b-717b-7f24-b661-c9a74458dff3",
+  "applicant": "Digital Elevation (Pty) Ltd",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Tellmark",
+      "O": "Digital Elevation (Pty) Ltd",
+      "C": "ZA"
+    },
+    "minVersion": "0.2.0",
+    "infoURL": "https://tellmark.si",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-22",
+    "conformance": "2026-11-02",
+    "earliestPublicDisclosure": "2026-10-22",
+    "lastModification": "2026-11-02"
+  }
 }
 ]
