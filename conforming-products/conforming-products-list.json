@@ -14280,6 +14280,7 @@
       "C": "US"
     },
     "minVersion": "1.0.0",
+    "infoURL": "https://protect.wiztrust.com",
     "assurance": {
       "maxAssuranceLevel": 1,
       "attestationMethods": []
@@ -17149,6 +17150,47 @@
     "conformance": "2026-10-29",
     "earliestPublicDisclosure": "2026-10-27",
     "lastModification": "2026-10-29"
+  }
+},
+  {
+  "recordId": "01a115dc-00f8-7757-9320-7164b845c91e",
+  "applicant": "Ircam Amplify",
+  "product": {
+    "productType": "validatorProduct",
+    "DN": {
+      "CN": "AIMD",
+      "O": "Ircam Amplify",
+      "C": "FR"
+    },
+    "minVersion": "2.3",
+    "infoURL": "https://www.ircamamplify.com"
+  },
+  "specVersion": [
+    "2.2",
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {},
+    "validate": {
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-07",
+    "conformance": "2026-10-12",
+    "earliestPublicDisclosure": "2026-10-22",
+    "lastModification": "2026-11-02"
   }
 }
 ]
