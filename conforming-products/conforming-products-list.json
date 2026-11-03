@@ -17583,5 +17583,56 @@
     "earliestPublicDisclosure": "2026-09-26",
     "lastModification": "2026-11-03"
   }
+},
+  {
+  "recordId": "01a1789e-03cb-7b03-aaeb-341d550d6aea",
+  "applicant": "Zoviz Inc",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Zoviz AI",
+      "O": "Zoviz Inc",
+      "C": "US"
+    },
+    "minVersion": "",
+    "infoURL": "https://zoviz.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "video": [
+        "video/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-26",
+    "conformance": "2026-11-02",
+    "earliestPublicDisclosure": "2026-10-26",
+    "lastModification": "2026-11-03"
+  }
 }
 ]
