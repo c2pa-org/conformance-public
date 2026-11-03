@@ -17491,5 +17491,97 @@
     "earliestPublicDisclosure": "2026-11-01",
     "lastModification": "2026-11-03"
   }
+},
+    {
+  "recordId": "01a0bcd6-8964-7619-af3c-8299bcff363f",
+  "applicant": "Vietnam Copyright and Creative Development Research Institute",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "VCDI Media Service",
+      "O": "Vietnam Copyright and Creative Development Research Institute",
+      "C": "VN"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://vcdi.org.vn/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ],
+      "documents": [
+        "application/pdf"
+      ],
+      "textHtml": [],
+      "textUnstructured": [],
+      "textStructured": []
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ],
+      "documents": [
+        "application/pdf"
+      ],
+      "textHtml": [],
+      "textUnstructured": [],
+      "textStructured": []
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-20",
+    "conformance": "2026-11-02",
+    "earliestPublicDisclosure": "2026-09-26",
+    "lastModification": "2026-11-03"
+  }
 }
 ]
