@@ -17242,5 +17242,105 @@
     "earliestPublicDisclosure": "2026-10-22",
     "lastModification": "2026-11-02"
   }
+},
+  {
+  "recordId": "019ffb2e-93d8-74f0-a975-133d6bc42205",
+  "applicant": "on:mint GmbH",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "on:mint Content Credentials",
+      "O": "on:mint GmbH",
+      "C": "DE"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://onmint.io",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ],
+      "textHtml": [],
+      "textUnstructured": [],
+      "textStructured": [],
+      "documents": [],
+      "fonts": [],
+      "mlModel": []
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ],
+      "textHtml": [],
+      "textUnstructured": [],
+      "textStructured": [],
+      "documents": [],
+      "fonts": [],
+      "mlModel": []
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-08-13",
+    "conformance": "2026-11-02",
+    "earliestPublicDisclosure": "2026-08-13",
+    "lastModification": "2026-11-02"
+  }
 }
 ]
