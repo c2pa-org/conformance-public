@@ -17634,5 +17634,49 @@
     "earliestPublicDisclosure": "2026-10-26",
     "lastModification": "2026-11-03"
   }
+},
+  {
+  "recordId": "01a0e818-7546-7f03-bc20-126db9ac3abe",
+  "applicant": "Arcisphere Technology Group INC.",
+  "product": {
+    "productType": "validatorProduct",
+    "DN": {
+      "CN": "Marketertag",
+      "O": "Arcisphere Technology Group INC",
+      "C": "US"
+    },
+    "minVersion": "0.5"
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {},
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-28",
+    "conformance": "2026-10-29",
+    "earliestPublicDisclosure": "2026-10-30",
+    "lastModification": "2026-11-03"
+  }
 }
 ]
