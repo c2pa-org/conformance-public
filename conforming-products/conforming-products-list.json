@@ -17400,5 +17400,96 @@
     "earliestPublicDisclosure": "2026-10-12",
     "lastModification": "2026-11-02"
   }
+},
+  {
+  "recordId": "01a092f6-b989-721d-bf47-54ec43ac9c67",
+  "applicant": "Orbit Olive, Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "OrbiSync",
+      "O": "Orbit Olive, Inc.",
+      "C": "US"
+    },
+    "minVersion": "2.0.0",
+    "infoURL": "https://orbitolive.com/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/tiff"
+        ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ],
+      "documents": [
+        "application/pdf"
+      ],
+      "textHtml": [],
+      "textUnstructured": [],
+      "textStructured": []
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-12",
+    "conformance": "2026-11-02",
+    "earliestPublicDisclosure": "2026-11-01",
+    "lastModification": "2026-11-03"
+  }
 }
 ]
