@@ -17888,5 +17888,62 @@
       "earliestPublicDisclosure": "2026-10-26",
       "lastModification": "2026-11-04"
     }
+  },
+  {
+    "recordId": "01a0f79b-9abc-7845-ad40-5520c95f9a15",
+    "applicant": "British Broadcasting Corporation",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "BBC Image Distribution Services",
+        "O": "British Broadcasting Corporation",
+        "C": "GB"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-10-01",
+      "conformance": "2026-10-16",
+      "earliestPublicDisclosure": "2026-10-30",
+      "lastModification": "2026-11-04"
+    }
   }
 ]
