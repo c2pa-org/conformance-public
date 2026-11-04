@@ -14632,7 +14632,7 @@
     "specVersion": [
       "2.2"
     ],
-    "conformanceProgramVersion": "0.2",
+    "conformanceProgramVersion": "0.1",
     "supportsCompressedManifests": false,
     "containers": {
       "generate": {
@@ -16977,7 +16977,7 @@
         "O": "MarkMaker LLC",
         "C": "US"
       },
-      "minVersion": "0.6.0",
+      "minVersion": "0.4.0",
       "assurance": {
         "maxAssuranceLevel": 1,
         "attestationMethods": []
@@ -17694,7 +17694,7 @@
         "O": "MarkMaker LLC",
         "C": "US"
       },
-      "minVersion": "0.5.0",
+      "minVersion": "0.6.0",
       "assurance": {
         "maxAssuranceLevel": 1,
         "attestationMethods": []
@@ -18011,5 +18011,58 @@
     "earliestPublicDisclosure": "2026-10-15",
     "lastModification": "2026-11-04"
   }
-}
+},
+{
+  "recordId": "01a0a791-cf58-748a-b078-6d08d594a68e",
+  "applicant": "Imgix, Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Imgix Rendering API",
+      "O": "Imgix, Inc.",
+      "C": "US"
+    },
+    "minVersion": "",
+    "infoURL": "https://www.imgix.com/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": []
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/gif",
+        "image/webp",
+        "image/heic",
+        "image/avif"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-16",
+    "conformance": "2026-11-04",
+    "earliestPublicDisclosure": "2026-09-16",
+    "lastModification": "2026-11-04"
+  }
+}  
 ]
