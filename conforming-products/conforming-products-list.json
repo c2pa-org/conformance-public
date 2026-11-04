@@ -17743,5 +17743,59 @@
     "earliestPublicDisclosure": "2026-10-31",
     "lastModification": "2026-11-04"
   }
-}  
+},
+ {
+  "recordId": "01a1433e-c545-7813-9628-a1328657d6eb",
+  "applicant": "Barna Peter E.V.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "SpotKlikk",
+      "O": "Barna Peter E.V.",
+      "C": "HU"
+    },
+    "minVersion": "",
+    "infoURL": "https://spotklikk.hu",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/png"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-16",
+    "conformance": "2026-11-04",
+    "earliestPublicDisclosure": "2026-10-16",
+    "lastModification": "2026-11-04"
+  }
+}
 ]
