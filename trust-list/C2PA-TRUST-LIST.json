@@ -1,10 +1,10 @@
 {
   "LoTE": {
     "ListAndSchemeInformation": {
-      "ListIssueDateTime": "2026-11-04T17:02:28Z",
-      "LoTESequenceNumber": 3,
+      "ListIssueDateTime": "2026-11-04T17:24:49Z",
+      "LoTESequenceNumber": 4,
       "LoTEVersionIdentifier": 1,
-      "NextUpdate": "2027-02-02T17:02:28Z",
+      "NextUpdate": "2027-02-02T17:24:49Z",
       "SchemeInformationURI": [
         {
           "lang": "en",
@@ -792,7 +792,7 @@
             "TEElectronicAddress": [
               {
                 "lang": "en",
-                "uriValue": "mailto:jin-gyu.kim@samsung.com"
+                "uriValue": "mailto:c2pa.support@samsung.com"
               }
             ],
             "TEPostalAddress": [
