@@ -14157,10 +14157,10 @@
       }
     },
     "specVersion": [
-      "2.2"
+      "2.4"
     ],
     "conformanceProgramVersion": "0.2",
-    "supportsCompressedManifests": false,
+    "supportsCompressedManifests": true,
     "containers": {
       "generate": {
         "image": [
@@ -14181,7 +14181,13 @@
         "image": [
           "image/jpeg",
           "image/png",
-          "image/webp"
+          "image/svg+xml",
+          "image/gif",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
         ],
         "video": [
           "video/mp4"
@@ -14288,8 +14294,7 @@
       "disallowedSignals": {
         "inception": [
           "capturedMedia",
-          "capturedMediaStitched",
-          "nonGenAIDigitalCreation"
+          "capturedMediaStitched"
         ]
       }
     },
@@ -16972,7 +16977,7 @@
         "O": "MarkMaker LLC",
         "C": "US"
       },
-      "minVersion": "0.4.0",
+      "minVersion": "0.6.0",
       "assurance": {
         "maxAssuranceLevel": 1,
         "attestationMethods": []
@@ -17945,5 +17950,66 @@
       "earliestPublicDisclosure": "2026-10-30",
       "lastModification": "2026-11-04"
     }
+  },
+  {
+  "recordId": "01a11eab-50f6-7dac-a373-4e0cac8c42c4",
+  "applicant": "Xiaomi Communications, Co., Ltd.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Xiaomi Server-side C2PA Signing Service",
+      "O": "Xiaomi Communications, Co., Ltd.",
+      "C": "CN",
+      "OU": "Information Security Department - Security Compliance Team"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://trust.mi.com/transparency",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": []
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-09",
+    "conformance": "2026-11-04",
+    "earliestPublicDisclosure": "2026-10-15",
+    "lastModification": "2026-11-04"
   }
+}
 ]
