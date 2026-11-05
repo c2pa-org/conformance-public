@@ -18046,13 +18046,46 @@
         "image/gif",
         "image/webp",
         "image/heic",
-        "image/avif"
+        "image/avif",
+        "image/tiff"
       ],
       "video": [
         "video/mp4"
-      ]
+      ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
     },
-    "validate": {}
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/gif",
+        "image/webp",
+        "image/heic",
+        "image/avif",
+        "image/tiff"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime",
+        "video/x-msvideo"
+      ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+    }
   },
   "liveVideo": {
     "supported": false
