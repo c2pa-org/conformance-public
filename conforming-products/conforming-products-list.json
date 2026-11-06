@@ -18147,5 +18147,59 @@
     "earliestPublicDisclosure": "2026-10-31",
     "lastModification": "2026-11-06"
   }
+},
+  {
+  "recordId": "01a07bb9-e794-7218-a85d-2f24711cce52",
+  "applicant": "Devocops Solutions",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Clicgen",
+      "O": "Devocops Solutions",
+      "C": "IN"
+    },
+    "minVersion": "0.1.0",
+    "infoURL": "https://clicgen.ai",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2",
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-07",
+    "conformance": "2026-09-11",
+    "earliestPublicDisclosure": "2026-11-02",
+    "lastModification": "2026-11-06"
+  }
 }  
 ]
