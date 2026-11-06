@@ -18486,5 +18486,54 @@
     "earliestPublicDisclosure": "2026-09-16",
     "lastModification": "2026-11-06"
   }
-}
+},
+{
+  "recordId": "01a1a728-1007-7d72-a5b2-ae1ce27e0f19",
+  "applicant": "ANTHILL A/S",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Anthill AI",
+      "O": "Anthill A/S",
+      "C": "DK"
+    },
+    "minVersion": "",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-04",
+    "conformance": "2026-11-06",
+    "earliestPublicDisclosure": "2026-11-04",
+    "lastModification": "2026-11-06"
+  }
+} 
 ]
