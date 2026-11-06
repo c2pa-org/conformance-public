@@ -18591,5 +18591,58 @@
     "earliestPublicDisclosure": "2026-10-29",
     "lastModification": "2026-11-06"
   }
+},
+ {
+  "recordId": "01a17f5c-84e0-71da-ac89-44f1a4847f22",
+  "applicant": "Google LLC",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Project Genie by Google",
+      "O": "Google LLC",
+      "C": "US"
+    },
+    "minVersion": "",
+    "infoURL": "https://labs.google/projectgenie",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.1",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-27",
+    "conformance": "2026-11-06",
+    "earliestPublicDisclosure": "2026-10-27",
+    "lastModification": "2026-11-06"
+  }
 }  
 ]
