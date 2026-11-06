@@ -16636,8 +16636,6 @@
       },
       "disallowedSignals": {
         "inception": [
-          "capturedMedia",
-          "capturedMediaStitched",
           "nonGenAIDigitalCreation"
         ]
       }
@@ -17052,7 +17050,7 @@
       "2.2"
     ],
     "conformanceProgramVersion": "0.2",
-    "supportsCompressedManifests": false,
+    "supportsCompressedManifests": true,
     "containers": {
       "generate": {
         "image": [
@@ -18166,8 +18164,6 @@
     },
     "disallowedSignals": {
       "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
         "nonGenAIDigitalCreation"
       ]
     }
@@ -18224,6 +18220,7 @@
     }
   },
   "specVersion": [
+    "2.2",
     "2.4"
   ],
   "conformanceProgramVersion": "0.2",
@@ -18321,7 +18318,12 @@
         "audio/mpeg",
         "audio/wav",
         "audio/mp4"
-      ]
+      ],
+      "documents": [
+        "application/pdf"
+      ],
+      "textHtml": [],
+      "textStructured": []
     },
     "validate": {
       "image": [
@@ -18339,7 +18341,12 @@
         "audio/mpeg",
         "audio/wav",
         "audio/mp4"
-      ]
+      ],
+      "documents": [
+        "application/pdf"
+      ],
+      "textHtml": [],
+      "textStructured": []
     }
   },
   "liveVideo": {
@@ -18350,6 +18357,76 @@
     "creation": "2026-10-05",
     "conformance": "2026-11-06",
     "earliestPublicDisclosure": "2026-09-30",
+    "lastModification": "2026-11-06"
+  }
+},
+  {
+  "recordId": "01a09b10-b800-756b-abf1-567809bfe783",
+  "applicant": "TRION SECURITY, SL",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "TRION STAMP",
+      "O": "TRION SECURITY, SL",
+      "C": "ES"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://stamp.trionsecurity.com/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav"
+      ]
+   },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-13",
+    "conformance": "2026-11-06",
+    "earliestPublicDisclosure": "2026-09-14",
     "lastModification": "2026-11-06"
   }
 }  
