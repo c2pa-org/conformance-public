@@ -18276,5 +18276,81 @@
     "earliestPublicDisclosure": "2026-10-08",
     "lastModification": "2026-11-06"
   }
+},
+  {
+  "recordId": "01a10cd6-c2d8-71fa-b4b0-9e409611b48a",
+  "applicant": "TrustMyContent",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "TrustMyContent Signing",
+      "O": "TrustMyContent",
+      "C": "FR"
+    },
+    "minVersion": "",
+    "infoURL": "https://www.trustmycontent.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/tiff",
+        "image/webp",
+        "image/heic"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/tiff",
+        "image/webp",
+        "image/heic"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-05",
+    "conformance": "2026-11-06",
+    "earliestPublicDisclosure": "2026-09-30",
+    "lastModification": "2026-11-06"
+  }
 }  
 ]
