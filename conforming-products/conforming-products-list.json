@@ -18185,7 +18185,11 @@
         "video/mp4"
       ]
     },
-    "validate": {}
+    "validate": {
+      "image": [
+        "image/jpeg"
+      ]
+    }
   },
   "liveVideo": {
     "supported": false
@@ -18378,8 +18382,6 @@
     },
     "disallowedSignals": {
       "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
         "nonGenAIDigitalCreation"
       ]
     }
@@ -18429,5 +18431,60 @@
     "earliestPublicDisclosure": "2026-09-14",
     "lastModification": "2026-11-06"
   }
-}  
+},
+  {
+  "recordId": "01a0666f-8322-706a-8e1f-55b2dd009ab3",
+  "applicant": "Lightricks Ltd",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "LTX",
+      "O": "Lightricks Ltd",
+      "C": "IL"
+    },
+    "minVersion": "",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/wav"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-03",
+    "conformance": "2026-11-06",
+    "earliestPublicDisclosure": "2026-09-16",
+    "lastModification": "2026-11-06"
+  }
+}
 ]
