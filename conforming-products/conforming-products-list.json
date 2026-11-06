@@ -18097,5 +18097,55 @@
     "earliestPublicDisclosure": "2026-09-16",
     "lastModification": "2026-11-04"
   }
+},
+    {
+  "recordId": "01a13abb-7321-7eab-b7c9-083640e4712c",
+  "applicant": "Fyher",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "tryVidimus Proof Capture",
+      "O": "Fyher",
+      "C": "FR"
+    },
+    "minVersion": "",
+    "infoURL": "https://tryvidimus.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-14",
+    "conformance": "2026-10-19",
+    "earliestPublicDisclosure": "2026-10-31",
+    "lastModification": "2026-11-06"
+  }
 }  
 ]
