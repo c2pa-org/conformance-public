@@ -18535,5 +18535,61 @@
     "earliestPublicDisclosure": "2026-11-04",
     "lastModification": "2026-11-06"
   }
-} 
+},
+{
+  "recordId": "01a18966-2fd7-77bd-90c0-1c431ca0954d",
+  "applicant": "Volkan Catak Sole Proprietorship",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Proofcan",
+      "O": "Volkan Catak Sole Proprietorship",
+      "C": "TR"
+    },
+    "minVersion": "0.2.0",
+    "infoURL": "https://www.proofcan.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-29",
+    "conformance": "2026-11-06",
+    "earliestPublicDisclosure": "2026-10-29",
+    "lastModification": "2026-11-06"
+  }
+}  
 ]
