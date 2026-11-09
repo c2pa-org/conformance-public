@@ -17611,7 +17611,7 @@
       }
     },
     "specVersion": [
-      "2.2"
+      "2.4"
     ],
     "conformanceProgramVersion": "0.2",
     "supportsCompressedManifests": false,
@@ -18382,6 +18382,8 @@
     },
     "disallowedSignals": {
       "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
         "nonGenAIDigitalCreation"
       ]
     }
@@ -18456,7 +18458,7 @@
     }
   },
   "specVersion": [
-    "2.4"
+    "2.2"
   ],
   "conformanceProgramVersion": "0.2",
   "supportsCompressedManifests": true,
@@ -18563,14 +18565,18 @@
   "specVersion": [
     "2.2"
   ],
-  "conformanceProgramVersion": "0.2",
+  "conformanceProgramVersion": "0.1",
   "supportsCompressedManifests": false,
   "containers": {
     "generate": {
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
       "image": [
         "image/jpeg",
-        "image/png",
-        "image/webp"
+        "image/png"
       ]
     },
     "validate": {
@@ -18920,6 +18926,67 @@
     "creation": "2026-11-06",
     "conformance": "2026-11-09",
     "earliestPublicDisclosure": "2026-11-06",
+    "lastModification": "2026-11-09"
+  }
+},
+  {
+  "recordId": "01a0a588-f70d-771d-b4b8-002caa34ff52",
+  "applicant": "Orbit Olive, Inc",
+  "product": {
+    "productType": "validatorProduct",
+    "DN": {
+      "CN": "OrbiSync",
+      "O": "Orbit Olive, Inc",
+      "C": "US"
+    },
+    "minVersion": "2.0.0",
+    "infoURL": "https://orbitolive.com/"
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {},
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/jxl",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-15",
+    "conformance": "2026-11-09",
+    "earliestPublicDisclosure": "2026-10-15",
     "lastModification": "2026-11-09"
   }
 }  
