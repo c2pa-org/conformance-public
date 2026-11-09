@@ -18855,5 +18855,72 @@
     "earliestPublicDisclosure": "2026-11-06",
     "lastModification": "2026-11-09"
   }
-}
+},
+ {
+  "recordId": "01a1b169-e848-7178-b434-aeaa6a8125c3",
+  "applicant": "REVERCE GmbH",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "verstag",
+      "O": "REVERCE GmbH",
+      "C": "DE"
+    },
+    "minVersion": "1.1.0",
+    "infoURL": "https://verstag.io",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": [
+        "GoogleCloud_CloudHSMKeyAttestation"
+      ]
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/tiff",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/tiff",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-06",
+    "conformance": "2026-11-09",
+    "earliestPublicDisclosure": "2026-11-06",
+    "lastModification": "2026-11-09"
+  }
+}  
 ]
