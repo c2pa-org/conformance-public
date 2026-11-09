@@ -18989,5 +18989,53 @@
     "earliestPublicDisclosure": "2026-10-15",
     "lastModification": "2026-11-09"
   }
+},
+{
+  "recordId": "01a19ba7-114a-7684-8d4a-ffab3b938f0e",
+  "applicant": "SEZ S.A.S.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Nocturn I.A.D.R.",
+      "O": "SEZ S.A.S.",
+      "C": "FR",
+      "OU": "Nocturn Studio"
+    },
+    "minVersion": "",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "audio": [
+        "audio/wav"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-02",
+    "conformance": "2026-11-09",
+    "earliestPublicDisclosure": "2026-11-02",
+    "lastModification": "2026-11-09"
+  }
 }  
 ]
