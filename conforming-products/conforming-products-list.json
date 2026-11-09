@@ -18748,5 +18748,57 @@
     "earliestPublicDisclosure": "2026-11-06",
     "lastModification": "2026-11-09"
   }
-}  
+},
+ {
+  "recordId": "01a1a437-3d27-7dcf-bbcd-5dc0fce50853",
+  "applicant": "Mindverse Limited",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "MACARON AI",
+      "O": "Mindverse Limited",
+      "C": "HK",
+      "OU": "Macaron AI Content Service"
+    },
+    "minVersion": "",
+    "infoURL": "https://macaron.im",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-04",
+    "conformance": "2026-11-09",
+    "earliestPublicDisclosure": "2026-11-04",
+    "lastModification": "2026-11-09"
+  }
+} 
 ]
