@@ -19037,5 +19037,59 @@
     "earliestPublicDisclosure": "2026-11-02",
     "lastModification": "2026-11-09"
   }
-}  
+},
+ {
+  "recordId": "01a198fb-524a-7b13-8310-b05e70556b2b",
+  "applicant": "1412 Labs, LLC",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "PIT Custody Stamp",
+      "O": "1412 Labs, LLC",
+      "C": "US"
+    },
+    "minVersion": "0.1.0",
+    "infoURL": "https://pitverify.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": [
+        "Microsoft_AzureAttestation"
+      ]
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-01",
+    "conformance": "2026-11-09",
+    "earliestPublicDisclosure": "2026-11-02",
+    "lastModification": "2026-11-09"
+  }
+} 
 ]
