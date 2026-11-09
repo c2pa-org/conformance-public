@@ -18800,5 +18800,60 @@
     "earliestPublicDisclosure": "2026-11-04",
     "lastModification": "2026-11-09"
   }
-} 
+},
+  {
+  "recordId": "01a1b149-7feb-71c5-b7fc-c2b7e21f31c9",
+  "applicant": "Original Pictures Technologies, Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Original Pictures iOS Generator Product",
+      "O": "Original Pictures Technologies, Inc.",
+      "C": "US"
+    },
+    "minVersion": "0.2.0",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": [
+        "Apple_AppAttest"
+      ]
+    },
+    "disallowedSignals": {
+      "inception": [
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/wav"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-06",
+    "conformance": "2026-11-09",
+    "earliestPublicDisclosure": "2026-11-06",
+    "lastModification": "2026-11-09"
+  }
+}
 ]
