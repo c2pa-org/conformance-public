@@ -18644,5 +18644,53 @@
     "earliestPublicDisclosure": "2026-10-27",
     "lastModification": "2026-11-06"
   }
-}  
+},
+ {
+  "recordId": "01a1a2cf-fd34-723d-8e50-df1b163a5871",
+  "applicant": "Erbas, Ramazan",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "ImmoStory Video Generator",
+      "O": "Erbas, Ramazan",
+      "C": "BE"
+    },
+    "minVersion": "",
+    "infoURL": "https://immostory.ai",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-03",
+    "conformance": "2026-11-09",
+    "earliestPublicDisclosure": "2026-09-09",
+    "lastModification": "2026-11-09"
+  }
+} 
 ]
