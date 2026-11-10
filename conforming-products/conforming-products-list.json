@@ -19296,5 +19296,78 @@
     "earliestPublicDisclosure": "2026-11-02",
     "lastModification": "2026-11-10"
   }
-}  
+},
+ {
+    "recordId": "01a0d3b6-b8bf-7fc5-8c8a-cee675381e13",
+    "applicant": "VOISEED SRL",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "VOISEED STUDIO",
+        "O": "VOISEED SRL",
+        "C": "IT"
+      },
+      "minVersion": "1.5.0",
+      "infoURL": "https://www.voiseed.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "textUnstructured": []
+      },
+      "validate": {
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": true,
+      "encapsulations": [
+        {
+          "type": "fMP4",
+          "methods": [
+            "per-segment"
+          ],
+          "generation": true,
+          "validation": false
+        }
+      ]
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-24",
+      "conformance": "2026-11-10",
+      "earliestPublicDisclosure": "2026-11-01",
+      "lastModification": "2026-11-10"
+    }
+  }
 ]
