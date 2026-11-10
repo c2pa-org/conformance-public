@@ -19224,5 +19224,77 @@
     "earliestPublicDisclosure": "2026-11-04",
     "lastModification": "2026-11-09"
   }
+},
+{
+  "recordId": "01a19d27-0047-747a-9c59-d429a56a4375",
+  "applicant": "RAVN Networks, Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "RAVN",
+      "O": "RAVN Networks, Inc.",
+      "C": "US"
+    },
+    "minVersion": "1.26.1008.33",
+    "infoURL": "https://www.ravnnetworks.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/wav"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/wav"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-02",
+    "conformance": "2026-11-10",
+    "earliestPublicDisclosure": "2026-11-02",
+    "lastModification": "2026-11-10"
+  }
 }  
 ]
