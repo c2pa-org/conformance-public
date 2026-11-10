@@ -17979,6 +17979,7 @@
     "generate": {
       "image": [
         "image/jpeg",
+        "image/jxl",
         "image/png",
         "image/webp"
       ],
@@ -18389,7 +18390,7 @@
     }
   },
   "specVersion": [
-    "2.4"
+    "2.2"
   ],
   "conformanceProgramVersion": "0.2",
   "supportsCompressedManifests": true,
@@ -18515,17 +18516,28 @@
   "specVersion": [
     "2.4"
   ],
-  "conformanceProgramVersion": "0.2",
+  "conformanceProgramVersion": "0.1",
   "supportsCompressedManifests": false,
   "containers": {
     "generate": {
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
       "image": [
         "image/jpeg",
         "image/png",
         "image/webp"
       ]
     },
-    "validate": {}
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ]
+    }
   },
   "liveVideo": {
     "supported": false
@@ -18770,12 +18782,12 @@
     "infoURL": "https://macaron.im",
     "assurance": {
       "maxAssuranceLevel": 1,
-      "attestationMethods": []
+      "attestationMethods": [
+        "Apple_AppAttest"
+      ]
     },
     "disallowedSignals": {
       "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
         "nonGenAIDigitalCreation"
       ]
     }
@@ -18839,7 +18851,9 @@
     "generate": {
       "image": [
         "image/jpeg",
-        "image/png"
+        "image/png",
+        "image/tiff",
+        "image/webp"
       ],
       "video": [
         "video/mp4"
@@ -18849,7 +18863,18 @@
         "audio/wav"
       ]
     },
-    "validate": {}
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/tiff",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    }
   },
   "liveVideo": {
     "supported": false
@@ -18866,7 +18891,7 @@
   "recordId": "01a1b169-e848-7178-b434-aeaa6a8125c3",
   "applicant": "REVERCE GmbH",
   "product": {
-    "productType": "generatorProduct",
+    "productType": "validatorProduct",
     "DN": {
       "CN": "verstag",
       "O": "REVERCE GmbH",
@@ -19092,60 +19117,31 @@
     "lastModification": "2026-11-09"
   }
 },
-   {
-  "recordId": "01a168df-6ab7-770d-8c58-eab1b434ba4f",
-  "applicant": "Adapt Global Inc.",
+  {
+  "recordId": "01a19900-690a-7f0b-950c-57a9bde31411",
+  "applicant": "1412 Labs, LLC",
   "product": {
-    "productType": "generatorProduct",
+    "productType": "validatorProduct",
     "DN": {
-      "CN": "Nuance Content Credentials",
-      "O": "Adapt Global Inc.",
+      "CN": "PIT Provenance and Integrity Tool",
+      "O": "1412 Labs, LLC",
       "C": "US"
     },
-    "minVersion": "2.10.0",
-    "infoURL": "https://www.adaptglobal.io/",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
-    },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
-    }
+    "minVersion": "0.1.0",
+    "infoURL": "https://pitverify.com"
   },
   "specVersion": [
-    "2.4"
+    "2.2"
   ],
   "conformanceProgramVersion": "0.2",
   "supportsCompressedManifests": true,
   "containers": {
-    "generate": {
+    "generate": {},
+    "validate": {
       "image": [
         "image/jpeg",
-        "image/png"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ],
-      "audio": [
-        "audio/wav",
-        "audio/mp4"
-      ]
-    },
-    "validate": {
-       "image": [
-        "image/jpeg",
-        "image/png"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mp4"
+        "image/png",
+        "image/heic"
       ]
     }
   },
@@ -19154,9 +19150,9 @@
   },
   "status": "conformant",
   "dates": {
-    "creation": "2026-10-23",
+    "creation": "2026-11-01",
     "conformance": "2026-11-09",
-    "earliestPublicDisclosure": "2026-10-30",
+    "earliestPublicDisclosure": "2026-11-02",
     "lastModification": "2026-11-09"
   }
 }
