@@ -19369,5 +19369,67 @@
       "earliestPublicDisclosure": "2026-11-01",
       "lastModification": "2026-11-10"
     }
+  },
+   {
+  "recordId": "01a0f6d3-fdd8-7811-a1c9-222d708790ef",
+  "applicant": "Cloudflare, Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Cloudflare Images",
+      "O": "Cloudflare, Inc.",
+      "C": "US"
+    },
+    "minVersion": "",
+    "infoURL": "https://www.cloudflare.com/products/images/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/webp",
+        "image/avif"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-01",
+    "conformance": "2026-11-10",
+    "earliestPublicDisclosure": "2025-02-01",
+    "lastModification": "2026-11-10"
   }
+}
 ]
