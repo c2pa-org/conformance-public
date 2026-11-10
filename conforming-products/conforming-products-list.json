@@ -17950,107 +17950,107 @@
     }
   },
   {
-  "recordId": "01a11eab-50f6-7dac-a373-4e0cac8c42c4",
-  "applicant": "Xiaomi Communications, Co., Ltd.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Xiaomi Server-side C2PA Signing Service",
-      "O": "Xiaomi Communications, Co., Ltd.",
-      "C": "CN",
-      "OU": "Information Security Department - Security Compliance Team"
+    "recordId": "01a11eab-50f6-7dac-a373-4e0cac8c42c4",
+    "applicant": "Xiaomi Communications, Co., Ltd.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Xiaomi Server-side C2PA Signing Service",
+        "O": "Xiaomi Communications, Co., Ltd.",
+        "C": "CN",
+        "OU": "Information Security Department - Security Compliance Team"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://trust.mi.com/transparency",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": []
+      }
     },
-    "minVersion": "1.0.0",
-    "infoURL": "https://trust.mi.com/transparency",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
     },
-    "disallowedSignals": {
-      "inception": []
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-10-09",
+      "conformance": "2026-11-04",
+      "earliestPublicDisclosure": "2026-10-15",
+      "lastModification": "2026-11-04"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/jxl",
-        "image/png",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ]
+  {
+    "recordId": "01a0a791-cf58-748a-b078-6d08d594a68e",
+    "applicant": "Imgix, Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Imgix Rendering API",
+        "O": "Imgix, Inc.",
+        "C": "US"
+      },
+      "minVersion": "",
+      "infoURL": "https://www.imgix.com/",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": []
+      }
     },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-10-09",
-    "conformance": "2026-11-04",
-    "earliestPublicDisclosure": "2026-10-15",
-    "lastModification": "2026-11-04"
-  }
-},
-{
-  "recordId": "01a0a791-cf58-748a-b078-6d08d594a68e",
-  "applicant": "Imgix, Inc.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Imgix Rendering API",
-      "O": "Imgix, Inc.",
-      "C": "US"
-    },
-    "minVersion": "",
-    "infoURL": "https://www.imgix.com/",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
-    },
-    "disallowedSignals": {
-      "inception": []
-    }
-  },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/jxl",
-        "image/png",
-        "image/gif",
-        "image/webp",
-        "image/heic",
-        "image/avif",
-        "image/tiff"
-      ],
-      "video": [
-        "video/mp4"
-      ],
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/gif",
+          "image/webp",
+          "image/heic",
+          "image/avif",
+          "image/tiff"
+        ],
+        "video": [
+          "video/mp4"
+        ],
         "audio": [
           "audio/mpeg",
           "audio/wav",
@@ -18059,23 +18059,23 @@
         "documents": [
           "application/pdf"
         ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/jxl",
-        "image/png",
-        "image/gif",
-        "image/webp",
-        "image/heic",
-        "image/avif",
-        "image/tiff"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime",
-        "video/x-msvideo"
-      ],
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/gif",
+          "image/webp",
+          "image/heic",
+          "image/avif",
+          "image/tiff"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime",
+          "video/x-msvideo"
+        ],
         "audio": [
           "audio/mpeg",
           "audio/wav",
@@ -18084,1220 +18084,1207 @@
         "documents": [
           "application/pdf"
         ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-16",
+      "conformance": "2026-11-04",
+      "earliestPublicDisclosure": "2026-09-16",
+      "lastModification": "2026-11-04"
     }
   },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-16",
-    "conformance": "2026-11-04",
-    "earliestPublicDisclosure": "2026-09-16",
-    "lastModification": "2026-11-04"
-  }
-},
-    {
-  "recordId": "01a13abb-7321-7eab-b7c9-083640e4712c",
-  "applicant": "Fyher",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "tryVidimus Proof Capture",
-      "O": "Fyher",
-      "C": "FR"
-    },
-    "minVersion": "",
-    "infoURL": "https://tryvidimus.com",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
-    },
-    "disallowedSignals": {
-      "inception": [
-        "nonGenAIDigitalCreation"
-      ]
-    }
-  },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-10-14",
-    "conformance": "2026-10-19",
-    "earliestPublicDisclosure": "2026-10-31",
-    "lastModification": "2026-11-06"
-  }
-},
   {
-  "recordId": "01a07bb9-e794-7218-a85d-2f24711cce52",
-  "applicant": "Devocops Solutions",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Clicgen",
-      "O": "Devocops Solutions",
-      "C": "IN"
+    "recordId": "01a13abb-7321-7eab-b7c9-083640e4712c",
+    "applicant": "Fyher",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "tryVidimus Proof Capture",
+        "O": "Fyher",
+        "C": "FR"
+      },
+      "minVersion": "",
+      "infoURL": "https://tryvidimus.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "0.1.0",
-    "infoURL": "https://clicgen.ai",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ]
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-10-14",
+      "conformance": "2026-10-19",
+      "earliestPublicDisclosure": "2026-10-31",
+      "lastModification": "2026-11-06"
     }
   },
-  "specVersion": [
-    "2.2",
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-07",
-    "conformance": "2026-09-11",
-    "earliestPublicDisclosure": "2026-11-02",
-    "lastModification": "2026-11-06"
-  }
-},
   {
-  "recordId": "01a06c6e-2b24-7f12-ba3b-ce089692f2f9",
-  "applicant": "vivo Mobile Communication Co., Ltd.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Jovi macOS",
-      "O": "vivo Mobile Communication Co., Ltd.",
-      "C": "CN"
+    "recordId": "01a07bb9-e794-7218-a85d-2f24711cce52",
+    "applicant": "Devocops Solutions",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Clicgen",
+        "O": "Devocops Solutions",
+        "C": "IN"
+      },
+      "minVersion": "0.1.0",
+      "infoURL": "https://clicgen.ai",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.2",
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ]
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-07",
+      "conformance": "2026-09-11",
+      "earliestPublicDisclosure": "2026-11-02",
+      "lastModification": "2026-11-06"
     }
   },
-  "specVersion": [
-    "2.2",
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": true,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/heif"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mp4"
-      ],
-      "documents": [
-        "application/pdf"
-      ],
-      "textHtml": [],
-      "textStructured": []
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/heif"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mp4"
-      ],
-      "documents": [
-        "application/pdf"
-      ],
-      "textHtml": [],
-      "textStructured": []
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-04",
-    "conformance": "2026-11-06",
-    "earliestPublicDisclosure": "2026-10-08",
-    "lastModification": "2026-11-06"
-  }
-},
   {
-  "recordId": "01a10cd6-c2d8-71fa-b4b0-9e409611b48a",
-  "applicant": "TrustMyContent",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "TrustMyContent Signing",
-      "O": "TrustMyContent",
-      "C": "FR"
+    "recordId": "01a06c6e-2b24-7f12-ba3b-ce089692f2f9",
+    "applicant": "vivo Mobile Communication Co., Ltd.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Jovi macOS",
+        "O": "vivo Mobile Communication Co., Ltd.",
+        "C": "CN"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "",
-    "infoURL": "https://www.trustmycontent.com",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.2",
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ],
+        "textHtml": [],
+        "textStructured": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heif"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ],
+        "textHtml": [],
+        "textStructured": []
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-04",
+      "conformance": "2026-11-06",
+      "earliestPublicDisclosure": "2026-10-08",
+      "lastModification": "2026-11-06"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": true,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/gif",
-        "image/tiff",
-        "image/webp",
-        "image/heic"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mpeg",
-        "audio/wav",
-        "audio/mp4"
-      ],
-      "documents": [
-        "application/pdf"
-      ],
-      "textHtml": [],
-      "textStructured": []
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/gif",
-        "image/tiff",
-        "image/webp",
-        "image/heic"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mpeg",
-        "audio/wav",
-        "audio/mp4"
-      ],
-      "documents": [
-        "application/pdf"
-      ],
-      "textHtml": [],
-      "textStructured": []
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-10-05",
-    "conformance": "2026-11-06",
-    "earliestPublicDisclosure": "2026-09-30",
-    "lastModification": "2026-11-06"
-  }
-},
   {
-  "recordId": "01a09b10-b800-756b-abf1-567809bfe783",
-  "applicant": "TRION SECURITY, SL",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "TRION STAMP",
-      "O": "TRION SECURITY, SL",
-      "C": "ES"
+    "recordId": "01a10cd6-c2d8-71fa-b4b0-9e409611b48a",
+    "applicant": "TrustMyContent",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "TrustMyContent Signing",
+        "O": "TrustMyContent",
+        "C": "FR"
+      },
+      "minVersion": "",
+      "infoURL": "https://www.trustmycontent.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "1.0.0",
-    "infoURL": "https://stamp.trionsecurity.com/",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/tiff",
+          "image/webp",
+          "image/heic"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ],
+        "textHtml": [],
+        "textStructured": []
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/tiff",
+          "image/webp",
+          "image/heic"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ],
+        "textHtml": [],
+        "textStructured": []
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-10-05",
+      "conformance": "2026-11-06",
+      "earliestPublicDisclosure": "2026-09-30",
+      "lastModification": "2026-11-06"
     }
   },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": true,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mpeg",
-        "audio/wav"
-      ]
-   },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mpeg",
-        "audio/wav"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-13",
-    "conformance": "2026-11-06",
-    "earliestPublicDisclosure": "2026-09-14",
-    "lastModification": "2026-11-06"
-  }
-},
   {
-  "recordId": "01a0666f-8322-706a-8e1f-55b2dd009ab3",
-  "applicant": "Lightricks Ltd",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "LTX",
-      "O": "Lightricks Ltd",
-      "C": "IL"
+    "recordId": "01a09b10-b800-756b-abf1-567809bfe783",
+    "applicant": "TRION SECURITY, SL",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "TRION STAMP",
+        "O": "TRION SECURITY, SL",
+        "C": "ES"
+      },
+      "minVersion": "1.0.0",
+      "infoURL": "https://stamp.trionsecurity.com/",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-13",
+      "conformance": "2026-11-06",
+      "earliestPublicDisclosure": "2026-09-14",
+      "lastModification": "2026-11-06"
     }
   },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": true,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/wav"
-      ]
-    },
-    "validate": {}
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-03",
-    "conformance": "2026-11-06",
-    "earliestPublicDisclosure": "2026-09-16",
-    "lastModification": "2026-11-06"
-  }
-},
-{
-  "recordId": "01a1a728-1007-7d72-a5b2-ae1ce27e0f19",
-  "applicant": "ANTHILL A/S",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Anthill AI",
-      "O": "Anthill A/S",
-      "C": "DK"
-    },
-    "minVersion": "",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
-    },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
-    }
-  },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.1",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "video": [
-        "video/mp4"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/webp"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/webp"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-11-04",
-    "conformance": "2026-11-06",
-    "earliestPublicDisclosure": "2026-11-04",
-    "lastModification": "2026-11-06"
-  }
-},
-{
-  "recordId": "01a18966-2fd7-77bd-90c0-1c431ca0954d",
-  "applicant": "Volkan Catak Sole Proprietorship",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Proofcan",
-      "O": "Volkan Catak Sole Proprietorship",
-      "C": "TR"
-    },
-    "minVersion": "0.2.0",
-    "infoURL": "https://www.proofcan.com",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
-    },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
-    }
-  },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.1",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "video": [
-        "video/mp4"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/webp"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-10-29",
-    "conformance": "2026-11-06",
-    "earliestPublicDisclosure": "2026-10-29",
-    "lastModification": "2026-11-06"
-  }
-},
- {
-  "recordId": "01a17f5c-84e0-71da-ac89-44f1a4847f22",
-  "applicant": "Google LLC",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Project Genie by Google",
-      "O": "Google LLC",
-      "C": "US"
-    },
-    "minVersion": "",
-    "infoURL": "https://labs.google/projectgenie",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
-    },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
-    }
-  },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.1",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "video": [
-        "video/mp4"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-10-27",
-    "conformance": "2026-11-06",
-    "earliestPublicDisclosure": "2026-10-27",
-    "lastModification": "2026-11-06"
-  }
-},
- {
-  "recordId": "01a1a2cf-fd34-723d-8e50-df1b163a5871",
-  "applicant": "Erbas, Ramazan",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "ImmoStory Video Generator",
-      "O": "Erbas, Ramazan",
-      "C": "BE"
-    },
-    "minVersion": "",
-    "infoURL": "https://immostory.ai",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
-    },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
-    }
-  },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "video": [
-        "video/mp4"
-      ]
-    },
-    "validate": {}
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-11-03",
-    "conformance": "2026-11-09",
-    "earliestPublicDisclosure": "2026-09-09",
-    "lastModification": "2026-11-09"
-  }
-},
   {
-  "recordId": "01a1b14c-b811-786f-973a-ea6386b8ed67",
-  "applicant": "Original Pictures Technologies, Inc.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Original Pictures Android Generator Product",
-      "O": "Original Pictures Technologies, Inc.",
-      "C": "US"
+    "recordId": "01a0666f-8322-706a-8e1f-55b2dd009ab3",
+    "applicant": "Lightricks Ltd",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "LTX",
+        "O": "Lightricks Ltd",
+        "C": "IL"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "0.2.0",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": [
-        "Android_KeyAttestation",
-        "Google_PlayIntegrity"
-      ]
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/wav"
+        ]
+      },
+      "validate": {}
     },
-    "disallowedSignals": {
-      "inception": [
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-03",
+      "conformance": "2026-11-06",
+      "earliestPublicDisclosure": "2026-09-16",
+      "lastModification": "2026-11-06"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mpeg",
-        "audio/wav"
-      ]
-    },
-    "validate": {}
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-11-06",
-    "conformance": "2026-11-09",
-    "earliestPublicDisclosure": "2026-11-06",
-    "lastModification": "2026-11-09"
-  }
-},
- {
-  "recordId": "01a1a437-3d27-7dcf-bbcd-5dc0fce50853",
-  "applicant": "Mindverse Limited",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "MACARON AI",
-      "O": "Mindverse Limited",
-      "C": "HK",
-      "OU": "Macaron AI Content Service"
-    },
-    "minVersion": "",
-    "infoURL": "https://macaron.im",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": [
-        "Apple_AppAttest"
-      ]
-    },
-    "disallowedSignals": {
-      "inception": [
-        "nonGenAIDigitalCreation"
-      ]
-    }
-  },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4"
-      ]
-    },
-    "validate": {}
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-11-04",
-    "conformance": "2026-11-09",
-    "earliestPublicDisclosure": "2026-11-04",
-    "lastModification": "2026-11-09"
-  }
-},
   {
-  "recordId": "01a1b149-7feb-71c5-b7fc-c2b7e21f31c9",
-  "applicant": "Original Pictures Technologies, Inc.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Original Pictures iOS Generator Product",
-      "O": "Original Pictures Technologies, Inc.",
-      "C": "US"
+    "recordId": "01a1a728-1007-7d72-a5b2-ae1ce27e0f19",
+    "applicant": "ANTHILL A/S",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Anthill AI",
+        "O": "Anthill A/S",
+        "C": "DK"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "0.2.0",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": [
-        "Apple_AppAttest"
-      ]
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ]
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-04",
+      "conformance": "2026-11-06",
+      "earliestPublicDisclosure": "2026-11-04",
+      "lastModification": "2026-11-06"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/tiff",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4"
-      ],
-      "audio": [
-        "audio/mpeg",
-        "audio/wav"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/tiff",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-11-06",
-    "conformance": "2026-11-09",
-    "earliestPublicDisclosure": "2026-11-06",
-    "lastModification": "2026-11-09"
-  }
-},
- {
-  "recordId": "01a1b169-e848-7178-b434-aeaa6a8125c3",
-  "applicant": "REVERCE GmbH",
-  "product": {
-    "productType": "validatorProduct",
-    "DN": {
-      "CN": "verstag",
-      "O": "REVERCE GmbH",
-      "C": "DE"
-    },
-    "minVersion": "1.1.0",
-    "infoURL": "https://verstag.io",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": [
-        "GoogleCloud_CloudHSMKeyAttestation"
-      ]
-    },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched"
-      ]
-    }
-  },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/tiff",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/tiff",
-        "image/webp"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-11-06",
-    "conformance": "2026-11-09",
-    "earliestPublicDisclosure": "2026-11-06",
-    "lastModification": "2026-11-09"
-  }
-},
   {
-  "recordId": "01a0a588-f70d-771d-b4b8-002caa34ff52",
-  "applicant": "Orbit Olive, Inc",
-  "product": {
-    "productType": "validatorProduct",
-    "DN": {
-      "CN": "OrbiSync",
-      "O": "Orbit Olive, Inc",
-      "C": "US"
+    "recordId": "01a18966-2fd7-77bd-90c0-1c431ca0954d",
+    "applicant": "Volkan Catak Sole Proprietorship",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Proofcan",
+        "O": "Volkan Catak Sole Proprietorship",
+        "C": "TR"
+      },
+      "minVersion": "0.2.0",
+      "infoURL": "https://www.proofcan.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "2.0.0",
-    "infoURL": "https://orbitolive.com/"
-  },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": true,
-  "containers": {
-    "generate": {},
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/jxl",
-        "image/png",
-        "image/svg+xml",
-        "image/gif",
-        "image/x-adobe-dng",
-        "image/tiff",
-        "image/webp",
-        "image/heic",
-        "image/heif",
-        "image/avif"
-      ],
-      "video": [
-        "video/x-msvideo",
-        "video/mp4",
-        "video/quicktime"
-      ],
-      "audio": [
-        "audio/flac",
-        "audio/mpeg",
-        "audio/wav",
-        "audio/mp4"
-      ],
-      "documents": [
-        "application/pdf"
-      ]
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-10-29",
+      "conformance": "2026-11-06",
+      "earliestPublicDisclosure": "2026-10-29",
+      "lastModification": "2026-11-06"
     }
   },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-09-15",
-    "conformance": "2026-11-09",
-    "earliestPublicDisclosure": "2026-10-15",
-    "lastModification": "2026-11-09"
-  }
-},
-{
-  "recordId": "01a19ba7-114a-7684-8d4a-ffab3b938f0e",
-  "applicant": "SEZ S.A.S.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Nocturn I.A.D.R.",
-      "O": "SEZ S.A.S.",
-      "C": "FR",
-      "OU": "Nocturn Studio"
-    },
-    "minVersion": "",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
-    },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
-    }
-  },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "audio": [
-        "audio/wav"
-      ]
-    },
-    "validate": {}
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-11-02",
-    "conformance": "2026-11-09",
-    "earliestPublicDisclosure": "2026-11-02",
-    "lastModification": "2026-11-09"
-  }
-},
- {
-  "recordId": "01a198fb-524a-7b13-8310-b05e70556b2b",
-  "applicant": "1412 Labs, LLC",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "PIT Custody Stamp",
-      "O": "1412 Labs, LLC",
-      "C": "US"
-    },
-    "minVersion": "0.1.0",
-    "infoURL": "https://pitverify.com",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": [
-        "Microsoft_AzureAttestation"
-      ]
-    },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
-    }
-  },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": true,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg"
-      ]
-    },
-    "validate": {
-      "image": [
-        "image/jpeg"
-      ]
-    }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-11-01",
-    "conformance": "2026-11-09",
-    "earliestPublicDisclosure": "2026-11-02",
-    "lastModification": "2026-11-09"
-  }
-},
   {
-  "recordId": "01a19900-690a-7f0b-950c-57a9bde31411",
-  "applicant": "1412 Labs, LLC",
-  "product": {
-    "productType": "validatorProduct",
-    "DN": {
-      "CN": "PIT Provenance and Integrity Tool",
-      "O": "1412 Labs, LLC",
-      "C": "US"
+    "recordId": "01a17f5c-84e0-71da-ac89-44f1a4847f22",
+    "applicant": "Google LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Project Genie by Google",
+        "O": "Google LLC",
+        "C": "US"
+      },
+      "minVersion": "",
+      "infoURL": "https://labs.google/projectgenie",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "0.1.0",
-    "infoURL": "https://pitverify.com"
-  },
-  "specVersion": [
-    "2.2"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": true,
-  "containers": {
-    "generate": {},
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/heic"
-      ]
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-10-27",
+      "conformance": "2026-11-06",
+      "earliestPublicDisclosure": "2026-10-27",
+      "lastModification": "2026-11-06"
     }
   },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-11-01",
-    "conformance": "2026-11-09",
-    "earliestPublicDisclosure": "2026-11-02",
-    "lastModification": "2026-11-09"
-  }
-},
-{
-  "recordId": "01a1a846-c8f3-7f4e-b3c9-715cd155cf1b",
-  "applicant": "Herman Kolar s.p.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Sledna",
-      "O": "Herman Kolar s.p.",
-      "C": "SI"
+  {
+    "recordId": "01a1a2cf-fd34-723d-8e50-df1b163a5871",
+    "applicant": "Erbas, Ramazan",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "ImmoStory Video Generator",
+        "O": "Erbas, Ramazan",
+        "C": "BE"
+      },
+      "minVersion": "",
+      "infoURL": "https://immostory.ai",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "1.2.0",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
     },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-03",
+      "conformance": "2026-11-09",
+      "earliestPublicDisclosure": "2026-09-09",
+      "lastModification": "2026-11-09"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": true,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/svg+xml",
-        "image/gif",
-        "image/tiff",
-        "image/webp",
-        "image/avif"
-      ],
-      "video": [
-        "video/x-msvideo",
-        "video/mp4",
-        "video/quicktime"
-      ],
-      "audio": [
-        "audio/flac",
-        "audio/mpeg",
-        "audio/wav",
-        "audio/mp4"
-      ],
-      "documents": [
-        "application/pdf"
-      ],
-      "textUnstructured": [],
-      "textStructured": []
+  {
+    "recordId": "01a1b14c-b811-786f-973a-ea6386b8ed67",
+    "applicant": "Original Pictures Technologies, Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Original Pictures Android Generator Product",
+        "O": "Original Pictures Technologies, Inc.",
+        "C": "US"
+      },
+      "minVersion": "0.2.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation",
+          "Google_PlayIntegrity"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "validate": {}
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-11-04",
-    "conformance": "2026-11-09",
-    "earliestPublicDisclosure": "2026-11-04",
-    "lastModification": "2026-11-09"
-  }
-},
-{
-  "recordId": "01a19d27-0047-747a-9c59-d429a56a4375",
-  "applicant": "RAVN Networks, Inc.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "RAVN",
-      "O": "RAVN Networks, Inc.",
-      "C": "US"
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      },
+      "validate": {}
     },
-    "minVersion": "1.26.1008.33",
-    "infoURL": "https://www.ravnnetworks.com",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "liveVideo": {
+      "supported": false
     },
-    "disallowedSignals": {
-      "inception": [
-        "nonGenAIDigitalCreation"
-      ]
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-06",
+      "conformance": "2026-11-09",
+      "earliestPublicDisclosure": "2026-11-06",
+      "lastModification": "2026-11-09"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": false,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ],
-      "audio": [
-        "audio/wav"
-      ],
-      "documents": [
-        "application/pdf"
-      ]
+  {
+    "recordId": "01a1a437-3d27-7dcf-bbcd-5dc0fce50853",
+    "applicant": "Mindverse Limited",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "MACARON AI",
+        "O": "Mindverse Limited",
+        "C": "HK",
+        "OU": "Macaron AI Content Service"
+      },
+      "minVersion": "",
+      "infoURL": "https://macaron.im",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png"
-      ],
-      "video": [
-        "video/mp4",
-        "video/quicktime"
-      ],
-      "audio": [
-        "audio/wav"
-      ],
-      "documents": [
-        "application/pdf"
-      ]
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-04",
+      "conformance": "2026-11-09",
+      "earliestPublicDisclosure": "2026-11-04",
+      "lastModification": "2026-11-09"
     }
   },
-  "liveVideo": {
-    "supported": false
+  {
+    "recordId": "01a1b149-7feb-71c5-b7fc-c2b7e21f31c9",
+    "applicant": "Original Pictures Technologies, Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Original Pictures iOS Generator Product",
+        "O": "Original Pictures Technologies, Inc.",
+        "C": "US"
+      },
+      "minVersion": "0.2.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-06",
+      "conformance": "2026-11-09",
+      "earliestPublicDisclosure": "2026-11-06",
+      "lastModification": "2026-11-09"
+    }
   },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-11-02",
-    "conformance": "2026-11-10",
-    "earliestPublicDisclosure": "2026-11-02",
-    "lastModification": "2026-11-10"
-  }
-},
- {
+  {
+    "recordId": "01a1b169-e848-7178-b434-aeaa6a8125c3",
+    "applicant": "REVERCE GmbH",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "verstag",
+        "O": "REVERCE GmbH",
+        "C": "DE"
+      },
+      "minVersion": "1.1.0",
+      "infoURL": "https://verstag.io",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "GoogleCloud_CloudHSMKeyAttestation"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-06",
+      "conformance": "2026-11-09",
+      "earliestPublicDisclosure": "2026-11-06",
+      "lastModification": "2026-11-09"
+    }
+  },
+  {
+    "recordId": "01a0a588-f70d-771d-b4b8-002caa34ff52",
+    "applicant": "Orbit Olive, Inc",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "OrbiSync",
+        "O": "Orbit Olive, Inc",
+        "C": "US"
+      },
+      "minVersion": "2.0.0",
+      "infoURL": "https://orbitolive.com/"
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-09-15",
+      "conformance": "2026-11-09",
+      "earliestPublicDisclosure": "2026-10-15",
+      "lastModification": "2026-11-09"
+    }
+  },
+  {
+    "recordId": "01a19ba7-114a-7684-8d4a-ffab3b938f0e",
+    "applicant": "SEZ S.A.S.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Nocturn I.A.D.R.",
+        "O": "SEZ S.A.S.",
+        "C": "FR",
+        "OU": "Nocturn Studio"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "audio": [
+          "audio/wav"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-02",
+      "conformance": "2026-11-09",
+      "earliestPublicDisclosure": "2026-11-02",
+      "lastModification": "2026-11-09"
+    }
+  },
+  {
+    "recordId": "01a198fb-524a-7b13-8310-b05e70556b2b",
+    "applicant": "1412 Labs, LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "PIT Custody Stamp",
+        "O": "1412 Labs, LLC",
+        "C": "US"
+      },
+      "minVersion": "0.1.0",
+      "infoURL": "https://pitverify.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Microsoft_AzureAttestation"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-01",
+      "conformance": "2026-11-09",
+      "earliestPublicDisclosure": "2026-11-02",
+      "lastModification": "2026-11-09"
+    }
+  },
+  {
+    "recordId": "01a19900-690a-7f0b-950c-57a9bde31411",
+    "applicant": "1412 Labs, LLC",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "PIT Provenance and Integrity Tool",
+        "O": "1412 Labs, LLC",
+        "C": "US"
+      },
+      "minVersion": "0.1.0",
+      "infoURL": "https://pitverify.com"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/heic"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-01",
+      "conformance": "2026-11-09",
+      "earliestPublicDisclosure": "2026-11-02",
+      "lastModification": "2026-11-09"
+    }
+  },
+  {
+    "recordId": "01a1a846-c8f3-7f4e-b3c9-715cd155cf1b",
+    "applicant": "Herman Kolar s.p.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Sledna",
+        "O": "Herman Kolar s.p.",
+        "C": "SI"
+      },
+      "minVersion": "1.2.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/tiff",
+          "image/webp",
+          "image/avif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ],
+        "textUnstructured": [],
+        "textStructured": []
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-04",
+      "conformance": "2026-11-09",
+      "earliestPublicDisclosure": "2026-11-04",
+      "lastModification": "2026-11-09"
+    }
+  },
+  {
+    "recordId": "01a19d27-0047-747a-9c59-d429a56a4375",
+    "applicant": "RAVN Networks, Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "RAVN",
+        "O": "RAVN Networks, Inc.",
+        "C": "US"
+      },
+      "minVersion": "1.26.1008.33",
+      "infoURL": "https://www.ravnnetworks.com",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/wav"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/wav"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-02",
+      "conformance": "2026-11-10",
+      "earliestPublicDisclosure": "2026-11-02",
+      "lastModification": "2026-11-10"
+    }
+  },
+  {
     "recordId": "01a0d3b6-b8bf-7fc5-8c8a-cee675381e13",
     "applicant": "VOISEED SRL",
     "product": {
@@ -19370,66 +19357,110 @@
       "lastModification": "2026-11-10"
     }
   },
-   {
-  "recordId": "01a0f6d3-fdd8-7811-a1c9-222d708790ef",
-  "applicant": "Cloudflare, Inc.",
-  "product": {
-    "productType": "generatorProduct",
-    "DN": {
-      "CN": "Cloudflare Images",
-      "O": "Cloudflare, Inc.",
-      "C": "US"
+  {
+    "recordId": "01a0f6d3-fdd8-7811-a1c9-222d708790ef",
+    "applicant": "Cloudflare, Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Cloudflare Images",
+        "O": "Cloudflare, Inc.",
+        "C": "US"
+      },
+      "minVersion": "",
+      "infoURL": "https://www.cloudflare.com/products/images/",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": []
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
     },
-    "minVersion": "",
-    "infoURL": "https://www.cloudflare.com/products/images/",
-    "assurance": {
-      "maxAssuranceLevel": 1,
-      "attestationMethods": []
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp",
+          "image/avif"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif"
+        ]
+      }
     },
-    "disallowedSignals": {
-      "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
-        "nonGenAIDigitalCreation"
-      ]
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-10-01",
+      "conformance": "2026-11-10",
+      "earliestPublicDisclosure": "2025-02-01",
+      "lastModification": "2026-11-10"
     }
   },
-  "specVersion": [
-    "2.4"
-  ],
-  "conformanceProgramVersion": "0.2",
-  "supportsCompressedManifests": true,
-  "containers": {
-    "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/gif",
-        "image/webp",
-        "image/avif"
-      ]
+  {
+    "recordId": "01a19ebc-daaf-78ec-b692-9e9d8012ae19",
+    "applicant": "Original Pictures Technologies, Inc.",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Original Pictures Capture Validator",
+        "O": "Original Pictures Technologies, Inc.",
+        "C": "US"
+      },
+      "minVersion": "0.1.0"
     },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/gif",
-        "image/webp",
-        "image/heic",
-        "image/heif",
-        "image/avif"
-      ]
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-03",
+      "conformance": "2026-11-10",
+      "earliestPublicDisclosure": "2026-11-10",
+      "lastModification": "2026-11-10"
     }
-  },
-  "liveVideo": {
-    "supported": false
-  },
-  "status": "conformant",
-  "dates": {
-    "creation": "2026-10-01",
-    "conformance": "2026-11-10",
-    "earliestPublicDisclosure": "2025-02-01",
-    "lastModification": "2026-11-10"
   }
-}
 ]
