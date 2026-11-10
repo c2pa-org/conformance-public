@@ -19155,5 +19155,74 @@
     "earliestPublicDisclosure": "2026-11-02",
     "lastModification": "2026-11-09"
   }
-}
+},
+{
+  "recordId": "01a1a846-c8f3-7f4e-b3c9-715cd155cf1b",
+  "applicant": "Herman Kolar s.p.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Sledna",
+      "O": "Herman Kolar s.p.",
+      "C": "SI"
+    },
+    "minVersion": "1.2.0",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/svg+xml",
+        "image/gif",
+        "image/tiff",
+        "image/webp",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ],
+      "documents": [
+        "application/pdf"
+      ],
+      "textUnstructured": [],
+      "textStructured": []
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-04",
+    "conformance": "2026-11-09",
+    "earliestPublicDisclosure": "2026-11-04",
+    "lastModification": "2026-11-09"
+  }
+}  
 ]
