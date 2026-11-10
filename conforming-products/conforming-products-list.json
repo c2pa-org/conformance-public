@@ -6184,7 +6184,7 @@
     "recordId": "019ed681-a6f7-7a70-a1ab-09b8133fd8bf",
     "applicant": "Mondelez Global LLC",
     "supportsCompressedManifests": false,
-    "status": "conformant",
+    "status": "revoked_eol",
     "product": {
       "productType": "generatorProduct",
       "DN": {
@@ -6222,7 +6222,7 @@
       "creation": "2026-06-17",
       "conformance": "2026-07-14",
       "earliestPublicDisclosure": "2026-07-01",
-      "lastModification": "2026-08-05"
+      "lastModification": "2026-11-10"
     }
   },
   {
