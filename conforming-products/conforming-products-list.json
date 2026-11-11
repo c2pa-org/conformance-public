@@ -19253,9 +19253,8 @@
         ],
         "textUnstructured": [],
         "textStructured": []
-      },
-      "validate": {}
-    },
+      }
+     },
     "liveVideo": {
       "supported": false
     },
@@ -19666,5 +19665,77 @@
     "earliestPublicDisclosure": "2026-11-04",
     "lastModification": "2026-11-11"
   }
-}  
+},
+  {
+  "recordId": "01a12e48-10bf-787e-a7b7-ffa689f2d837",
+  "applicant": "Comite International des Telecommunications de Presse",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "IPTC Content Credentials Signing Service",
+      "O": "Comite International des Telecommunications de Presse",
+      "C": "GB"
+    },
+    "minVersion": "1",
+    "infoURL": "https://iptc.org/media-provenance/iptc-content-credentials-signing-service/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-12",
+    "conformance": "2026-11-11",
+    "earliestPublicDisclosure": "2026-10-12",
+    "lastModification": "2026-11-11"
+  }
+}
 ]
