@@ -18213,7 +18213,8 @@
         "O": "vivo Mobile Communication Co., Ltd.",
         "C": "CN"
       },
-      "minVersion": "",
+      "minVersion": "1.0.0",
+      "infoURL": "https://stamp.trionsecurity.com/",
       "assurance": {
         "maxAssuranceLevel": 1,
         "attestationMethods": []
@@ -18501,6 +18502,7 @@
         "C": "DK"
       },
       "minVersion": "",
+      "infoURL": "https://immostory.ai",
       "assurance": {
         "maxAssuranceLevel": 1,
         "attestationMethods": []
@@ -18509,6 +18511,54 @@
         "inception": [
           "capturedMedia",
           "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {}
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-03",
+      "conformance": "2026-11-09",
+      "earliestPublicDisclosure": "2026-09-09",
+      "lastModification": "2026-11-09"
+    }
+  },
+  {
+    "recordId": "01a1b14c-b811-786f-973a-ea6386b8ed67",
+    "applicant": "Original Pictures Technologies, Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Original Pictures Android Generator Product",
+        "O": "Original Pictures Technologies, Inc.",
+        "C": "US"
+      },
+      "minVersion": "0.2.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Android_KeyAttestation",
+          "Google_PlayIntegrity"
+        ]
+      },
+      "disallowedSignals": {
+        "inception": [
           "nonGenAIDigitalCreation"
         ]
       }
@@ -18611,18 +18661,18 @@
       "infoURL": "https://labs.google/projectgenie",
       "assurance": {
         "maxAssuranceLevel": 1,
-        "attestationMethods": []
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
       },
       "disallowedSignals": {
         "inception": [
-          "capturedMedia",
-          "capturedMediaStitched",
           "nonGenAIDigitalCreation"
         ]
       }
     },
     "specVersion": [
-      "2.2"
+      "2.4"
     ],
     "conformanceProgramVersion": "0.1",
     "supportsCompressedManifests": false,
@@ -18654,7 +18704,7 @@
     "recordId": "01a1a2cf-fd34-723d-8e50-df1b163a5871",
     "applicant": "Erbas, Ramazan",
     "product": {
-      "productType": "generatorProduct",
+      "productType": "validatorProduct",
       "DN": {
         "CN": "ImmoStory Video Generator",
         "O": "Erbas, Ramazan",
@@ -18664,13 +18714,14 @@
       "infoURL": "https://immostory.ai",
       "assurance": {
         "maxAssuranceLevel": 1,
-        "attestationMethods": []
+        "attestationMethods": [
+          "GoogleCloud_CloudHSMKeyAttestation"
+        ]
       },
       "disallowedSignals": {
         "inception": [
           "capturedMedia",
-          "capturedMediaStitched",
-          "nonGenAIDigitalCreation"
+          "capturedMediaStitched"
         ]
       }
     },
@@ -19183,12 +19234,16 @@
           "image/avif"
         ],
         "video": [
-          "video/x-msvideo",
           "video/mp4",
           "video/quicktime"
         ],
+        "textUnstructured": []
+      },
+      "validate": {
+        "video": [
+          "video/mp4"
+        ],
         "audio": [
-          "audio/flac",
           "audio/mpeg",
           "audio/wav",
           "audio/mp4"
@@ -19521,5 +19576,46 @@
     "earliestPublicDisclosure": "2026-11-07",
     "lastModification": "2026-11-11"
   }
-}
+},
+  {
+  "recordId": "01a1741b-6f64-75d8-ae69-df3c5a1083fb",
+  "applicant": "Aethyia Inc.",
+  "product": {
+    "productType": "validatorProduct",
+    "DN": {
+      "CN": "Provenote",
+      "O": "Aethyia Inc.",
+      "C": "US"
+    },
+    "minVersion": "0.1.0",
+    "infoURL": "https://provenote.us"
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {},
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-25",
+    "conformance": "2026-11-11",
+    "earliestPublicDisclosure": "2026-09-23",
+    "lastModification": "2026-11-11"
+  }
+}  
 ]
