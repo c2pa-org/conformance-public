@@ -19462,5 +19462,64 @@
       "earliestPublicDisclosure": "2026-11-10",
       "lastModification": "2026-11-10"
     }
+  },
+   {
+  "recordId": "01a1bab0-3220-72e0-863b-3ff12ad0f491",
+  "applicant": "Metaro",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Metaro Studio",
+      "O": "Metaro",
+      "C": "FR"
+    },
+    "minVersion": "v1.74.0 (release pending)",
+    "infoURL": "https://studio.metaro.app",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/x-adobe-dng",
+        "image/tiff",
+        "image/webp"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-08",
+    "conformance": "2026-11-11",
+    "earliestPublicDisclosure": "2026-11-07",
+    "lastModification": "2026-11-11"
   }
+}
 ]
