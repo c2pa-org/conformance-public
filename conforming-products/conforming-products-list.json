@@ -19737,5 +19737,68 @@
     "earliestPublicDisclosure": "2026-10-12",
     "lastModification": "2026-11-11"
   }
-}
+},
+  {
+  "recordId": "01a0b54e-064a-7eb7-8639-3b6698d34032",
+  "applicant": "The Software Construction Company, Inc",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "SCC MediaServer Cloud Edition Digital Asset Management System",
+      "O": "The Software Construction Company, Inc",
+      "C": "US"
+    },
+    "minVersion": "12.5",
+    "infoURL": "https://www.sccmediaserver.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/tiff"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/tiff",
+        "image/webp",
+        "image/heic"
+      ],
+      "documents": [
+        "application/pdf"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-09-18",
+    "conformance": "2026-11-11",
+    "earliestPublicDisclosure": "2026-09-17",
+    "lastModification": "2026-11-11"
+  }
+}  
 ]
