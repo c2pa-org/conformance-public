@@ -20152,5 +20152,57 @@
       "earliestPublicDisclosure": "2026-08-17",
       "lastModification": "2026-11-12"
     }
-  }  
+  },
+   {
+  "recordId": "01a0f747-2bdc-7dfa-8178-42187808c74e",
+  "applicant": "DATAFLOW.PHOTO",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "dataflow.photo",
+      "O": "DATAFLOW.PHOTO",
+      "C": "FR"
+    },
+    "minVersion": "",
+    "infoURL": "https://dataflow.photo",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-01",
+    "conformance": "2026-11-12",
+    "earliestPublicDisclosure": "2026-11-01",
+    "lastModification": "2026-11-12"
+  }
+} 
 ]
