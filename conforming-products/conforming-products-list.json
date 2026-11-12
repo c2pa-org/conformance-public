@@ -19997,5 +19997,44 @@
     "earliestPublicDisclosure": "2026-11-15",
     "lastModification": "2026-11-12"
   }
-}
+},
+{
+  "recordId": "01a1878d-2cfc-707d-aea1-effba9f11cce",
+  "applicant": "OZBEAT AI GROUP PTY LTD",
+  "product": {
+    "productType": "validatorProduct",
+    "DN": {
+      "CN": "OZBEAT AAM C2PA Validator",
+      "O": "OZBEAT AI GROUP PTY LTD",
+      "C": "AU"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://ozbeat.ai/music-solutions/ai-music-verify"
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {},
+    "validate": {
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-29",
+    "conformance": "2026-11-12",
+    "earliestPublicDisclosure": "2026-10-30",
+    "lastModification": "2026-11-12"
+  }
+} 
 ]
