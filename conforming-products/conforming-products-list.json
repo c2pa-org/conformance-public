@@ -19800,5 +19800,75 @@
     "earliestPublicDisclosure": "2026-09-17",
     "lastModification": "2026-11-11"
   }
-}  
+},
+{
+  "recordId": "01a01071-615c-7072-b13a-301b4d861bd6",
+  "applicant": "ADGENTIC Global SA",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "ADGENTIC AI",
+      "O": "ADGENTIC Global SA",
+      "C": "LU",
+      "OU": "ADGENTIC R&D"
+    },
+    "minVersion": "",
+    "infoURL": "https://www.adgentic-ai.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": [
+        "GoogleCloud_CloudHSMKeyAttestation"
+      ]
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "video": [],
+      "audio": [],
+      "textHtml": [],
+      "textUnstructured": [],
+      "textStructured": [],
+      "documents": [],
+      "fonts": [],
+      "mlModel": []
+    },
+    "validate": {
+      "image": [],
+      "video": [],
+      "audio": [],
+      "textHtml": [],
+      "textUnstructured": [],
+      "textStructured": [],
+      "documents": [],
+      "fonts": [],
+      "mlModel": []
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-08-17",
+    "conformance": "2026-11-12",
+    "earliestPublicDisclosure": "2026-08-20",
+    "lastModification": "2026-11-12"
+  }
+} 
 ]
