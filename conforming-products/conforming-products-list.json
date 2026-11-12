@@ -18661,18 +18661,18 @@
       "infoURL": "https://labs.google/projectgenie",
       "assurance": {
         "maxAssuranceLevel": 1,
-        "attestationMethods": [
-          "Apple_AppAttest"
-        ]
+        "attestationMethods": []
       },
       "disallowedSignals": {
         "inception": [
+           "capturedMedia",
+          "capturedMediaStitched",
           "nonGenAIDigitalCreation"
         ]
       }
     },
     "specVersion": [
-      "2.4"
+      "2.2"
     ],
     "conformanceProgramVersion": "0.1",
     "supportsCompressedManifests": false,
@@ -19868,6 +19868,75 @@
     "creation": "2026-08-17",
     "conformance": "2026-11-12",
     "earliestPublicDisclosure": "2026-08-20",
+    "lastModification": "2026-11-12"
+  }
+},
+{
+  "recordId": "01a18ac9-c2d6-71fd-838a-b81c06813154",
+  "applicant": "Google LLC",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "YouTube Create",
+      "O": "Google LLC",
+      "C": "US",
+      "OU": "YouTube System 40980"
+    },
+    "minVersion": "",
+    "infoURL": "https://www.youtube.com",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": [
+        "Android_KeyAttestation"
+      ]
+    },
+    "disallowedSignals": {
+      "inception": []
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.1",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/gif",
+        "image/webp",
+        "image/avif",
+        "image/heic"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/mpeg",
+        "audio/flac",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-30",
+    "conformance": "2026-11-12",
+    "earliestPublicDisclosure": "2026-10-29",
     "lastModification": "2026-11-12"
   }
 } 
