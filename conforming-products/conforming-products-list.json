@@ -20097,5 +20097,60 @@
     "earliestPublicDisclosure": "2026-10-29",
     "lastModification": "2026-11-12"
   }
-}
+},
+  {
+    "recordId": "01a012a9-25bd-7551-afe2-69de95ba0ad2",
+    "applicant": "Retiretainment, LLC",
+    "product": {
+      "productType": "validatorProduct",
+      "DN": {
+        "CN": "Parchmark",
+        "O": "Retiretainment, LLC",
+        "C": "US"
+      },
+      "minVersion": "",
+      "infoURL": "https://parchmark.com"
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {},
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-08-18",
+      "conformance": "2026-11-12",
+      "earliestPublicDisclosure": "2026-08-17",
+      "lastModification": "2026-11-12"
+    }
+  }  
 ]
