@@ -19939,5 +19939,63 @@
     "earliestPublicDisclosure": "2026-10-29",
     "lastModification": "2026-11-12"
   }
-} 
+},
+  {
+  "recordId": "01a1b08e-5560-75b7-bbb2-5a3ce9b6a727",
+  "applicant": "mAI Edge s.r.o.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "mAI Edge",
+      "O": "mAI Edge s.r.o.",
+      "C": "CZ"
+    },
+    "minVersion": "",
+    "infoURL": "https://www.maiedge.eu",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-06",
+    "conformance": "2026-11-12",
+    "earliestPublicDisclosure": "2026-11-15",
+    "lastModification": "2026-11-12"
+  }
+}
 ]
