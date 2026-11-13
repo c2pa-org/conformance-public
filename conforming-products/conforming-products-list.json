@@ -20262,5 +20262,159 @@
     "earliestPublicDisclosure": "2026-10-29",
     "lastModification": "2026-11-13"
   }
+},
+{
+  "recordId": "01a11213-e9a3-7b44-ba65-329d0e864042",
+  "applicant": "Verda Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Verda",
+      "O": "Verda Inc.",
+      "C": "US"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://www.verda.ai",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    },
+    "validate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/tiff",
+        "image/webp",
+        "image/heic",
+        "image/heif",
+        "image/avif"
+      ],
+      "video": [
+        "video/x-msvideo",
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/flac",
+        "audio/mpeg",
+        "audio/wav",
+        "audio/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-06",
+    "conformance": "2026-11-13",
+    "earliestPublicDisclosure": "2026-10-01",
+    "lastModification": "2026-11-13"
+  }
+},
+   {
+  "recordId": "01a168df-6ab7-770d-8c58-eab1b434ba4f",
+  "applicant": "Adapt Global Inc.",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Nuance Content Credentials",
+      "O": "Adapt Global Inc.",
+      "C": "US"
+    },
+    "minVersion": "2.10.0",
+    "infoURL": "https://www.adaptglobal.io/",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": true,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "video": [
+        "video/mp4",
+        "video/quicktime"
+      ],
+      "audio": [
+        "audio/wav",
+        "audio/mp4"
+      ]
+    },
+    "validate": {
+       "image": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "video": [
+        "video/mp4"
+      ],
+      "audio": [
+        "audio/mp4"
+      ]
+    }
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-10-23",
+    "conformance": "2026-11-09",
+    "earliestPublicDisclosure": "2026-10-30",
+    "lastModification": "2026-11-09"
+  }
 }
 ]
