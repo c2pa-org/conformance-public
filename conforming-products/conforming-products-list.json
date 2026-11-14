@@ -18540,60 +18540,6 @@
     }
   },
   {
-    "recordId": "01a1b14c-b811-786f-973a-ea6386b8ed67",
-    "applicant": "Original Pictures Technologies, Inc.",
-    "product": {
-      "productType": "generatorProduct",
-      "DN": {
-        "CN": "Original Pictures Android Generator Product",
-        "O": "Original Pictures Technologies, Inc.",
-        "C": "US"
-      },
-      "minVersion": "0.2.0",
-      "assurance": {
-        "maxAssuranceLevel": 1,
-        "attestationMethods": [
-          "Android_KeyAttestation",
-          "Google_PlayIntegrity"
-        ]
-      },
-      "disallowedSignals": {
-        "inception": [
-          "nonGenAIDigitalCreation"
-        ]
-      }
-    },
-    "specVersion": [
-      "2.4"
-    ],
-    "conformanceProgramVersion": "0.1",
-    "supportsCompressedManifests": false,
-    "containers": {
-      "generate": {
-        "video": [
-          "video/mp4"
-        ]
-      },
-      "validate": {
-        "image": [
-          "image/jpeg",
-          "image/png",
-          "image/webp"
-        ]
-      }
-    },
-    "liveVideo": {
-      "supported": false
-    },
-    "status": "conformant",
-    "dates": {
-      "creation": "2026-11-04",
-      "conformance": "2026-11-06",
-      "earliestPublicDisclosure": "2026-11-04",
-      "lastModification": "2026-11-06"
-    }
-  },
-  {
     "recordId": "01a18966-2fd7-77bd-90c0-1c431ca0954d",
     "applicant": "Volkan Catak Sole Proprietorship",
     "product": {
