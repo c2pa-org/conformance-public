@@ -20516,5 +20516,58 @@
     "earliestPublicDisclosure": "2026-11-15",
     "lastModification": "2026-11-17"
   }
-}  
+},
+  {
+  "recordId": "01a1d396-1b52-764b-9c5e-171a208cfcbb",
+  "applicant": "Meshy LLC",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Meshy",
+      "O": "Meshy LLC",
+      "C": "US"
+    },
+    "minVersion": "",
+    "infoURL": "https://www.meshy.ai",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "video": [
+        "video/mp4"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-13",
+    "conformance": "2026-11-17",
+    "earliestPublicDisclosure": "2026-11-13",
+    "lastModification": "2026-11-17"
+  }
+}
 ]
