@@ -20466,5 +20466,55 @@
     "earliestPublicDisclosure": "2026-11-15",
     "lastModification": "2026-11-17"
   }
+},
+  {
+  "recordId": "01a1daaa-f7ba-723a-baa0-282969b3e142",
+  "applicant": "SHMAPLEX",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Runner",
+      "O": "SHMAPLEX",
+      "C": "KR"
+    },
+    "minVersion": "1.0.0",
+    "infoURL": "https://www.runtheworld.ai/ai-content-studio",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.4"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "image": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-14",
+    "conformance": "2026-11-17",
+    "earliestPublicDisclosure": "2026-11-15",
+    "lastModification": "2026-11-17"
+  }
 }  
 ]
