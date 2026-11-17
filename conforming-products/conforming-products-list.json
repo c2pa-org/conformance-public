@@ -10746,10 +10746,9 @@
     "product": {
       "productType": "generatorProduct",
       "DN": {
-        "CN": "Amazon.com Services LLC",
-        "O": "Amazon.com Services LLC",
-        "C": "US",
-        "OU": "Amazon Ring"
+        "CN": "Ring Verify",
+        "O": "Ring LLC",
+        "C": "US"
       },
       "minVersion": "",
       "infoURL": "https://ring.com/verify",
@@ -20363,26 +20362,24 @@
     "lastModification": "2026-11-09"
   }
 },
-{
-  "recordId": "01a1120f-568f-7ca7-a96b-a85b6b07c2e5",
-  "applicant": "Crosstensor",
+  {
+  "recordId": "01a11066-82a2-76d0-ae64-b531a3877267",
+  "applicant": "Cube-Tec International GmbH",
   "product": {
     "productType": "generatorProduct",
     "DN": {
-      "CN": "Crosstensor",
-      "O": "Crosstensor",
-      "C": "FR"
+      "CN": "INSPECTIONscan",
+      "O": "Cube-Tec International GmbH",
+      "C": "DE"
     },
-    "minVersion": "0.2.0",
-    "infoURL": "https://crosstensor.ai",
+    "minVersion": "2027.1.1",
+    "infoURL": "https://www.inspectionscan.one/",
     "assurance": {
       "maxAssuranceLevel": 1,
       "attestationMethods": []
     },
     "disallowedSignals": {
       "inception": [
-        "capturedMedia",
-        "capturedMediaStitched",
         "nonGenAIDigitalCreation"
       ]
     }
@@ -20390,30 +20387,15 @@
   "specVersion": [
     "2.4"
   ],
-  "conformanceProgramVersion": "0.1",
+  "conformanceProgramVersion": "0.2",
   "supportsCompressedManifests": true,
   "containers": {
     "generate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/webp"
-      ],
-      "documents": [
-        "application/pdf",
-        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+      "video": [
+        "video/mp4"
       ]
     },
-    "validate": {
-      "image": [
-        "image/jpeg",
-        "image/png",
-        "image/gif",
-        "image/webp"
-      ]
-    }
+    "validate": {}
   },
   "liveVideo": {
     "supported": false
@@ -20421,9 +20403,9 @@
   "status": "conformant",
   "dates": {
     "creation": "2026-10-06",
-    "conformance": "2026-11-16",
-    "earliestPublicDisclosure": "2026-10-06",
-    "lastModification": "2026-11-16"
+    "conformance": "2026-11-17",
+    "earliestPublicDisclosure": "2026-11-01",
+    "lastModification": "2026-11-17"
   }
-}
+} 
 ]
