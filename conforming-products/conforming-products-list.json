@@ -20569,5 +20569,55 @@
     "earliestPublicDisclosure": "2026-11-13",
     "lastModification": "2026-11-17"
   }
-}
+},
+{
+  "recordId": "01a1dc27-bb52-7edf-a990-d66cab38a0af",
+  "applicant": "Kim Selch Speak ApS",
+  "product": {
+    "productType": "generatorProduct",
+    "DN": {
+      "CN": "Voices247 Speak Studio",
+      "O": "Kim Selch Speak ApS",
+      "C": "DK",
+      "OU": "Voices247"
+    },
+    "minVersion": "",
+    "infoURL": "https://www.voices247.com/trust-center",
+    "assurance": {
+      "maxAssuranceLevel": 1,
+      "attestationMethods": []
+    },
+    "disallowedSignals": {
+      "inception": [
+        "capturedMedia",
+        "capturedMediaStitched",
+        "nonGenAIDigitalCreation"
+      ]
+    }
+  },
+  "specVersion": [
+    "2.2"
+  ],
+  "conformanceProgramVersion": "0.2",
+  "supportsCompressedManifests": false,
+  "containers": {
+    "generate": {
+      "audio": [
+        "audio/wav",
+        "audio/mpeg"
+      ]
+    },
+    "validate": {}
+  },
+  "liveVideo": {
+    "supported": false
+  },
+  "status": "conformant",
+  "dates": {
+    "creation": "2026-11-14",
+    "conformance": "2026-11-17",
+    "earliestPublicDisclosure": "2026-11-13",
+    "lastModification": "2026-11-17"
+  }
+} 
 ]
