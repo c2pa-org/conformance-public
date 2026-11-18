@@ -20551,7 +20551,8 @@
       "image": [
         "image/jpeg",
         "image/png",
-        "image/webp"
+        "image/webp",
+        "image/gif"
       ],
       "video": [
         "video/mp4"
@@ -20567,7 +20568,7 @@
     "creation": "2026-11-13",
     "conformance": "2026-11-17",
     "earliestPublicDisclosure": "2026-11-13",
-    "lastModification": "2026-11-17"
+    "lastModification": "2026-11-18"
   }
 },
 {
