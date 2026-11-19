@@ -3,7 +3,6 @@
   "$id": "http://c2pa.org/conformance/conforming-products-list.schema.json",
   "title": "C2PA Conforming Products List Schema",
   "description": "Schema for the C2PA Conforming Products List",
-
   "type": "array",
   "items": {
     "type": "object",
@@ -102,7 +101,9 @@
                       "GoogleCloud_CloudHSMKeyAttestation",
                       "GoogleCloud_ConfidentialVMAttestation"
                     ]
-                  }
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
                 }
               },
               "required": [
@@ -111,7 +112,7 @@
             },
             "disallowedSignals": {
               "type": "object",
-              "description": "Signals from the Signals Rubric that this generator product is explicitly disallowed from emitting in active manifests whose claims it signs",
+              "description": "Signals from the Signals Rubric that this generator product is explicitly disallowed from emitting in active manifests whose claims it signs. Omit when no signals are disallowed",
               "properties": {
                 "inception": {
                   "type": "array",
@@ -123,17 +124,19 @@
                       "capturedMediaStitched",
                       "nonGenAIDigitalCreation"
                     ]
-                  }
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
                 }
               },
               "required": [
                 "inception"
-              ]
+              ],
+              "additionalProperties": false
             }
           },
           "required": [
-            "assurance",
-            "disallowedSignals"
+            "assurance"
           ]
         },
         "required": [
@@ -150,7 +153,9 @@
             "2.2",
             "2.4"
           ]
-        }
+        },
+        "minItems": 1,
+        "uniqueItems": true
       },
       "conformanceProgramVersion": {
         "type": "string",
@@ -162,11 +167,11 @@
       },
       "containers": {
         "type": "object",
-        "description": "The file types supported by the product for both C2PA claim generation and/or validation",
+        "description": "The file types for which the product supports C2PA claim generation and/or validation with the C2PA Manifest embedded in the file container. Sidecar manifest support is indicated separately by sidecarManifests",
         "properties": {
           "generate": {
             "type": "object",
-            "description": "The file types for which the product can support C2PA claim generation",
+            "description": "The file types for which the product can support C2PA claim generation, embedding the C2PA Manifest in the file container",
             "properties": {
               "image": {
                 "type": "array",
@@ -190,7 +195,9 @@
                     "image/x-tiff-based",
                     "image/x-riff-based"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "video": {
                 "type": "array",
@@ -204,7 +211,9 @@
                     "video/x-bmff-based",
                     "video/x-riff-based"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "audio": {
                 "type": "array",
@@ -216,11 +225,12 @@
                     "audio/MPA",
                     "audio/mpeg",
                     "audio/wav",
-                    "audio/aac",
                     "audio/mp4",
                     "audio/x-riff-based"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "textHtml": {
                 "type": "array",
@@ -230,7 +240,9 @@
                   "enum": [
                     "text/html"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "textUnstructured": {
                 "type": "array",
@@ -242,7 +254,9 @@
                     "text/tab-separated-values",
                     "text/plain"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "textStructured": {
                 "type": "array",
@@ -255,7 +269,9 @@
                     "application/xml",
                     "application/xhtml+xml"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "documents": {
                 "type": "array",
@@ -276,7 +292,9 @@
                     "application/oxps",
                     "application/x-zip-based"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "fonts": {
                 "type": "array",
@@ -284,37 +302,20 @@
                   "type": "string",
                   "description": "Supported font file MIME type",
                   "enum": [
-                    "font/otf"
+                    "font/otf",
+                    "font/ttf"
                   ]
-                }
-              },
-              "mlModel": {
-                "type": "array",
-                "items": {
-                  "type": "string",
-                  "description": "Supported ML model type",
-                  "enum": [
-                    "jax",
-                    "keras",
-                    "ml_net",
-                    "mxnet",
-                    "onnx",
-                    "openvivo.parameter",
-                    "openvivo.topology",
-                    "pytorch",
-                    "tensorflow",
-                    "numpy",
-                    "protobuf",
-                    "pickle",
-                    "savedmodel"
-                  ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               }
-            }
+            },
+            "minProperties": 1,
+            "additionalProperties": false
           },
           "validate": {
             "type": "object",
-            "description": "The file types for which the product can support C2PA claim validation",
+            "description": "The file types for which the product can support C2PA claim validation, extracting the C2PA Manifest embedded in the file container",
             "properties": {
               "image": {
                 "type": "array",
@@ -338,7 +339,9 @@
                     "image/x-tiff-based",
                     "image/x-riff-based"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "video": {
                 "type": "array",
@@ -352,7 +355,9 @@
                     "video/x-bmff-based",
                     "video/x-riff-based"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "audio": {
                 "type": "array",
@@ -364,11 +369,12 @@
                     "audio/MPA",
                     "audio/mpeg",
                     "audio/wav",
-                    "audio/aac",
                     "audio/mp4",
                     "audio/x-riff-based"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "textHtml": {
                 "type": "array",
@@ -378,7 +384,9 @@
                   "enum": [
                     "text/html"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "textUnstructured": {
                 "type": "array",
@@ -390,7 +398,9 @@
                     "text/tab-separated-values",
                     "text/plain"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "textStructured": {
                 "type": "array",
@@ -403,7 +413,9 @@
                     "application/xml",
                     "application/xhtml+xml"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "documents": {
                 "type": "array",
@@ -424,7 +436,9 @@
                     "application/oxps",
                     "application/x-zip-based"
                   ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               },
               "fonts": {
                 "type": "array",
@@ -432,39 +446,31 @@
                   "type": "string",
                   "description": "Supported font file MIME type",
                   "enum": [
-                    "font/otf"
+                    "font/otf",
+                    "font/ttf"
                   ]
-                }
-              },
-              "mlModel": {
-                "type": "array",
-                "items": {
-                  "type": "string",
-                  "description": "Supported ML model type",
-                  "enum": [
-                    "jax",
-                    "keras",
-                    "ml_net",
-                    "mxnet",
-                    "onnx",
-                    "openvivo.parameter",
-                    "openvivo.topology",
-                    "pytorch",
-                    "tensorflow",
-                    "numpy",
-                    "protobuf",
-                    "pickle",
-                    "savedmodel"
-                  ]
-                }
+                },
+                "minItems": 1,
+                "uniqueItems": true
               }
-            }
+            },
+            "minProperties": 1,
+            "additionalProperties": false
           }
         },
-        "required": [
-          "generate",
-          "validate"
-        ]
+        "anyOf": [
+          {
+            "required": [
+              "generate"
+            ]
+          },
+          {
+            "required": [
+              "validate"
+            ]
+          }
+        ],
+        "additionalProperties": false
       },
       "liveVideo": {
         "type": "object",
@@ -519,12 +525,24 @@
               ],
               "anyOf": [
                 {
-                  "required": ["generation"],
-                  "properties": { "generation": { "const": true } }
+                  "required": [
+                    "generation"
+                  ],
+                  "properties": {
+                    "generation": {
+                      "const": true
+                    }
+                  }
                 },
                 {
-                  "required": ["validation"],
-                  "properties": { "validation": { "const": true } }
+                  "required": [
+                    "validation"
+                  ],
+                  "properties": {
+                    "validation": {
+                      "const": true
+                    }
+                  }
                 }
               ]
             },
@@ -550,6 +568,45 @@
       "supportsCompressedManifests": {
         "type": "boolean",
         "description": "Indicates if the product supports compressed manifests. For validators, this means they can validate assets containing compressed manifests. For generators, this means they can generate assets containing compressed manifests"
+      },
+      "sidecarManifests": {
+        "type": "object",
+        "description": "Indicates whether the product supports C2PA Manifests stored in a sidecar (a separate .c2pa file) rather than embedded in the asset's file container. Sidecar manifests can be associated with assets of any type, independent of the file types listed in containers. Absence of this field means the product does not claim sidecar manifest support",
+        "properties": {
+          "generation": {
+            "type": "boolean",
+            "default": false,
+            "description": "Whether the product supports generation of sidecar C2PA Manifests"
+          },
+          "validation": {
+            "type": "boolean",
+            "default": false,
+            "description": "Whether the product supports validation of assets using sidecar C2PA Manifests"
+          }
+        },
+        "anyOf": [
+          {
+            "required": [
+              "generation"
+            ],
+            "properties": {
+              "generation": {
+                "const": true
+              }
+            }
+          },
+          {
+            "required": [
+              "validation"
+            ],
+            "properties": {
+              "validation": {
+                "const": true
+              }
+            }
+          }
+        ],
+        "additionalProperties": false
       },
       "status": {
         "type": "string",
@@ -613,6 +670,11 @@
         "required": [
           "liveVideo"
         ]
+      },
+      {
+        "required": [
+          "sidecarManifests"
+        ]
       }
     ],
     "additionalProperties": false
@@ -637,10 +699,6 @@
             "attestationMethods": [
               "Android_KeyAttestation"
             ]
-          },
-          "disallowedSignals": {
-            "inception": [],
-            "transformation": []
           }
         },
         "specVersion": [
@@ -688,10 +746,6 @@
             "attestationMethods": [
               "Android_KeyAttestation"
             ]
-          },
-          "disallowedSignals": {
-            "inception": [],
-            "transformation": []
           }
         },
         "specVersion": [
@@ -772,10 +826,6 @@
               "capturedMedia",
               "capturedMediaStitched",
               "nonGenAIDigitalCreation"
-            ],
-            "transformation": [
-              "perceptibleNonAI",
-              "nonEditorial"
             ]
           }
         },
@@ -792,16 +842,10 @@
             "video": [
               "video/mp4"
             ]
-          },
-          "validate": {
-            "image": [
-              "image/jpeg",
-              "image/png"
-            ],
-            "video": [
-              "video/mp4"
-            ]
           }
+        },
+        "sidecarManifests": {
+          "generation": true
         },
         "status": "conformant",
         "dates": {
@@ -809,6 +853,46 @@
           "conformance": "2026-03-31",
           "earliestPublicDisclosure": "2026-03-31",
           "lastModification": "2026-03-31"
+        }
+      },
+      {
+        "recordId": "0194514b-bc37-7208-8108-6d3971bcc285",
+        "applicant": "Model Works Ltd.",
+        "product": {
+          "productType": "generatorProduct",
+          "DN": {
+            "CN": "Model Works Training Pipeline",
+            "O": "Model Works Ltd.",
+            "OU": "Cloud API",
+            "C": "GB"
+          },
+          "minVersion": "1.0.0",
+          "assurance": {
+            "maxAssuranceLevel": 1,
+            "attestationMethods": [
+              "AWS_NitroEnclaveAttestation"
+            ]
+          },
+          "disallowedSignals": {
+            "inception": [
+              "capturedMedia"
+            ]
+          }
+        },
+        "specVersion": [
+          "2.2"
+        ],
+        "conformanceProgramVersion": "0.1",
+        "sidecarManifests": {
+          "generation": true,
+          "validation": true
+        },
+        "status": "conformant",
+        "dates": {
+          "creation": "2026-04-30",
+          "conformance": "2026-04-30",
+          "earliestPublicDisclosure": "2026-04-30",
+          "lastModification": "2026-04-30"
         }
       }
     ]

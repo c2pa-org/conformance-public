@@ -18,29 +18,51 @@
                   "properties": {
                     "ServiceInformation": {
                       "properties": {
-                        "ServiceInformation": {
-                          "properties": {
-                            "ServiceStatus": {
-                              "enum": [
-                                "http://c2pa.org/conformance/trust-list/trusted",
-                                "http://c2pa.org/conformance/trust-list/untrusted"
-                              ]
-                            }
+                        "ServiceStatus": {
+                          "type": "string",
+                          "enum": [
+                            "http://c2pa.org/conformance/trust-list/trusted",
+                            "http://c2pa.org/conformance/trust-list/untrusted"
+                          ],
+                          "minLength": 1,
+                          "description": "This constrains the ServiceStatus values to be either 'trusted' or 'untrusted'. The trusted status is represented by the URL 'http://c2pa.org/conformance/trust-list/trusted' and used to capture the date a certificate was added to the trust list. The untrusted status is represented by the URL 'http://c2pa.org/conformance/trust-list/untrusted' and represents the date a certificate was untrusted. Note that these value maybe different from the notBefore and notAfter dates of the certificate itself"
+                        },
+                        "StatusStartingTime": {
+                          "type": "string",
+                          "format": "date-time",
+                          "minLength": 1,
+                          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z$",
+                          "description": "The date and time on which the service status started, formatted as an ISO-8601 UTC timestamp."
+                        }
+                      },
+                      "required": [
+                        "ServiceStatus",
+                        "StatusStartingTime"
+                      ]
+                    },
+                    "ServiceHistory": {
+                      "items": {
+                        "properties": {
+                          "ServiceStatus": {
+                            "type": "string",
+                            "enum": [
+                              "http://c2pa.org/conformance/trust-list/trusted",
+                              "http://c2pa.org/conformance/trust-list/untrusted"
+                            ],
+                            "minLength": 1,
+                            "description": "This constrains the ServiceStatus values to be either 'trusted' or 'untrusted'. The trusted status is represented by the URL 'http://c2pa.org/conformance/trust-list/trusted' and used to capture the date a certificate was added to the trust list. The untrusted status is represented by the URL 'http://c2pa.org/conformance/trust-list/untrusted' and represents the date a certificate was untrusted. Note that these value maybe different from the notBefore and notAfter dates of the certificate itself"
+                          },
+                          "StatusStartingTime": {
+                            "type": "string",
+                            "format": "date-time",
+                            "minLength": 1,
+                            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z$"
                           }
                         },
-                        "ServiceHistory": {
-                          "items": {
-                            "properties": {
-                              "ServiceStatus": {
-                                "enum": [
-                                  "http://c2pa.org/conformance/trust-list/trusted",
-                                  "http://c2pa.org/conformance/trust-list/untrusted"
-                                ],
-                                "description": "This constrains the ServiceStatus values to be either 'trusted' or 'untrusted'. The trusted status is represented by the URL 'http://c2pa.org/conformance/trust-list/trusted' and used to capture the date a certificate was added to the trust list. The untrusted status is represented by the URL 'http://c2pa.org/conformance/trust-list/untrusted' and represents the date a certificate was untrusted. Note that these value maybe different from the notBefore and notAfter dates of the certificate itself"
-                              }
-                            }
-                          }
-                        }
+                        "required": [
+                          "ServiceStatus",
+                          "StatusStartingTime"
+                        ]
                       }
                     }
                   }

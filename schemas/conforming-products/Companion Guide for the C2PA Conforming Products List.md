@@ -48,7 +48,7 @@ Each record in the list is an object containing the following main fields:
 
     - `attestationMethods`: A list of supported methods for verifying the product’s integrity or key security (e.g., `Android_KeyAttestation`, `Apple_AppAttest`). These methods help ensure the product is genuine and hasn’t been tampered with.
 
-  - `disallowedSignals` (Only for `generatorProduct`): Signals from the Signals Rubric that this generator product is explicitly disallowed from emitting in active manifests whose claims it signs.
+  - `disallowedSignals` (Optional, only for `generatorProduct`): Signals from the Signals Rubric that this generator product is explicitly disallowed from emitting in active manifests whose claims it signs. Omitted when no signals are disallowed.
 
     - `inception`: A list of disallowed inception signals (e.g., `capturedMedia`, `capturedMediaStitched`, `nonGenAIDigitalCreation`).
 
@@ -56,9 +56,9 @@ Each record in the list is an object containing the following main fields:
 
 - `conformanceProgramVersion`: The version of the C2PA Conformance Program that was in effect when the product was submitted for evaluation (e.g., "0.1", "0.2").
 
-- `containers`: Details the file types (MIME types) the product supports for C2PA claim generation and/or validation. This is divided into:
+- `containers`: Details the file types (MIME types) for which the product supports C2PA claim generation and/or validation with the C2PA Manifest embedded in the file container. When `containers` is present, at least one of `generate` or `validate` must be specified (omit whichever is not supported rather than including an empty object). Listing a file type here means the product can embed (for generation) or extract (for validation) a C2PA Manifest in that file type; sidecar manifest support is indicated separately by `sidecarManifests`. This is divided into:
 
-  - `generate`: File types for which the product can **generate** assets with C2PA claims. This can include categories like:
+  - `generate`: File types for which the product can **generate** assets with C2PA claims, embedding the C2PA Manifest in the file container. This can include categories like:
 
     - `image` (e.g., `image/jpeg`, `image/png`, `image/webp`, `image/heic`, `image/avif`)
 
@@ -77,14 +77,12 @@ Each record in the list is an object containing the following main fields:
 
     - `documents` (e.g., `application/pdf`, `application/epub+zip`)
 
-    - `fonts` (e.g., `font/otf`)
+    - `fonts` (e.g., `font/otf`, `font/ttf`)
 
-    - `mlModel` (e.g., `pytorch`, `tensorflow`, `onnx`, `jax`, `keras`)
-
-  - `validate`: File types for which the product can **validate** assets with C2PA claims. It supports the same categories of file types as `generate`.
+  - `validate`: File types for which the product can **validate** assets with C2PA claims, extracting the C2PA Manifest embedded in the file container. It supports the same categories of file types as `generate`.
 
     > [!NOTE]
-    > Every CPL product record must specify support for at least `containers` OR `liveVideo` (or both).
+    > Every CPL product record must specify support for at least one of `containers`, `liveVideo` or `sidecarManifests`.
 
 - `liveVideo`: Identifies which (if any) C2PA live streams mechanisms the product supports for generating and/or validating claims in live streaming or dynamic packaging media contexts. NOTE: `liveVideo` isn’t constrained to only live video streaming, it can also apply to live audio streaming, or other live media streaming contexts.
 
@@ -101,6 +99,15 @@ Each record in the list is an object containing the following main fields:
     - `validation`: A boolean indicating whether validation of live streams in this encapsulation format is supported.
 
 - `supportsCompressedManifests`: A boolean value indicating whether the product supports compressed manifests (generating assets with compressed manifests for generator products, or validating assets containing compressed manifests for validator products).
+
+- `sidecarManifests`: Identifies whether the product supports C2PA Manifests stored in a sidecar (a separate `.c2pa` file) rather than embedded in the asset's file container. Sidecar manifests can be associated with assets of any type, independent of the file types listed in `containers`. If this field is absent, the product does not claim sidecar manifest support. If present, at least one of the following must be true:
+
+  - `generation`: A boolean indicating whether the product supports generating sidecar C2PA Manifests.
+
+  - `validation`: A boolean indicating whether the product supports validating assets using sidecar C2PA Manifests.
+
+  > [!NOTE]
+  > A product that supports only sidecar manifests may omit `containers`. A product that supports both embedded and sidecar manifests specifies both `containers` and `sidecarManifests`.
 
 - `status`: The current standing of the product in the C2PA Conformance Program. Possible values include:
 

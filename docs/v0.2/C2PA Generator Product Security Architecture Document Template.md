@@ -81,7 +81,6 @@ _The list of supported media types must be a subset of the following:_
      * `audio/MPA`
      * `audio/mpeg`
      * `audio/wav`
-     * `audio/aac`
      * `audio/mp4`
      * `audio/x-riff-based`
    * Text media types:
@@ -111,20 +110,7 @@ _The list of supported media types must be a subset of the following:_
      * `application/x-zip-based`
    * Fonts:
      * `font/otf`
-   * ML Models:
-     * `jax`
-     * `keras`
-     * `ml_net`
-     * `mxnet`
-     * `onnx`
-     * `openvivo.parameter`
-     * `openvivo.topology`
-     * `pytorch`
-     * `tensorflow`
-     * `numpy`
-     * `protobuf`
-     * `pickle`
-     * `savedmodel`
+     * `font/ttf`
 2. Claim validation:
    * Still image media types:
      * `image/jpeg`
@@ -153,7 +139,6 @@ _The list of supported media types must be a subset of the following:_
      * `audio/MPA`
      * `audio/mpeg`
      * `audio/wav`
-     * `audio/aac`
      * `audio/mp4`
      * `audio/x-riff-based`
    * Text media types:
@@ -183,20 +168,7 @@ _The list of supported media types must be a subset of the following:_
      * `application/x-zip-based`
    * Fonts:
      * `font/otf`
-   * ML Models:
-     * `jax`
-     * `keras`
-     * `ml_net`
-     * `mxnet`
-     * `onnx`
-     * `openvivo.parameter`
-     * `openvivo.topology`
-     * `pytorch`
-     * `tensorflow`
-     * `numpy`
-     * `protobuf`
-     * `pickle`
-     * `savedmodel`
+     * `font/ttf`
 
 ---
 
