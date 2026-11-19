@@ -1,10 +1,10 @@
 {
   "LoTE": {
     "ListAndSchemeInformation": {
-      "ListIssueDateTime": "2026-11-04T17:24:49Z",
-      "LoTESequenceNumber": 4,
+      "ListIssueDateTime": "2026-11-19T19:04:31Z",
+      "LoTESequenceNumber": 5,
       "LoTEVersionIdentifier": 1,
-      "NextUpdate": "2027-02-02T17:24:49Z",
+      "NextUpdate": "2027-02-17T19:04:31Z",
       "SchemeInformationURI": [
         {
           "lang": "en",
@@ -76,6 +76,61 @@
               ],
               "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
               "StatusStartingTime": "2025-11-19T18:29:44Z"
+            }
+          }
+        ]
+      },
+      {
+        "TrustedEntityInformation": {
+          "TEAddress": {
+            "TEElectronicAddress": [
+              {
+                "lang": "en",
+                "uriValue": "mailto:support@aretiico.com"
+              }
+            ],
+            "TEPostalAddress": [
+              {
+                "Country": "United Kingdom",
+                "Locality": "London",
+                "PostalCode": "EC4R 3TT",
+                "StateOrProvince": "London",
+                "StreetAddress": "Riverbank House, Swan Lane",
+                "lang": "en"
+              }
+            ]
+          },
+          "TEInformationURI": [
+            {
+              "lang": "en",
+              "uriValue": "https://www.aretiico.com"
+            }
+          ],
+          "TEName": [
+            {
+              "lang": "en",
+              "value": "Aretiico Ltd"
+            }
+          ]
+        },
+        "TrustedEntityServices": [
+          {
+            "ServiceInformation": {
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIDVDCCAtqgAwIBAgIUejr4pSWVtCHFbGMVtRDquUDaNZowCgYIKoZIzj0EAwMwWTELMAkGA1UEBhMCR0IxGzAZBgNVBAoMEkFyZXRpaWNvIEdyb3VwIFBMQzEtMCsGA1UEAwwkQXJldGlpY28gRG9jdW1lbnQgU2lnbmluZyBSb290IENBIEcxMB4XDTI2MDkyMzE0NTA0MFoXDTMxMDkyMjE0NTAzOVowUDELMAkGA1UEBhMCR0IxGzAZBgNVBAoMEkFyZXRpaWNvIEdyb3VwIFBMQzEkMCIGA1UEAwwbQXJldGlpY28gQzJQQSBJc3N1aW5nIENBIEcxMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEnmBVo/e923vIs2X3gbPMEQwDcpa8MZRhSXTcw6x/tX8cbaEYfhkc4+n2P+g70ldLK74K9O41D/x+kV7zXULa3V0SD2ZV53FDu3bs1RWJZpZ148/cUeQqS1hnSZyCNfE4o4IBajCCAWYwEgYDVR0TAQH/BAgwBgEB/wIBADAfBgNVHSMEGDAWgBSvUdrhp9w7mZprN2YpdbRcLzqpSzBDBggrBgEFBQcBAQQ3MDUwMwYIKwYBBQUHMAKGJ2h0dHA6Ly9hc3NldHMuYXJldGlpY28uY29tL3BraS9kcmcxLmRlcjBnBgNVHSAEYDBeMAwGCisGAQQBg+heAQEwTgYLKwYBBAGD1zwBAQEwPzA9BggrBgEFBQcCARYxaHR0cHM6Ly9hc3NldHMuYXJldGlpY28uY29tL0FyZXRpaWNvLUMyUEEtQ1BTLnBkZjAfBgNVHSUEGDAWBgorBgEEAYPoXgIBBggrBgEFBQcDJDAxBgNVHR8EKjAoMCagJKAihiBodHRwOi8vY3JsLmFyZXRpaWNvLmNvbS9kcmcxLmNybDAdBgNVHQ4EFgQUxGEIEB/dRJvy1NfroLndr30vUAowDgYDVR0PAQH/BAQDAgEGMAoGCCqGSM49BAMDA2gAMGUCMF6t1hMBguFz4xaPhi79x4ZLoY1fw3qsmXCMSho/ALRdW5gfleqe0ws6FXgQmoiptAIxAKNtOE58vtZK0PPKgABMaFTStRff9hqCqbcca5uKzwrMv/gP9QHtT7cDFP0Fcblm5Q=="
+                  }
+                ]
+              },
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "Aretiico C2PA Issuing CA G1"
+                }
+              ],
+              "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
+              "StatusStartingTime": "2026-11-19T09:09:13Z"
             }
           }
         ]
