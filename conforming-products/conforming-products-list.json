@@ -19386,5 +19386,57 @@
       "earliestPublicDisclosure": "2026-10-29",
       "lastModification": "2026-11-20"
     }
+  },
+   {
+    "recordId": "01a1a1f4-4ac1-7ce2-8427-04aa45c02e1f",
+    "applicant": "MITON AI Spice s.r.o.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "anex",
+        "O": "MITON AI Spice s.r.o.",
+        "C": "CZ"
+      },
+      "minVersion": "1.1.1",
+      "infoURL": "https://anex.sh/",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-03",
+      "conformance": "2026-11-20",
+      "earliestPublicDisclosure": "2026-11-09",
+      "lastModification": "2026-11-20"
+    }
   }
 ]
