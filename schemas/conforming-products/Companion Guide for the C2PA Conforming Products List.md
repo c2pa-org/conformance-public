@@ -56,7 +56,7 @@ Each record in the list is an object containing the following main fields:
 
 - `conformanceProgramVersion`: The version of the C2PA Conformance Program that was in effect when the product was submitted for evaluation (e.g., "0.1", "0.2").
 
-- `containers`: Details the file types (MIME types) for which the product supports C2PA claim generation and/or validation with the C2PA Manifest embedded in the file container. When `containers` is present, at least one of `generate` or `validate` must be specified (omit whichever is not supported rather than including an empty object). Listing a file type here means the product can embed (for generation) or extract (for validation) a C2PA Manifest in that file type; sidecar manifest support is indicated separately by `sidecarManifests`. This is divided into:
+- `containers`: Details the file types (MIME types) for which the product supports C2PA claim generation and/or validation with the C2PA Manifest embedded in the file container. When `containers` is present, at least one of `generate` or `validate` must be specified (omit whichever is not supported rather than including an empty object). Listing a file type here means the product can embed (for generation) or extract (for validation) a C2PA Manifest in that file type; external manifest support is indicated separately by `externalManifests`. This is divided into:
 
   - `generate`: File types for which the product can **generate** assets with C2PA claims, embedding the C2PA Manifest in the file container. This can include categories like:
 
@@ -82,7 +82,7 @@ Each record in the list is an object containing the following main fields:
   - `validate`: File types for which the product can **validate** assets with C2PA claims, extracting the C2PA Manifest embedded in the file container. It supports the same categories of file types as `generate`.
 
     > [!NOTE]
-    > Every CPL product record must specify support for at least one of `containers`, `liveVideo` or `sidecarManifests`.
+    > Every CPL product record must specify support for at least one of `containers`, `liveVideo` (with `supported: true`), or `externalManifests`.
 
 - `liveVideo`: Identifies which (if any) C2PA live streams mechanisms the product supports for generating and/or validating claims in live streaming or dynamic packaging media contexts. NOTE: `liveVideo` isn’t constrained to only live video streaming, it can also apply to live audio streaming, or other live media streaming contexts.
 
@@ -100,14 +100,14 @@ Each record in the list is an object containing the following main fields:
 
 - `supportsCompressedManifests`: A boolean value indicating whether the product supports compressed manifests (generating assets with compressed manifests for generator products, or validating assets containing compressed manifests for validator products).
 
-- `sidecarManifests`: Identifies whether the product supports C2PA Manifests stored in a sidecar (a separate `.c2pa` file) rather than embedded in the asset's file container. Sidecar manifests can be associated with assets of any type, independent of the file types listed in `containers`. If this field is absent, the product does not claim sidecar manifest support. If present, at least one of the following must be true:
+- `externalManifests`: Identifies whether the product supports C2PA Manifests stored externally to the asset (for example, in a separate `.c2pa` file, or in a remote or cloud location) rather than embedded in the asset’s file container. External manifests can be associated with assets of any type, independent of the file types listed in `containers`. If this field is absent, the product does not claim external manifest support. If present, at least one of the following must be true:
 
-  - `generation`: A boolean indicating whether the product supports generating sidecar C2PA Manifests.
+  - `generation`: A boolean indicating whether the product supports generating external C2PA Manifests.
 
-  - `validation`: A boolean indicating whether the product supports validating assets using sidecar C2PA Manifests.
+  - `validation`: A boolean indicating whether the product supports validating assets using external C2PA Manifests.
 
-  > [!NOTE]
-  > A product that supports only sidecar manifests may omit `containers`. A product that supports both embedded and sidecar manifests specifies both `containers` and `sidecarManifests`.
+    > [!NOTE]
+    > A product that supports only external manifests may omit `containers`. A product that supports both embedded and external manifests specifies both `containers` and `externalManifests`.
 
 - `status`: The current standing of the product in the C2PA Conformance Program. Possible values include:
 

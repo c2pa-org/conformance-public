@@ -2449,3 +2449,20 @@ Action: Synced updated trust lists from conformance-submissions repository:
   - trust-list/C2PA-TRUST-LIST.json
   - trust-list/C2PA-TRUST-LIST.pem
 --------------------------------------------------
+Log Entry: Fri Nov 20 19:53:55 UTC 2026
+Triggering Commit SHA: a0d181bf0f846df3a76b614b2a8ab5dd62f54ee4
+Action: Populated 'docs/v0.2' directory and updated release documentation using 'conformance_release.json'.
+
+Files included in release v0.2:
+
+  - File: schemas/conforming-products/Companion Guide for the C2PA Conforming Products List.md
+    Commit: ec5fe98
+    Date: 2026-11-20T19:19:52Z
+  - File: schemas/conforming-products/Companion Guide for the C2PA Conforming Products List.pdf
+    Commit: ec5fe98
+    Date: 2026-11-20T19:19:52Z
+  - File: schemas/conforming-products/conforming-products-list.schema.json
+    Commit: ec5fe98
+    Date: 2026-11-20T19:19:52Z
+
+--------------------------------------------------
