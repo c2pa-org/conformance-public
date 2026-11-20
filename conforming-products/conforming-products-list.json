@@ -19327,5 +19327,64 @@
       "earliestPublicDisclosure": "2026-11-01",
       "lastModification": "2026-11-20"
     }
+  },
+   {
+    "recordId": "01a18a3a-da2f-711f-b3f0-d26d672fc714",
+    "applicant": "Google LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "YouTube Create",
+        "O": "Google LLC",
+        "C": "US",
+        "OU": "YouTube System 42399"
+      },
+      "minVersion": "",
+      "infoURL": "https://www.youtube.com",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/gif"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/mp4",
+          "audio/wav"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-10-30",
+      "conformance": "2026-11-20",
+      "earliestPublicDisclosure": "2026-10-29",
+      "lastModification": "2026-11-20"
+    }
   }
 ]
