@@ -1,10 +1,10 @@
 {
   "LoTE": {
     "ListAndSchemeInformation": {
-      "ListIssueDateTime": "2026-11-19T19:04:31Z",
-      "LoTESequenceNumber": 5,
+      "ListIssueDateTime": "2026-11-20T18:42:23Z",
+      "LoTESequenceNumber": 6,
       "LoTEVersionIdentifier": 1,
-      "NextUpdate": "2027-02-17T19:04:31Z",
+      "NextUpdate": "2027-02-18T18:42:23Z",
       "SchemeInformationURI": [
         {
           "lang": "en",
@@ -1222,6 +1222,80 @@
               ],
               "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
               "StatusStartingTime": "2026-05-15T01:46:50Z"
+            }
+          }
+        ]
+      },
+      {
+        "TrustedEntityInformation": {
+          "TEAddress": {
+            "TEElectronicAddress": [
+              {
+                "lang": "en",
+                "uriValue": "mailto:pki@verimago.com"
+              }
+            ],
+            "TEPostalAddress": [
+              {
+                "Country": "USA",
+                "Locality": "Seattle",
+                "PostalCode": "98108-2628",
+                "StateOrProvince": "Washington",
+                "StreetAddress": "810B S Orcas St",
+                "lang": "en"
+              }
+            ]
+          },
+          "TEInformationURI": [
+            {
+              "lang": "en",
+              "uriValue": "https://verimago.com/pki"
+            }
+          ],
+          "TEName": [
+            {
+              "lang": "en",
+              "value": "Verimago LLC"
+            }
+          ]
+        },
+        "TrustedEntityServices": [
+          {
+            "ServiceInformation": {
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIDTTCCAtOgAwIBAgIUeMpXy1Z0CwByN+W2+PFYYqoqD1QwCgYIKoZIzj0EAwMwVDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xFTATBgNVBAoTDFZlcmltYWdvIExMQzEZMBcGA1UEAxMQVmVyaW1hZ28gUm9vdCBDQTAeFw0yNjExMTIwMzM0NThaFw0zMTExMTIwOTM0NThaMGUxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRUwEwYDVQQKEwxWZXJpbWFnbyBMTEMxKjAoBgNVBAMTIVZlcmltYWdvIENsYWltIFNpZ25pbmcgSXNzdWluZyBDQTB2MBAGByqGSM49AgEGBSuBBAAiA2IABC9hdIQStbZ98anuhoFbxF+CEytyp3UjlyERYFn8VQJnj7X6q+bz9nfMh86X3fZnrK5Onm/x7KNYPnOkSeUEFITh/sUHkwJcaVioj/kGp7mJ/yxbvDQha1KpIvEAS8vvp6OCAVMwggFPMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMCkGA1UdJQQiMCAGCisGAQQBg+heAgEGCCsGAQUFBwMEBggrBgEFBQcDJDAXBgNVHSAEEDAOMAwGCisGAQQBg+heAQEwHQYDVR0OBBYEFNOJg/XyExxEf8tcyaDIqJhOtwg1MB8GA1UdIwQYMBaAFLeBdp6RRmQEpFv154iuHZBAE8kEMDsGA1UdHwQ0MDIwMKAuoCyGKmh0dHA6Ly9jYS52ZXJpbWFnby5pby9jcmwvaW50ZXJtZWRpYXRlLmNybDBoBggrBgEFBQcBAQRcMFowJgYIKwYBBQUHMAGGGmh0dHA6Ly9jYS52ZXJpbWFnby5pby9vY3NwMDAGCCsGAQUFBzAChiRodHRwOi8vY2EudmVyaW1hZ28uaW8vY2VydHMvcm9vdC5wZW0wCgYIKoZIzj0EAwMDaAAwZQIwNAacHt99jEIvu9aJHKdOY2mIvjxVcjeOx1sCo4VG3xOJZCxB3Ghp0jC7KImqf6S4AjEAz64v2HVKHkb47yh37dRHmXC2PxCxpyl/lFI0nJ9l0jixKhquUDgoOQI92c1ajZEB"
+                  }
+                ]
+              },
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "Verimago Claim Signing Issuing CA"
+                }
+              ],
+              "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
+              "StatusStartingTime": "2026-11-20T09:09:13Z"
+            }
+          },
+          {
+            "ServiceInformation": {
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIICTzCCAdSgAwIBAgIVAN6RLP4V2hQWoOEHD68GpRzFEka/MAoGCCqGSM49BAMDMFQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRUwEwYDVQQKEwxWZXJpbWFnbyBMTEMxGTAXBgNVBAMTEFZlcmltYWdvIFJvb3QgQ0EwHhcNMjYxMTEyMDMzNDU2WhcNNDYxMTEyMDMzNDU2WjBUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEVMBMGA1UEChMMVmVyaW1hZ28gTExDMRkwFwYDVQQDExBWZXJpbWFnbyBSb290IENBMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE2LLaL/n8AOrruWLEbn6RxNckhVAvF/uQNR3IO81edSvDv4GEUGtYPXQbJivQbS+S/qmEDwaZiIfzL2E1TBxRXgcQkPvC7AYRZelN/tmOAWrG5JLI3rlIV6oxMkpqkzEdo2YwZDASBgNVHRMBAf8ECDAGAQH/AgECMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUt4F2npFGZASkW/XniK4dkEATyQQwHwYDVR0jBBgwFoAUt4F2npFGZASkW/XniK4dkEATyQQwCgYIKoZIzj0EAwMDaQAwZgIxAI6Fqw5ACGdslD3ZEzIqRPjmPMzXa0xc3YoIO1/i0048HrKVGYVmpWE58sp6F6YHqwIxAKDvpzF5VRT/3PUiKtMuXmN6D9GNOF8C6aa1HtpRjT5NYtryImktxyjDfMPeinXnzA=="
+                  }
+                ]
+              },
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "Verimago Root CA"
+                }
+              ],
+              "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
+              "StatusStartingTime": "2026-11-20T09:09:13Z"
             }
           }
         ]
