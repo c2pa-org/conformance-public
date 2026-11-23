@@ -4286,70 +4286,16 @@
     ],
     "conformanceProgramVersion": "0.1",
     "containers": {
-      "generate": {
+      "validate": {
         "image": [
-          "image/jpeg",
-          "image/png",
-          "image/svg+xml",
-          "image/gif",
-          "image/x-adobe-dng",
-          "image/tiff",
-          "image/webp",
-          "image/heic",
-          "image/heic-sequence",
-          "image/heif",
-          "image/heif-sequence",
-          "image/avif"
+          "image/jpeg"
         ],
         "video": [
           "video/mp4"
         ],
         "audio": [
-          "audio/MPA",
           "audio/mpeg",
-          "audio/wav",
           "audio/mp4"
-        ],
-        "documents": [
-          "application/pdf",
-          "application/epub+zip",
-          "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-          "application/vnd.oasis.opendocument.text",
-          "application/oxps"
-        ]
-      },
-      "validate": {
-        "image": [
-          "image/jpeg",
-          "image/png",
-          "image/svg+xml",
-          "image/gif",
-          "image/x-adobe-dng",
-          "image/tiff",
-          "image/webp",
-          "image/heic",
-          "image/heic-sequence",
-          "image/heif",
-          "image/heif-sequence",
-          "image/avif"
-        ],
-        "video": [
-          "video/x-msvideo",
-          "video/mp4",
-          "video/quicktime"
-        ],
-        "audio": [
-          "audio/MPA",
-          "audio/mpeg",
-          "audio/wav",
-          "audio/mp4"
-        ],
-        "documents": [
-          "application/pdf",
-          "application/epub+zip",
-          "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-          "application/vnd.oasis.opendocument.text",
-          "application/oxps"
         ]
       }
     },
@@ -4361,7 +4307,7 @@
       "creation": "2026-02-25",
       "conformance": "2026-06-23",
       "earliestPublicDisclosure": "2026-02-12",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -11914,12 +11860,15 @@
     "liveVideo": {
       "supported": false
     },
+    "externalManifests": {
+      "generation": true
+    },
     "status": "conformant",
     "dates": {
       "creation": "2026-09-02",
       "conformance": "2026-09-29",
       "earliestPublicDisclosure": "2026-09-02",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -17957,12 +17906,15 @@
         }
       ]
     },
+    "externalManifests": {
+      "generation": true
+    },
     "status": "conformant",
     "dates": {
       "creation": "2026-09-24",
       "conformance": "2026-11-10",
       "earliestPublicDisclosure": "2026-11-01",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
