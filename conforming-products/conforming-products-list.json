@@ -11836,16 +11836,10 @@
       "generate": {
         "image": [
           "image/jpeg",
-          "image/png",
-          "image/gif",
-          "image/webp"
+          "image/png"
         ],
         "video": [
           "video/mp4"
-        ],
-        "audio": [
-          "audio/mpeg",
-          "audio/wav"
         ]
       },
       "validate": {
@@ -12895,10 +12889,10 @@
       }
     },
     "specVersion": [
-      "2.4"
+      "2.2"
     ],
     "conformanceProgramVersion": "0.2",
-    "supportsCompressedManifests": true,
+    "supportsCompressedManifests": false,
     "containers": {
       "generate": {
         "image": [
@@ -12919,13 +12913,7 @@
         "image": [
           "image/jpeg",
           "image/png",
-          "image/svg+xml",
-          "image/gif",
-          "image/tiff",
-          "image/webp",
-          "image/heic",
-          "image/heif",
-          "image/avif"
+          "image/webp"
         ],
         "video": [
           "video/mp4"
@@ -12944,7 +12932,7 @@
       "creation": "2026-08-19",
       "conformance": "2026-10-08",
       "earliestPublicDisclosure": "2026-09-30",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -13030,7 +13018,8 @@
       "disallowedSignals": {
         "inception": [
           "capturedMedia",
-          "capturedMediaStitched"
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
         ]
       }
     },
@@ -13117,7 +13106,7 @@
       "creation": "2026-09-30",
       "conformance": "2026-10-08",
       "earliestPublicDisclosure": "2026-10-01",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -13345,7 +13334,7 @@
     "specVersion": [
       "2.2"
     ],
-    "conformanceProgramVersion": "0.1",
+    "conformanceProgramVersion": "0.2",
     "supportsCompressedManifests": false,
     "containers": {
       "generate": {
@@ -13379,7 +13368,7 @@
       "creation": "2026-09-16",
       "conformance": "2026-10-12",
       "earliestPublicDisclosure": "2026-10-06",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -15281,6 +15270,8 @@
       },
       "disallowedSignals": {
         "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
           "nonGenAIDigitalCreation"
         ]
       }
@@ -15325,7 +15316,7 @@
       "creation": "2026-10-15",
       "conformance": "2026-10-27",
       "earliestPublicDisclosure": "2026-10-15",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -15687,7 +15678,7 @@
       "2.2"
     ],
     "conformanceProgramVersion": "0.2",
-    "supportsCompressedManifests": true,
+    "supportsCompressedManifests": false,
     "containers": {
       "generate": {
         "image": [
@@ -15737,7 +15728,7 @@
       "creation": "2026-09-23",
       "conformance": "2026-10-29",
       "earliestPublicDisclosure": "2026-09-23",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -16214,7 +16205,7 @@
       }
     },
     "specVersion": [
-      "2.4"
+      "2.2"
     ],
     "conformanceProgramVersion": "0.2",
     "supportsCompressedManifests": false,
@@ -16238,7 +16229,7 @@
       "creation": "2026-10-26",
       "conformance": "2026-11-02",
       "earliestPublicDisclosure": "2026-10-26",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -16294,7 +16285,7 @@
         "O": "MarkMaker LLC",
         "C": "US"
       },
-      "minVersion": "0.6.0",
+      "minVersion": "0.5.0",
       "assurance": {
         "maxAssuranceLevel": 1
       },
@@ -16344,7 +16335,7 @@
       "creation": "2026-10-31",
       "conformance": "2026-11-04",
       "earliestPublicDisclosure": "2026-10-31",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -16573,7 +16564,6 @@
       "generate": {
         "image": [
           "image/jpeg",
-          "image/jxl",
           "image/png",
           "image/webp"
         ],
@@ -16602,7 +16592,7 @@
       "creation": "2026-10-09",
       "conformance": "2026-11-04",
       "earliestPublicDisclosure": "2026-10-15",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -16619,6 +16609,13 @@
       "infoURL": "https://www.imgix.com/",
       "assurance": {
         "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
       }
     },
     "specVersion": [
@@ -16684,7 +16681,7 @@
       "creation": "2026-09-16",
       "conformance": "2026-11-04",
       "earliestPublicDisclosure": "2026-09-16",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -16753,6 +16750,8 @@
       },
       "disallowedSignals": {
         "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
           "nonGenAIDigitalCreation"
         ]
       }
@@ -16773,11 +16772,6 @@
         "video": [
           "video/mp4"
         ]
-      },
-      "validate": {
-        "image": [
-          "image/jpeg"
-        ]
       }
     },
     "liveVideo": {
@@ -16788,7 +16782,7 @@
       "creation": "2026-09-07",
       "conformance": "2026-09-11",
       "earliestPublicDisclosure": "2026-11-02",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -16801,19 +16795,19 @@
         "O": "vivo Mobile Communication Co., Ltd.",
         "C": "CN"
       },
-      "minVersion": "1.0.0",
-      "infoURL": "https://stamp.trionsecurity.com/",
+      "minVersion": "",
       "assurance": {
         "maxAssuranceLevel": 1
       },
       "disallowedSignals": {
         "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
           "nonGenAIDigitalCreation"
         ]
       }
     },
     "specVersion": [
-      "2.2",
       "2.4"
     ],
     "conformanceProgramVersion": "0.2",
@@ -16860,7 +16854,7 @@
       "creation": "2026-09-04",
       "conformance": "2026-11-06",
       "earliestPublicDisclosure": "2026-10-08",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -16880,15 +16874,17 @@
       },
       "disallowedSignals": {
         "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
           "nonGenAIDigitalCreation"
         ]
       }
     },
     "specVersion": [
-      "2.4"
+      "2.2"
     ],
     "conformanceProgramVersion": "0.2",
-    "supportsCompressedManifests": true,
+    "supportsCompressedManifests": false,
     "containers": {
       "generate": {
         "image": [
@@ -16906,9 +16902,6 @@
           "audio/mpeg",
           "audio/wav",
           "audio/mp4"
-        ],
-        "documents": [
-          "application/pdf"
         ]
       },
       "validate": {
@@ -16927,9 +16920,6 @@
           "audio/mpeg",
           "audio/wav",
           "audio/mp4"
-        ],
-        "documents": [
-          "application/pdf"
         ]
       }
     },
@@ -16941,7 +16931,7 @@
       "creation": "2026-10-05",
       "conformance": "2026-11-06",
       "earliestPublicDisclosure": "2026-09-30",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -16968,10 +16958,10 @@
       }
     },
     "specVersion": [
-      "2.2"
+      "2.4"
     ],
     "conformanceProgramVersion": "0.2",
-    "supportsCompressedManifests": true,
+    "supportsCompressedManifests": false,
     "containers": {
       "generate": {
         "image": [
@@ -17010,7 +17000,7 @@
       "creation": "2026-09-13",
       "conformance": "2026-11-06",
       "earliestPublicDisclosure": "2026-09-14",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -17036,17 +17026,12 @@
       }
     },
     "specVersion": [
-      "2.2"
+      "2.4"
     ],
     "conformanceProgramVersion": "0.2",
-    "supportsCompressedManifests": true,
+    "supportsCompressedManifests": false,
     "containers": {
       "generate": {
-        "image": [
-          "image/jpeg",
-          "image/png",
-          "image/webp"
-        ],
         "video": [
           "video/mp4"
         ],
@@ -17063,7 +17048,7 @@
       "creation": "2026-09-03",
       "conformance": "2026-11-06",
       "earliestPublicDisclosure": "2026-09-16",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -17077,7 +17062,6 @@
         "C": "DK"
       },
       "minVersion": "",
-      "infoURL": "https://immostory.ai",
       "assurance": {
         "maxAssuranceLevel": 1
       },
@@ -17090,14 +17074,16 @@
       }
     },
     "specVersion": [
-      "2.2"
+      "2.4"
     ],
     "conformanceProgramVersion": "0.2",
     "supportsCompressedManifests": false,
     "containers": {
       "generate": {
-        "video": [
-          "video/mp4"
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
         ]
       }
     },
@@ -17106,10 +17092,10 @@
     },
     "status": "conformant",
     "dates": {
-      "creation": "2026-11-03",
-      "conformance": "2026-11-09",
-      "earliestPublicDisclosure": "2026-09-09",
-      "lastModification": "2026-11-20"
+      "creation": "2026-11-04",
+      "conformance": "2026-11-06",
+      "earliestPublicDisclosure": "2026-11-04",
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -17138,12 +17124,14 @@
     "specVersion": [
       "2.2"
     ],
-    "conformanceProgramVersion": "0.1",
+    "conformanceProgramVersion": "0.2",
     "supportsCompressedManifests": false,
     "containers": {
       "generate": {
-        "video": [
-          "video/mp4"
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/webp"
         ]
       },
       "validate": {
@@ -17162,7 +17150,7 @@
       "creation": "2026-10-29",
       "conformance": "2026-11-06",
       "earliestPublicDisclosure": "2026-10-29",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -17221,7 +17209,7 @@
     "recordId": "01a1a2cf-fd34-723d-8e50-df1b163a5871",
     "applicant": "Erbas, Ramazan",
     "product": {
-      "productType": "validatorProduct",
+      "productType": "generatorProduct",
       "DN": {
         "CN": "ImmoStory Video Generator",
         "O": "Erbas, Ramazan",
@@ -17230,15 +17218,13 @@
       "minVersion": "",
       "infoURL": "https://immostory.ai",
       "assurance": {
-        "maxAssuranceLevel": 1,
-        "attestationMethods": [
-          "GoogleCloud_CloudHSMKeyAttestation"
-        ]
+        "maxAssuranceLevel": 1
       },
       "disallowedSignals": {
         "inception": [
           "capturedMedia",
-          "capturedMediaStitched"
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
         ]
       }
     },
@@ -17262,7 +17248,7 @@
       "creation": "2026-11-03",
       "conformance": "2026-11-09",
       "earliestPublicDisclosure": "2026-09-09",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -17334,13 +17320,12 @@
       "minVersion": "",
       "infoURL": "https://macaron.im",
       "assurance": {
-        "maxAssuranceLevel": 1,
-        "attestationMethods": [
-          "Apple_AppAttest"
-        ]
+        "maxAssuranceLevel": 1
       },
       "disallowedSignals": {
         "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
           "nonGenAIDigitalCreation"
         ]
       }
@@ -17368,7 +17353,7 @@
       "creation": "2026-11-04",
       "conformance": "2026-11-09",
       "earliestPublicDisclosure": "2026-11-04",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -17403,9 +17388,7 @@
       "generate": {
         "image": [
           "image/jpeg",
-          "image/png",
-          "image/tiff",
-          "image/webp"
+          "image/png"
         ],
         "video": [
           "video/mp4"
@@ -17413,18 +17396,6 @@
         "audio": [
           "audio/mpeg",
           "audio/wav"
-        ]
-      },
-      "validate": {
-        "image": [
-          "image/jpeg",
-          "image/png",
-          "image/tiff",
-          "image/webp"
-        ],
-        "video": [
-          "video/mp4",
-          "video/quicktime"
         ]
       }
     },
@@ -17436,14 +17407,14 @@
       "creation": "2026-11-06",
       "conformance": "2026-11-09",
       "earliestPublicDisclosure": "2026-11-06",
-      "lastModification": "2026-11-09"
+      "lastModification": "2026-11-23"
     }
   },
   {
     "recordId": "01a1b169-e848-7178-b434-aeaa6a8125c3",
     "applicant": "REVERCE GmbH",
     "product": {
-      "productType": "validatorProduct",
+      "productType": "generatorProduct",
       "DN": {
         "CN": "verstag",
         "O": "REVERCE GmbH",
@@ -17503,7 +17474,7 @@
       "creation": "2026-11-06",
       "conformance": "2026-11-09",
       "earliestPublicDisclosure": "2026-11-06",
-      "lastModification": "2026-11-09"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -17743,15 +17714,12 @@
           "image/avif"
         ],
         "video": [
+          "video/x-msvideo",
           "video/mp4",
           "video/quicktime"
-        ]
-      },
-      "validate": {
-        "video": [
-          "video/mp4"
         ],
         "audio": [
+          "audio/flac",
           "audio/mpeg",
           "audio/wav",
           "audio/mp4"
@@ -17769,7 +17737,7 @@
       "creation": "2026-11-04",
       "conformance": "2026-11-09",
       "earliestPublicDisclosure": "2026-11-04",
-      "lastModification": "2026-11-20"
+      "lastModification": "2026-11-23"
     }
   },
   {
@@ -19390,5 +19358,81 @@
       "earliestPublicDisclosure": "2026-11-09",
       "lastModification": "2026-11-20"
     }
+  },
+  {
+    "recordId": "019e381f-24d4-7025-915b-9ca6ec388a9b",
+    "applicant": "Kapsdevelopment AS",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Realz - Android",
+        "O": "Kapsdevelopment AS",
+        "C": "NO"
+      },
+      "minVersion": "1.1.0",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Google_PlayIntegrity"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-17",
+      "conformance": "2026-06-22",
+      "earliestPublicDisclosure": "2026-06-01",
+      "lastModification": "2026-11-23"
+    },
+    "supportsCompressedManifests": false
+  },
+  {
+    "recordId": "019e46f6-e184-7fd8-936a-874619905a9c",
+    "applicant": "Kapsdevelopment AS",
+    "status": "conformant",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Realz - iOS",
+        "O": "Kapsdevelopment AS",
+        "C": "NO"
+      },
+      "minVersion": "1.1",
+      "assurance": {
+        "maxAssuranceLevel": 1,
+        "attestationMethods": [
+          "Apple_AppAttest"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.1",
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg"
+        ]
+      }
+    },
+    "dates": {
+      "creation": "2026-05-20",
+      "conformance": "2026-06-23",
+      "earliestPublicDisclosure": "2026-06-01",
+      "lastModification": "2026-11-23"
+    },
+    "supportsCompressedManifests": false
   }
 ]
