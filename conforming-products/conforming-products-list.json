@@ -19664,5 +19664,66 @@
       "earliestPublicDisclosure": "2026-10-22",
       "lastModification": "2026-11-24"
     }
+  },
+  {
+    "recordId": "01a1f0a6-9471-777d-8a05-9785eb018557",
+    "applicant": "Unified Production Platform, Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "UPP Campaign Studio",
+        "O": "Unified Production Platform, Inc.",
+        "C": "US"
+      },
+      "minVersion": "",
+      "infoURL": "https://unifiedprodplatform.com/whats-new/",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-18",
+      "conformance": "2026-11-24",
+      "earliestPublicDisclosure": "2026-11-18",
+      "lastModification": "2026-11-24"
+    }
   }
 ]
