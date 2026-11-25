@@ -19725,5 +19725,113 @@
       "earliestPublicDisclosure": "2026-11-18",
       "lastModification": "2026-11-24"
     }
+  },
+  {
+    "recordId": "01a1f83e-4f62-7172-8050-04b0cf998d37",
+    "applicant": "Trufo Inc.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Storyteq",
+        "O": "Trufo Inc.",
+        "C": "US"
+      },
+      "minVersion": "2.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif",
+          "image/x-tiff-based",
+          "image/x-riff-based"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime",
+          "video/x-bmff-based",
+          "video/x-riff-based"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4",
+          "audio/x-riff-based"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/jxl",
+          "image/png",
+          "image/svg+xml",
+          "image/gif",
+          "image/x-adobe-dng",
+          "image/tiff",
+          "image/webp",
+          "image/heic",
+          "image/heif",
+          "image/avif",
+          "image/x-tiff-based",
+          "image/x-riff-based"
+        ],
+        "video": [
+          "video/x-msvideo",
+          "video/mp4",
+          "video/quicktime",
+          "video/x-bmff-based",
+          "video/x-riff-based"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mpeg",
+          "audio/wav",
+          "audio/mp4",
+          "audio/x-riff-based"
+        ],
+        "documents": [
+          "application/pdf"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-20",
+      "conformance": "2026-11-24",
+      "earliestPublicDisclosure": "2026-11-23",
+      "lastModification": "2026-11-24"
+    }
   }
 ]
