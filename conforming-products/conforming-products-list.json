@@ -19612,5 +19612,57 @@
       "earliestPublicDisclosure": "2026-11-17",
       "lastModification": "2026-11-24"
     }
+  },
+  {
+    "recordId": "01a161fb-1630-7545-bc4f-04e4b4b81f55",
+    "applicant": "Nord-Salten Kraft Holding AS",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "NSK PowerKI",
+        "O": "Nord-Salten Kraft Holding AS",
+        "C": "NO"
+      },
+      "minVersion": "2.3.0.0",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/png"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/png",
+          "image/jpeg",
+          "image/webp"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-10-22",
+      "conformance": "2026-11-24",
+      "earliestPublicDisclosure": "2026-10-22",
+      "lastModification": "2026-11-24"
+    }
   }
 ]
