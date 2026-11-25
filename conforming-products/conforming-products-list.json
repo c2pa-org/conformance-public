@@ -19833,5 +19833,58 @@
       "earliestPublicDisclosure": "2026-11-23",
       "lastModification": "2026-11-24"
     }
+  },
+  {
+    "recordId": "01a1c0aa-dc40-7769-935d-b2999567b0a8",
+    "applicant": "Streemix S.r.l.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Streemix Media",
+        "O": "Streemix S.r.l.",
+        "C": "IT"
+      },
+      "minVersion": "",
+      "infoURL": "https://streemix.ai",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4"
+        ],
+        "audio": [
+          "audio/mpeg"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-09",
+      "conformance": "2026-11-20",
+      "earliestPublicDisclosure": "2026-11-21",
+      "lastModification": "2026-11-20"
+    }
   }
 ]
