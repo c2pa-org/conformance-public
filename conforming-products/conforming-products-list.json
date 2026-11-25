@@ -19434,5 +19434,75 @@
       "lastModification": "2026-11-23"
     },
     "supportsCompressedManifests": false
+  },
+  {
+    "recordId": "01a213f4-a349-7004-a84e-e41b56047875",
+    "applicant": "Google LLC",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Google Flow",
+        "O": "Google LLC",
+        "C": "US"
+      },
+      "minVersion": "",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched",
+          "nonGenAIDigitalCreation"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/gif",
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/gif",
+          "image/jpeg",
+          "image/png",
+          "image/webp"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime",
+          "video/x-msvideo"
+        ],
+        "audio": [
+          "audio/flac",
+          "audio/mp4",
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-25",
+      "conformance": "2026-11-25",
+      "earliestPublicDisclosure": "2026-07-16",
+      "lastModification": "2026-11-25"
+    }
   }
 ]
