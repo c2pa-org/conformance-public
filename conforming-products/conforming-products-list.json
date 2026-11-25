@@ -19504,5 +19504,57 @@
       "earliestPublicDisclosure": "2026-07-16",
       "lastModification": "2026-11-25"
     }
+  },
+  {
+    "recordId": "01a17c3e-d2a9-7557-a100-cf52c1d70dcc",
+    "applicant": "Samsung Electronics Co., Ltd.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Samsung TV",
+        "O": "Samsung Electronics Co., Ltd.",
+        "C": "KR"
+      },
+      "minVersion": "",
+      "infoURL": "https://www.samsung.com/sec/",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-10-27",
+      "conformance": "2026-11-23",
+      "earliestPublicDisclosure": "2026-11-01",
+      "lastModification": "2026-11-23"
+    }
   }
 ]
