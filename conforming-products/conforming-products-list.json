@@ -19556,5 +19556,61 @@
       "earliestPublicDisclosure": "2026-11-01",
       "lastModification": "2026-11-23"
     }
+  },
+  {
+    "recordId": "01a178b7-f20a-7b5e-8c56-bf9af098a364",
+    "applicant": "Shinyfields Limited",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "Luminar",
+        "O": "Shinyfields Limited",
+        "C": "CY"
+      },
+      "minVersion": "1.29.1",
+      "infoURL": "https://skylum.com/luminar",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.4"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": true,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/x-adobe-dng",
+          "image/tiff"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png",
+          "image/x-adobe-dng",
+          "image/tiff"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-10-26",
+      "conformance": "2026-11-24",
+      "earliestPublicDisclosure": "2026-11-17",
+      "lastModification": "2026-11-24"
+    }
   }
 ]
