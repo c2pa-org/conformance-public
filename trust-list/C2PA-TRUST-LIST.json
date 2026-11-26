@@ -1,10 +1,10 @@
 {
   "LoTE": {
     "ListAndSchemeInformation": {
-      "ListIssueDateTime": "2026-11-25T22:51:08Z",
-      "LoTESequenceNumber": 7,
+      "ListIssueDateTime": "2026-11-26T00:12:13Z",
+      "LoTESequenceNumber": 8,
       "LoTEVersionIdentifier": 1,
-      "NextUpdate": "2027-02-23T22:51:08Z",
+      "NextUpdate": "2027-02-24T00:12:13Z",
       "SchemeInformationURI": [
         {
           "lang": "en",
@@ -1163,80 +1163,6 @@
             ],
             "TEPostalAddress": [
               {
-                "Country": "US",
-                "Locality": "Seattle",
-                "PostalCode": "98108",
-                "StateOrProvince": "WA",
-                "StreetAddress": "810B S Orcas St",
-                "lang": "en"
-              }
-            ]
-          },
-          "TEInformationURI": [
-            {
-              "lang": "en",
-              "uriValue": "https://verimago.com/pki"
-            }
-          ],
-          "TEName": [
-            {
-              "lang": "en",
-              "value": "Verimago LLC"
-            }
-          ]
-        },
-        "TrustedEntityServices": [
-          {
-            "ServiceInformation": {
-              "ServiceDigitalIdentity": {
-                "X509Certificates": [
-                  {
-                    "val": "MIIDTDCCAtOgAwIBAgIUNcPH/7deevUcZvKM0EQGUJN99PMwCgYIKoZIzj0EAwMwVDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xFTATBgNVBAoTDFZlcmltYWdvIExMQzEZMBcGA1UEAxMQVmVyaW1hZ28gUm9vdCBDQTAeFw0yNjA1MTUwMTQ2NTBaFw0zMTA1MTUwNzQ2NTBaMGUxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRUwEwYDVQQKEwxWZXJpbWFnbyBMTEMxKjAoBgNVBAMTIVZlcmltYWdvIENsYWltIFNpZ25pbmcgSXNzdWluZyBDQTB2MBAGByqGSM49AgEGBSuBBAAiA2IABPB0fzGODSoLVNkTQWekSBkL6rD2h2//WP+4f1pdl9K8K0Z8Bt0SrlOXNtrpI/ytOybRwV7nH3TDAWkZV833jc8Gjgqs7P0Q4ZZc4+4WIey3eD9084B8rLXs3/K/q7NyHaOCAVMwggFPMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMCkGA1UdJQQiMCAGCisGAQQBg+heAgEGCCsGAQUFBwMEBggrBgEFBQcDJDAXBgNVHSAEEDAOMAwGCisGAQQBg+heAQEwHQYDVR0OBBYEFCM0wx5MWMCrBF5eYt8J9b41TMwcMB8GA1UdIwQYMBaAFAJJr6VZKSr0tdmR4GqMrKLIVu16MDsGA1UdHwQ0MDIwMKAuoCyGKmh0dHA6Ly9jYS52ZXJpbWFnby5pby9jcmwvaW50ZXJtZWRpYXRlLmNybDBoBggrBgEFBQcBAQRcMFowJgYIKwYBBQUHMAGGGmh0dHA6Ly9jYS52ZXJpbWFnby5pby9vY3NwMDAGCCsGAQUFBzAChiRodHRwOi8vY2EudmVyaW1hZ28uaW8vY2VydHMvcm9vdC5wZW0wCgYIKoZIzj0EAwMDZwAwZAIwDq2qaR9as+lyVFcwsUTlMIm/OGxgW4dqVg7jlsBST+3xvS0nIpZUS7lcF44FVcFdAjA5abgOYS/ie7NXxp3smYtuFoKzc/V7TAaL0VS/HGB3x7sTa+D6HIY3/ls33Dy/4Gk="
-                  }
-                ]
-              },
-              "ServiceName": [
-                {
-                  "lang": "en",
-                  "value": "Verimago Claim Signing Issuing CA"
-                }
-              ],
-              "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
-              "StatusStartingTime": "2026-05-15T01:46:50Z"
-            }
-          },
-          {
-            "ServiceInformation": {
-              "ServiceDigitalIdentity": {
-                "X509Certificates": [
-                  {
-                    "val": "MIICTjCCAdSgAwIBAgIVAOFSVdVKiaIUGZlbNzPTi5bS/Gy+MAoGCCqGSM49BAMDMFQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRUwEwYDVQQKEwxWZXJpbWFnbyBMTEMxGTAXBgNVBAMTEFZlcmltYWdvIFJvb3QgQ0EwHhcNMjYwNTE1MDE0NjUwWhcNNDYwNTE1MDE0NjUwWjBUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEVMBMGA1UEChMMVmVyaW1hZ28gTExDMRkwFwYDVQQDExBWZXJpbWFnbyBSb290IENBMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAExn74thYXg89OFcXCobav4kqQAt0YDK4h28ovPP5RJWs77BBRwUhbdb0C6SMVFJ+MuyUK/cBoua+cSIOhN6prHNqeHbZMi3nzlbVfEbDDWm9hy+OxXtOLlJQYL5zjUgkco2YwZDASBgNVHRMBAf8ECDAGAQH/AgECMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUAkmvpVkpKvS12ZHgaoysoshW7XowHwYDVR0jBBgwFoAUAkmvpVkpKvS12ZHgaoysoshW7XowCgYIKoZIzj0EAwMDaAAwZQIwDqzc2oVzZezm4GeER3jPUDWNj4zsqdXciOoGO0JkAHmCvyUBt8FH9vZK9d6bZ9DEAjEA5eFk9oFV8cm8pyJ2+hKo5ji/iip8A0T5U2GwHQyNW4GXdTaTwkzPD7X6whoLKKB/"
-                  }
-                ]
-              },
-              "ServiceName": [
-                {
-                  "lang": "en",
-                  "value": "Verimago Root CA"
-                }
-              ],
-              "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
-              "StatusStartingTime": "2026-05-15T01:46:50Z"
-            }
-          }
-        ]
-      },
-      {
-        "TrustedEntityInformation": {
-          "TEAddress": {
-            "TEElectronicAddress": [
-              {
-                "lang": "en",
-                "uriValue": "mailto:pki@verimago.com"
-              }
-            ],
-            "TEPostalAddress": [
-              {
                 "Country": "USA",
                 "Locality": "Seattle",
                 "PostalCode": "98108-2628",
@@ -1261,6 +1187,44 @@
         },
         "TrustedEntityServices": [
           {
+            "ServiceHistory": [
+              {
+                "ServiceDigitalIdentity": {
+                  "X509Certificates": [
+                    {
+                      "val": "MIIDTDCCAtOgAwIBAgIUNcPH/7deevUcZvKM0EQGUJN99PMwCgYIKoZIzj0EAwMwVDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xFTATBgNVBAoTDFZlcmltYWdvIExMQzEZMBcGA1UEAxMQVmVyaW1hZ28gUm9vdCBDQTAeFw0yNjA1MTUwMTQ2NTBaFw0zMTA1MTUwNzQ2NTBaMGUxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRUwEwYDVQQKEwxWZXJpbWFnbyBMTEMxKjAoBgNVBAMTIVZlcmltYWdvIENsYWltIFNpZ25pbmcgSXNzdWluZyBDQTB2MBAGByqGSM49AgEGBSuBBAAiA2IABPB0fzGODSoLVNkTQWekSBkL6rD2h2//WP+4f1pdl9K8K0Z8Bt0SrlOXNtrpI/ytOybRwV7nH3TDAWkZV833jc8Gjgqs7P0Q4ZZc4+4WIey3eD9084B8rLXs3/K/q7NyHaOCAVMwggFPMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMCkGA1UdJQQiMCAGCisGAQQBg+heAgEGCCsGAQUFBwMEBggrBgEFBQcDJDAXBgNVHSAEEDAOMAwGCisGAQQBg+heAQEwHQYDVR0OBBYEFCM0wx5MWMCrBF5eYt8J9b41TMwcMB8GA1UdIwQYMBaAFAJJr6VZKSr0tdmR4GqMrKLIVu16MDsGA1UdHwQ0MDIwMKAuoCyGKmh0dHA6Ly9jYS52ZXJpbWFnby5pby9jcmwvaW50ZXJtZWRpYXRlLmNybDBoBggrBgEFBQcBAQRcMFowJgYIKwYBBQUHMAGGGmh0dHA6Ly9jYS52ZXJpbWFnby5pby9vY3NwMDAGCCsGAQUFBzAChiRodHRwOi8vY2EudmVyaW1hZ28uaW8vY2VydHMvcm9vdC5wZW0wCgYIKoZIzj0EAwMDZwAwZAIwDq2qaR9as+lyVFcwsUTlMIm/OGxgW4dqVg7jlsBST+3xvS0nIpZUS7lcF44FVcFdAjA5abgOYS/ie7NXxp3smYtuFoKzc/V7TAaL0VS/HGB3x7sTa+D6HIY3/ls33Dy/4Gk="
+                    }
+                  ]
+                },
+                "ServiceName": [
+                  {
+                    "lang": "en",
+                    "value": "Verimago Claim Signing Issuing CA"
+                  }
+                ],
+                "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
+                "StatusStartingTime": "2026-05-15T01:46:50Z"
+              }
+            ],
+            "ServiceInformation": {
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIDTDCCAtOgAwIBAgIUNcPH/7deevUcZvKM0EQGUJN99PMwCgYIKoZIzj0EAwMwVDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xFTATBgNVBAoTDFZlcmltYWdvIExMQzEZMBcGA1UEAxMQVmVyaW1hZ28gUm9vdCBDQTAeFw0yNjA1MTUwMTQ2NTBaFw0zMTA1MTUwNzQ2NTBaMGUxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRUwEwYDVQQKEwxWZXJpbWFnbyBMTEMxKjAoBgNVBAMTIVZlcmltYWdvIENsYWltIFNpZ25pbmcgSXNzdWluZyBDQTB2MBAGByqGSM49AgEGBSuBBAAiA2IABPB0fzGODSoLVNkTQWekSBkL6rD2h2//WP+4f1pdl9K8K0Z8Bt0SrlOXNtrpI/ytOybRwV7nH3TDAWkZV833jc8Gjgqs7P0Q4ZZc4+4WIey3eD9084B8rLXs3/K/q7NyHaOCAVMwggFPMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMCkGA1UdJQQiMCAGCisGAQQBg+heAgEGCCsGAQUFBwMEBggrBgEFBQcDJDAXBgNVHSAEEDAOMAwGCisGAQQBg+heAQEwHQYDVR0OBBYEFCM0wx5MWMCrBF5eYt8J9b41TMwcMB8GA1UdIwQYMBaAFAJJr6VZKSr0tdmR4GqMrKLIVu16MDsGA1UdHwQ0MDIwMKAuoCyGKmh0dHA6Ly9jYS52ZXJpbWFnby5pby9jcmwvaW50ZXJtZWRpYXRlLmNybDBoBggrBgEFBQcBAQRcMFowJgYIKwYBBQUHMAGGGmh0dHA6Ly9jYS52ZXJpbWFnby5pby9vY3NwMDAGCCsGAQUFBzAChiRodHRwOi8vY2EudmVyaW1hZ28uaW8vY2VydHMvcm9vdC5wZW0wCgYIKoZIzj0EAwMDZwAwZAIwDq2qaR9as+lyVFcwsUTlMIm/OGxgW4dqVg7jlsBST+3xvS0nIpZUS7lcF44FVcFdAjA5abgOYS/ie7NXxp3smYtuFoKzc/V7TAaL0VS/HGB3x7sTa+D6HIY3/ls33Dy/4Gk="
+                  }
+                ]
+              },
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "Verimago Claim Signing Issuing CA"
+                }
+              ],
+              "ServiceStatus": "http://c2pa.org/conformance/trust-list/untrusted",
+              "StatusStartingTime": "2026-11-20T09:09:13Z"
+            }
+          },
+          {
             "ServiceInformation": {
               "ServiceDigitalIdentity": {
                 "X509Certificates": [
@@ -1276,6 +1240,44 @@
                 }
               ],
               "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
+              "StatusStartingTime": "2026-11-20T09:09:13Z"
+            }
+          },
+          {
+            "ServiceHistory": [
+              {
+                "ServiceDigitalIdentity": {
+                  "X509Certificates": [
+                    {
+                      "val": "MIICTjCCAdSgAwIBAgIVAOFSVdVKiaIUGZlbNzPTi5bS/Gy+MAoGCCqGSM49BAMDMFQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRUwEwYDVQQKEwxWZXJpbWFnbyBMTEMxGTAXBgNVBAMTEFZlcmltYWdvIFJvb3QgQ0EwHhcNMjYwNTE1MDE0NjUwWhcNNDYwNTE1MDE0NjUwWjBUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEVMBMGA1UEChMMVmVyaW1hZ28gTExDMRkwFwYDVQQDExBWZXJpbWFnbyBSb290IENBMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAExn74thYXg89OFcXCobav4kqQAt0YDK4h28ovPP5RJWs77BBRwUhbdb0C6SMVFJ+MuyUK/cBoua+cSIOhN6prHNqeHbZMi3nzlbVfEbDDWm9hy+OxXtOLlJQYL5zjUgkco2YwZDASBgNVHRMBAf8ECDAGAQH/AgECMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUAkmvpVkpKvS12ZHgaoysoshW7XowHwYDVR0jBBgwFoAUAkmvpVkpKvS12ZHgaoysoshW7XowCgYIKoZIzj0EAwMDaAAwZQIwDqzc2oVzZezm4GeER3jPUDWNj4zsqdXciOoGO0JkAHmCvyUBt8FH9vZK9d6bZ9DEAjEA5eFk9oFV8cm8pyJ2+hKo5ji/iip8A0T5U2GwHQyNW4GXdTaTwkzPD7X6whoLKKB/"
+                    }
+                  ]
+                },
+                "ServiceName": [
+                  {
+                    "lang": "en",
+                    "value": "Verimago Root CA"
+                  }
+                ],
+                "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
+                "StatusStartingTime": "2026-05-15T01:46:50Z"
+              }
+            ],
+            "ServiceInformation": {
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIICTjCCAdSgAwIBAgIVAOFSVdVKiaIUGZlbNzPTi5bS/Gy+MAoGCCqGSM49BAMDMFQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRUwEwYDVQQKEwxWZXJpbWFnbyBMTEMxGTAXBgNVBAMTEFZlcmltYWdvIFJvb3QgQ0EwHhcNMjYwNTE1MDE0NjUwWhcNNDYwNTE1MDE0NjUwWjBUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEVMBMGA1UEChMMVmVyaW1hZ28gTExDMRkwFwYDVQQDExBWZXJpbWFnbyBSb290IENBMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAExn74thYXg89OFcXCobav4kqQAt0YDK4h28ovPP5RJWs77BBRwUhbdb0C6SMVFJ+MuyUK/cBoua+cSIOhN6prHNqeHbZMi3nzlbVfEbDDWm9hy+OxXtOLlJQYL5zjUgkco2YwZDASBgNVHRMBAf8ECDAGAQH/AgECMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUAkmvpVkpKvS12ZHgaoysoshW7XowHwYDVR0jBBgwFoAUAkmvpVkpKvS12ZHgaoysoshW7XowCgYIKoZIzj0EAwMDaAAwZQIwDqzc2oVzZezm4GeER3jPUDWNj4zsqdXciOoGO0JkAHmCvyUBt8FH9vZK9d6bZ9DEAjEA5eFk9oFV8cm8pyJ2+hKo5ji/iip8A0T5U2GwHQyNW4GXdTaTwkzPD7X6whoLKKB/"
+                  }
+                ]
+              },
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "Verimago Root CA"
+                }
+              ],
+              "ServiceStatus": "http://c2pa.org/conformance/trust-list/untrusted",
               "StatusStartingTime": "2026-11-20T09:09:13Z"
             }
           },
