@@ -19886,5 +19886,73 @@
       "earliestPublicDisclosure": "2026-11-21",
       "lastModification": "2026-11-20"
     }
+  },
+  {
+    "recordId": "01a1eaa9-b68c-7fb7-8d94-a672f939e077",
+    "applicant": "VIDEOSPACE Sp. z o.o.",
+    "product": {
+      "productType": "generatorProduct",
+      "DN": {
+        "CN": "VIDEOSPACE Studio",
+        "O": "VIDEOSPACE Sp. z o.o.",
+        "C": "PL"
+      },
+      "minVersion": "0.12.0",
+      "infoURL": "https://videospace.agency/en/studio/",
+      "assurance": {
+        "maxAssuranceLevel": 1
+      },
+      "disallowedSignals": {
+        "inception": [
+          "capturedMedia",
+          "capturedMediaStitched"
+        ]
+      }
+    },
+    "specVersion": [
+      "2.2"
+    ],
+    "conformanceProgramVersion": "0.2",
+    "supportsCompressedManifests": false,
+    "containers": {
+      "generate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      },
+      "validate": {
+        "image": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "video": [
+          "video/mp4",
+          "video/quicktime"
+        ],
+        "audio": [
+          "audio/mpeg",
+          "audio/wav"
+        ]
+      }
+    },
+    "liveVideo": {
+      "supported": false
+    },
+    "status": "conformant",
+    "dates": {
+      "creation": "2026-11-17",
+      "conformance": "2026-11-23",
+      "earliestPublicDisclosure": "2027-01-01",
+      "lastModification": "2026-11-23"
+    }
   }
 ]
