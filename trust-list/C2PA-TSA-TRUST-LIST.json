@@ -1,10 +1,10 @@
 {
   "LoTE": {
     "ListAndSchemeInformation": {
-      "ListIssueDateTime": "2026-11-04T17:24:49Z",
-      "LoTESequenceNumber": 4,
+      "ListIssueDateTime": "2026-11-25T22:51:08Z",
+      "LoTESequenceNumber": 5,
       "LoTEVersionIdentifier": 1,
-      "NextUpdate": "2027-02-02T17:24:49Z",
+      "NextUpdate": "2027-02-23T22:51:08Z",
       "SchemeInformationURI": [
         {
           "lang": "en",
@@ -549,7 +549,7 @@
           "TEInformationURI": [
             {
               "lang": "en",
-              "uriValue": "netlock.com"
+              "uriValue": "https://netlock.com"
             }
           ],
           "TEName": [
@@ -575,8 +575,8 @@
                   "value": "NETLOCK ECC C2PA TSA G2 CA 1"
                 }
               ],
-              "ServiceStatus": "",
-              "StatusStartingTime": ""
+              "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
+              "StatusStartingTime": "2026-09-10T13:25:15Z"
             }
           }
         ]

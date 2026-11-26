@@ -1,10 +1,10 @@
 {
   "LoTE": {
     "ListAndSchemeInformation": {
-      "ListIssueDateTime": "2026-11-20T18:42:23Z",
-      "LoTESequenceNumber": 6,
+      "ListIssueDateTime": "2026-11-25T22:51:08Z",
+      "LoTESequenceNumber": 7,
       "LoTEVersionIdentifier": 1,
-      "NextUpdate": "2027-02-18T18:42:23Z",
+      "NextUpdate": "2027-02-23T22:51:08Z",
       "SchemeInformationURI": [
         {
           "lang": "en",
@@ -716,7 +716,7 @@
           "TEInformationURI": [
             {
               "lang": "en",
-              "uriValue": "netlock.com"
+              "uriValue": "https://netlock.com"
             }
           ],
           "TEName": [
@@ -742,8 +742,8 @@
                   "value": "NETLOCK ECC C2PA Claim Signing G2 CA 1"
                 }
               ],
-              "ServiceStatus": "",
-              "StatusStartingTime": ""
+              "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
+              "StatusStartingTime": "2026-09-10T13:13:38Z"
             }
           },
           {
@@ -761,8 +761,8 @@
                   "value": "NETLOCK ECC C2PA Root CA G2"
                 }
               ],
-              "ServiceStatus": "",
-              "StatusStartingTime": ""
+              "ServiceStatus": "http://c2pa.org/conformance/trust-list/trusted",
+              "StatusStartingTime": "2026-09-10T12:15:35Z"
             }
           }
         ]
@@ -1432,7 +1432,7 @@
           "TEInformationURI": [
             {
               "lang": "en",
-              "uriValue": " https://ai-detect-eu.vivo.com/cert-info"
+              "uriValue": "https://ai-detect-eu.vivo.com/cert-info"
             }
           ],
           "TEName": [
